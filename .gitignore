@@ -1,0 +1,9 @@
+aihot/
+body.html
+plan.html
+shot-*.png
+site-shot*.png
+out/
+logs/
+__pycache__/
+*.tmp

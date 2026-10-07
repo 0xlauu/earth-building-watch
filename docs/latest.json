@@ -1,0 +1,154 @@
+{
+ "date": "2026-10-07",
+ "lead": "首期回顾近两周。8 条精选：欧洲两家生土抹面品牌的新案例和展会，日本左官手法在法国开课，还有耐火、试块标准化和夯土模板衬板研究。Google 新闻推来的旧文已逐条核对剔除。",
+ "actions": [
+  "11 月 5 日到 7 日莱比锡 denkmal 展，可看 Claytec 的讲座安排",
+  "找夯土模板衬板论文原文，对照你的模具方案",
+  "收集生土抹面的耐火和抗压检测方法，规划产品检测"
+ ],
+ "site": "https://0xlauu.github.io/earth-building-watch/",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-07.html",
+ "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W41.html",
+ "counts": {
+  "pick": 8,
+  "brief": 17,
+  "drop": 30,
+  "merged": 2
+ },
+ "picks": [
+  {
+   "title": "Claytec 将在莱比锡 denkmal 展会开八场生土讲座",
+   "category": "活动与赛事",
+   "score": 76,
+   "for_you": "看它怎么把生土抹面卖进老房修缮和防火场景，可以对照你的产品卖点。",
+   "url": "https://claytec.de/denkmal-2026/",
+   "source": "Claytec"
+  },
+  {
+   "title": "Clayworks 粘土抹灰用进伦敦新咖啡馆",
+   "category": "产品与企业",
+   "score": 71,
+   "for_you": "这是生土抹面进商业空间的现成案例：卖质感和吸声，不只卖环保。",
+   "url": "https://clay-works.com/materials-in-focus-clayworks-london-design-festival-highlights/",
+   "source": "Clayworks"
+  },
+  {
+   "title": "法国布列塔尼办日本左官抹灰实训，17 名工匠参加",
+   "category": "工艺与教程",
+   "score": 70,
+   "for_you": "日本左官手法正在欧洲传播。可以留意这类培训，提升生土抹面的工艺和溢价。",
+   "url": "https://www.ouest-france.fr/bretagne/missiriac-56140/missiriac-dix-sept-stagiaires-sur-un-chantier-ecole-autour-des-savoir-faire-japonais-3f556f0e-bfdb-11f1-aef6-9f33a81faeff",
+   "source": "Ouest-France"
+  },
+  {
+   "title": "论文：整层高土砖墙的耐火等级分类",
+   "category": "研究论文",
+   "score": 70,
+   "for_you": "防火是生土材料进公共建筑的门槛。这类测试思路可以用来规划你产品的检测。",
+   "url": "https://doi.org/10.1007/978-3-032-35104-3_91",
+   "source": "Lecture Notes in Civil Engineering; ReShaping the Built Environment through Sustainability and Circularity"
+  },
+  {
+   "title": "amàco 为卢瓦尔河葡萄酒展厅做生土抹面",
+   "category": "项目案例",
+   "score": 67,
+   "for_you": "文旅和展陈空间愿意用土墙讲在地故事，这是生土抹面的一个细分市场。",
+   "url": "https://amaco.org/tour-du-pouilly-fume-des-enduits-terre-crue-pour-le-nouveau-centre-dinterpretation-de-la-tour-du-pouilly-fume/",
+   "source": "amàco"
+  },
+  {
+   "title": "论文：用数字化制造的模板衬板做模块化夯土",
+   "category": "研究论文",
+   "score": 66,
+   "for_you": "和你在看的夯土模具直接相关：衬板能做出墙面纹理，可考虑激光切割或 3D 打印。",
+   "url": "https://doi.org/10.52842/conf.acadia.2023.1.160",
+   "source": "ACADIA proceedings; Proceedings of the 43th Annual Conference of the Association of Computer Aided Design in Architecture (ACADIA)"
+  },
+  {
+   "title": "论文：摩洛哥 2023 年地震中生土房屋的破坏机理",
+   "category": "研究论文",
+   "score": 64,
+   "for_you": "抗震是客户最常问的问题。这类震后调查可以作为你回应客户的依据。",
+   "url": "https://doi.org/10.1007/s10518-026-02693-5",
+   "source": "Bulletin of Earthquake Engineering"
+  },
+  {
+   "title": "论文：生土试块怎么做，才能让抗压测试标准化",
+   "category": "研究论文",
+   "score": 64,
+   "for_you": "出厂检测要靠统一的试块做法。这能帮你建立自己的质检流程。",
+   "url": "https://doi.org/10.1007/978-3-032-35104-3_61",
+   "source": "Lecture Notes in Civil Engineering; ReShaping the Built Environment through Sustainability and Circularity"
+  }
+ ],
+ "briefs": [
+  {
+   "title": "法国盖朗德新学校将用场地土做内墙土砖",
+   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOVWVHNENJbE1GcTMtZnljTjM3bkFWdk1GdXduWnJMRUFPVC04dloxbnZzUHFjSjdITjZ1ZmIyZlY4NTMwak9BTFE1NENadXVQQWJYaHRIYVNSeklRckMtTlZNWmgzaWhab1ZGMGdHaGozSnhPeEZNSU13azZRSDhnazZ4eHdGTkRBbFA4UnpPMGZnNy1vN2hiVnJVUW10aENaMHYtYzNCMHozRUZUbTZudlAtY3hSZ2VZNVh0YzI0NTQxRzZQT0VDVE1sOXFtYW5xWnBLZHB3ODZmZGRJaWJPSkFJaEh0c1ZNQVU5clRPNXl2Rl9JanZnWVVTbmx5SzNmb0tocXh4TzhqeVpNbmdCcXN3MHhickFm?oc=5"
+  },
+  {
+   "title": "ARDEX 旗下 PANDOMO 的石灰粘土装饰抹灰",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNTzA2LWZ4ZWRrNWlINGhxNWJaOE1rQmx1QWc1N1JtVDc1ZTdFOEI0dklneTBMSE9pUTE0ejRPZS1zaEJBRWhsUzhxM0R0TXBOMHpidlJ6Z04tOUh4ZTl3eVl6dkRhMU90SkFlbms4bTNKcUFLOHhCNTludUdzejJMMnZLak1WcWhCWXFwdERMQWRGeGJjbDZhTm51N2hQeTNiZ3N2aTM2dVYzalN5S25ySHRJc3FmVHdnYkJYOEdCU1RzOVBiZk56TGdPTFJXWGw2VHRXX0pHeVFRRjNiekU3NUZXU182bndPVWU2OTRhOEhhc3hTdnBNVEdPdjZER0U?oc=5"
+  },
+  {
+   "title": "旧金山展出现场 3D 打印的土墙建筑",
+   "url": "https://www.dezeen.com/2026/10/01/rael-san-fratello-san-francisco-exhibition-yerba-buena-broom-roof/"
+  },
+  {
+   "title": "论文：竹剪力墙用水泥或生土抹灰的抗倾覆表现",
+   "url": "https://doi.org/10.1617/s11527-026-03299-8"
+  },
+  {
+   "title": "论文：生土建造中添加剂的多准则比较",
+   "url": "https://doi.org/10.1007/978-3-032-35104-3_57"
+  },
+  {
+   "title": "论文：高性能生土材料的制造技术",
+   "url": "https://doi.org/10.1007/978-3-032-35104-3_49"
+  },
+  {
+   "title": "伊维萨岛 43 套土砖社会住宅 Raw Rooms",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcW1OUTBadU1MVG1YdzVsejA5SkJoWVNYUGNUUVBRMHBmRmhXWHFuMGJoMmthaXRabXBIQURYMWI1cTdRRXdtZnc3SGpnSnBhLU1QTVdSTWJpU3ZQWnRYblNzYkVuMzROdW5ndjdoU1lGeEwzaDYzdlZPdzl2Y1VzZURGclMxdXU5aVFkN0dxd3FlQTBzbXVFMlpxTzhHWW5M?oc=5"
+  },
+  {
+   "title": "斯洛文尼亚山顶住宅，室内墙用粘土抹灰",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObUd4aGxkV2NaNXJWTXlfTEV1dFRFOGFFNzZiUkVSNEtwdmxXSlh1T012TFNmSWl5alY1UnFWZGxOS1ZqUW4tbXpUQ3h2MkFCQ2ZkSGFhVU9jLUZKa19YZnI3cGo0T1Bpd1h0ZnE0LXJFYS1hYjlfZTZQc2pJWmpLbl8wc0hDT3pZc1E?oc=5"
+  },
+  {
+   "title": "论文：稳定土压制砖砌体的力学试验与建模",
+   "url": "https://doi.org/10.1617/s11527-026-03305-z"
+  },
+  {
+   "title": "论文：用黄土基自感知灌浆料监测土遗址裂缝",
+   "url": "https://doi.org/10.1016/j.conbuildmat.2026.148392"
+  },
+  {
+   "title": "法国普瓦捷围产期精神科中心计划用生土建造",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOS1pkdDNqZnVmdFRQeUpBY1FoUXVGcnFmWVZiVFNlNXo1MDZqQlZCQWt2b1hNZkhIRkxoZUFTWEFibm8xdjlsRjVtVTFWR2FSR2tOWjc1b3BWNmdjMDU4YmpoUGoyNjZfWVJKNmxzTWRaNWdKb2ZYVjBpb3pzV1dVaDUzdXNQeS1DSUMwenVsU0NWRDg0cmNoMUZCVXpoMTYtbXRxd2RjSUotWmVTRWIyY0M3bGR0NVZHeXU2YmQ2cVJObW9KZjdzZ3lWY0Fua2VqQzBLS1Ryd1AxazJnSUYyb0U2OEJXMTZKbFZZ?oc=5"
+  },
+  {
+   "title": "论文：用嵌入传感器测 3D 打印土基砂浆",
+   "url": "https://doi.org/10.1007/978-3-032-36738-9_30"
+  },
+  {
+   "title": "论文：芝麻纤维对土坯砖性能的影响",
+   "url": "https://doi.org/10.1016/j.pes.2026.100380"
+  },
+  {
+   "title": "法国新书《与土同在》为生土建筑发声",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObzNMQlFMY2JRbldRbEVWQURoRmc0VDRYcFI2M2tadEw4SjlvTEl2ckg4NVZ4V3p2dDNjcGNMb0VmSWRvcDB2Q2lPSU5BMUp0RW9KalVsbkppVTBrbVk3dWluNmI4TUpFeElnY0JaLUJ0Uy0wZExoLXZKZ0h5WlJicUdwRWZXakF0STdERUROYzlqWTM5b29YcFlpQVZxbG5CMXF4bDBGN3oxcTdOOG9XNnNOdkZHRkhPOUow?oc=5"
+  },
+  {
+   "title": "论文：椰枣纤维对压制土砖性能的影响",
+   "url": "https://doi.org/10.12911/22998993/225830"
+  },
+  {
+   "title": "论文：电渗灌浆加固土遗址表层剥落",
+   "url": "https://doi.org/10.3724/1000-6915.jrme.2024.0090"
+  },
+  {
+   "title": "书章：尼日尔土坯墙的渗漏与修补",
+   "url": "https://doi.org/10.1386/9781835952566_20"
+  }
+ ]
+}

@@ -1,0 +1,606 @@
+{
+ "date": "2026-10-07",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-07T22:50:50+08:00",
+ "lead": "首期回顾近两周。8 条精选：欧洲两家生土抹面品牌的新案例和展会，日本左官手法在法国开课，还有耐火、试块标准化和夯土模板衬板研究。Google 新闻推来的旧文已逐条核对剔除。",
+ "actions": [
+  "11 月 5 日到 7 日莱比锡 denkmal 展，可看 Claytec 的讲座安排",
+  "找夯土模板衬板论文原文，对照你的模具方案",
+  "收集生土抹面的耐火和抗压检测方法，规划产品检测"
+ ],
+ "items": [
+  {
+   "id": "bb038d5401c7",
+   "decision": "pick",
+   "category": "event",
+   "scores": {
+    "sig": 6,
+    "nov": 6,
+    "cred": 9,
+    "reson": 8,
+    "act": 8
+   },
+   "title_zh": "Claytec 将在莱比锡 denkmal 展会开八场生土讲座",
+   "summary_zh": "德国生土建材商 Claytec 参加 11 月 5 日到 7 日的莱比锡 denkmal 文物保护展，展位在 2 号馆 F14。它还开 8 场专业讲座，主题有木构老房修缮、墙面采暖制冷、夏季隔热、文物建筑内保温，以及木结构里用生土材料防火。",
+   "for_you": "看它怎么把生土抹面卖进老房修缮和防火场景，可以对照你的产品卖点。",
+   "score": 76
+  },
+  {
+   "id": "d1886bb75d8b",
+   "decision": "pick",
+   "category": "product",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 8,
+    "reson": 9,
+    "act": 6
+   },
+   "title_zh": "Clayworks 粘土抹灰用进伦敦新咖啡馆",
+   "summary_zh": "英国粘土抹灰品牌 Clayworks 在伦敦设计节期间介绍了新完工的 Cup of Joy 咖啡馆。项目在 Marylebone，由 EBBA Architects 设计。墙面用 Clayworks 的 Rustic 粘土抹灰直接抹在石墙上，做出整体的雕塑感，也用来柔化声环境。",
+   "for_you": "这是生土抹面进商业空间的现成案例：卖质感和吸声，不只卖环保。",
+   "score": 71
+  },
+  {
+   "id": "dce32542b742",
+   "decision": "pick",
+   "category": "technique",
+   "scores": {
+    "sig": 5,
+    "nov": 7,
+    "cred": 7,
+    "reson": 8,
+    "act": 7
+   },
+   "title_zh": "法国布列塔尼办日本左官抹灰实训，17 名工匠参加",
+   "summary_zh": "在法国 Missiriac 的 Guen 城堡，Tiez Breiz 组织了一周的实训工地。17 名专做生土的职业泥瓦匠，跟 3 位日本左官（sakan）师傅学习用土、石灰、砂和植物纤维抹灰的传统工具和手法，并在现场实操。",
+   "for_you": "日本左官手法正在欧洲传播。可以留意这类培训，提升生土抹面的工艺和溢价。",
+   "score": 70,
+   "url_override": "https://www.ouest-france.fr/bretagne/missiriac-56140/missiriac-dix-sept-stagiaires-sur-un-chantier-ecole-autour-des-savoir-faire-japonais-3f556f0e-bfdb-11f1-aef6-9f33a81faeff"
+  },
+  {
+   "id": "3821c87ed4cc",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 7,
+    "nov": 7,
+    "cred": 7,
+    "reson": 8,
+    "act": 6
+   },
+   "title_zh": "论文：整层高土砖墙的耐火等级分类",
+   "summary_zh": "会议论文，作者 Zauke、Tretau、Heurtel 等，收在 Springer 的 Lecture Notes in Civil Engineering。题目显示，它研究不同材料的整层高土砖墙，目标是给出耐火等级分类。数据库没有摘要，结论要看原文。",
+   "for_you": "防火是生土材料进公共建筑的门槛。这类测试思路可以用来规划你产品的检测。",
+   "score": 70
+  },
+  {
+   "id": "8c290b408693",
+   "decision": "pick",
+   "category": "project",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 9,
+    "reson": 8,
+    "act": 6
+   },
+   "title_zh": "amàco 为卢瓦尔河葡萄酒展厅做生土抹面",
+   "summary_zh": "法国 amàco 受 Coeur de Loire 社区联合体委托，为改造后的 Pouilly-Fumé 塔葡萄酒旅游中心新展厅做生土抹面。展陈由 Mathilde Meignan 和 Panorama Architecture 设计，深色土墙配展示壁龛，表达葡萄来自土地。",
+   "for_you": "文旅和展陈空间愿意用土墙讲在地故事，这是生土抹面的一个细分市场。",
+   "score": 67
+  },
+  {
+   "id": "d8fbc4132a8d",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 6,
+    "nov": 7,
+    "cred": 6,
+    "reson": 9,
+    "act": 6
+   },
+   "title_zh": "论文：用数字化制造的模板衬板做模块化夯土",
+   "summary_zh": "这篇论文发表于 ACADIA 2023 会议，作者 Marcus、Rossi-Mastracci 等，近期才登记 DOI。题目显示，它研究用数字化制造的模板衬板（form liner）做模块化夯土构件。数据库没有摘要。",
+   "for_you": "和你在看的夯土模具直接相关：衬板能做出墙面纹理，可考虑激光切割或 3D 打印。",
+   "score": 66
+  },
+  {
+   "id": "5980f7b0c11b",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 7,
+    "nov": 6,
+    "cred": 7,
+    "reson": 6,
+    "act": 5
+   },
+   "title_zh": "论文：摩洛哥 2023 年地震中生土房屋的破坏机理",
+   "summary_zh": "发表在 Bulletin of Earthquake Engineering，作者 Taoufiq、Harrak、Chourak 等。研究分析 2023 年 Al Haouz 地震后生土建筑的破坏方式，并提出改进做法。数据库没有摘要，具体建议看原文。",
+   "for_you": "抗震是客户最常问的问题。这类震后调查可以作为你回应客户的依据。",
+   "score": 64
+  },
+  {
+   "id": "63702db32fc3",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 6,
+    "nov": 6,
+    "cred": 7,
+    "reson": 8,
+    "act": 6
+   },
+   "title_zh": "论文：生土试块怎么做，才能让抗压测试标准化",
+   "summary_zh": "会议论文，作者 Pfahler、Daube、Brünjes 等，收在 Lecture Notes in Civil Engineering。题目显示，它讨论生土试块的制作方法，让抗压强度测试结果可比、可标准化。数据库没有摘要。",
+   "for_you": "出厂检测要靠统一的试块做法。这能帮你建立自己的质检流程。",
+   "score": 64
+  },
+  {
+   "id": "f2854d0aa430",
+   "decision": "brief",
+   "category": "market",
+   "scores": {
+    "sig": 6,
+    "nov": 5,
+    "cred": 7,
+    "reson": 7,
+    "act": 4
+   },
+   "title_zh": "法国盖朗德新学校将用场地土做内墙土砖",
+   "summary_zh": "盖朗德市把新学校设计交给南特的 Mabire Reich 事务所，2027 年开工，可收 200 到 240 名学生。建筑大量用木、稻草和生土，场地挖出的土将做成土砖砌内墙。",
+   "for_you": "法国公共建筑开始写明用场地土，这是政府采购里的生土需求信号。",
+   "merged_ids": [
+    "4109e2c45f08",
+    "2f67395bf757"
+   ],
+   "score": 62
+  },
+  {
+   "id": "73373a075bc2",
+   "decision": "brief",
+   "category": "product",
+   "scores": {
+    "sig": 4,
+    "nov": 4,
+    "cred": 7,
+    "reson": 8,
+    "act": 5
+   },
+   "title_zh": "ARDEX 旗下 PANDOMO 的石灰粘土装饰抹灰",
+   "summary_zh": "ArchDaily 产品库收录 PANDOMO Clay：石灰粘土基细抹灰，用于室内墙和顶棚，18 种颜色，厚 2 到 4 毫米，蜂蜡面层，有 EC1 低排放认证。这是产品目录页，不是新品发布。",
+   "for_you": "建材大厂的竞品，可对比颜色数、厚度和认证。",
+   "score": 59
+  },
+  {
+   "id": "891cee6cd9cf",
+   "decision": "brief",
+   "category": "project",
+   "scores": {
+    "sig": 5,
+    "nov": 7,
+    "cred": 8,
+    "reson": 6,
+    "act": 4
+   },
+   "title_zh": "旧金山展出现场 3D 打印的土墙建筑",
+   "summary_zh": "Rael San Fratello 的回顾展在旧金山 Yerba Buena 艺术中心举办。核心展品 Sanctuary 是现场用土、稻草和水 3D 打印的圆柱形结构，观众可以走进去。",
+   "score": 58
+  },
+  {
+   "id": "8924f159ab5b",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 7,
+    "reson": 6,
+    "act": 4
+   },
+   "title_zh": "论文：竹剪力墙用水泥或生土抹灰的抗倾覆表现",
+   "summary_zh": "发表在 Materials and Structures，作者 Bibal、Lopez、Kohli 等。比较水泥抹灰和生土抹灰对复合竹剪力墙抗倾覆性能和可持续性的影响。",
+   "for_you": "可留意生土抹面在结构墙体里的作用数据。",
+   "score": 57
+  },
+  {
+   "id": "a9c2ac4598de",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 5,
+    "cred": 6,
+    "reson": 8,
+    "act": 6
+   },
+   "title_zh": "论文：生土建造中添加剂的多准则比较",
+   "summary_zh": "会议论文，作者 Linnebrink、Daube、Gleiser 等。用多准则方法比较生土建造里常用的各类添加剂。数据库没有摘要。",
+   "for_you": "选稳定剂和外加剂时可以参考。",
+   "score": 56
+  },
+  {
+   "id": "1ef254cbb143",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 5,
+    "cred": 6,
+    "reson": 8,
+    "act": 6
+   },
+   "title_zh": "论文：高性能生土材料的制造技术",
+   "summary_zh": "会议论文，作者 Daube、Gleiser、Nille-Hauf 等，讨论怎样制造性能更高的生土材料。数据库没有摘要。",
+   "score": 56
+  },
+  {
+   "id": "9b8c2a21183d",
+   "decision": "brief",
+   "category": "project",
+   "scores": {
+    "sig": 5,
+    "nov": 4,
+    "cred": 7,
+    "reson": 7,
+    "act": 5
+   },
+   "title_zh": "伊维萨岛 43 套土砖社会住宅 Raw Rooms",
+   "summary_zh": "西班牙媒体再次介绍 Peris+Toral 设计的 Raw Rooms。项目 2022 年完工，用 20 厘米厚的压制土砖做承重墙，靠热惰性和自然通风调节室内舒适度。",
+   "score": 56
+  },
+  {
+   "id": "4625327e1c50",
+   "decision": "brief",
+   "category": "project",
+   "scores": {
+    "sig": 4,
+    "nov": 5,
+    "cred": 6,
+    "reson": 7,
+    "act": 5
+   },
+   "title_zh": "斯洛文尼亚山顶住宅，室内墙用粘土抹灰",
+   "summary_zh": "Skupaj arhitekti 设计的 House at the Top of the Hill 位于 Gornja Radgona。主体是预制木框架，室内墙面用粘土抹灰，外墙是粗矿物抹灰。",
+   "for_you": "木结构配生土抹面在欧洲很常见，可作为配套方案。",
+   "score": 55
+  },
+  {
+   "id": "d52c0e2243c2",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 5,
+    "cred": 7,
+    "reson": 6,
+    "act": 4
+   },
+   "title_zh": "论文：稳定土压制砖砌体的力学试验与建模",
+   "summary_zh": "发表在 Materials and Structures，作者 Salassi、Nshimiyimana 等。用试验和细观数值模型研究稳定土压制砖砌体构件的力学性能。",
+   "score": 54
+  },
+  {
+   "id": "8167096749a0",
+   "decision": "brief",
+   "category": "heritage",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 7,
+    "reson": 5,
+    "act": 3
+   },
+   "title_zh": "论文：用黄土基自感知灌浆料监测土遗址裂缝",
+   "summary_zh": "发表在 Construction and Building Materials，作者 Liu、Lu、Zou 等。开发一种能自我感知的黄土基灌浆材料，用来监测土遗址裂缝。",
+   "score": 54
+  },
+  {
+   "id": "59629646946d",
+   "decision": "brief",
+   "category": "project",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 6,
+    "reson": 6,
+    "act": 4
+   },
+   "title_zh": "法国普瓦捷围产期精神科中心计划用生土建造",
+   "summary_zh": "普瓦捷 Laborit 医院计划建一座 1620 平方米的围产期精神科中心，预计 2028 年初启用。目标是零碳，采用生土建造技术和地源热泵。",
+   "score": 54
+  },
+  {
+   "id": "a66b599e670e",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 6,
+    "reson": 5,
+    "act": 3
+   },
+   "title_zh": "论文：用嵌入传感器测 3D 打印土基砂浆",
+   "summary_zh": "收在 RILEM 丛书，作者 Rojas、Kamt、Durand 等。用嵌入式传感方法表征 3D 打印的土基砂浆和水泥砂浆的力学性能。",
+   "score": 53
+  },
+  {
+   "id": "86e29f7b8948",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 4,
+    "nov": 5,
+    "cred": 6,
+    "reson": 7,
+    "act": 5
+   },
+   "title_zh": "论文：芝麻纤维对土坯砖性能的影响",
+   "summary_zh": "发表在 Progress in Engineering Science，作者 Azalam 等。研究芝麻纤维对未烧土坯砖物理、热工和力学性能的影响，并做了建筑尺度的能耗和经济评估。",
+   "score": 51
+  },
+  {
+   "id": "4fda460d000a",
+   "decision": "brief",
+   "category": "market",
+   "scores": {
+    "sig": 4,
+    "nov": 5,
+    "cred": 6,
+    "reson": 6,
+    "act": 3
+   },
+   "title_zh": "法国新书《与土同在》为生土建筑发声",
+   "summary_zh": "Socialter 评介 Geneviève Pruvost、Alain Marcom 等主编的新书。书中把生土看作可逆、可再利用的气候友好材料，并与混凝土对照。Seuil 出版社出版。",
+   "score": 50
+  },
+  {
+   "id": "bb1fee78bf1d",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 4,
+    "nov": 4,
+    "cred": 5,
+    "reson": 7,
+    "act": 5
+   },
+   "title_zh": "论文：椰枣纤维对压制土砖性能的影响",
+   "summary_zh": "发表在 Journal of Ecological Engineering。比较处理过和未处理的椰枣纤维，对干旱地区压制土砖热工和力学性能的影响。",
+   "score": 46
+  },
+  {
+   "id": "17238ef89da5",
+   "decision": "brief",
+   "category": "heritage",
+   "scores": {
+    "sig": 4,
+    "nov": 5,
+    "cred": 6,
+    "reson": 4,
+    "act": 2
+   },
+   "title_zh": "论文：电渗灌浆加固土遗址表层剥落",
+   "summary_zh": "发表在《岩石力学与工程学报》，作者 Cui、Li、Wang 等。研究电渗灌浆加固土遗址剥落的工艺优化和渗透模型。DOI 编号显示是 2024 年的稿件。",
+   "score": 44
+  },
+  {
+   "id": "058ccdb612c2",
+   "decision": "brief",
+   "category": "heritage",
+   "scores": {
+    "sig": 3,
+    "nov": 5,
+    "cred": 6,
+    "reson": 4,
+    "act": 2
+   },
+   "title_zh": "书章：尼日尔土坯墙的渗漏与修补",
+   "summary_zh": "收在《Repair across Africa》一书，作者 Masquelier。从人文角度讨论尼日尔土坯墙的渗漏、修补和日常维护。",
+   "score": 41
+  },
+  {
+   "id": "4109e2c45f08",
+   "decision": "merged",
+   "merged_into": "f2854d0aa430"
+  },
+  {
+   "id": "2f67395bf757",
+   "decision": "merged",
+   "merged_into": "f2854d0aa430"
+  },
+  {
+   "id": "b9ef048907d3",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "灌溉土渠，不是建筑"
+  },
+  {
+   "id": "b208fa8a0751",
+   "decision": "drop",
+   "drop_reason": "low_score",
+   "category": "research",
+   "scores": {
+    "sig": 3,
+    "nov": 4,
+    "cred": 4,
+    "reson": 6,
+    "act": 4
+   },
+   "score": 39
+  },
+  {
+   "id": "c55b0d4ffd36",
+   "decision": "drop",
+   "drop_reason": "low_score",
+   "category": "heritage",
+   "scores": {
+    "sig": 2,
+    "nov": 4,
+    "cred": 6,
+    "reson": 2,
+    "act": 1
+   },
+   "score": 31
+  },
+  {
+   "id": "f9f50daafe51",
+   "decision": "drop",
+   "drop_reason": "low_score",
+   "category": "market",
+   "scores": {
+    "sig": 1,
+    "nov": 2,
+    "cred": 9,
+    "reson": 3,
+    "act": 1
+   },
+   "score": 33
+  },
+  {
+   "id": "19a28fc4f86f",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "ArchDaily 2020 年项目旧文"
+  },
+  {
+   "id": "9ec9d2fa67f1",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "ArchDaily 2016 年旧文"
+  },
+  {
+   "id": "3efe0afcf076",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "ArchDaily 旧文，项目 2024 年"
+  },
+  {
+   "id": "cf65d7def59f",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "ArchDaily 2019 年旧文"
+  },
+  {
+   "id": "81d3ae2df96b",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "ArchDaily 2016 年旧文"
+  },
+  {
+   "id": "91d9088ea180",
+   "decision": "drop",
+   "drop_reason": "unverified",
+   "note": "无法确认与生土有关"
+  },
+  {
+   "id": "8a5e2b8daaaa",
+   "decision": "drop",
+   "drop_reason": "unverified",
+   "note": "无法确认今年获奖项目与生土有关"
+  },
+  {
+   "id": "812b0d72c92a",
+   "decision": "drop",
+   "drop_reason": "unverified"
+  },
+  {
+   "id": "bb24c4348f34",
+   "decision": "drop",
+   "drop_reason": "unverified"
+  },
+  {
+   "id": "4ea3115a19ee",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "垃圾广告标题"
+  },
+  {
+   "id": "a0651c745bcc",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  },
+  {
+   "id": "148753e76e49",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  },
+  {
+   "id": "3b023e10f584",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  },
+  {
+   "id": "8c02335b165a",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  },
+  {
+   "id": "7760577bc761",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "tapial 在这里指围墙"
+  },
+  {
+   "id": "08a7d9c7b2b5",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  },
+  {
+   "id": "7305a8920325",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  },
+  {
+   "id": "026feaf2d671",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  },
+  {
+   "id": "21cc785cd850",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  },
+  {
+   "id": "46008f4c3836",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  },
+  {
+   "id": "ae0b5dd02271",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  },
+  {
+   "id": "5e7ec02d5816",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "tapial 在这里指围墙"
+  },
+  {
+   "id": "fef513de2735",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  },
+  {
+   "id": "ab313665ddd5",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "tapial 在这里指围墙"
+  },
+  {
+   "id": "7243f67ba303",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "tapial 在这里指围墙"
+  },
+  {
+   "id": "bc52b8dc80b5",
+   "decision": "drop",
+   "drop_reason": "irrelevant"
+  }
+ ]
+}

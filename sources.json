@@ -1,0 +1,227 @@
+{
+ "$comment": "生土观察的信源。tier: T1 官方一手（机构、协会、企业官方）· T1_5 准一手（期刊、论文库）· T2 媒体与聚合。filter=true 表示这是综合信源，只收命中生土关键词的条目（规则在 scripts/fetch.py 的 EARTH_RE）。max_new: 每次抓取最多进待审的新条目数。aspect 只是提示编辑的大致方面，最终分类由编辑决定。",
+ "sources": [
+  {
+   "id": "isceah",
+   "name": "ICOMOS-ISCEAH 生土遗产科学委员会",
+   "kind": "rss",
+   "url": "https://isceah.icomos.org/?feed=rss2",
+   "home": "https://isceah.icomos.org/",
+   "tier": "T1",
+   "lang": "en",
+   "aspect": "遗产保护、活动",
+   "filter": false
+  },
+  {
+   "id": "amaco",
+   "name": "amàco",
+   "kind": "rss",
+   "url": "https://amaco.org/feed/",
+   "home": "https://amaco.org/",
+   "tier": "T1",
+   "lang": "fr",
+   "aspect": "工艺、教育",
+   "filter": false
+  },
+  {
+   "id": "proterra",
+   "name": "Red PROTERRA",
+   "kind": "rss",
+   "url": "https://redproterra.org/es/feed/",
+   "home": "https://redproterra.org/es/",
+   "tier": "T1",
+   "lang": "es",
+   "aspect": "研究、标准",
+   "filter": false
+  },
+  {
+   "id": "clayworks",
+   "name": "Clayworks",
+   "kind": "rss",
+   "url": "https://clay-works.com/feed/",
+   "home": "https://clay-works.com/",
+   "tier": "T1",
+   "lang": "en",
+   "aspect": "产品与企业",
+   "filter": false
+  },
+  {
+   "id": "claytec",
+   "name": "Claytec",
+   "kind": "rss",
+   "url": "https://claytec.de/feed/",
+   "home": "https://claytec.de/",
+   "tier": "T1",
+   "lang": "de",
+   "aspect": "产品与企业",
+   "filter": false
+  },
+  {
+   "id": "lehmtonerde",
+   "name": "Lehm Ton Erde（Martin Rauch）",
+   "kind": "rss",
+   "url": "https://www.lehmtonerde.at/feed/",
+   "home": "https://www.lehmtonerde.at/",
+   "tier": "T1",
+   "lang": "de",
+   "aspect": "项目、预制夯土",
+   "filter": false
+  },
+  {
+   "id": "ebuki",
+   "name": "EBUKI 英国和爱尔兰生土协会",
+   "kind": "rss",
+   "url": "https://www.ebuki.co/blog?format=rss",
+   "home": "https://www.ebuki.co/",
+   "tier": "T1",
+   "lang": "en",
+   "aspect": "行业",
+   "filter": false
+  },
+  {
+   "id": "unesco-whc",
+   "name": "UNESCO 世界遗产中心新闻",
+   "kind": "rss",
+   "url": "https://whc.unesco.org/en/news/rss",
+   "home": "https://whc.unesco.org/en/earthen-architecture/",
+   "tier": "T1",
+   "lang": "en",
+   "aspect": "遗产保护",
+   "filter": true
+  },
+  {
+   "id": "crossref",
+   "name": "Crossref 论文库",
+   "kind": "crossref",
+   "queries": [
+    "rammed earth",
+    "earthen construction",
+    "earth plaster clay plaster",
+    "compressed earth block",
+    "adobe earth building",
+    "cob earth building"
+   ],
+   "home": "https://www.crossref.org/",
+   "tier": "T1_5",
+   "lang": "en",
+   "aspect": "研究论文",
+   "filter": true,
+   "max_new": 25
+  },
+  {
+   "id": "cbm",
+   "name": "Construction and Building Materials（期刊）",
+   "kind": "rss",
+   "url": "https://rss.sciencedirect.com/publication/science/09500618",
+   "home": "https://www.sciencedirect.com/journal/construction-and-building-materials",
+   "tier": "T1_5",
+   "lang": "en",
+   "aspect": "研究论文",
+   "filter": true
+  },
+  {
+   "id": "ijah",
+   "name": "International Journal of Architectural Heritage（期刊）",
+   "kind": "rss",
+   "url": "https://www.tandfonline.com/feed/rss/uarc20",
+   "home": "https://www.tandfonline.com/journals/uarc20",
+   "tier": "T1_5",
+   "lang": "en",
+   "aspect": "研究论文、遗产",
+   "filter": true
+  },
+  {
+   "id": "dezeen",
+   "name": "Dezeen 夯土标签",
+   "kind": "rss",
+   "url": "https://www.dezeen.com/tag/rammed-earth/feed/",
+   "home": "https://www.dezeen.com/tag/rammed-earth/",
+   "tier": "T2",
+   "lang": "en",
+   "aspect": "项目案例",
+   "filter": false
+  },
+  {
+   "id": "archdaily",
+   "name": "ArchDaily",
+   "kind": "rss",
+   "url": "https://www.archdaily.com/feed",
+   "home": "https://www.archdaily.com/tag/rammed-earth",
+   "tier": "T2",
+   "lang": "en",
+   "aspect": "项目案例",
+   "filter": true
+  },
+  {
+   "id": "archdaily-cn",
+   "name": "ArchDaily 中文",
+   "kind": "rss",
+   "url": "https://www.archdaily.cn/cn/feed",
+   "home": "https://www.archdaily.cn/cn/tag/hang-tu",
+   "tier": "T2",
+   "lang": "zh",
+   "aspect": "项目案例",
+   "filter": true
+  },
+  {
+   "id": "gnews-en",
+   "name": "Google 新闻（英文）",
+   "kind": "rss",
+   "url": "https://news.google.com/rss/search?q=%22rammed+earth%22+OR+%22earthen+architecture%22+OR+%22clay+plaster%22+OR+%22compressed+earth+block%22+when:7d&hl=en-US&gl=US&ceid=US:en",
+   "home": "https://news.google.com/",
+   "tier": "T2",
+   "lang": "en",
+   "aspect": "综合",
+   "filter": false,
+   "max_new": 25
+  },
+  {
+   "id": "gnews-zh",
+   "name": "Google 新闻（中文）",
+   "kind": "rss",
+   "url": "https://news.google.com/rss/search?q=%E5%A4%AF%E5%9C%9F%E5%BB%BA%E7%AD%91+OR+%E7%94%9F%E5%9C%9F%E5%BB%BA%E7%AD%91+OR+%E5%9C%9F%E5%9D%AF%E6%88%BF+OR+%E7%94%9F%E5%9C%9F%E6%9D%90%E6%96%99+OR+%E5%A4%AF%E5%9C%9F%E5%A2%99+when:7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+   "home": "https://news.google.com/",
+   "tier": "T2",
+   "lang": "zh",
+   "aspect": "综合",
+   "filter": false,
+   "max_new": 25
+  },
+  {
+   "id": "gnews-fr",
+   "name": "Google 新闻（法文）",
+   "kind": "rss",
+   "url": "https://news.google.com/rss/search?q=%22pis%C3%A9%22+OR+%22terre+crue%22+when:7d&hl=fr&gl=FR&ceid=FR:fr",
+   "home": "https://news.google.com/",
+   "tier": "T2",
+   "lang": "fr",
+   "aspect": "综合",
+   "filter": false,
+   "max_new": 20
+  },
+  {
+   "id": "gnews-de",
+   "name": "Google 新闻（德文）",
+   "kind": "rss",
+   "url": "https://news.google.com/rss/search?q=Lehmbau+OR+Stampflehm+OR+Lehmputz+when:7d&hl=de&gl=DE&ceid=DE:de",
+   "home": "https://news.google.com/",
+   "tier": "T2",
+   "lang": "de",
+   "aspect": "综合",
+   "filter": false,
+   "max_new": 20
+  },
+  {
+   "id": "gnews-es",
+   "name": "Google 新闻（西文）",
+   "kind": "rss",
+   "url": "https://news.google.com/rss/search?q=%22construcci%C3%B3n+con+tierra%22+OR+%22arquitectura+de+tierra%22+OR+%22tierra+apisonada%22+OR+%22casa+de+tapial%22+when:7d&hl=es-419&gl=MX&ceid=MX:es-419",
+   "home": "https://news.google.com/",
+   "tier": "T2",
+   "lang": "es",
+   "aspect": "综合",
+   "filter": false,
+   "max_new": 20
+  }
+ ]
+}
