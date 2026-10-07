@@ -255,21 +255,61 @@ def main():
 
     # 信源
     state = load_json(STATE, {})
-    srows = ""
-    for s in load_sources():
-        st = state.get(s["id"], {})
+    srcs = load_sources()
+    xcfg = load_json(os.path.join(ROOT, "sources_x.json"), {})
+    mcfg = load_json(os.path.join(ROOT, "sources_manual.json"), {})
+    groups = [("official", "官方网站与协会", "机构、协会、企业官网。"), ("journal", "期刊与论文", "期刊 RSS 和 Crossref 论文库。"),
+              ("platform", "国际建筑平台", "建筑媒体的生土标签、全站关键词过滤、站内搜索和奖项。"),
+              ("people", "学者、实践者与机构", "建筑师、研究机构、协会和品牌的视频频道与博客。"),
+              ("social", "社交媒体", "YouTube 工匠频道和 Mastodon 话题。"), ("news", "新闻搜索", "Google 新闻，五种语言。")]
+    n_members = sum(len(x.get("urls") or [1]) for x in srcs)
+
+    def src_row(s_):
+        st = state.get(s_["id"], {})
         ok = st.get("ok")
         stat = '<span class="ebw-ok">正常</span>' if ok else ('<span class="ebw-bad">失败</span>' if st else "未抓")
-        last = st.get("last_ok") or "—"
-        srows += f'<tr><td><a href="{E(s.get("home") or s.get("url"))}" target="_blank" rel="noopener">{E(s["name"])}</a></td><td>{TIER_LABEL[s["tier"]]}</td><td>{E(s["lang"])}</td><td>{E(s.get("aspect"))}</td><td>{"关键词过滤" if s.get("filter") else "全收"}</td><td>{stat}</td><td class="ebw-num">{st.get("total_collected", 0)}</td><td>{E(last[:16].replace("T", " "))}</td></tr>'
+        if ok and st.get("member_errors"):
+            stat = f'<span class="ebw-ok">正常</span> <small>{st.get("members_ok")}/{st.get("members_total")}</small>'
+        last_ = st.get("last_ok") or "—"
+        mem = ""
+        if s_.get("urls"):
+            mem = '<div class="ebw-members">' + " · ".join(
+                f'<a href="{E(m.get("home") or m["url"])}" target="_blank" rel="noopener">{E(m.get("label") or m["url"])}</a>' if isinstance(m, dict) else f'<a href="{E(m)}">{E(m)}</a>'
+                for m in s_["urls"]) + "</div>"
+        if s_.get("note"):
+            mem += f'<div class="ebw-members">{E(s_["note"])}</div>'
+        return (f'<tr><td><a href="{E(s_.get("home") or s_.get("url"))}" target="_blank" rel="noopener">{E(s_["name"])}</a>{mem}</td>'
+                f'<td>{TIER_LABEL[s_["tier"]]}</td><td>{E(s_["lang"])}</td><td>{"关键词过滤" if s_.get("filter") else "全收"}</td>'
+                f'<td>{stat}</td><td class="ebw-num">{st.get("total_collected", 0)}</td><td>{E(last_[:16].replace("T", " "))}</td></tr>')
+
+    thead = '<thead><tr><th>信源</th><th>分级</th><th>语言</th><th>收法</th><th>状态</th><th class="ebw-num">收录</th><th>最近成功</th></tr></thead>'
+    gsec = ""
+    for gid, gname, gnote in groups:
+        rows_ = "".join(src_row(x) for x in srcs if x.get("group", "official") == gid)
+        if rows_:
+            gsec += f'<section class="ebw-section"><h2>{gname}</h2><p class="ebw-note">{gnote}</p><div class="ebw-table"><table>{thead}<tbody>{rows_}</tbody></table></div></section>'
+    xs = state.get("x", {})
+    xrows = "".join(f'<tr><td><a href="{E(a["url"])}" target="_blank" rel="noopener">@{E(a["username"])}</a></td><td>{E(a["name"])}</td><td style="white-space:normal">{E(a.get("note", ""))}</td></tr>'
+                    for a in xcfg.get("accounts", []))
+    xplat = " · ".join(f'<a href="{E(a["url"])}" target="_blank" rel="noopener">@{E(a["username"])}</a>' for a in xcfg.get("platform_accounts", []))
+    xq = "".join(f'<li><b>{E(q["label"])}</b>：<code>{E(q["query"][:160])}{"…" if len(q["query"]) > 160 else ""}</code></li>' for q in xcfg.get("queries", []))
+    xstat = (f'上次抓取 <b>{E((xs.get("last_ok") or "—")[:16].replace("T", " "))}</b>，累计收录 <b>{xs.get("total_collected", 0)}</b> 条。') if xs else "还没抓过。"
+    xsec = f"""<section class="ebw-section"><h2>X（由每日编辑机器人抓取）</h2><p class="ebw-note">定时脚本没有 X 权限。每天 09:05 编辑机器人用 X 连接器搜过去 24 小时，最多 4 次搜索、每次 10 条，再导入待审。{xstat}</p>
+<div class="ebw-table"><table><thead><tr><th>账号</th><th>名称</th><th>说明</th></tr></thead><tbody>{xrows}</tbody></table></div>
+<p class="ebw-note">建筑平台账号（只收含生土词的帖子）：{xplat}</p><ul class="ebw-actions">{xq}</ul></section>"""
+    mrows = ""
+    for pl in mcfg.get("platforms", []):
+        accs = " · ".join(f'<a href="{E(a["url"])}" target="_blank" rel="noopener">{E(a.get("handle") or a["name"])}</a>' for a in pl.get("accounts", [])) or "—"
+        mrows += f'<tr><td>{E(pl["platform"])}</td><td style="white-space:normal">{E(pl["why"])}</td><td style="white-space:normal">{accs}<div class="ebw-members">{E(pl.get("tip", ""))}</div></td></tr>'
+    msec = f"""<section class="ebw-section"><h2>人工转发</h2><p class="ebw-note">这些平台没有合法的免登录接口，脚本不抓。看到好内容，转发链接给编辑机器人。</p>
+<div class="ebw-table"><table><thead><tr><th>平台</th><th>为什么不自动抓</th><th>值得关注（已核实）</th></tr></thead><tbody>{mrows}</tbody></table></div></section>"""
     th = "".join(f"<li><b>{l}</b>：份量 {w_[0]}、新信息 {w_[1]}、证据 {w_[2]}、和你相关 {w_[3]}、能马上用 {w_[4]}</li>" for k, l, w_ in CATEGORIES)
     last = state.get("_last_fetch", {})
-    sbody = f"""<section class="ebw-hero"><h1>信源与方法</h1><p class="ebw-lead">{len(load_sources())} 个信源，覆盖英、中、法、德、西五种语言。每天抓两次，由编辑 Grok Bot 每天审一次。</p>
+    sbody = f"""<section class="ebw-hero"><h1>信源与方法</h1><p class="ebw-lead">自动抓取 {len(srcs)} 个信源（共 {n_members} 个订阅地址），加上 X 上 {len(xcfg.get("accounts", []))} 个生土账号和 4 组搜索。语言有中、英、法、德、西、葡。每天抓两次，编辑机器人每天审一次。</p>
 <div class="ebw-stats"><span>上次抓取 <b>{E((last.get('at') or '—')[:16].replace('T',' '))}</b></span><span>收录总数 <b>{len(raw)}</b></span></div></section>
-<section class="ebw-section"><h2>信源</h2><p class="ebw-note">官方一手：机构、协会、企业官网。期刊论文：期刊和论文库。媒体聚合：建筑媒体和 Google 新闻搜索。</p>
-<div class="ebw-table"><table><thead><tr><th>信源</th><th>分级</th><th>语言</th><th>方面</th><th>收法</th><th>状态</th><th class="ebw-num">收录</th><th>最近成功</th></tr></thead><tbody>{srows}</tbody></table></div></section>
+{gsec}{xsec}{msec}
 <section class="ebw-section ebw-prose"><h2>怎么选稿</h2>
-<p>脚本每天 07:00 和 19:00 抓取。第一次见到时已经发布超过 48 小时的资料只归档，不会再冒出来。</p>
+<p>脚本每天 07:00 和 19:00 抓取。X 由编辑机器人每天抓一次。第一次见到时已经发布超过 48 小时的资料只归档，不会再冒出来。</p>
 <p>编辑逐条看。先剔除和生土无关、旧文重推、无法核实的。再按五个维度打 0 到 10 分，按分类加权，得到 0 到 100 的总分。</p>
 <ul class="ebw-actions">{th}</ul>
 <p>精选门槛：官方一手 {PICK_THRESHOLD['T1']} 分，期刊论文 {PICK_THRESHOLD['T1_5']} 分，媒体聚合 {PICK_THRESHOLD['T2']} 分。{BRIEF_THRESHOLD} 分以上进简讯。每天精选最多 {MAX_PICKS_PER_DAY} 条。</p>

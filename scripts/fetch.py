@@ -31,8 +31,8 @@ EARTH_RE = re.compile(
 )
 
 
-def http_get(url, timeout=30):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+def http_get(url, timeout=30, headers=None):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*", **(headers or {})})
     last = None
     for attempt in range(2):
         try:
@@ -112,7 +112,47 @@ def child_text(el, name):
     return ""
 
 
+def _rx_tag(block, name):
+    m = re.search(rf"<(?:\w+:)?{name}\b[^>]*?(?:/>|>(.*?)</(?:\w+:)?{name}>)", block, re.S | re.I)
+    if not m:
+        return ""
+    v = m.group(1) or ""
+    v = re.sub(r"^\s*<!\[CDATA\[(.*)\]\]>\s*$", r"\1", v, flags=re.S)
+    return v.strip()
+
+
+def parse_feed_lenient(body):
+    """有些网站的 RSS 不是合法 XML（多余内容、未转义字符）。用正则逐条取字段。"""
+    text = body.decode("utf-8", "replace") if isinstance(body, bytes) else body
+    out = []
+    for m in re.finditer(r"<(item|entry)\b[^>]*>(.*?)</\1>", text, re.S | re.I):
+        b = m.group(2)
+        link = _rx_tag(b, "link")
+        if not link:
+            lm = re.search(r"<link\b[^>]*href=[\"']([^\"']+)", b, re.I)
+            link = lm.group(1) if lm else ""
+        date = _rx_tag(b, "pubDate") or _rx_tag(b, "published") or _rx_tag(b, "updated") or _rx_tag(b, "date")
+        desc = _rx_tag(b, "description") or _rx_tag(b, "summary") or _rx_tag(b, "encoded") or _rx_tag(b, "content")
+        cats = [strip_html(c) for c in re.findall(r"<category\b[^>]*>(.*?)</category>", b, re.S | re.I)]
+        out.append({"title": strip_html(html.unescape(_rx_tag(b, "title")), 300), "url": html.unescape(link).strip(),
+                    "published": strip_html(date), "snippet": strip_html(html.unescape(desc)), "publisher": "", "categories": cats})
+    return out
+
+
 def parse_feed(body):
+    try:
+        out = parse_feed_strict(body)
+    except ET.ParseError:
+        out = parse_feed_lenient(body)
+    for e in out:
+        # Mastodon、Bluesky 等社交帖子没有标题：用正文开头当标题
+        if not e["title"] and e["snippet"]:
+            t = e["snippet"]
+            e["title"] = (t[:80] + "…") if len(t) > 80 else t
+    return out
+
+
+def parse_feed_strict(body):
     root = ET.fromstring(body.lstrip() if isinstance(body, bytes) else body)
     out = []
     items = [e for e in root.iter() if local(e.tag) in ("item", "entry")]
@@ -126,6 +166,11 @@ def parse_feed(body):
                     break
         date = child_text(it, "pubDate") or child_text(it, "published") or child_text(it, "updated") or child_text(it, "date")
         desc = child_text(it, "description") or child_text(it, "summary") or child_text(it, "encoded") or child_text(it, "content")
+        if not desc:
+            for c in it.iter():
+                if local(c.tag) == "description" and c.text:
+                    desc = c.text.strip()
+                    break
         publisher = ""
         for c in it:
             if local(c.tag) == "source":
@@ -182,9 +227,28 @@ def main():
                 entries = fetch_crossref(src)
                 st["http"] = 200
             else:
-                status, body = http_get(src["url"])
-                st["http"] = status
-                entries = parse_feed(body)
+                # 一个信源可以有多个地址（urls）：每个地址可单独设置 filter 和 label
+                members = src.get("urls") or [src["url"]]
+                entries, errs, ok_n = [], [], 0
+                for m in members:
+                    mu = m if isinstance(m, str) else m["url"]
+                    mf = src.get("filter") if isinstance(m, str) else m.get("filter", src.get("filter"))
+                    ml = "" if isinstance(m, str) else m.get("label", "")
+                    try:
+                        status, body = http_get(mu)
+                        es = parse_feed(body)
+                        for e in es:
+                            e["_filter"], e["_label"] = mf, ml
+                        entries += es
+                        ok_n += 1
+                    except Exception as ex:  # noqa
+                        errs.append(f"{ml or mu}: {type(ex).__name__} {str(ex)[:80]}")
+                if ok_n == 0:
+                    raise RuntimeError("; ".join(errs)[:200])
+                st["http"] = 200
+                st["members_ok"], st["members_total"] = ok_n, len(members)
+                if errs:
+                    st["member_errors"] = errs
             first_import = src["id"] not in state or not state[src["id"]].get("ever_ok")
             new_p = new_a = matched = 0
             max_new = src.get("max_new", DEFAULT_MAX_NEW)
@@ -192,7 +256,9 @@ def main():
                 if not e["title"] or not e["url"]:
                     continue
                 text = f"{e['title']} {e['snippet']} {' '.join(e['categories'])}"
-                if src.get("filter") and not EARTH_RE.search(text):
+                if src.get("exclude_title") and re.search(src["exclude_title"], e["title"], re.I):
+                    continue
+                if e.get("_filter", src.get("filter")) and not EARTH_RE.search(text):
                     continue
                 matched += 1
                 cu = canon_url(e["url"])
@@ -218,7 +284,8 @@ def main():
                     status_ = "archived"
                 if status_ == "pending" and new_p >= max_new:
                     status_ = "overflow"
-                rec = {"id": iid, "title": title, "url": e["url"], "source_id": src["id"], "source_name": src["name"],
+                sname = f"{src['name']} · {e['_label']}" if e.get("_label") else src["name"]
+                rec = {"id": iid, "title": title, "url": e["url"], "source_id": src["id"], "source_name": sname,
                        "tier": src["tier"], "lang": src["lang"], "aspect": src.get("aspect", ""), "publisher": publisher,
                        "published_at": pub.isoformat() if pub else None, "first_seen": now_s, "snippet": e["snippet"],
                        "status": status_}

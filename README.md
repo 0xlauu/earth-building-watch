@@ -8,6 +8,8 @@
 ## 怎么运作
 
 1. `scripts/fetch.py`：每天 07:00 和 19:00（北京时间）抓取 `sources.json` 里的信源——企业和学会官网 RSS、期刊 RSS、Crossref、5 种语言的 Google 新闻。按网址和标题去重，记录首次见到时间。只有 48 小时内的新条目进入待审队列 `data/pending.json`，旧条目不会再冒出来。
+   信源分六组：官方网站与协会、期刊与论文、国际建筑平台（ArchDaily/Dezeen/designboom 等的生土标签，谷德、有方等站内搜索，奖项）、学者实践者与机构（YouTube 频道、博客）、社交媒体（YouTube 工匠频道、Mastodon 话题）、新闻搜索。
+   X 由每日编辑机器人通过 X 连接器抓取（`sources_x.json`，`scripts/x_ingest.py`）。Instagram、LinkedIn、小红书、公众号、Reddit 没有合法免登录接口，列在 `sources_manual.json`，靠人工转发（`scripts/add_manual.py`）。
 2. 编辑（Grok Bot）读待审队列，按 5 个维度、8 个分类的加权评分表打分，写中文标题、摘要和“对你意味着什么”，结果存到 `data/edited/YYYY-MM-DD.json`。`scripts/validate_edit.py` 负责检查：不许出现原始库里没有的条目，分数和门槛必须对得上。
 3. `scripts/build.py` 生成静态网站到 `docs/`（首页、日报、周报、往期、信源），以及 `feed.xml` 和 `latest.json`。
 4. `scripts/publish.sh` 提交并推送，GitHub Pages 从 `main` 分支的 `/docs` 目录发布。

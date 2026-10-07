@@ -1,0 +1,172 @@
+{
+ "$comment": "X 信源。cron 没有 X 权限；由每日机器人用 X 连接器（user-X）抓取，再用 scripts/x_ingest.py 导入。账号都在 2026-10-07 用 get_users_by_usernames / search_users 核实过，id 是 X 的数字用户 id。不要加没核实的账号。",
+ "verified_at": "2026-10-07",
+ "accounts": [
+  {
+   "username": "AnnaHeringer",
+   "name": "Anna Heringer",
+   "id": "482143797",
+   "note": "建筑师，UNESCO 生土建筑教席荣誉教授（简介自述）。发帖少",
+   "url": "https://x.com/AnnaHeringer"
+  },
+  {
+   "username": "fuergando",
+   "name": "Kéré Architecture",
+   "id": "1344426474",
+   "note": "Francis Kéré 事务所官方账号（账号名 Kéré Architecture）",
+   "url": "https://x.com/fuergando"
+  },
+  {
+   "username": "rammedearth",
+   "name": "Rammed Earth",
+   "id": "442988523",
+   "note": "简介：30 年夯土建造、咨询、研究、教学、标准化",
+   "url": "https://x.com/rammedearth"
+  },
+  {
+   "username": "RammedEarthNow",
+   "name": "Rammed Earth Works",
+   "id": "2855880218",
+   "note": "美国夯土建造商，1979 年起（简介自述）",
+   "url": "https://x.com/RammedEarthNow"
+  },
+  {
+   "username": "RammedEarthOrg",
+   "name": "Michael Thompson",
+   "id": "33620345",
+   "note": "《DIY Rammed Earth Manual》作者，夯土培训",
+   "url": "https://x.com/RammedEarthOrg"
+  },
+  {
+   "username": "EarthBuildingUK",
+   "name": "EBUKI",
+   "id": "411906802",
+   "note": "英国和爱尔兰生土协会",
+   "url": "https://x.com/EarthBuildingUK"
+  },
+  {
+   "username": "BacktoEarthLTD",
+   "name": "Back to Earth",
+   "id": "2976615711",
+   "note": "英国天然建材与生土建造方案",
+   "url": "https://x.com/BacktoEarthLTD"
+  },
+  {
+   "username": "LEHMbauprofi",
+   "name": "ErdRaum GmbH",
+   "id": "2585505577",
+   "note": "德国，用生土和木头建造与修缮",
+   "url": "https://x.com/LEHMbauprofi"
+  },
+  {
+   "username": "lehmbauplatten",
+   "name": "LEMIX",
+   "id": "841939591254966274",
+   "note": "德国生土板（Lehmbauplatten）厂商",
+   "url": "https://x.com/lehmbauplatten"
+  }
+ ],
+ "platform_accounts": [
+  {
+   "username": "dezeen",
+   "name": "Dezeen",
+   "id": "26012202",
+   "url": "https://x.com/dezeen"
+  },
+  {
+   "username": "ArchDaily",
+   "name": "ArchDaily",
+   "id": "14362241",
+   "url": "https://x.com/ArchDaily"
+  },
+  {
+   "username": "designboom",
+   "name": "designboom",
+   "id": "24799500",
+   "url": "https://x.com/designboom"
+  },
+  {
+   "username": "Architizer",
+   "name": "Architizer",
+   "id": "51040617",
+   "url": "https://x.com/Architizer"
+  },
+  {
+   "username": "archinect",
+   "name": "Archinect",
+   "id": "14289603",
+   "url": "https://x.com/archinect"
+  },
+  {
+   "username": "ArchRecord",
+   "name": "Architectural Record",
+   "id": "19639085",
+   "url": "https://x.com/ArchRecord"
+  },
+  {
+   "username": "akdn",
+   "name": "Aga Khan Development Network",
+   "id": "16743561",
+   "url": "https://x.com/akdn"
+  }
+ ],
+ "excluded": [
+  {
+   "username": "RAMMTECK",
+   "why": "真实的夯土公司，但每天重复发同一个项目的广告"
+  },
+  {
+   "username": "craterre",
+   "why": "不是 CRAterre，是个人空账号"
+  },
+  {
+   "username": "Divisare",
+   "why": "不是 Divisare 官方"
+  },
+  {
+   "username": "BCArchitects",
+   "why": "是美国佛州的另一家 BC Architects，不是布鲁塞尔的 BC"
+  },
+  {
+   "username": "architectsjrnl",
+   "why": "空账号，不是 AJ 官方"
+  }
+ ],
+ "queries": [
+  {
+   "id": "x-people",
+   "label": "生土建筑师与机构的帖子",
+   "filter": false,
+   "sort_order": "recency",
+   "query": "(from:AnnaHeringer OR from:fuergando OR from:rammedearth OR from:RammedEarthNow OR from:RammedEarthOrg OR from:EarthBuildingUK OR from:BacktoEarthLTD OR from:LEHMbauprofi OR from:lehmbauplatten) -is:retweet"
+  },
+  {
+   "id": "x-platforms",
+   "label": "建筑大平台的生土帖子",
+   "filter": true,
+   "sort_order": "recency",
+   "query": "(from:dezeen OR from:ArchDaily OR from:designboom OR from:Architizer OR from:archinect OR from:ArchRecord OR from:akdn) (earth OR earthen OR adobe OR mud OR clay OR rammed) -is:retweet"
+  },
+  {
+   "id": "x-kw-en",
+   "label": "英文关键词",
+   "filter": true,
+   "sort_order": "relevancy",
+   "query": "(\"rammed earth\" OR \"earthen architecture\" OR \"earthen building\" OR \"clay plaster\" OR \"earth plaster\" OR \"compressed earth block\" OR \"cob house\") -is:retweet -is:reply -from:RAMMTECK"
+  },
+  {
+   "id": "x-kw-multi",
+   "label": "中法德西葡关键词",
+   "filter": true,
+   "sort_order": "relevancy",
+   "query": "(夯土 OR 生土建筑 OR 生土材料 OR 土坯房 OR \"terre crue\" OR Stampflehm OR Lehmbau OR Lehmputz OR \"tierra cruda\" OR \"taipa de pilão\") -is:retweet -is:reply -from:RAMMTECK"
+  }
+ ],
+ "common_args": {
+  "max_results": 10,
+  "post.fields": "created_at,author_id,lang,entities,public_metrics",
+  "expansions": "author_id",
+  "user.fields": "username,name"
+ },
+ "cost_note": "2026-10-07 实测：搜帖约 0.005 美元/条，查用户约 0.01 美元/个。每天 4 次搜索、每次最多 10 条，最多约 0.20 美元。"
+}

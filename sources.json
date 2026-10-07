@@ -1,5 +1,5 @@
 {
- "$comment": "生土观察的信源。tier: T1 官方一手（机构、协会、企业官方）· T1_5 准一手（期刊、论文库）· T2 媒体与聚合。filter=true 表示这是综合信源，只收命中生土关键词的条目（规则在 scripts/fetch.py 的 EARTH_RE）。max_new: 每次抓取最多进待审的新条目数。aspect 只是提示编辑的大致方面，最终分类由编辑决定。",
+ "$comment": "生土观察的信源。tier: T1 官方一手（机构、协会、企业官方）· T1_5 准一手（期刊、论文库）· T2 媒体与聚合。filter=true 表示这是综合信源，只收命中生土关键词的条目（规则在 scripts/fetch.py 的 EARTH_RE）。max_new: 每次抓取最多进待审的新条目数。aspect 只是提示编辑的大致方面，最终分类由编辑决定。 group: official 官方网站与协会 · journal 期刊与论文 · platform 国际建筑平台 · people 学者、实践者与机构 · social 社交媒体 · news 新闻搜索。urls: 一个信源多个地址，每个地址可单独设 filter、label、home。",
  "sources": [
   {
    "id": "isceah",
@@ -10,7 +10,8 @@
    "tier": "T1",
    "lang": "en",
    "aspect": "遗产保护、活动",
-   "filter": false
+   "filter": false,
+   "group": "official"
   },
   {
    "id": "amaco",
@@ -21,7 +22,8 @@
    "tier": "T1",
    "lang": "fr",
    "aspect": "工艺、教育",
-   "filter": false
+   "filter": false,
+   "group": "official"
   },
   {
    "id": "proterra",
@@ -32,7 +34,8 @@
    "tier": "T1",
    "lang": "es",
    "aspect": "研究、标准",
-   "filter": false
+   "filter": false,
+   "group": "official"
   },
   {
    "id": "clayworks",
@@ -43,7 +46,8 @@
    "tier": "T1",
    "lang": "en",
    "aspect": "产品与企业",
-   "filter": false
+   "filter": false,
+   "group": "official"
   },
   {
    "id": "claytec",
@@ -54,7 +58,8 @@
    "tier": "T1",
    "lang": "de",
    "aspect": "产品与企业",
-   "filter": false
+   "filter": false,
+   "group": "official"
   },
   {
    "id": "lehmtonerde",
@@ -65,7 +70,8 @@
    "tier": "T1",
    "lang": "de",
    "aspect": "项目、预制夯土",
-   "filter": false
+   "filter": false,
+   "group": "official"
   },
   {
    "id": "ebuki",
@@ -76,7 +82,8 @@
    "tier": "T1",
    "lang": "en",
    "aspect": "行业",
-   "filter": false
+   "filter": false,
+   "group": "official"
   },
   {
    "id": "unesco-whc",
@@ -87,7 +94,8 @@
    "tier": "T1",
    "lang": "en",
    "aspect": "遗产保护",
-   "filter": true
+   "filter": true,
+   "group": "official"
   },
   {
    "id": "crossref",
@@ -106,7 +114,8 @@
    "lang": "en",
    "aspect": "研究论文",
    "filter": true,
-   "max_new": 25
+   "max_new": 25,
+   "group": "journal"
   },
   {
    "id": "cbm",
@@ -117,7 +126,8 @@
    "tier": "T1_5",
    "lang": "en",
    "aspect": "研究论文",
-   "filter": true
+   "filter": true,
+   "group": "journal"
   },
   {
    "id": "ijah",
@@ -128,18 +138,36 @@
    "tier": "T1_5",
    "lang": "en",
    "aspect": "研究论文、遗产",
-   "filter": true
+   "filter": true,
+   "group": "journal"
   },
   {
    "id": "dezeen",
-   "name": "Dezeen 夯土标签",
+   "name": "Dezeen 生土相关标签",
    "kind": "rss",
-   "url": "https://www.dezeen.com/tag/rammed-earth/feed/",
    "home": "https://www.dezeen.com/tag/rammed-earth/",
    "tier": "T2",
    "lang": "en",
    "aspect": "项目案例",
-   "filter": false
+   "filter": false,
+   "group": "platform",
+   "urls": [
+    {
+     "url": "https://www.dezeen.com/tag/rammed-earth/feed/",
+     "label": "夯土",
+     "filter": false
+    },
+    {
+     "url": "https://www.dezeen.com/tag/clay/feed/",
+     "label": "粘土",
+     "filter": true
+    },
+    {
+     "url": "https://www.dezeen.com/tag/cob/feed/",
+     "label": "cob",
+     "filter": true
+    }
+   ]
   },
   {
    "id": "archdaily",
@@ -150,7 +178,8 @@
    "tier": "T2",
    "lang": "en",
    "aspect": "项目案例",
-   "filter": true
+   "filter": true,
+   "group": "platform"
   },
   {
    "id": "archdaily-cn",
@@ -161,7 +190,8 @@
    "tier": "T2",
    "lang": "zh",
    "aspect": "项目案例",
-   "filter": true
+   "filter": true,
+   "group": "platform"
   },
   {
    "id": "gnews-en",
@@ -173,7 +203,8 @@
    "lang": "en",
    "aspect": "综合",
    "filter": false,
-   "max_new": 25
+   "max_new": 25,
+   "group": "news"
   },
   {
    "id": "gnews-zh",
@@ -185,7 +216,8 @@
    "lang": "zh",
    "aspect": "综合",
    "filter": false,
-   "max_new": 25
+   "max_new": 25,
+   "group": "news"
   },
   {
    "id": "gnews-fr",
@@ -197,7 +229,8 @@
    "lang": "fr",
    "aspect": "综合",
    "filter": false,
-   "max_new": 20
+   "max_new": 20,
+   "group": "news"
   },
   {
    "id": "gnews-de",
@@ -209,7 +242,8 @@
    "lang": "de",
    "aspect": "综合",
    "filter": false,
-   "max_new": 20
+   "max_new": 20,
+   "group": "news"
   },
   {
    "id": "gnews-es",
@@ -221,7 +255,420 @@
    "lang": "es",
    "aspect": "综合",
    "filter": false,
-   "max_new": 20
+   "max_new": 20,
+   "group": "news"
+  },
+  {
+   "id": "archdaily-tags",
+   "name": "ArchDaily 生土标签（英文）",
+   "kind": "rss",
+   "group": "platform",
+   "tier": "T2",
+   "lang": "en",
+   "aspect": "项目案例",
+   "filter": true,
+   "home": "https://www.archdaily.com/tag/rammed-earth",
+   "urls": [
+    {
+     "url": "https://www.archdaily.com/tag/rammed-earth.xml",
+     "label": "rammed earth",
+     "filter": false
+    },
+    {
+     "url": "https://www.archdaily.com/tag/earth.xml",
+     "label": "earth"
+    },
+    {
+     "url": "https://www.archdaily.com/tag/adobe.xml",
+     "label": "adobe"
+    },
+    {
+     "url": "https://www.archdaily.com/tag/clay.xml",
+     "label": "clay"
+    }
+   ]
+  },
+  {
+   "id": "archdaily-cn-tags",
+   "name": "ArchDaily 中文生土标签",
+   "kind": "rss",
+   "group": "platform",
+   "tier": "T2",
+   "lang": "zh",
+   "aspect": "项目案例",
+   "filter": false,
+   "home": "https://www.archdaily.cn/cn/tag/hang-tu",
+   "urls": [
+    {
+     "url": "https://www.archdaily.cn/cn/tag/hang-tu.xml",
+     "label": "夯土"
+    },
+    {
+     "url": "https://www.archdaily.cn/cn/tag/sheng-tu-jian-zhu.xml",
+     "label": "生土建筑"
+    },
+    {
+     "url": "https://www.archdaily.cn/cn/tag/hang-tu-qiang.xml",
+     "label": "夯土墙"
+    }
+   ]
+  },
+  {
+   "id": "plataforma-tags",
+   "name": "Plataforma Arquitectura / ArchDaily Brasil 生土标签",
+   "kind": "rss",
+   "group": "platform",
+   "tier": "T2",
+   "lang": "es",
+   "aspect": "项目案例（拉美）",
+   "filter": true,
+   "home": "https://www.plataformaarquitectura.cl/cl/tag/tierra-apisonada",
+   "urls": [
+    {
+     "url": "https://www.plataformaarquitectura.cl/cl/tag/tierra-apisonada.xml",
+     "label": "tierra apisonada",
+     "filter": false
+    },
+    {
+     "url": "https://www.plataformaarquitectura.cl/cl/tag/adobe.xml",
+     "label": "adobe"
+    },
+    {
+     "url": "https://www.plataformaarquitectura.cl/cl/tag/barro.xml",
+     "label": "barro"
+    },
+    {
+     "url": "https://www.plataformaarquitectura.cl/cl/tag/tierra.xml",
+     "label": "tierra"
+    },
+    {
+     "url": "https://www.archdaily.com.br/br/tag/taipa-de-pilao.xml",
+     "label": "taipa de pilão",
+     "filter": false
+    }
+   ]
+  },
+  {
+   "id": "designboom",
+   "name": "designboom",
+   "kind": "rss",
+   "group": "platform",
+   "tier": "T2",
+   "lang": "en",
+   "aspect": "项目案例",
+   "filter": true,
+   "home": "https://www.designboom.com/tag/rammed-earth/",
+   "urls": [
+    {
+     "url": "https://www.designboom.com/tag/rammed-earth/feed/",
+     "label": "rammed earth 标签",
+     "filter": false
+    },
+    {
+     "url": "https://www.designboom.com/tag/earth-architecture/feed/",
+     "label": "earth architecture 标签",
+     "filter": false
+    },
+    {
+     "url": "https://www.designboom.com/tag/adobe/feed/",
+     "label": "adobe 标签"
+    },
+    {
+     "url": "https://www.designboom.com/feed/",
+     "label": "全站"
+    }
+   ]
+  },
+  {
+   "id": "intl-media",
+   "name": "国际建筑媒体（全站，只收生土关键词）",
+   "kind": "rss",
+   "group": "platform",
+   "tier": "T2",
+   "lang": "en",
+   "aspect": "项目、行业",
+   "filter": true,
+   "max_new": 10,
+   "home": "https://architizer.com/blog/",
+   "urls": [
+    {
+     "url": "https://architizer.com/blog/feed/",
+     "label": "Architizer Journal",
+     "home": "https://architizer.com/blog/"
+    },
+    {
+     "url": "https://archinect.com/feed/1/news",
+     "label": "Archinect News",
+     "home": "https://archinect.com/news"
+    },
+    {
+     "url": "https://www.architectural-review.com/feed",
+     "label": "The Architectural Review",
+     "home": "https://www.architectural-review.com/"
+    },
+    {
+     "url": "https://www.architectsjournal.co.uk/feed",
+     "label": "The Architects' Journal",
+     "home": "https://www.architectsjournal.co.uk/"
+    },
+    {
+     "url": "https://www.architectmagazine.com/feed/",
+     "label": "ARCHITECT Magazine",
+     "home": "https://www.architectmagazine.com/"
+    },
+    {
+     "url": "https://worldarchitecture.org/rss",
+     "label": "World Architecture Community",
+     "home": "https://worldarchitecture.org/"
+    },
+    {
+     "url": "https://divisare.com/publications/11/feed",
+     "label": "Divisare",
+     "home": "https://divisare.com/"
+    },
+    {
+     "url": "https://www.plataformaarquitectura.cl/cl/feed",
+     "label": "Plataforma Arquitectura 全站",
+     "home": "https://www.plataformaarquitectura.cl/"
+    }
+   ]
+  },
+  {
+   "id": "gnews-platforms-en",
+   "name": "Google 新闻 · 国际平台站内搜索",
+   "kind": "rss",
+   "group": "platform",
+   "tier": "T2",
+   "lang": "en",
+   "aspect": "项目、行业",
+   "filter": false,
+   "max_new": 5,
+   "home": "https://www.world-architects.com/",
+   "note": "World-Architects、Divisare、Architectural Record、Architects' Journal、Archinect、Architizer 站内的生土文章",
+   "url": "https://news.google.com/rss/search?q=%28%22rammed+earth%22+OR+earthen+OR+adobe+OR+%22mud+brick%22+OR+%22clay+plaster%22+OR+%22compressed+earth%22%29+%28site%3Aworld-architects.com+OR+site%3Adivisare.com+OR+site%3Aarchitecturalrecord.com+OR+site%3Aarchitectsjournal.co.uk+OR+site%3Aarchinect.com+OR+site%3Aarchitizer.com%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+   "exclude_title": "page \\d+|articles? -|^tags?\\b|categor|search results|archive"
+  },
+  {
+   "id": "gnews-platforms-zh",
+   "name": "Google 新闻 · 谷德 gooood / 有方 站内搜索",
+   "kind": "rss",
+   "group": "platform",
+   "tier": "T2",
+   "lang": "zh",
+   "aspect": "项目案例（中国）",
+   "filter": false,
+   "max_new": 6,
+   "home": "https://www.gooood.cn/",
+   "note": "谷德、有方没有可用的 RSS，用 Google 新闻站内搜索代替",
+   "url": "https://news.google.com/rss/search?q=%28%E5%A4%AF%E5%9C%9F+OR+%E7%94%9F%E5%9C%9F+OR+%E5%9C%9F%E5%9D%AF%29+%28site%3Agooood.cn+OR+site%3Aarchiposition.com%29+when%3A30d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+  },
+  {
+   "id": "gnews-awards",
+   "name": "Google 新闻 · 建筑奖项",
+   "kind": "rss",
+   "group": "platform",
+   "tier": "T2",
+   "lang": "en",
+   "aspect": "奖项",
+   "filter": false,
+   "max_new": 4,
+   "home": "https://www.materiaaward.com/en/",
+   "note": "materia award（TERRA Award 的延续）、Terra Landscape Award、Aga Khan 建筑奖、Obel Award、Holcim Awards",
+   "url": "https://news.google.com/rss/search?q=%28%22materia+award%22+OR+%22TERRA+Award%22+OR+%22Terra+Landscape%22+OR+%22Aga+Khan+Award+for+Architecture%22+OR+%22Obel+Award%22+OR+%22Holcim+Awards%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+   "id": "obel",
+   "name": "Obel Award 新闻",
+   "kind": "rss",
+   "group": "platform",
+   "tier": "T2",
+   "lang": "en",
+   "aspect": "奖项",
+   "filter": true,
+   "max_new": 5,
+   "url": "https://obelaward.org/feed/",
+   "home": "https://obelaward.org/"
+  },
+  {
+   "id": "youtube-org",
+   "name": "YouTube · 生土机构、品牌与建筑师",
+   "kind": "rss",
+   "group": "people",
+   "tier": "T1",
+   "lang": "multi",
+   "aspect": "项目、产品、教程",
+   "filter": false,
+   "max_new": 10,
+   "home": "https://www.youtube.com/",
+   "urls": [
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9HfEFwOmVXdYI15pZSyacQ",
+     "label": "amàco",
+     "home": "https://www.youtube.com/@atelier_amaco"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC20pE733wrNz-i2BH9y9YRQ",
+     "label": "CRAterre",
+     "home": "https://www.youtube.com/channel/UC20pE733wrNz-i2BH9y9YRQ"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2qdwLHJSyS0wSL0_V7y5HQ",
+     "label": "BC architects & studies & materials",
+     "home": "https://www.youtube.com/channel/UC2qdwLHJSyS0wSL0_V7y5HQ"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCq_GbbG6-daLMBAYt7AaktA",
+     "label": "Léém works（BC materials）",
+     "home": "https://www.youtube.com/channel/UCq_GbbG6-daLMBAYt7AaktA"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJvhsFDR8KbgX0BehuuEZEw",
+     "label": "Studio Anna Heringer",
+     "home": "https://www.youtube.com/@StudioAnnaHeringer"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9tEIwoUYwPaHBqXkDLUCiA",
+     "label": "BASEhabitat",
+     "home": "https://www.youtube.com/channel/UC9tEIwoUYwPaHBqXkDLUCiA"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAGav3N5oD3HCerA1cz9RaA",
+     "label": "ClayTec",
+     "home": "https://www.youtube.com/@ClayTec_Lehmbaustoffe"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcjnTmFbWu6MWj4hPAqShqg",
+     "label": "conluto",
+     "home": "https://www.youtube.com/channel/UCcjnTmFbWu6MWj4hPAqShqg"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuktkoplna--QVY0KvZ0pkg",
+     "label": "Earth Building UK & Ireland",
+     "home": "https://www.youtube.com/@EarthBuildingUKIreland"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZvsDWnRIyth3pggKMnYd2Q",
+     "label": "Earth Building Association of Australia",
+     "home": "https://www.youtube.com/channel/UCZvsDWnRIyth3pggKMnYd2Q"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUdlfmuUv3eGeYWfKiD4rPw",
+     "label": "無止橋 Wu Zhi Qiao",
+     "home": "https://www.youtube.com/@WZQCF2007"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_6bbGl7nZwuaj3ZuPIb4zw",
+     "label": "Caravane Earth",
+     "home": "https://www.youtube.com/@caravaneearth"
+    }
+   ]
+  },
+  {
+   "id": "eartharchitecture-blog",
+   "name": "Earth Architecture 博客（eartharchitecture.org）",
+   "kind": "rss",
+   "group": "people",
+   "tier": "T2",
+   "lang": "en",
+   "aspect": "项目、研究",
+   "filter": false,
+   "url": "https://eartharchitecture.org/?feed=rss2",
+   "home": "https://eartharchitecture.org/"
+  },
+  {
+   "id": "youtube-makers",
+   "name": "YouTube · 生土工匠与创作者",
+   "kind": "rss",
+   "group": "social",
+   "tier": "T2",
+   "lang": "multi",
+   "aspect": "工艺、教程",
+   "filter": false,
+   "max_new": 8,
+   "home": "https://www.youtube.com/",
+   "urls": [
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0EMrvl54cJ9xW4pP5WTOcw",
+     "label": "Redefine & Design Rammed Earth",
+     "home": "https://www.youtube.com/@RedefineandDesign"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCs6W_p4Oqu0QvuQOAa4uicg",
+     "label": "Rammed Earth Infomation（Clifton Schooley & Associates）",
+     "home": "https://www.youtube.com/@RammedEarthInfomati"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCR5dBwOoMNS7BDl45n5Gjsw",
+     "label": "Die Lehmschule",
+     "home": "https://www.youtube.com/@die.lehmschule"
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAXJJ2UhfHFfO5oDBtAlq-A",
+     "label": "This Cob House",
+     "home": "https://www.youtube.com/@thiscobhouse",
+     "filter": true
+    },
+    {
+     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCd3X3x3GctbQmQHg2azGmqg",
+     "label": "Thannal Natural Homes",
+     "home": "https://www.youtube.com/@ThannalNaturalHomes",
+     "filter": true
+    }
+   ]
+  },
+  {
+   "id": "mastodon-tags",
+   "name": "Mastodon 话题标签",
+   "kind": "rss",
+   "group": "social",
+   "tier": "T2",
+   "lang": "multi",
+   "aspect": "讨论、项目",
+   "filter": true,
+   "max_new": 8,
+   "home": "https://mastodon.social/tags/rammedearth",
+   "urls": [
+    {
+     "url": "https://mastodon.social/tags/rammedearth.rss",
+     "label": "#rammedearth",
+     "home": "https://mastodon.social/tags/rammedearth"
+    },
+    {
+     "url": "https://mastodon.social/tags/earthbuilding.rss",
+     "label": "#earthbuilding",
+     "home": "https://mastodon.social/tags/earthbuilding"
+    },
+    {
+     "url": "https://mastodon.social/tags/earthenarchitecture.rss",
+     "label": "#earthenarchitecture",
+     "home": "https://mastodon.social/tags/earthenarchitecture"
+    },
+    {
+     "url": "https://mastodon.social/tags/lehmbau.rss",
+     "label": "#lehmbau",
+     "home": "https://mastodon.social/tags/lehmbau"
+    },
+    {
+     "url": "https://mastodon.social/tags/stampflehm.rss",
+     "label": "#stampflehm",
+     "home": "https://mastodon.social/tags/stampflehm"
+    },
+    {
+     "url": "https://mastodon.social/tags/lehmputz.rss",
+     "label": "#lehmputz",
+     "home": "https://mastodon.social/tags/lehmputz"
+    },
+    {
+     "url": "https://mastodon.social/tags/terrecrue.rss",
+     "label": "#terrecrue",
+     "home": "https://mastodon.social/tags/terrecrue"
+    },
+    {
+     "url": "https://mastodon.social/tags/mudbrick.rss",
+     "label": "#mudbrick",
+     "home": "https://mastodon.social/tags/mudbrick"
+    }
+   ]
   }
  ]
 }

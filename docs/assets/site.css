@@ -70,3 +70,7 @@ body.fd { font-family: var(--fd-font); }
 .ebw-table th, .ebw-table td { white-space: nowrap; }
 .ebw-table td:first-child { white-space: normal; min-width: 180px; }
 .ebw-table th, .ebw-table td { padding: 11px 12px; }
+.ebw-members { margin-top: 4px; font-size: 12px; font-weight: 400; line-height: 1.6; color: var(--fd-muted-2); white-space: normal; }
+.ebw-members a { color: var(--fd-muted); }
+.ebw-table td:first-child { min-width: 240px; max-width: 460px; }
+.ebw-actions code { font-size: 12px; color: var(--fd-muted); word-break: break-all; }

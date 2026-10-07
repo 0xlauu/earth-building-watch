@@ -1,0 +1,146 @@
+{
+ "$comment": "没有合法免登录接口的平台：脚本不抓。Lau 看到好内容就转发给机器人（贴链接或截图），机器人按 EDITOR.md 第 1c 步手工加入待审。账号只列核实过的。",
+ "platforms": [
+  {
+   "platform": "Instagram",
+   "why": "需要登录，没有公开 RSS",
+   "accounts": [
+    {
+     "name": "amàco",
+     "handle": "@atelier_amaco",
+     "url": "https://www.instagram.com/atelier_amaco/",
+     "verified": "amaco.org 官网链接"
+    },
+    {
+     "name": "BC architects & studies & materials",
+     "handle": "@bc_asm",
+     "url": "https://www.instagram.com/bc_asm/",
+     "verified": "bcmaterials.org 官网链接"
+    },
+    {
+     "name": "Claytec",
+     "handle": "@claytec_lehmbaustoffe",
+     "url": "https://www.instagram.com/claytec_lehmbaustoffe/",
+     "verified": "claytec.de 官网链接"
+    },
+    {
+     "name": "Clayworks",
+     "handle": "@clayworksclayplasters",
+     "url": "https://www.instagram.com/clayworksclayplasters/",
+     "verified": "clay-works.com 官网链接"
+    },
+    {
+     "name": "EBUKI",
+     "handle": "@ebukigram",
+     "url": "https://www.instagram.com/ebukigram/",
+     "verified": "ebuki.co 官网链接"
+    },
+    {
+     "name": "ICOMOS-ISCEAH",
+     "handle": "@isceah.icomos",
+     "url": "https://www.instagram.com/isceah.icomos/",
+     "verified": "isceah.icomos.org 官网链接"
+    },
+    {
+     "name": "Dachverband Lehm（德国生土协会）",
+     "handle": "@dachverband.lehm",
+     "url": "https://www.instagram.com/dachverband.lehm/",
+     "verified": "dachverband-lehm.de 官网链接"
+    },
+    {
+     "name": "BASEhabitat",
+     "handle": "@basehabitat",
+     "url": "https://www.instagram.com/basehabitat/",
+     "verified": "basehabitat.org 官网链接"
+    },
+    {
+     "name": "conluto",
+     "handle": "@conluto",
+     "url": "https://www.instagram.com/conluto/",
+     "verified": "conluto.de 官网链接"
+    },
+    {
+     "name": "SIACOT 生土建筑大会",
+     "handle": "@siacot_",
+     "url": "https://www.instagram.com/siacot_/",
+     "verified": "redproterra.org 官网链接"
+    }
+   ],
+   "tip": "在 Instagram 搜 #rammedearth #stampflehm #terrecrue #夯土"
+  },
+  {
+   "platform": "LinkedIn",
+   "why": "需要登录，没有公开 RSS",
+   "accounts": [
+    {
+     "name": "Anna Heringer",
+     "url": "https://www.linkedin.com/in/anna-heringer-488a0452",
+     "verified": "她自己的 LinkedIn 公开帖子"
+    },
+    {
+     "name": "LEHM TON ERDE（Martin Rauch）",
+     "url": "https://www.linkedin.com/company/lehmtonerde-at",
+     "verified": "公司公开帖子的地址"
+    },
+    {
+     "name": "BC materials",
+     "url": "https://www.linkedin.com/company/bcmaterials/",
+     "verified": "bcmaterials.org 官网链接"
+    },
+    {
+     "name": "Dachverband Lehm",
+     "url": "https://www.linkedin.com/company/dachverband-lehm/",
+     "verified": "dachverband-lehm.de 官网链接"
+    },
+    {
+     "name": "BASEhabitat",
+     "url": "https://www.linkedin.com/company/basehabitat",
+     "verified": "basehabitat.org 官网链接"
+    }
+   ],
+   "tip": "关注 BC materials、CRAterre、Oxara、Auroville Earth Institute 等公司页"
+  },
+  {
+   "platform": "小红书",
+   "why": "需要登录，没有公开接口",
+   "accounts": [],
+   "tip": "搜 夯土、生土墙、土坯房改造、硅藻泥/粘土涂料 对比"
+  },
+  {
+   "platform": "微信公众号",
+   "why": "没有公开接口；第三方转 RSS 服务不稳定也不合规",
+   "accounts": [],
+   "tip": "搜 穆钧 / 土上建筑工作室（北京建筑大学）、无止桥、谷德设计网、有方。谷德的生土专辑已由 Google 新闻站内搜索自动收"
+  },
+  {
+   "platform": "Reddit",
+   "why": "Reddit 屏蔽了云端电脑和抓取服务的网络（403）",
+   "accounts": [
+    {
+     "name": "r/NaturalBuilding",
+     "url": "https://www.reddit.com/r/NaturalBuilding/"
+    },
+    {
+     "name": "r/RammedEarth",
+     "url": "https://www.reddit.com/r/RammedEarth/"
+    },
+    {
+     "name": "r/cobhouses",
+     "url": "https://www.reddit.com/r/cobhouses/"
+    }
+   ],
+   "tip": "讨论区，适合看施工问题"
+  },
+  {
+   "platform": "Bluesky",
+   "why": "能免登录抓，但生土内容太少（相关账号多半一年没发帖），先不接",
+   "accounts": [
+    {
+     "name": "Earthbuilding School",
+     "url": "https://bsky.app/profile/earthbuildingschool.com"
+    }
+   ],
+   "tip": "以后活跃了再加：bsky.app/profile/<账号>/rss"
+  }
+ ]
+}

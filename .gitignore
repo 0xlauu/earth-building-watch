@@ -7,3 +7,5 @@ out/
 logs/
 __pycache__/
 *.tmp
+data/x/inbox/
+tmp/

@@ -10,7 +10,10 @@
 
 | 文件 | 谁写 | 内容 |
 |---|---|---|
-| `sources.json` | 人 | 信源、分级（T1 / T1_5 / T2）、关键词过滤 |
+| `sources.json` | 人 | 自动信源、分级（T1 / T1_5 / T2）、分组 group、关键词过滤。一个信源可有多个地址（urls） |
+| `sources_x.json` | 人 | X 账号（已核实）和 4 组搜索。由编辑机器人通过 X 连接器抓 |
+| `sources_manual.json` | 人 | 不能自动抓的平台（Instagram、LinkedIn、小红书、公众号、Reddit、Bluesky），靠 Lau 转发 |
+| `data/x/inbox/YYYY-MM-DD/*.json` | 编辑 | X 连接器的原样返回（不进 GitHub） |
 | `data/raw/items.json` | `fetch.py` | 原始库。每条有 id、首次见到时间 first_seen、状态。去重，旧条目不会再进待审 |
 | `data/fetch-state.json` | `fetch.py` | 每个信源上次成功时间、错误、累计条数 |
 | `data/pending.json` | `fetch.py` / `build.py` | **编辑读这个**。状态为 pending 且还没被任何编辑文件处理过的条目 |
@@ -29,6 +32,39 @@ bash scripts/ensure-scheduler.sh          # ① 确认 cron 活着；超过 13 �
 python3 scripts/fetch.py --pending-only    # ② 刷新待审队列（不联网）
 python3 -c "import json;d=json.load(open('data/pending.json'));print(d['count'])"   # ③ 看有几条
 ```
+
+### 1b. X（每天一次，在 ③ 之后、④ 之前）
+
+定时脚本没有 X 权限，这一步由编辑机器人做。最多 4 次调用，每次最多 10 条，约 0.2 美元/天。
+
+```bash
+python3 scripts/x_ingest.py --plan     # 打印今天 4 次调用的完整参数和要存的文件名
+```
+
+对 `--plan` 打印的每一组：
+1. 调用 X 连接器：namespace `user-X`，工具 `search_posts_all`，参数**原样**用打印出的那行 JSON（不要改 query，不要加大 max_results，不要翻页）。
+2. 把返回的 JSON **原样**写进它后面写的文件，例如 `data/x/inbox/2026-10-08/x-people.json`。返回 `{"meta":{"result_count":0}}` 也要存。
+3. 某次调用报错：跳过这一组，汇报里写一句“X 第几组失败”。不要重试超过 1 次。
+
+四组都存好后：
+
+```bash
+python3 scripts/x_ingest.py "data/x/inbox/$(date +%F)/*.json"   # 导入；自动去重、过滤、写 pending.json
+```
+
+不要每天先查 `get_usage_credits`；每周一查一次余额，写进周报汇报。余额低于 2 美元时，只跑 x-people 和 x-platforms 两组。
+
+### 1c. Lau 转发的内容（有就做）
+
+Lau 转发了链接或截图（Instagram、LinkedIn、小红书、公众号等）：
+- 打开链接核实内容。打不开、看不到原文，就不收。
+- 收的话，在今天的编辑文件里**不能**直接写这条（原始库里没有 id 会被拒）。先追加到原始库：
+
+```bash
+python3 scripts/add_manual.py --url "原文链接" --title "原标题" --source "Instagram · @账号" --published 2026-10-08 --snippet "原文要点（照抄，不编）"
+```
+
+  它会生成 id，并放进待审队列，然后正常编辑。
 
 ④ 读 `data/pending.json` 的每一条（title、snippet、url、source_name、tier、published_at）。
    按第 2-4 节给每一条写一个决定。**每一条都要有决定**，不能漏。
@@ -54,6 +90,13 @@ python3 scripts/status.py                                        # 打印给汇�
 4. `unverified`：链接打不开、内容只有标题、查不到原文，事实无法确认。
 5. `noise`：广告、招聘、目录页、纯转载没有新信息、活动早已结束的回顾。
 6. `low_score`：相关但打分低于 40。必须写 scores 和 score。
+
+**社交媒体条目（X、YouTube、Mastodon）注意：**
+- 默认可信度 `cred` 不超过 5。帖子只是线索：能找到正式出处（官网、媒体、论文）才给高分，并用 `url_override` 换成正式出处。
+- X 关键词搜索噪音大：诗句、旅游照、“on earth. Building…”这类拼接，一律 `irrelevant`。
+- YouTube #shorts、品牌花絮、同一账号重复发的同一项目，用 `noise`。
+- 無止橋 Wu Zhi Qiao 的视频有时讲乡村实践而不是生土，看内容再判断。
+- 同一件事网站和 X 都有：保留网站那条，X 那条 `merged`。
 
 **Crossref 注意：** 它按 DOI 注册时间取，会带出旧论文（例如 2023 年会议论文今年才登记）。不算 old，可以保留，但 summary 里写明原始年份。
 
@@ -139,4 +182,6 @@ python3 scripts/status.py                                        # 打印给汇�
 
 - 某信源连续失败：`python3 scripts/status.py` 会列出来。查 `logs/fetch.log`，修 `sources.json`。
 - 新增信源：在 `sources.json` 加一条。第一次只收最近 48 小时的内容，不会灌入旧文。
-- 噪音太多：改该信源的 `query` 或打开 `filter: true`（用生土关键词过滤）。
+- 噪音太多：改该信源的 `query`，或打开 `filter: true`（用生土关键词过滤），或加 `exclude_title`（标题正则，命中就不收）。多地址信源可以对单个地址设 `filter`。
+- 加 X 账号：先用 X 连接器 `get_users_by_usernames` 核实（看简介、发帖数），再写进 `sources_x.json` 的 accounts，并把它加进 x-people 的 query。不核实不加。
+- YouTube 频道：用频道 id 拼 `https://www.youtube.com/feeds/videos.xml?channel_id=UC…`，先抓一次确认有内容。
