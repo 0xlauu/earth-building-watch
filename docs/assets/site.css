@@ -67,3 +67,6 @@ body.fd { font-family: var(--fd-font); }
   .ebw-card h3 { font-size: 17px; }
   .ebw-score { margin-left: 0; }
 }
+.ebw-table th, .ebw-table td { white-space: nowrap; }
+.ebw-table td:first-child { white-space: normal; min-width: 180px; }
+.ebw-table th, .ebw-table td { padding: 11px 12px; }
