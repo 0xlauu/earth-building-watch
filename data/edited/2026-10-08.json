@@ -1,0 +1,127 @@
+{
+ "date": "2026-10-08",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-08T09:15:26+08:00",
+ "lead": "今天待审 16 条，精选 1 条，简讯 1 条。精选是一篇论文：牛粪加木屑稳定生土砂浆，强度明显提高。简讯是以色列团队用 3D 打印土砖围合橄榄树的展亭。X 上的泰缅边境土坯教室是 2025 年旧项目，已剔除。",
+ "actions": [
+  "找牛粪加木屑生土砂浆论文原文，按 7.5% 和 10% 掺量做抹面小样",
+  "留意 Belval & Parquet 奥尔梅松 46 户社会住宅，等官方确认是否用生土抹面"
+ ],
+ "items": [
+  {
+   "id": "b12c20a2577f",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 5,
+    "cred": 8,
+    "reson": 8,
+    "act": 6
+   },
+   "score": 60,
+   "title_zh": "论文：牛粪加木屑稳定生土砂浆，抗压强度提高约四成",
+   "summary_zh": "论文发表在英国土木工程师学会期刊。作者在本地黏土里掺 2.5% 到 10% 的牛粪和木屑。掺量 7.5% 时抗压强度提高约 40%。掺量 10% 时抗拉强度接近翻倍。抗折强度提高 68%。密度下降 14% 到 21%。建议掺量 7.5% 到 10%。",
+   "for_you": "生土抹面和砌筑砂浆可以试这个配方。它更轻也更强，可做低碳卖点。耐水性要自己复测。"
+  },
+  {
+   "id": "2304e8c3c442",
+   "decision": "brief",
+   "category": "project",
+   "scores": {
+    "sig": 5,
+    "nov": 8,
+    "cred": 6,
+    "reson": 6,
+    "act": 4
+   },
+   "score": 58,
+   "title_zh": "以色列理工用 178 块 3D 打印土砖围合橄榄树展亭",
+   "summary_zh": "以色列理工学院 MTRL 实验室和魏茨曼研究所树木实验室建成 BUSTAN 展亭，在霍隆设计博物馆展出。178 块土砖用本地土、植物纤维和矿物胶结料，由机械臂逐层打印。"
+  },
+  {
+   "id": "ffa6d3b4892c",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "巴拉圭森林环境案件，与生土无关"
+  },
+  {
+   "id": "c86e499bd652",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "垃圾应用下载页"
+  },
+  {
+   "id": "de49cb411b81",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "泛谈中国文物保护用 AI，未涉及生土"
+  },
+  {
+   "id": "cd21d189d428",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "项目 2025 年 1-2 月建成，art4d 2025 年 8 月已报道"
+  },
+  {
+   "id": "d934de58e3bf",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "泛泛介绍伊朗传统生土建筑，无新信息"
+  },
+  {
+   "id": "8991bcf8842c",
+   "decision": "drop",
+   "drop_reason": "unverified",
+   "note": "项目存在，但查不到官方出处确认用了生土抹面"
+  },
+  {
+   "id": "bf890ca30bf4",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "概念图描述，无项目出处"
+  },
+  {
+   "id": "7fa4620ffe8d",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "旅游演出，夯土寨门只是背景"
+  },
+  {
+   "id": "57747ceffb58",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "诗句"
+  },
+  {
+   "id": "5d903dc148f0",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "个人感慨，无信息"
+  },
+  {
+   "id": "52fc3bacbeb8",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "YouTube shorts 课程推广"
+  },
+  {
+   "id": "b6cfc5095524",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "仿夯土柔性饰面板广告"
+  },
+  {
+   "id": "097353404c3d",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "仿夯土柔性饰面板广告，同账号重复"
+  },
+  {
+   "id": "a9999f2a4798",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "仿夯土柔性饰面板广告，同账号重复"
+  }
+ ]
+}
