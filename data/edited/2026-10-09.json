@@ -1,0 +1,151 @@
+{
+ "date": "2026-10-09",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-09T10:05:44+08:00",
+ "lead": "今天待审 18 条，精选 1 条，简讯 2 条。精选是 Architectural Review 报道 Anna Heringer 在德国特劳恩施泰因的露天承重夯土论坛。简讯有土耳其生土教学论文，以及墨西哥阿莫纳住宅用土坯做填充墙。",
+ "actions": [
+  "读 AR 特劳恩施泰因专文，对照 Lehm Ton Erde 预制夯土模块做法",
+  "阿莫纳住宅：土坯只做非承重填充，可作当代住宅卖点参考"
+ ],
+ "items": [
+  {
+   "id": "4d4043c6ff3a",
+   "decision": "pick",
+   "category": "project",
+   "scores": {
+    "sig": 9,
+    "nov": 7,
+    "cred": 9,
+    "reson": 9,
+    "act": 6
+   },
+   "score": 80,
+   "title_zh": "Anna Heringer 特劳恩施泰因校园：德国首座露天承重夯土论坛",
+   "summary_zh": "AR 10 月刊报道 Anna Heringer 在特劳恩施泰因 Campus St. Michael 的木构宿舍与夯土论坛。论坛约 1 米厚夯土墙承托混凝土屋顶，是德国首座露天承重夯土建筑。墙体由奥地利 Lehm Ton Erde 预制运到现场，约 2025 年 11 月开放。",
+   "for_you": "大型公共夯土可走预制模块加审批路径。可对照你的模具与交付方式。",
+   "url_override": "https://www.architectural-review.com/buildings/holy-ground-dormitories-and-forum-in-traunstein-germany-by-studio-anna-heringer"
+  },
+  {
+   "id": "dcc74596d155",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 5,
+    "cred": 8,
+    "reson": 6,
+    "act": 5
+   },
+   "score": 57,
+   "title_zh": "论文：土耳其建筑教育应补上生土材料素养",
+   "summary_zh": "论文 2026 年 8 月 20 日刊于 EAAE 年会文集。作者认为土耳其建筑教育偏重工业材料，主张用 1:1 工坊学生土。DOI 今年 10 月才登记。",
+   "url_override": "https://publishings.eaae.eu/index.php/annual_conference/article/view/490"
+  },
+  {
+   "id": "bf25281120f1",
+   "decision": "brief",
+   "category": "project",
+   "scores": {
+    "sig": 5,
+    "nov": 5,
+    "cred": 6,
+    "reson": 7,
+    "act": 4
+   },
+   "score": 55,
+   "title_zh": "墨西哥阿莫纳住宅：土坯做非承重填充墙",
+   "summary_zh": "谷德 10 月 9 日刊出 COLAR 的 Casa Amona，在墨西哥圣克里斯托瓦尔，2025 年建成。住宅 155 平方米。承重用砌块和砖，非承重填充用土坯，另有石灰抹面。",
+   "url_override": "https://www.gooood.cn/casa-amona-by-colar-colectivo-de-arquitectura.htm"
+  },
+  {
+   "id": "a38f41383d61",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "Educare 体育设施 2001 年项目，仅顺带提到旧土坯仓库遗址"
+  },
+  {
+   "id": "028459e4f1be",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "长征与乡村振兴软文，土坯房是脱贫背景，非生土建筑"
+  },
+  {
+   "id": "7452f06e844b",
+   "decision": "drop",
+   "drop_reason": "unverified",
+   "note": "仅有标题，打不开风闻原文，无法确认是否涉及生土"
+  },
+  {
+   "id": "b55c40160d53",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "个人发帖说在做夯土，无出处"
+  },
+  {
+   "id": "519fb2dce749",
+   "decision": "drop",
+   "drop_reason": "unverified",
+   "note": "De Standaard 原文打不开，转载事实不足"
+  },
+  {
+   "id": "8ee9a3482576",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "拆字抒情帖，夯土小屋只是修辞"
+  },
+  {
+   "id": "e65f0b55ded4",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "兵团回忆散文，土坯房是童年住房，非生土行业"
+  },
+  {
+   "id": "7473294279c5",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "平遥古城旅游宣传，无新信息"
+  },
+  {
+   "id": "c15fd53beaea",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "机构参观交流帖，无新项目或产品细节"
+  },
+  {
+   "id": "438993ee4435",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "Pixelfed 标签配图，无内容"
+  },
+  {
+   "id": "848c5c9d26f4",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "理论低成本预算畅想，非建成案例"
+  },
+  {
+   "id": "24f5c79b2754",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "泛泛谈夯土调湿，无出处"
+  },
+  {
+   "id": "d5319480adc4",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "YouTube 课程推广"
+  },
+  {
+   "id": "30e590636389",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "奥斯陆三年展已于 10 月 1 日结束，Wallpaper 9 月 22 日旧稿"
+  },
+  {
+   "id": "b06cc77f9434",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "个人锤击对比视频，无正式出处"
+  }
+ ]
+}
