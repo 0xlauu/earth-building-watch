@@ -1,37 +1,78 @@
 {
- "date": "2026-10-09",
- "lead": "今天待审 18 条，精选 1 条，简讯 2 条。精选是 Architectural Review 报道 Anna Heringer 在德国特劳恩施泰因的露天承重夯土论坛。简讯有土耳其生土教学论文，以及墨西哥阿莫纳住宅用土坯做填充墙。",
+ "date": "2026-10-10",
+ "lead": "今天精选 Claytec 推介的德国生土协会免费网课第二季，以及 Atmosphere 纪录片中的 Heringer 与 Rauch 夯土实践；另有山西夯土遗产气候受潮报道和三篇生土材料论文。",
  "actions": [
-  "读 AR 特劳恩施泰因专文，对照 Lehm Ton Erde 预制夯土模块做法",
-  "阿莫纳住宅：土坯只做非承重填充，可作当代住宅卖点参考"
+  "预约 Down to Earth：10月22日起每周四 Zoom",
+  "读 Atmosphere 相关报道，对照预制夯土话术",
+  "跟进生物聚合物疏水改性论文全文"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-09.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-10.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W41.html",
  "counts": {
-  "pick": 1,
+  "pick": 6,
   "brief": 2,
-  "drop": 15,
+  "drop": 12,
   "merged": 0
  },
  "picks": [
   {
-   "title": "Anna Heringer 特劳恩施泰因校园：德国首座露天承重夯土论坛",
-   "category": "项目案例",
-   "score": 80,
-   "for_you": "大型公共夯土可走预制模块加审批路径。可对照你的模具与交付方式。",
-   "url": "https://www.architectural-review.com/buildings/holy-ground-dormitories-and-forum-in-traunstein-germany-by-studio-anna-heringer",
-   "source": "The Architectural Review"
+   "title": "德生土协会 Down to Earth 第二季免费网课",
+   "category": "活动与赛事",
+   "score": 81,
+   "for_you": "免费系统课，可跟产品和工法对照。1月28日那场直接相关。",
+   "url": "https://claytec.de/down-to-earth-ringvorlesung-lehmbau/",
+   "source": "Claytec"
+  },
+  {
+   "title": "论文：生物聚合物稳生土疏水改性提耐水",
+   "category": "研究论文",
+   "score": 72,
+   "for_you": "抹面与外墙耐水是客户常问点。可跟进改性路线与可施工性。",
+   "url": "https://doi.org/10.1016/j.jobe.2026.117545",
+   "source": "Journal of Building Engineering"
+  },
+  {
+   "title": "Atmosphere 纪录片聚焦 Heringer 与 Rauch",
+   "category": "行业与市场",
+   "score": 72,
+   "for_you": "大众舆论窗口。可借片中预制构件说法谈你的模块交付。",
+   "url": "https://www.derstandard.at/story/3000000343233/erwin-wagenhofers-atmosphere-nicht-nur-philosophieren-sondern-handeln",
+   "source": "derStandard.de"
+  },
+  {
+   "title": "论文：空心玻璃微珠增强生土砌体抗寒",
+   "category": "研究论文",
+   "score": 67,
+   "for_you": "寒区保温与轻质改性方向，可对照你的骨料与配比试验。",
+   "url": "https://doi.org/10.1016/j.istruc.2026.113251",
+   "source": "Structures"
+  },
+  {
+   "title": "山西低级别文物多雨致夯土墙软化塌损",
+   "category": "遗产保护",
+   "score": 66,
+   "for_you": "国内遗产修缮与排水需求上升。可跟进防潮与抢险材料场景。",
+   "url": "https://www.163.com/dy/article/L8PLQMDQ0512D3VJ.html",
+   "source": "搜狐网"
+  },
+  {
+   "title": "论文：西北夯土遗址剥落的颗粒聚集分散机制",
+   "category": "研究论文",
+   "score": 63,
+   "for_you": "遗产与干旱区墙面劣化机理，可对照你工地的表面风化。",
+   "url": "https://doi.org/10.1007/s10035-026-01706-z",
+   "source": "Granular Matter"
   }
  ],
  "briefs": [
   {
-   "title": "论文：土耳其建筑教育应补上生土材料素养",
-   "url": "https://publishings.eaae.eu/index.php/annual_conference/article/view/490"
+   "title": "卡尔卡松中学生生土砖项目获奖展出",
+   "url": "https://www.lindependant.fr/2026/10/09/proteger-la-planete-explorer-la-lune-les-sciences-a-la-portee-de-tous-au-lycee-charlemagne-a-carcassonne-13593270.php"
   },
   {
-   "title": "墨西哥阿莫纳住宅：土坯做非承重填充墙",
-   "url": "https://www.gooood.cn/casa-amona-by-colar-colectivo-de-arquitectura.htm"
+   "title": "论文：遗产夯土结构势能 DEM 接触模型",
+   "url": "https://doi.org/10.1016/j.enganabound.2026.107089"
   }
  ]
 }

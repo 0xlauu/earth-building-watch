@@ -1,0 +1,219 @@
+{
+ "date": "2026-10-10",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-10T09:25:00+08:00",
+ "lead": "今天精选 Claytec 推介的德国生土协会免费网课第二季，以及 Atmosphere 纪录片中的 Heringer 与 Rauch 夯土实践；另有山西夯土遗产气候受潮报道和三篇生土材料论文。",
+ "actions": [
+  "预约 Down to Earth：10月22日起每周四 Zoom",
+  "读 Atmosphere 相关报道，对照预制夯土话术",
+  "跟进生物聚合物疏水改性论文全文"
+ ],
+ "items": [
+  {
+   "id": "14e27dd9807f",
+   "decision": "pick",
+   "category": "event",
+   "scores": {
+    "sig": 7,
+    "nov": 6,
+    "cred": 9,
+    "reson": 8,
+    "act": 9
+   },
+   "score": 81,
+   "title_zh": "德生土协会 Down to Earth 第二季免费网课",
+   "summary_zh": "Claytec 推介 Dachverband Lehm 第二季讲座。2026年10月22日至2027年2月25日，每周四16:00–17:30 Zoom，共16场免费。Ulrich Röhlen 将于2027年1月28日讲生土抹面与干法内装。",
+   "for_you": "免费系统课，可跟产品和工法对照。1月28日那场直接相关。",
+   "url_override": "https://claytec.de/down-to-earth-ringvorlesung-lehmbau/"
+  },
+  {
+   "id": "4196a75618cc",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 6,
+    "nov": 6,
+    "cred": 8,
+    "reson": 7,
+    "act": 4
+   },
+   "score": 63,
+   "title_zh": "论文：西北夯土遗址剥落的颗粒聚集分散机制",
+   "summary_zh": "Granular Matter 将刊论文（Crossref 标 2026年11月）。作者 Cui 等研究中国西北夯土遗址表面剥落中颗粒聚集与分散分异机制。DOI 于本周登记。",
+   "for_you": "遗产与干旱区墙面劣化机理，可对照你工地的表面风化。",
+   "url_override": "https://doi.org/10.1007/s10035-026-01706-z"
+  },
+  {
+   "id": "191ac6332ec1",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 7,
+    "nov": 7,
+    "cred": 8,
+    "reson": 8,
+    "act": 6
+   },
+   "score": 72,
+   "title_zh": "论文：生物聚合物稳生土疏水改性提耐水",
+   "summary_zh": "Journal of Building Engineering 将刊论文（Crossref 标 2026年10月）。作者 Gu、Ni、Chen 研究生物聚合物稳定生土材料的疏水改性，目标提高水稳定与湿耐久。DOI 本周登记。",
+   "for_you": "抹面与外墙耐水是客户常问点。可跟进改性路线与可施工性。",
+   "url_override": "https://doi.org/10.1016/j.jobe.2026.117545"
+  },
+  {
+   "id": "cc09d098ef7e",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 8,
+    "reson": 6,
+    "act": 3
+   },
+   "score": 58,
+   "title_zh": "论文：遗产夯土结构势能 DEM 接触模型",
+   "summary_zh": "Engineering Analysis with Boundary Elements 将刊（标2027年1月）。Ge等提出面向遗产夯土的结构势能DEM接触模型。DOI本周登记。",
+   "url_override": "https://doi.org/10.1016/j.enganabound.2026.107089"
+  },
+  {
+   "id": "256737066fa3",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 6,
+    "nov": 7,
+    "cred": 8,
+    "reson": 7,
+    "act": 5
+   },
+   "score": 67,
+   "title_zh": "论文：空心玻璃微珠增强生土砌体抗寒",
+   "summary_zh": "Structures 将刊论文（Crossref 标 2026年12月）。Ding、Wang、Yang 研究空心玻璃微珠增强生土砌体墙在严寒地区的力学与热工性能。DOI 本周登记。",
+   "for_you": "寒区保温与轻质改性方向，可对照你的骨料与配比试验。",
+   "url_override": "https://doi.org/10.1016/j.istruc.2026.113251"
+  },
+  {
+   "id": "58ba9ef65b71",
+   "decision": "drop",
+   "drop_reason": "unverified",
+   "note": "Google新闻跳转打不开；无法核实是否生土相关"
+  },
+  {
+   "id": "dfca95325b30",
+   "decision": "drop",
+   "drop_reason": "duplicate",
+   "note": "与 58ba9ef65b71 同一报道"
+  },
+  {
+   "id": "9299f86b6f15",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "旅游风景照，无新事实"
+  },
+  {
+   "id": "8e64df4aa3ab",
+   "decision": "pick",
+   "category": "market",
+   "scores": {
+    "sig": 7,
+    "nov": 6,
+    "cred": 8,
+    "reson": 8,
+    "act": 5
+   },
+   "score": 72,
+   "title_zh": "Atmosphere 纪录片聚焦 Heringer 与 Rauch",
+   "summary_zh": "derStandard 2026年10月9日评 Erwin Wagenhofer 纪录片 Atmosphere（奥地利同日上映）。片中介绍建筑师 Anna Heringer 与夯土专家 Martin Rauch 的现代夯土实践，以及预制夯土构件替代混凝土的方向。",
+   "for_you": "大众舆论窗口。可借片中预制构件说法谈你的模块交付。",
+   "url_override": "https://www.derstandard.at/story/3000000343233/erwin-wagenhofers-atmosphere-nicht-nur-philosophieren-sondern-handeln"
+  },
+  {
+   "id": "682a4a77bf08",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "治黄口述史，非生土建筑"
+  },
+  {
+   "id": "a1675316baa6",
+   "decision": "pick",
+   "category": "heritage",
+   "scores": {
+    "sig": 7,
+    "nov": 5,
+    "cred": 8,
+    "reson": 7,
+    "act": 5
+   },
+   "score": 66,
+   "title_zh": "山西低级别文物多雨致夯土墙软化塌损",
+   "summary_zh": "新京报 2026年10月9日长篇报道。晋东南多雨使木构与夯土墙受潮软化、鼓包脱落；志愿者用彩钢瓦“撑伞”、社会认养抢修。山西省已发布气候变化下文化遗产保护行动指南。",
+   "for_you": "国内遗产修缮与排水需求上升。可跟进防潮与抢险材料场景。",
+   "url_override": "https://www.163.com/dy/article/L8PLQMDQ0512D3VJ.html"
+  },
+  {
+   "id": "21197d337247",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "水文站回忆，土坯房仅作环境描写"
+  },
+  {
+   "id": "2bd5728a7a15",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "胶合板住宅，非生土"
+  },
+  {
+   "id": "663d08b1e2ba",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "随口对比夯土墙，无资讯"
+  },
+  {
+   "id": "b964afc62501",
+   "decision": "brief",
+   "category": "event",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 7,
+    "reson": 7,
+    "act": 6
+   },
+   "score": 62,
+   "title_zh": "卡尔卡松中学生生土砖项目获奖展出",
+   "summary_zh": "L'Indépendant 10月9日报道。Cuxac-Cabardès中学生生土砖项目获2026年Jane Goodall奖，10月10日在卡尔卡松科学节展出。",
+   "url_override": "https://www.lindependant.fr/2026/10/09/proteger-la-planete-explorer-la-lune-les-sciences-a-la-portee-de-tous-au-lycee-charlemagne-a-carcassonne-13593270.php"
+  },
+  {
+   "id": "703b53e7e4e5",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "诗句式短帖，无事实"
+  },
+  {
+   "id": "23364d96041b",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "个人 cob 房改造短帖，无正式出处"
+  },
+  {
+   "id": "080d12aa1250",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "原文约2026年4月开业与报道，Google新闻重标日期"
+  },
+  {
+   "id": "ecf6b2a5e631",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "情绪短帖"
+  },
+  {
+   "id": "cf9f002bc54f",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "个人视频解说，无正式出处"
+  }
+ ]
+}
