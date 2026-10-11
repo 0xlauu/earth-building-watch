@@ -180,6 +180,88 @@ def parse_feed_strict(body):
     return out
 
 
+YT_FEED_RE = re.compile(r"youtube\.com/feeds/videos\.xml\?channel_id=(UC[\w-]{22})")
+_REL_UNITS = {"second": 1, "minute": 60, "hour": 3600, "day": 86400, "week": 604800, "month": 2592000, "year": 31536000}
+
+
+def _rel_age(text):
+    """“3 days ago”/“3d ago”/“Streamed 5 hours ago” -> 秒数；认不出返回 None。"""
+    m = re.search(r"(\d+)\s*(second|minute|hour|day|week|month|year|s|m|h|d|w|mo|y)\w*\s+ago", text or "", re.I)
+    if not m:
+        return None
+    u = m.group(2).lower()
+    u = {"s": "second", "m": "minute", "h": "hour", "d": "day", "w": "week", "mo": "month", "y": "year"}.get(u, u)
+    return int(m.group(1)) * _REL_UNITS[u]
+
+
+def fetch_youtube_channel_page(channel_id, max_items=15):
+    """YouTube 频道 RSS（feeds/videos.xml）自 2025-12 起经常整站返回 404。
+    这时改读公开的频道“视频”页（ytInitialData）。页面只给相对时间（“3 days ago”），
+    所以对一周内的视频再打开视频页取准确的 uploadDate；更早的按相对时间估算（只会被归档）。"""
+    hdr = {"Accept-Language": "en-US,en;q=0.9", "Cookie": "CONSENT=YES+cb; SOCS=CAI"}
+    m = None
+    for attempt in range(3):  # 偶尔会拿到同意页或精简页，重试几次
+        _, body = http_get(f"https://www.youtube.com/channel/{channel_id}/videos", headers=hdr)
+        m = re.search(r"var ytInitialData = (\{.*?\});</script>", body.decode("utf-8", "replace"), re.S)
+        if m:
+            break
+        time.sleep(3)
+    if not m:
+        raise RuntimeError("频道页没有 ytInitialData")
+    data = json.loads(m.group(1))
+    found = []
+
+    def walk(o):
+        if isinstance(o, dict):
+            if "lockupViewModel" in o:
+                found.append(o["lockupViewModel"])
+            elif "videoRenderer" in o:
+                found.append({"_vr": o["videoRenderer"]})
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+
+    walk(data)
+    out, seen, now = [], set(), datetime.now(timezone.utc)
+    for v in found:
+        try:
+            if "_vr" in v:
+                vr = v["_vr"]
+                vid, title = vr["videoId"], "".join(r.get("text", "") for r in vr["title"]["runs"])
+                rel = (vr.get("publishedTimeText") or {}).get("simpleText", "")
+            else:
+                if v.get("contentType") != "LOCKUP_CONTENT_TYPE_VIDEO":
+                    continue
+                vid = v["contentId"]
+                md = v["metadata"]["lockupMetadataViewModel"]
+                title = md["title"]["content"]
+                rel = " ".join(p.get("accessibilityLabel") or p.get("text", {}).get("content", "")
+                               for row in md.get("metadata", {}).get("contentMetadataViewModel", {}).get("metadataRows", [])
+                               for p in row.get("metadataParts", []))
+        except (KeyError, TypeError):
+            continue
+        if vid in seen:
+            continue
+        seen.add(vid)
+        url = f"https://www.youtube.com/watch?v={vid}"
+        age = _rel_age(rel)
+        published = (now - timedelta(seconds=age)).isoformat() if age is not None else ""
+        if age is not None and age <= 7 * 86400:
+            try:
+                _, vb = http_get(url, headers=hdr)
+                dm = re.search(r'"(?:uploadDate|publishDate)":"([^"]+)"', vb.decode("utf-8", "replace"))
+                if dm:
+                    published = dm.group(1)
+            except Exception:  # noqa
+                pass
+        out.append({"title": strip_html(title, 300), "url": url, "published": published, "snippet": "", "publisher": "", "categories": []})
+        if len(out) >= max_items:
+            break
+    return out
+
+
 def fetch_crossref(src, since_days=14):
     since = (datetime.now(timezone.utc) - timedelta(days=since_days)).strftime("%Y-%m-%d")
     out = []
@@ -235,8 +317,17 @@ def main():
                     mf = src.get("filter") if isinstance(m, str) else m.get("filter", src.get("filter"))
                     ml = "" if isinstance(m, str) else m.get("label", "")
                     try:
-                        status, body = http_get(mu)
-                        es = parse_feed(body)
+                        ytm = YT_FEED_RE.search(mu)
+                        try:
+                            status, body = http_get(mu)
+                            es = parse_feed(body)
+                        except Exception:  # noqa
+                            if not ytm:
+                                raise
+                            es = []
+                        if ytm and not es:
+                            # RSS 404 或返回了 HTML 错误页：改读频道页
+                            es = fetch_youtube_channel_page(ytm.group(1))
                         for e in es:
                             e["_filter"], e["_label"] = mf, ml
                         entries += es
