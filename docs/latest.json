@@ -1,78 +1,58 @@
 {
- "date": "2026-10-10",
- "lead": "今天精选 Claytec 推介的德国生土协会免费网课第二季，以及 Atmosphere 纪录片中的 Heringer 与 Rauch 夯土实践；另有山西夯土遗产气候受潮报道和三篇生土材料论文。",
+ "date": "2026-10-11",
+ "lead": "今天精选四篇生土材料研究：法国香槟-阿登生土麦秆复合材料的隔声与导热数据、数字化预制夯土综述，以及石灰稳生土力学与阿曼 Sarooj 抹面热工论文；另有比利时电视介绍生土新宅。",
  "actions": [
-  "预约 Down to Earth：10月22日起每周四 Zoom",
-  "读 Atmosphere 相关报道，对照预制夯土话术",
-  "跟进生物聚合物疏水改性论文全文"
+  "读 Beaumont 等 Fibers 全文，对照轻质生土吸声与导热数字",
+  "跟进 ISEC 两篇：预制夯土流程与石灰掺量-土质匹配",
+  "10月13日起可看 TV5《Une brique dans le ventre》生土住宅集"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-10.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-11.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W41.html",
  "counts": {
-  "pick": 6,
-  "brief": 2,
-  "drop": 12,
+  "pick": 4,
+  "brief": 1,
+  "drop": 5,
   "merged": 0
  },
  "picks": [
   {
-   "title": "德生土协会 Down to Earth 第二季免费网课",
-   "category": "活动与赛事",
-   "score": 81,
-   "for_you": "免费系统课，可跟产品和工法对照。1月28日那场直接相关。",
-   "url": "https://claytec.de/down-to-earth-ringvorlesung-lehmbau/",
-   "source": "Claytec"
-  },
-  {
-   "title": "论文：生物聚合物稳生土疏水改性提耐水",
+   "title": "论文：数字化与预制夯土的技术路径综述",
    "category": "研究论文",
-   "score": 72,
-   "for_you": "抹面与外墙耐水是客户常问点。可跟进改性路线与可施工性。",
-   "url": "https://doi.org/10.1016/j.jobe.2026.117545",
-   "source": "Journal of Building Engineering"
+   "score": 79,
+   "for_you": "预制夯土话术与产线参数可对照客户问的工期与质量控制。",
+   "url": "https://doi.org/10.14455/isec.2026.13(2).con-04",
+   "source": "Proceedings of International Structural Engineering and Construction"
   },
   {
-   "title": "Atmosphere 纪录片聚焦 Heringer 与 Rauch",
-   "category": "行业与市场",
-   "score": 72,
-   "for_you": "大众舆论窗口。可借片中预制构件说法谈你的模块交付。",
-   "url": "https://www.derstandard.at/story/3000000343233/erwin-wagenhofers-atmosphere-nicht-nur-philosophieren-sondern-handeln",
-   "source": "derStandard.de"
-  },
-  {
-   "title": "论文：空心玻璃微珠增强生土砌体抗寒",
+   "title": "论文：生土麦秆复合材料隔声与建筑性能",
    "category": "研究论文",
-   "score": 67,
-   "for_you": "寒区保温与轻质改性方向，可对照你的骨料与配比试验。",
-   "url": "https://doi.org/10.1016/j.istruc.2026.113251",
-   "source": "Structures"
+   "score": 73,
+   "for_you": "轻质生土/抹面吸声与导热有可引用数字，可对照你的纤维掺量试验。",
+   "url": "https://doi.org/10.3390/fib14100118",
+   "source": "Fibers"
   },
   {
-   "title": "山西低级别文物多雨致夯土墙软化塌损",
-   "category": "遗产保护",
-   "score": 66,
-   "for_you": "国内遗产修缮与排水需求上升。可跟进防潮与抢险材料场景。",
-   "url": "https://www.163.com/dy/article/L8PLQMDQ0512D3VJ.html",
-   "source": "搜狐网"
-  },
-  {
-   "title": "论文：西北夯土遗址剥落的颗粒聚集分散机制",
+   "title": "论文：土质与石灰掺量对生土力学与抗蚀",
    "category": "研究论文",
-   "score": 63,
-   "for_you": "遗产与干旱区墙面劣化机理，可对照你工地的表面风化。",
-   "url": "https://doi.org/10.1007/s10035-026-01706-z",
-   "source": "Granular Matter"
+   "score": 69,
+   "for_you": "稳生土配方要按土质选石灰掺量，不能套固定百分比。",
+   "url": "https://doi.org/10.14455/isec.2026.13(2).mat-03",
+   "source": "Proceedings of International Structural Engineering and Construction"
+  },
+  {
+   "title": "论文：阿曼 Sarooj 与水泥抹面热工对比",
+   "category": "研究论文",
+   "score": 60,
+   "for_you": "Sarooj 是煅烧黏土+石灰火山灰抹面，非生土；土坯墙底材数据可作热工对照。",
+   "url": "https://doi.org/10.14455/isec.2026.13(2).con-40",
+   "source": "Proceedings of International Structural Engineering and Construction"
   }
  ],
  "briefs": [
   {
-   "title": "卡尔卡松中学生生土砖项目获奖展出",
-   "url": "https://www.lindependant.fr/2026/10/09/proteger-la-planete-explorer-la-lune-les-sciences-a-la-portee-de-tous-au-lycee-charlemagne-a-carcassonne-13593270.php"
-  },
-  {
-   "title": "论文：遗产夯土结构势能 DEM 接触模型",
-   "url": "https://doi.org/10.1016/j.enganabound.2026.107089"
+   "title": "比利时电视介绍 Tirlemont 附近生土新宅",
+   "url": "https://www.programme.tv/programme/c5169-une-brique-dans-le-ventre/sans-titre-30666746/"
   }
  ]
 }

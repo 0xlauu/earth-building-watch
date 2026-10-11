@@ -1,0 +1,127 @@
+{
+ "date": "2026-10-11",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-11T09:19:28+08:00",
+ "lead": "今天精选四篇生土材料研究：法国香槟-阿登生土麦秆复合材料的隔声与导热数据、数字化预制夯土综述，以及石灰稳生土力学与阿曼 Sarooj 抹面热工论文；另有比利时电视介绍生土新宅。",
+ "actions": [
+  "读 Beaumont 等 Fibers 全文，对照轻质生土吸声与导热数字",
+  "跟进 ISEC 两篇：预制夯土流程与石灰掺量-土质匹配",
+  "10月13日起可看 TV5《Une brique dans le ventre》生土住宅集"
+ ],
+ "items": [
+  {
+   "id": "9648319aba0b",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 7,
+    "nov": 7,
+    "cred": 8,
+    "reson": 9,
+    "act": 6
+   },
+   "score": 73,
+   "title_zh": "论文：生土麦秆复合材料隔声与建筑性能",
+   "summary_zh": "Fibers 刊文（Crossref 标 2026-10-10）。Beaumont 等表征香槟-阿登四种未稳生土及掺麦秆（0–6 wt%）复合材料。纯土 αw=0.12–0.19；掺秆后容重最高降约35%，αw最高至0.34（约增162%），导热下降。",
+   "for_you": "轻质生土/抹面吸声与导热有可引用数字，可对照你的纤维掺量试验。",
+   "url_override": "https://doi.org/10.3390/fib14100118"
+  },
+  {
+   "id": "7ee4b12f6c5c",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 8,
+    "nov": 8,
+    "cred": 7,
+    "reson": 10,
+    "act": 7
+   },
+   "score": 79,
+   "title_zh": "论文：数字化与预制夯土的技术路径综述",
+   "summary_zh": "ISEC 会议录（标 2026年9月，DOI 本周登记）。Ladiana、Iacovetti 综述国际案例：受控环境预制、压实与配比监测、BIM/参数化、机器人与增材制造。强调夯土热质与调湿，以及天然稳定剂与生物基材料。",
+   "for_you": "预制夯土话术与产线参数可对照客户问的工期与质量控制。",
+   "url_override": "https://doi.org/10.14455/isec.2026.13(2).con-04"
+  },
+  {
+   "id": "ad885ccae8f4",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 7,
+    "nov": 6,
+    "cred": 7,
+    "reson": 9,
+    "act": 7
+   },
+   "score": 69,
+   "title_zh": "论文：土质与石灰掺量对生土力学与抗蚀",
+   "summary_zh": "ISEC 会议录（标 2026年9月）。Balcázar-Arciniega 等用 XRF/XRD 表征三种土，石灰掺量 0%/3%/5%/8%。T1–T3 配 3% 石灰抗压最高达 0.902 MPa；另一配比同掺量抗蚀更好。机械与抗蚀表现强依赖矿物组成。",
+   "for_you": "稳生土配方要按土质选石灰掺量，不能套固定百分比。",
+   "url_override": "https://doi.org/10.14455/isec.2026.13(2).mat-03"
+  },
+  {
+   "id": "cd03a4a7dca1",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 6,
+    "nov": 6,
+    "cred": 7,
+    "reson": 5,
+    "act": 5
+   },
+   "score": 60,
+   "title_zh": "论文：阿曼 Sarooj 与水泥抹面热工对比",
+   "summary_zh": "ISEC 会议录（标 2026年9月）。Siddique、Al-Wahaibi 用循环导纳法建 MATLAB 模型，比较六类墙体（含土坯砖）在纯 Sarooj、纯水泥及混合抹面下的 U、Y、衰减因子与延迟。双面 Sarooj 显著改善热工；文中给出具体 U/Y/f/ϕ 最优组合。",
+   "for_you": "Sarooj 是煅烧黏土+石灰火山灰抹面，非生土；土坯墙底材数据可作热工对照。",
+   "url_override": "https://doi.org/10.14455/isec.2026.13(2).con-40"
+  },
+  {
+   "id": "52b6b6b2c89d",
+   "decision": "brief",
+   "category": "event",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 5,
+    "reson": 7,
+    "act": 7
+   },
+   "score": 61,
+   "title_zh": "比利时电视介绍 Tirlemont 附近生土新宅",
+   "summary_zh": "节目《Une brique dans le ventre》介绍 AST 77 在 Tirlemont 附近用生土、钢与混凝土建的住宅。TV5 Monde 等将于10月13日起播出。",
+   "url_override": "https://www.programme.tv/programme/c5169-une-brique-dans-le-ventre/sans-titre-30666746/"
+  },
+  {
+   "id": "aba7fb431338",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "陶罐蒸发冷却光伏板，非生土建筑材料"
+  },
+  {
+   "id": "c2f1d70e62d0",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "心田里书房明确拒绝夯土符号，材料为涂料铝板微水泥等"
+  },
+  {
+   "id": "323f074bebb0",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "建成 2021.11；gooood 2026-10-10 重发旧项目"
+  },
+  {
+   "id": "45effde11c9e",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 营销引流帖"
+  },
+  {
+   "id": "7f4737b0ccb0",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 一句引用无新信息"
+  }
+ ]
+}
