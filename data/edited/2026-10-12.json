@@ -1,0 +1,81 @@
+{
+ "date": "2026-10-12",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-12T09:15:20+08:00",
+ "lead": "今天精选一篇压制土砖纤维增强论文；其余多为旅游软文与社交噪音，已丢弃。",
+ "actions": [
+  "打开 DOI 读阿尔法纤维增强 CEB 全文，对照纤维处理与强度"
+ ],
+ "items": [
+  {
+   "id": "a60f9fa67755",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 6,
+    "nov": 5,
+    "cred": 8,
+    "reson": 8,
+    "act": 5
+   },
+   "score": 62,
+   "title_zh": "论文：阿尔法纤维增强压制土砖热力性能",
+   "summary_zh": "Scientific African 刊出 Ech-Chykry 等论文，评估生熟阿尔法纤维增强压制土砖的物理与热力机械性能，面向可持续乡村建造。作者还有 Akhdouje、Tilioua、Chrachmy、Azrour、Azdouz。原文未公开摘要数字。",
+   "for_you": "纤维处理对比可对照你做土砖或抹面时的纤维掺量与强度取舍。"
+  },
+  {
+   "id": "a3e919ea150b",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "个人观点帖，无正式出处"
+  },
+  {
+   "id": "fc9218c3b1e5",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "越南苗族麻织文旅，非生土建筑"
+  },
+  {
+   "id": "c35cb8895944",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "美索不达米亚生土历史图帖，无新信息"
+  },
+  {
+   "id": "03ac48d7da27",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "阳关烽燧夯土遗迹图帖，无新事实"
+  },
+  {
+   "id": "213d0aac9804",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "蓝莓乡村振兴软文，与生土无关"
+  },
+  {
+   "id": "57f51b6e43f0",
+   "decision": "drop",
+   "drop_reason": "unverified",
+   "note": "X 称普吉旧监狱公园夯土佛塔；正式新闻未确认夯土"
+  },
+  {
+   "id": "fd6cc52b9129",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "客家土楼旅游配图短帖"
+  },
+  {
+   "id": "6e7282b9c54a",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "同账号土楼旅游配图，重复"
+  },
+  {
+   "id": "408961fba958",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "同账号土楼旅游配图，重复"
+  }
+ ]
+}
