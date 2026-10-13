@@ -1,6 +1,6 @@
 {
  "isceah": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -11,10 +11,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 10,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "amaco": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -25,10 +25,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 10,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "proterra": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -39,10 +39,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 10,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "clayworks": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -53,10 +53,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 8,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "claytec": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -66,11 +66,11 @@
   "matched": 10,
   "new_pending": 0,
   "new_archived": 0,
-  "total_collected": 11,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "total_collected": 12,
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "lehmtonerde": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -78,13 +78,13 @@
   "ever_ok": true,
   "entries": 10,
   "matched": 10,
-  "new_pending": 0,
+  "new_pending": 1,
   "new_archived": 0,
-  "total_collected": 10,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "total_collected": 11,
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "ebuki": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -95,10 +95,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 18,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "unesco-whc": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -109,22 +109,22 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 0,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "crossref": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "ever_ok": true,
   "entries": 240,
-  "matched": 24,
-  "new_pending": 0,
+  "matched": 26,
+  "new_pending": 1,
   "new_archived": 0,
-  "total_collected": 32,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "total_collected": 34,
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "cbm": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -135,10 +135,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 1,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "ijah": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -149,24 +149,24 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 12,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "dezeen": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 3,
   "members_total": 3,
   "ever_ok": true,
   "entries": 113,
-  "matched": 68,
+  "matched": 67,
   "new_pending": 0,
   "new_archived": 0,
-  "total_collected": 66,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "total_collected": 67,
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "archdaily": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -177,10 +177,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 0,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "archdaily-cn": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -191,38 +191,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 0,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "gnews-en": {
-  "last_run": "2026-10-12T09:07:15+08:00",
-  "ok": true,
-  "http": 200,
-  "members_ok": 1,
-  "members_total": 1,
-  "ever_ok": true,
-  "entries": 5,
-  "matched": 5,
-  "new_pending": 0,
-  "new_archived": 0,
-  "total_collected": 10,
-  "last_ok": "2026-10-12T09:07:15+08:00"
- },
- "gnews-zh": {
-  "last_run": "2026-10-12T09:07:15+08:00",
-  "ok": true,
-  "http": 200,
-  "members_ok": 1,
-  "members_total": 1,
-  "ever_ok": true,
-  "entries": 7,
-  "matched": 7,
-  "new_pending": 1,
-  "new_archived": 0,
-  "total_collected": 22,
-  "last_ok": "2026-10-12T09:07:15+08:00"
- },
- "gnews-fr": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -230,27 +202,41 @@
   "ever_ok": true,
   "entries": 8,
   "matched": 8,
-  "new_pending": 0,
+  "new_pending": 3,
   "new_archived": 0,
-  "total_collected": 14,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "total_collected": 13,
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
- "gnews-de": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+ "gnews-zh": {
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
   "members_total": 1,
   "ever_ok": true,
-  "entries": 2,
-  "matched": 2,
+  "entries": 9,
+  "matched": 9,
   "new_pending": 0,
-  "new_archived": 0,
-  "total_collected": 4,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "new_archived": 1,
+  "total_collected": 24,
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
- "gnews-es": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+ "gnews-fr": {
+  "last_run": "2026-10-13T09:15:38+08:00",
+  "ok": true,
+  "http": 200,
+  "members_ok": 1,
+  "members_total": 1,
+  "ever_ok": true,
+  "entries": 9,
+  "matched": 9,
+  "new_pending": 4,
+  "new_archived": 0,
+  "total_collected": 21,
+  "last_ok": "2026-10-13T09:15:38+08:00"
+ },
+ "gnews-de": {
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -260,30 +246,44 @@
   "matched": 1,
   "new_pending": 0,
   "new_archived": 0,
+  "total_collected": 4,
+  "last_ok": "2026-10-13T09:15:38+08:00"
+ },
+ "gnews-es": {
+  "last_run": "2026-10-13T09:15:38+08:00",
+  "ok": true,
+  "http": 200,
+  "members_ok": 1,
+  "members_total": 1,
+  "ever_ok": true,
+  "entries": 0,
+  "matched": 0,
+  "new_pending": 0,
+  "new_archived": 0,
   "total_collected": 12,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "_last_fetch": {
-  "at": "2026-10-12T09:07:15+08:00",
+  "at": "2026-10-13T09:15:38+08:00",
   "bootstrap": false,
   "sources": 32,
-  "ok": 32,
-  "seen": 1561,
-  "new_pending": 1,
+  "ok": 31,
+  "seen": 1588,
+  "new_pending": 9,
   "new_archived": 2
  },
  "x": {
-  "last_run": "2026-10-12T09:14:30+08:00",
+  "last_run": "2026-10-13T09:19:59+08:00",
   "ok": true,
-  "last_ok": "2026-10-12T09:14:30+08:00",
+  "last_ok": "2026-10-13T09:19:59+08:00",
   "entries": 10,
-  "matched": 7,
-  "new_pending": 7,
+  "matched": 8,
+  "new_pending": 8,
   "queries": {
    "x-kw-multi": {
-    "posts": 6,
-    "matched": 4,
-    "new_pending": 4
+    "posts": 3,
+    "matched": 2,
+    "new_pending": 2
    },
    "x-people": {
     "posts": 0,
@@ -291,21 +291,21 @@
     "new_pending": 0
    },
    "x-kw-en": {
-    "posts": 4,
-    "matched": 3,
-    "new_pending": 3
+    "posts": 6,
+    "matched": 6,
+    "new_pending": 6
    },
    "x-platforms": {
-    "posts": 0,
+    "posts": 1,
     "matched": 0,
     "new_pending": 0
    }
   },
-  "posts_read_total": 59,
-  "total_collected": 33
+  "posts_read_total": 69,
+  "total_collected": 41
  },
  "archdaily-tags": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 4,
@@ -316,10 +316,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 25,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "archdaily-cn-tags": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 3,
@@ -330,10 +330,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 20,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "plataforma-tags": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 5,
@@ -344,10 +344,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 33,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "designboom": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 4,
@@ -358,10 +358,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 24,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "intl-media": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 7,
@@ -375,10 +375,10 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 1,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "gnews-platforms-en": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -388,11 +388,11 @@
   "matched": 99,
   "new_pending": 0,
   "new_archived": 1,
-  "total_collected": 112,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "total_collected": 113,
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "gnews-platforms-zh": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -401,12 +401,12 @@
   "entries": 4,
   "matched": 4,
   "new_pending": 0,
-  "new_archived": 1,
+  "new_archived": 0,
   "total_collected": 6,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "gnews-awards": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -417,38 +417,32 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 3,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "obel": {
-  "last_run": "2026-10-12T09:07:15+08:00",
-  "ok": true,
-  "http": 200,
-  "members_ok": 1,
-  "members_total": 1,
+  "last_run": "2026-10-13T09:15:38+08:00",
+  "ok": false,
+  "error": "RuntimeError: https://obelaward.org/feed/: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of ",
   "ever_ok": true,
-  "entries": 10,
-  "matched": 0,
-  "new_pending": 0,
-  "new_archived": 0,
   "total_collected": 10,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-12T19:28:09+08:00"
  },
  "youtube-org": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 12,
   "members_total": 12,
   "ever_ok": true,
-  "entries": 148,
-  "matched": 148,
+  "entries": 158,
+  "matched": 158,
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 172,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "eartharchitecture-blog": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 1,
@@ -459,24 +453,24 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 10,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "youtube-makers": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 5,
   "members_total": 5,
   "ever_ok": true,
-  "entries": 52,
-  "matched": 29,
+  "entries": 75,
+  "matched": 60,
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 80,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  },
  "mastodon-tags": {
-  "last_run": "2026-10-12T09:07:15+08:00",
+  "last_run": "2026-10-13T09:15:38+08:00",
   "ok": true,
   "http": 200,
   "members_ok": 8,
@@ -487,6 +481,6 @@
   "new_pending": 0,
   "new_archived": 0,
   "total_collected": 69,
-  "last_ok": "2026-10-12T09:07:15+08:00"
+  "last_ok": "2026-10-13T09:15:38+08:00"
  }
 }

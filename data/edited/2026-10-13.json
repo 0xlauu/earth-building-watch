@@ -1,0 +1,235 @@
+{
+  "date": "2026-10-13",
+  "editor": "Grok Bot",
+  "edited_at": "2026-10-13T09:22:15+08:00",
+  "lead": "德国 Claytec 宣布 DIN 生土规范出英文版；澳洲十二使徒夯土游客中心完工；布列塔尼圣叙尔皮斯计划用现场土建 16 套承重生土住宅。",
+  "actions": [
+    "打开 Claytec 文，核对 DIN 英译本购买入口",
+    "关注 10 月 16 日 Hohenems ATMOSPHERE 与 Rauch",
+    "读 CEB 论文 DOI，对照污泥与粉煤灰碱激发配比"
+  ],
+  "items": [
+    {
+      "id": "f37677b2b14f",
+      "decision": "pick",
+      "category": "standard",
+      "scores": {
+        "sig": 9,
+        "nov": 7,
+        "cred": 9,
+        "reson": 9,
+        "act": 7
+      },
+      "score": 86,
+      "title_zh": "Claytec：德国生土 DIN 规范出英文版",
+      "summary_zh": "Claytec 10 月 12 日称，DIN 已将 DIN 18940 与 DIN 18945–18948 译为英文，经 Dachverband Lehm 审校发布。覆盖生土砖、砌筑与抹面砂浆、生土板及承重生土砖砌体。英译本不在他国自动生效，DIN Media 可购。",
+      "for_you": "国际项目可用英译本对齐规范条款与采购要求。"
+    },
+    {
+      "id": "d48340cd4f1d",
+      "decision": "pick",
+      "category": "event",
+      "scores": {
+        "sig": 6,
+        "nov": 5,
+        "cred": 9,
+        "reson": 8,
+        "act": 8
+      },
+      "score": 75,
+      "title_zh": "ATMOSPHERE 首映：Rauch 出席 Hohenems",
+      "summary_zh": "Lehm Ton Erde 预告 ATMOSPHERE 首映巡演。10 月 16 日 Hohenems Cineplexx 场，导演 Wagenhofer 与片中夯土先锋 Martin Rauch 出席。片中还有 Anna Heringer 等。奥地利 10 月 9 日起公映。",
+      "for_you": "德语区可去听 Rauch；影片可作市场沟通素材。"
+    },
+    {
+      "id": "f578625d52e5",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 6,
+        "nov": 7,
+        "cred": 8,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 68,
+      "title_zh": "论文：采石污泥与粉煤灰制压制土砖",
+      "summary_zh": "Construction Materials 2026-10-10 刊出 Zelaya、Pardo、Arias 论文。用氢氧化钾碱激发粉煤灰稳定采石污泥，试制压制土砖（CEB），并做 Proctor、无侧限抗压与显微分析。摘要称可作环保 CEB 路径；未给完整强度数字。",
+      "for_you": "对照土砖里工业副产物掺量与碱激发路径，再读全文。"
+    },
+    {
+      "id": "caa27ba5ba6f",
+      "decision": "pick",
+      "category": "project",
+      "scores": {
+        "sig": 8,
+        "nov": 6,
+        "cred": 8,
+        "reson": 9,
+        "act": 6
+      },
+      "score": 75,
+      "title_zh": "Grimshaw 完成十二使徒夯土游客中心",
+      "summary_zh": "Dezeen 10 月 12 日报道，Grimshaw 与 Aspect Studios 在维多利亚州十二使徒完成约 3300 平方米游客中心，夯土墙拟如地貌。分 Coastal 与 Hinterland 两栋，含屋顶观景台；与 Eastern Maar 共商尺度与选址。",
+      "for_you": "大型景区夯土“地貌式”立面，可作旅游公建案例。",
+      "merged_ids": [
+        "5560a30d85e4",
+        "31c391cada44"
+      ]
+    },
+    {
+      "id": "c26d6e19882b",
+      "decision": "pick",
+      "category": "project",
+      "scores": {
+        "sig": 8,
+        "nov": 6,
+        "cred": 8,
+        "reson": 9,
+        "act": 7
+      },
+      "score": 77,
+      "title_zh": "圣叙尔皮斯：现场土建 16 套承重生土房",
+      "summary_zh": "Banque des Territoires 10 月 12 日介绍 Saint-Sulpice-la-Forêt：24 套新居中 16 套为现场土承重生土，两栋 R+1/R+2，计划 2028 开工。France 2030 补贴约 365.8 万欧元，生土轴约 261.8 万。",
+      "for_you": "关注法国承重生土住宅的资助与保险路径。",
+      "url_override": "https://www.banquedesterritoires.fr/realisation/construction-logements-terre-crue"
+    },
+    {
+      "id": "50c07519b2d2",
+      "decision": "pick",
+      "category": "event",
+      "scores": {
+        "sig": 5,
+        "nov": 4,
+        "cred": 7,
+        "reson": 8,
+        "act": 8
+      },
+      "score": 68,
+      "title_zh": "Ustaritz 生态住居节含生土工坊",
+      "summary_zh": "Sud Ouest 报道「Faîtes de l'éco-habitat」第 10 届于 10 月 16–17 日在 Ustaritz 市政厅免费举办。含生土与空气质量座谈、Nouvelle-Aquitaine 生土产业链介绍，以及生土抹面等动手工坊。",
+      "for_you": "人在西南法可去听产业链与抹面工坊。",
+      "url_override": "https://www.ustaritz.fr/fr/actualite/faites-de-leco-habitat.html"
+    },
+    {
+      "id": "367011eec87f",
+      "decision": "brief",
+      "category": "project",
+      "scores": {
+        "sig": 6,
+        "nov": 5,
+        "cred": 7,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 63,
+      "title_zh": "Ploubezre 儿童中心用生土墙落成",
+      "summary_zh": "Ouest-France：Ploubezre 儿童中心 4 月启用、10 月 9 日揭幕。木结构、秸秆保温，约 30 立方米夯筑生土墙与隔墙并覆生土抹面。建筑师 Atelier Juguet。",
+      "url_override": "https://www.ouest-france.fr/bretagne/ploubezre-22300/un-batiment-a-haute-performance-environnementale-le-pole-enfance-inaugure-a-ploubezre-28815372-c4ab-11f1-b3a8-1120a69ac78a"
+    },
+    {
+      "id": "23c7be40ebd6",
+      "decision": "brief",
+      "category": "project",
+      "scores": {
+        "sig": 6,
+        "nov": 5,
+        "cred": 7,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 63,
+      "title_zh": "Melgven 媒介馆：现场土砖与秸秆",
+      "summary_zh": "Ouest-France：Melgven 媒介馆 10 月 9 日揭幕，约 350 平方米。木骨架、36 厘米秸秆保温，隔墙用现场土生土砖，覆土-石灰抹面。造价约 166 万欧元（不含税）。",
+      "url_override": "https://www.ouest-france.fr/bretagne/melgven-29140/une-alternative-au-tout-ecran-la-mediatheque-anjela-duval-de-melgven-a-ete-inauguree-vendredi-9-octobre-ae7e0426-c473-11f1-b3a8-1120a69ac78a"
+    },
+    {
+      "id": "5560a30d85e4",
+      "decision": "merged",
+      "merged_into": "caa27ba5ba6f"
+    },
+    {
+      "id": "31c391cada44",
+      "decision": "merged",
+      "merged_into": "caa27ba5ba6f"
+    },
+    {
+      "id": "3176fcc394a1",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "凡纳滨对虾土塘养殖，非生土建筑"
+    },
+    {
+      "id": "1adcd4ae2961",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "图书馆假期活动，与生土无关"
+    },
+    {
+      "id": "12f138220ef1",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "饮食非遗工坊软文，仅顺带提夯土墙"
+    },
+    {
+      "id": "7734a92a85fb",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "文章讲 BRS 购房，未谈生土材料"
+    },
+    {
+      "id": "060229677859",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "AR 奖杯为再生砖，非生土"
+    },
+    {
+      "id": "23ae7a3b61b9",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "Dezeen 等于 2026-04 已报道 NOT A HOTEL Setouchi 夯土别墅"
+    },
+    {
+      "id": "b2daad0da036",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "福建夯土古厝文旅研学短帖"
+    },
+    {
+      "id": "d6c8caa8e2d2",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "夯土业务招揽广告帖"
+    },
+    {
+      "id": "9063845ec7e7",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "个人随问，无事实"
+    },
+    {
+      "id": "4d5f49b2c706",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "基金会施工花絮视频，无新的可核实数据"
+    },
+    {
+      "id": "e6a67cb8d009",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "个人工程照片帖，无正式出处"
+    },
+    {
+      "id": "51055210300a",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "One Kindesign 亚利桑那夯土宅为旧案转载"
+    },
+    {
+      "id": "4bd424c676dc",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "大明宫夯土遗址旅游短视频"
+    }
+  ]
+}

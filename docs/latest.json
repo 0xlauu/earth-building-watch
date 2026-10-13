@@ -1,27 +1,78 @@
 {
- "date": "2026-10-12",
- "lead": "今天精选一篇压制土砖纤维增强论文；其余多为旅游软文与社交噪音，已丢弃。",
+ "date": "2026-10-13",
+ "lead": "德国 Claytec 宣布 DIN 生土规范出英文版；澳洲十二使徒夯土游客中心完工；布列塔尼圣叙尔皮斯计划用现场土建 16 套承重生土住宅。",
  "actions": [
-  "打开 DOI 读阿尔法纤维增强 CEB 全文，对照纤维处理与强度"
+  "打开 Claytec 文，核对 DIN 英译本购买入口",
+  "关注 10 月 16 日 Hohenems ATMOSPHERE 与 Rauch",
+  "读 CEB 论文 DOI，对照污泥与粉煤灰碱激发配比"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-12.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-13.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W42.html",
  "counts": {
-  "pick": 1,
-  "brief": 0,
-  "drop": 9,
-  "merged": 0
+  "pick": 6,
+  "brief": 2,
+  "drop": 13,
+  "merged": 2
  },
  "picks": [
   {
-   "title": "论文：阿尔法纤维增强压制土砖热力性能",
+   "title": "Claytec：德国生土 DIN 规范出英文版",
+   "category": "标准与政策",
+   "score": 86,
+   "for_you": "国际项目可用英译本对齐规范条款与采购要求。",
+   "url": "https://claytec.de/deutsche-lehmbau-normen-englisch/",
+   "source": "Claytec"
+  },
+  {
+   "title": "圣叙尔皮斯：现场土建 16 套承重生土房",
+   "category": "项目案例",
+   "score": 77,
+   "for_you": "关注法国承重生土住宅的资助与保险路径。",
+   "url": "https://www.banquedesterritoires.fr/realisation/construction-logements-terre-crue",
+   "source": "Banque des Territoires"
+  },
+  {
+   "title": "ATMOSPHERE 首映：Rauch 出席 Hohenems",
+   "category": "活动与赛事",
+   "score": 75,
+   "for_you": "德语区可去听 Rauch；影片可作市场沟通素材。",
+   "url": "https://www.lehmtonerde.at/atmosphere-premierentour-mit-erwin-wagenhofer-und-martin-rauch-i-16-10-2026/",
+   "source": "Lehm Ton Erde（Martin Rauch）"
+  },
+  {
+   "title": "Grimshaw 完成十二使徒夯土游客中心",
+   "category": "项目案例",
+   "score": 75,
+   "for_you": "大型景区夯土“地貌式”立面，可作旅游公建案例。",
+   "url": "https://www.dezeen.com/2026/10/12/grimshaw-visitor-centre-twelve-apostles-australia/",
+   "source": "Dezeen 生土相关标签 · 夯土"
+  },
+  {
+   "title": "论文：采石污泥与粉煤灰制压制土砖",
    "category": "研究论文",
-   "score": 62,
-   "for_you": "纤维处理对比可对照你做土砖或抹面时的纤维掺量与强度取舍。",
-   "url": "https://doi.org/10.1016/j.sciaf.2026.e03697",
-   "source": "Scientific African"
+   "score": 68,
+   "for_you": "对照土砖里工业副产物掺量与碱激发路径，再读全文。",
+   "url": "https://doi.org/10.3390/constrmater6050081",
+   "source": "Construction Materials"
+  },
+  {
+   "title": "Ustaritz 生态住居节含生土工坊",
+   "category": "活动与赛事",
+   "score": 68,
+   "for_you": "人在西南法可去听产业链与抹面工坊。",
+   "url": "https://www.ustaritz.fr/fr/actualite/faites-de-leco-habitat.html",
+   "source": "Sud Ouest"
   }
  ],
- "briefs": []
+ "briefs": [
+  {
+   "title": "Ploubezre 儿童中心用生土墙落成",
+   "url": "https://www.ouest-france.fr/bretagne/ploubezre-22300/un-batiment-a-haute-performance-environnementale-le-pole-enfance-inaugure-a-ploubezre-28815372-c4ab-11f1-b3a8-1120a69ac78a"
+  },
+  {
+   "title": "Melgven 媒介馆：现场土砖与秸秆",
+   "url": "https://www.ouest-france.fr/bretagne/melgven-29140/une-alternative-au-tout-ecran-la-mediatheque-anjela-duval-de-melgven-a-ete-inauguree-vendredi-9-octobre-ae7e0426-c473-11f1-b3a8-1120a69ac78a"
+  }
+ ]
 }
