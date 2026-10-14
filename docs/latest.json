@@ -1,78 +1,54 @@
 {
- "date": "2026-10-13",
- "lead": "德国 Claytec 宣布 DIN 生土规范出英文版；澳洲十二使徒夯土游客中心完工；布列塔尼圣叙尔皮斯计划用现场土建 16 套承重生土住宅。",
+ "date": "2026-10-14",
+ "lead": "德国 Reute 修道院夯土告别厅再获建筑奖；新论文测试生土遗址修复用生石灰灌浆的耐久性；AR Emerging 2026 入围名单含夯土实践。",
  "actions": [
-  "打开 Claytec 文，核对 DIN 英译本购买入口",
-  "关注 10 月 16 日 Hohenems ATMOSPHERE 与 Rauch",
-  "读 CEB 论文 DOI，对照污泥与粉煤灰碱激发配比"
+  "10 月 15 日 Allschwil 有 Lehm Ton Erde 讲座，可报名",
+  "读石灰灌浆论文，记下 3:2:5 配比的老化数据",
+  "查 AR Emerging 入围者中谁在做夯土"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-13.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-14.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W42.html",
  "counts": {
-  "pick": 6,
-  "brief": 2,
+  "pick": 2,
+  "brief": 4,
   "drop": 13,
-  "merged": 2
+  "merged": 0
  },
  "picks": [
   {
-   "title": "Claytec：德国生土 DIN 规范出英文版",
-   "category": "标准与政策",
-   "score": 86,
-   "for_you": "国际项目可用英译本对齐规范条款与采购要求。",
-   "url": "https://claytec.de/deutsche-lehmbau-normen-englisch/",
-   "source": "Claytec"
-  },
-  {
-   "title": "圣叙尔皮斯：现场土建 16 套承重生土房",
+   "title": "Reute 修道院夯土告别厅获 Hugo-Häring 奖",
    "category": "项目案例",
-   "score": 77,
-   "for_you": "关注法国承重生土住宅的资助与保险路径。",
-   "url": "https://www.banquedesterritoires.fr/realisation/construction-logements-terre-crue",
-   "source": "Banque des Territoires"
+   "score": 71,
+   "for_you": "小型宗教与殡葬建筑用夯土能拿奖，可作同类客户的案例。",
+   "url": "https://www.schwaebische.de/regional/oberschwaben/bad-waldsee/dieses-ungewoehnliche-gebaeude-aus-erde-begeistert-sogar-architektur-experten-4933982",
+   "source": "Schwäbische.de"
   },
   {
-   "title": "ATMOSPHERE 首映：Rauch 出席 Hohenems",
-   "category": "活动与赛事",
-   "score": 75,
-   "for_you": "德语区可去听 Rauch；影片可作市场沟通素材。",
-   "url": "https://www.lehmtonerde.at/atmosphere-premierentour-mit-erwin-wagenhofer-und-martin-rauch-i-16-10-2026/",
-   "source": "Lehm Ton Erde（Martin Rauch）"
-  },
-  {
-   "title": "Grimshaw 完成十二使徒夯土游客中心",
-   "category": "项目案例",
-   "score": 75,
-   "for_you": "大型景区夯土“地貌式”立面，可作旅游公建案例。",
-   "url": "https://www.dezeen.com/2026/10/12/grimshaw-visitor-centre-twelve-apostles-australia/",
-   "source": "Dezeen 生土相关标签 · 夯土"
-  },
-  {
-   "title": "论文：采石污泥与粉煤灰制压制土砖",
+   "title": "论文：生土遗址修复用生石灰灌浆的耐久性",
    "category": "研究论文",
-   "score": 68,
-   "for_you": "对照土砖里工业副产物掺量与碱激发路径，再读全文。",
-   "url": "https://doi.org/10.3390/constrmater6050081",
-   "source": "Construction Materials"
-  },
-  {
-   "title": "Ustaritz 生态住居节含生土工坊",
-   "category": "活动与赛事",
-   "score": 68,
-   "for_you": "人在西南法可去听产业链与抹面工坊。",
-   "url": "https://www.ustaritz.fr/fr/actualite/faites-de-leco-habitat.html",
-   "source": "Sud Ouest"
+   "score": 63,
+   "for_you": "做生土修缮材料可参考配比和五种老化试验方法。",
+   "url": "https://doi.org/10.1680/jgeen.26.00038",
+   "source": "Proceedings of the Institution of Civil Engineers - Geotechnical Engineering"
   }
  ],
  "briefs": [
   {
-   "title": "Ploubezre 儿童中心用生土墙落成",
-   "url": "https://www.ouest-france.fr/bretagne/ploubezre-22300/un-batiment-a-haute-performance-environnementale-le-pole-enfance-inaugure-a-ploubezre-28815372-c4ab-11f1-b3a8-1120a69ac78a"
+   "title": "Lehm Ton Erde 预告 Allschwil 讲座",
+   "url": "https://www.lehmtonerde.at/designing-for-innovation-how-work-environments-shape-health-collaboration-and-creativity-i-15-10-2026/"
   },
   {
-   "title": "Melgven 媒介馆：现场土砖与秸秆",
-   "url": "https://www.ouest-france.fr/bretagne/melgven-29140/une-alternative-au-tout-ecran-la-mediatheque-anjela-duval-de-melgven-a-ete-inauguree-vendredi-9-octobre-ae7e0426-c473-11f1-b3a8-1120a69ac78a"
+   "title": "AR Emerging 2026 入围 10 家，含夯土实践",
+   "url": "https://www.architectural-review.com/awards/ar-emerging/ar-emerging-awards-2026-shortlist-revealed"
+  },
+  {
+   "title": "访谈：Feiglstorfer 谈生土与乡土建筑的未来",
+   "url": "https://www.handwerkundbau.at/allgemein/wie-der-baustoff-lehm-die-zukunft-gestalten-kann/"
+  },
+  {
+   "title": "论文：Khalkhal 的 Khollar 生土堡是堡还是驿站",
+   "url": "https://doi.org/10.66224/athar.1897.2190.1"
   }
  ]
 }

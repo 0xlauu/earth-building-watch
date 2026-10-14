@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-14",
+  "editor": "Grok Bot",
+  "edited_at": "2026-10-14T09:14:41+08:00",
+  "lead": "德国 Reute 修道院夯土告别厅再获建筑奖；新论文测试生土遗址修复用生石灰灌浆的耐久性；AR Emerging 2026 入围名单含夯土实践。",
+  "actions": [
+    "10 月 15 日 Allschwil 有 Lehm Ton Erde 讲座，可报名",
+    "读石灰灌浆论文，记下 3:2:5 配比的老化数据",
+    "查 AR Emerging 入围者中谁在做夯土"
+  ],
+  "items": [
+    {
+      "id": "2501b5953d29",
+      "decision": "pick",
+      "category": "project",
+      "scores": {
+        "sig": 6,
+        "nov": 6,
+        "cred": 8,
+        "reson": 9,
+        "act": 6
+      },
+      "score": 71,
+      "title_zh": "Reute 修道院夯土告别厅获 Hugo-Häring 奖",
+      "summary_zh": "Schwäbische Zeitung 10 月 13 日报道：Kloster Reute 墓园告别厅为夯土建筑，墙里有世界各地的土。去年获巴符州生土创新奖，现获 BDA Bodensee 的 Hugo-Häring 奖。54 个项目参评，9 个获奖。",
+      "for_you": "小型宗教与殡葬建筑用夯土能拿奖，可作同类客户的案例。",
+      "url_override": "https://www.schwaebische.de/regional/oberschwaben/bad-waldsee/dieses-ungewoehnliche-gebaeude-aus-erde-begeistert-sogar-architektur-experten-4933982"
+    },
+    {
+      "id": "5f632a80a2c9",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 6,
+        "nov": 6,
+        "cred": 8,
+        "reson": 6,
+        "act": 5
+      },
+      "score": 63,
+      "title_zh": "论文：生土遗址修复用生石灰灌浆的耐久性",
+      "summary_zh": "ICE Geotechnical Engineering 10 月 14 日在线刊出 Cui、Shao、Yu 等论文。灌浆以生石灰–粉煤灰–土（3:2:5）为基体，加聚乙烯醇或糯米浆。经干湿、冻融、硫酸盐、碱和紫外五种老化后做三轴试验。循环越多，破坏由延性转为脆性。",
+      "for_you": "做生土修缮材料可参考配比和五种老化试验方法。"
+    },
+    {
+      "id": "520bdd35b2fa",
+      "decision": "brief",
+      "category": "event",
+      "scores": {
+        "sig": 4,
+        "nov": 3,
+        "cred": 8,
+        "reson": 5,
+        "act": 5
+      },
+      "score": 52,
+      "title_zh": "Lehm Ton Erde 预告 Allschwil 讲座",
+      "summary_zh": "Lehm Ton Erde 预告讲座，谈工作环境与健康、协作。10 月 15 日 17:00–19:00，在 Allschwil 的 HORTUS。"
+    },
+    {
+      "id": "ae5cbed48ad4",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 4,
+        "nov": 5,
+        "cred": 6,
+        "reson": 4,
+        "act": 2
+      },
+      "score": 45,
+      "title_zh": "论文：Khalkhal 的 Khollar 生土堡是堡还是驿站",
+      "summary_zh": "Athar 第 47 卷第 2 期论文。研究伊朗 Khalkhal 地区 Khollar 生土堡的功能与建筑，讨论它是堡垒还是商队驿站。"
+    },
+    {
+      "id": "12614615ca2d",
+      "decision": "brief",
+      "category": "market",
+      "scores": {
+        "sig": 4,
+        "nov": 4,
+        "cred": 7,
+        "reson": 5,
+        "act": 3
+      },
+      "score": 48,
+      "title_zh": "访谈：Feiglstorfer 谈生土与乡土建筑的未来",
+      "summary_zh": "Handwerk + Bau 访谈奥地利科学院 Feiglstorfer。他主持 ERC 项目 CLIMATE-Arch，研究乡土建筑随气候的变化。他说尼泊尔老房正被混凝土替代。",
+      "url_override": "https://www.handwerkundbau.at/allgemein/wie-der-baustoff-lehm-die-zukunft-gestalten-kann/"
+    },
+    {
+      "id": "26e00883684c",
+      "decision": "brief",
+      "category": "event",
+      "scores": {
+        "sig": 5,
+        "nov": 4,
+        "cred": 7,
+        "reson": 5,
+        "act": 4
+      },
+      "score": 50,
+      "title_zh": "AR Emerging 2026 入围 10 家，含夯土实践",
+      "summary_zh": "Architectural Review 公布 AR Emerging 2026 入围 10 家事务所。主办方称其中有人在试验夯土。名单含 LUO Studio、NUA 等。",
+      "url_override": "https://www.architectural-review.com/awards/ar-emerging/ar-emerging-awards-2026-shortlist-revealed"
+    },
+    {
+      "id": "63dcd2f85873",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Design Museum Gent 用石灰固化废料砖，非生土"
+    },
+    {
+      "id": "8f1297b5154d",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Bridge House 为现浇混凝土结构，非生土"
+    },
+    {
+      "id": "be685ecee6e8",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "RNZ 可持续生活节目，仅顺带提夯土"
+    },
+    {
+      "id": "d1602d99495b",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "厨师烹饪技巧，与生土无关"
+    },
+    {
+      "id": "7772ea93f0ac",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "MotoGP 赛道施工，与生土建筑无关"
+    },
+    {
+      "id": "77c8f74612ac",
+      "decision": "drop",
+      "drop_reason": "unverified",
+      "note": "只有标题，无法确认与生土相关"
+    },
+    {
+      "id": "9aa0dc06633b",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "木骨泥墙照片帖，无正式出处"
+    },
+    {
+      "id": "76048e618460",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "旅游随感帖"
+    },
+    {
+      "id": "ce9e1779a7e3",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "泛泛转发，无出处"
+    },
+    {
+      "id": "5d57b2932ddb",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "COB House 为派对场所，非土建筑"
+    },
+    {
+      "id": "724e8deed0c1",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "酒店推广帖"
+    },
+    {
+      "id": "4951c4a06427",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "个人话题帖，无新的可核实信息"
+    },
+    {
+      "id": "33b9372ed3bd",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "材质贴图商品推广"
+    }
+  ]
+}
