@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-15",
+  "editor": "Grok Bot",
+  "edited_at": "2026-10-15T09:25:00+08:00",
+  "lead": "法国 amàco 发布 2026/27 生土职业培训目录，两门课可用 CPF 资助；美国 Terran Robotics 用索吊机器人在印第安纳夯筑土墙住宅；两篇新论文分别讲手动压砖机设计和木条加固土坯墙抗震。",
+  "actions": [
+    "下载 amàco 2026/27 培训目录，看 RS7253 生土课程大纲",
+    "10 月 18 日 Lattes 有土坯制作工作坊，可托法国联系人去看",
+    "关注 Terran Robotics 印第安纳项目，记下约 20% 黏土配比"
+  ],
+  "items": [
+    {
+      "id": "06955323c915",
+      "decision": "pick",
+      "category": "technique",
+      "scores": {
+        "sig": 5,
+        "nov": 4,
+        "cred": 9,
+        "reson": 8,
+        "act": 8
+      },
+      "score": 70,
+      "title_zh": "amàco 发布 2026/27 生土职业培训目录",
+      "summary_zh": "法国生土教育机构 amàco 公布 2026/2027 年职业继续培训，可在线报名。自 2025 年 9 月起，两门认证课可用 CPF 资助：在建设项目中使用生土（RS7253），和在节能改造中使用生物与地源材料（RS7258）。部分课程有建筑行业标签。",
+      "for_you": "可对照它的课程结构，设计你给施工队的生土抹面培训。",
+      "url_override": "https://amaco.org/nouveau-formations-continues-pour-les-professionnel-le-s/"
+    },
+    {
+      "id": "807202a62362",
+      "decision": "pick",
+      "category": "product",
+      "scores": {
+        "sig": 6,
+        "nov": 7,
+        "cred": 6,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 67,
+      "title_zh": "Terran Robotics 用索吊机器人夯筑土墙住宅",
+      "summary_zh": "NeozOne 10 月 14 日报道：美国 Terran Robotics 在印第安纳建一栋 63 m² 住宅。索吊机器人抓取约 4.5 kg 湿料（约 20% 黏土，含麦秆），每层 18-20 cm 用锤压实，定位精度约 2 cm。公司称已在得州完成两栋。",
+      "for_you": "机器人化土墙在美国起步，可关注它的配比和后续抹面需求。",
+      "url_override": "https://www.neozone.org/innovation/pour-reduire-les-couts-ce-robot-construit-des-maisons-avec-de-la-terre-crue-et-de-la-paille/"
+    },
+    {
+      "id": "18a00577eb1c",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 6,
+        "cred": 8,
+        "reson": 7,
+        "act": 5
+      },
+      "score": 61,
+      "title_zh": "论文：手动压制土砖机 float-ram 的设计",
+      "summary_zh": "Mechanism and Machine Theory 刊出 Tagliavini、Quaglia、Franco、Asteggiano 论文（标 2026 年 12 月卷），介绍一种手动压制土砖（CEB）的压机 float-ram 的设计。原文未公开摘要。",
+      "for_you": "做土砖设备或小规模压砖，可读全文看机构设计和压力参数。"
+    },
+    {
+      "id": "210931763a53",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 6,
+        "cred": 8,
+        "reson": 7,
+        "act": 4
+      },
+      "score": 60,
+      "title_zh": "论文：近表面嵌木条加固土坯墙的抗震性能",
+      "summary_zh": "Structures 刊出 Zhang、Yuan、Chen、Yan 论文（标 2026 年 12 月卷）。研究近表面嵌入木条加固的土坯砌块墙抗震性能，并建立恢复力模型。原文未公开摘要数字。",
+      "for_you": "土坯房加固是农村改造需求，可作配套方案的依据。"
+    },
+    {
+      "id": "009e4ce3f13e",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 5,
+        "cred": 8,
+        "reson": 7,
+        "act": 3
+      },
+      "score": 56,
+      "title_zh": "论文：CobBauge 生土墙建筑在欧洲各气候区的过热韧性",
+      "summary_zh": "Architectural Science Review 10 月 14 日刊出 Alnaqshabandy 等论文，用校准模拟模型评估 CobBauge 生土墙建筑在欧洲各气候区的过热风险。"
+    },
+    {
+      "id": "b8cadca73ecb",
+      "decision": "brief",
+      "category": "event",
+      "scores": {
+        "sig": 3,
+        "nov": 3,
+        "cred": 7,
+        "reson": 7,
+        "act": 7
+      },
+      "score": 58,
+      "title_zh": "Lattara 遗址 10 月 18 日办生土建造开放日",
+      "summary_zh": "法国 Lattes 的 Lattara 考古遗址 10 月 18 日 14-17 时参加全国建筑日，主题是土建造。可参观复原的高卢生土房，有土坯制作和砌筑工作坊，与蒙彼利埃国立建筑学院合办，免费入场。",
+      "url_override": "https://www.midilibre.fr/2026/10/14/la-maison-gauloise-au-coeur-de-la-journee-de-larchitecture-13600683.php"
+    },
+    {
+      "id": "1decf7c24342",
+      "decision": "brief",
+      "category": "market",
+      "scores": {
+        "sig": 3,
+        "nov": 3,
+        "cred": 7,
+        "reson": 5,
+        "act": 3
+      },
+      "score": 44,
+      "title_zh": "南特建筑事务所 PADW 并入擅长生土的 ABD",
+      "summary_zh": "Ouest-France 10 月 14 日报道：南特合作社制事务所 PADW 整合 ABD。ABD 擅长生土、麻等材料，保留品牌，部分员工成为 PADW 社员。两家因 Caudan 市政厅项目合作。",
+      "url_override": "https://agence-api.ouest-france.fr/immobilier/architecture-et-agencement/les-cabinets-nantais-darchitecture-padw-et-abd-se-rapprochent-2ca9e2ee-c6fd-11f1-9522-1f9ae0711c0a"
+    },
+    {
+      "id": "d0cf4ead0c62",
+      "decision": "drop",
+      "drop_reason": "unverified",
+      "note": "Lehm Ton Erde 帖子只有标题，无正文；奥地利瓷砖炉日与其关系无法确认"
+    },
+    {
+      "id": "17aa0cf67344",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "钢琴演唱会与西多会谷仓讲座，与生土无关"
+    },
+    {
+      "id": "706ad8b07202",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "木结构加草的多功能楼，可见原文未提生土"
+    },
+    {
+      "id": "b989facc4ac2",
+      "decision": "drop",
+      "drop_reason": "unverified",
+      "note": "X 帖只有一句话和图片，无出处"
+    },
+    {
+      "id": "969f7854750f",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "民宿旅游帖，顺带提夯土小院"
+    },
+    {
+      "id": "da8c49eaa3c3",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "AI 图片提示词账号的生成图"
+    },
+    {
+      "id": "4a9a6e57cfb7",
+      "decision": "drop",
+      "drop_reason": "low_score",
+      "category": "heritage",
+      "scores": {
+        "sig": 3,
+        "nov": 2,
+        "cred": 5,
+        "reson": 3,
+        "act": 2
+      },
+      "score": 31,
+      "note": "Getty AATA 摘要库季度更新，含生土建筑世界大会论文集摘要，无具体新内容"
+    },
+    {
+      "id": "b57b12393d09",
+      "decision": "drop",
+      "drop_reason": "unverified",
+      "note": "X 帖只有图片，无出处"
+    },
+    {
+      "id": "b83ba1ca2402",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "服装帖，顺带提夯土广场"
+    },
+    {
+      "id": "b089a1203d8a",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "Grimshaw 十二门徒游客中心已在 10 月 13 日刊出"
+    }
+  ]
+}

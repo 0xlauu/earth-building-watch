@@ -1,54 +1,66 @@
 {
- "date": "2026-10-14",
- "lead": "德国 Reute 修道院夯土告别厅再获建筑奖；新论文测试生土遗址修复用生石灰灌浆的耐久性；AR Emerging 2026 入围名单含夯土实践。",
+ "date": "2026-10-15",
+ "lead": "法国 amàco 发布 2026/27 生土职业培训目录，两门课可用 CPF 资助；美国 Terran Robotics 用索吊机器人在印第安纳夯筑土墙住宅；两篇新论文分别讲手动压砖机设计和木条加固土坯墙抗震。",
  "actions": [
-  "10 月 15 日 Allschwil 有 Lehm Ton Erde 讲座，可报名",
-  "读石灰灌浆论文，记下 3:2:5 配比的老化数据",
-  "查 AR Emerging 入围者中谁在做夯土"
+  "下载 amàco 2026/27 培训目录，看 RS7253 生土课程大纲",
+  "10 月 18 日 Lattes 有土坯制作工作坊，可托法国联系人去看",
+  "关注 Terran Robotics 印第安纳项目，记下约 20% 黏土配比"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-14.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-15.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W42.html",
  "counts": {
-  "pick": 2,
-  "brief": 4,
-  "drop": 13,
+  "pick": 4,
+  "brief": 3,
+  "drop": 10,
   "merged": 0
  },
  "picks": [
   {
-   "title": "Reute 修道院夯土告别厅获 Hugo-Häring 奖",
-   "category": "项目案例",
-   "score": 71,
-   "for_you": "小型宗教与殡葬建筑用夯土能拿奖，可作同类客户的案例。",
-   "url": "https://www.schwaebische.de/regional/oberschwaben/bad-waldsee/dieses-ungewoehnliche-gebaeude-aus-erde-begeistert-sogar-architektur-experten-4933982",
-   "source": "Schwäbische.de"
+   "title": "amàco 发布 2026/27 生土职业培训目录",
+   "category": "工艺与教程",
+   "score": 70,
+   "for_you": "可对照它的课程结构，设计你给施工队的生土抹面培训。",
+   "url": "https://amaco.org/nouveau-formations-continues-pour-les-professionnel-le-s/",
+   "source": "amàco"
   },
   {
-   "title": "论文：生土遗址修复用生石灰灌浆的耐久性",
+   "title": "Terran Robotics 用索吊机器人夯筑土墙住宅",
+   "category": "产品与企业",
+   "score": 67,
+   "for_you": "机器人化土墙在美国起步，可关注它的配比和后续抹面需求。",
+   "url": "https://www.neozone.org/innovation/pour-reduire-les-couts-ce-robot-construit-des-maisons-avec-de-la-terre-crue-et-de-la-paille/",
+   "source": "NeozOne"
+  },
+  {
+   "title": "论文：手动压制土砖机 float-ram 的设计",
    "category": "研究论文",
-   "score": 63,
-   "for_you": "做生土修缮材料可参考配比和五种老化试验方法。",
-   "url": "https://doi.org/10.1680/jgeen.26.00038",
-   "source": "Proceedings of the Institution of Civil Engineers - Geotechnical Engineering"
+   "score": 61,
+   "for_you": "做土砖设备或小规模压砖，可读全文看机构设计和压力参数。",
+   "url": "https://doi.org/10.1016/j.mechmachtheory.2026.106653",
+   "source": "Mechanism and Machine Theory"
+  },
+  {
+   "title": "论文：近表面嵌木条加固土坯墙的抗震性能",
+   "category": "研究论文",
+   "score": 60,
+   "for_you": "土坯房加固是农村改造需求，可作配套方案的依据。",
+   "url": "https://doi.org/10.1016/j.istruc.2026.113300",
+   "source": "Structures"
   }
  ],
  "briefs": [
   {
-   "title": "Lehm Ton Erde 预告 Allschwil 讲座",
-   "url": "https://www.lehmtonerde.at/designing-for-innovation-how-work-environments-shape-health-collaboration-and-creativity-i-15-10-2026/"
+   "title": "Lattara 遗址 10 月 18 日办生土建造开放日",
+   "url": "https://www.midilibre.fr/2026/10/14/la-maison-gauloise-au-coeur-de-la-journee-de-larchitecture-13600683.php"
   },
   {
-   "title": "AR Emerging 2026 入围 10 家，含夯土实践",
-   "url": "https://www.architectural-review.com/awards/ar-emerging/ar-emerging-awards-2026-shortlist-revealed"
+   "title": "论文：CobBauge 生土墙建筑在欧洲各气候区的过热韧性",
+   "url": "https://doi.org/10.1080/00038628.2026.2740558"
   },
   {
-   "title": "访谈：Feiglstorfer 谈生土与乡土建筑的未来",
-   "url": "https://www.handwerkundbau.at/allgemein/wie-der-baustoff-lehm-die-zukunft-gestalten-kann/"
-  },
-  {
-   "title": "论文：Khalkhal 的 Khollar 生土堡是堡还是驿站",
-   "url": "https://doi.org/10.66224/athar.1897.2190.1"
+   "title": "南特建筑事务所 PADW 并入擅长生土的 ABD",
+   "url": "https://agence-api.ouest-france.fr/immobilier/architecture-et-agencement/les-cabinets-nantais-darchitecture-padw-et-abd-se-rapprochent-2ca9e2ee-c6fd-11f1-9522-1f9ae0711c0a"
   }
  ]
 }
