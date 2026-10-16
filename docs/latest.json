@@ -1,66 +1,37 @@
 {
- "date": "2026-10-15",
- "lead": "法国 amàco 发布 2026/27 生土职业培训目录，两门课可用 CPF 资助；美国 Terran Robotics 用索吊机器人在印第安纳夯筑土墙住宅；两篇新论文分别讲手动压砖机设计和木条加固土坯墙抗震。",
+ "date": "2026-10-16",
+ "lead": "墨西哥 Tatiana Bilbao 事务所在美国 Art Omi 用当地土夯筑一组土柱，让它随风雨慢慢风化，10 月 24 日开幕。法国伊泽尔一场夯土病害公开会到场人多。德国一栋草砖房用黏土防潮。",
  "actions": [
-  "下载 amàco 2026/27 培训目录，看 RS7253 生土课程大纲",
-  "10 月 18 日 Lattes 有土坯制作工作坊，可托法国联系人去看",
-  "关注 Terran Robotics 印第安纳项目，记下约 20% 黏土配比"
+  "看 Borrowed Earth 开幕后的照片，记下不加固夯土的风化做法",
+  "整理一份夯土墙常见病害和修补清单，可给老房业主讲"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-15.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-16.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W42.html",
  "counts": {
-  "pick": 4,
-  "brief": 3,
-  "drop": 10,
-  "merged": 0
+  "pick": 1,
+  "brief": 2,
+  "drop": 4,
+  "merged": 2
  },
  "picks": [
   {
-   "title": "amàco 发布 2026/27 生土职业培训目录",
-   "category": "工艺与教程",
-   "score": 70,
-   "for_you": "可对照它的课程结构，设计你给施工队的生土抹面培训。",
-   "url": "https://amaco.org/nouveau-formations-continues-pour-les-professionnel-le-s/",
-   "source": "amàco"
-  },
-  {
-   "title": "Terran Robotics 用索吊机器人夯筑土墙住宅",
-   "category": "产品与企业",
-   "score": 67,
-   "for_you": "机器人化土墙在美国起步，可关注它的配比和后续抹面需求。",
-   "url": "https://www.neozone.org/innovation/pour-reduire-les-couts-ce-robot-construit-des-maisons-avec-de-la-terre-crue-et-de-la-paille/",
-   "source": "NeozOne"
-  },
-  {
-   "title": "论文：手动压制土砖机 float-ram 的设计",
-   "category": "研究论文",
-   "score": 61,
-   "for_you": "做土砖设备或小规模压砖，可读全文看机构设计和压力参数。",
-   "url": "https://doi.org/10.1016/j.mechmachtheory.2026.106653",
-   "source": "Mechanism and Machine Theory"
-  },
-  {
-   "title": "论文：近表面嵌木条加固土坯墙的抗震性能",
-   "category": "研究论文",
-   "score": 60,
-   "for_you": "土坯房加固是农村改造需求，可作配套方案的依据。",
-   "url": "https://doi.org/10.1016/j.istruc.2026.113300",
-   "source": "Structures"
+   "title": "Tatiana Bilbao 在 Art Omi 建夯土柱装置",
+   "category": "项目案例",
+   "score": 66,
+   "for_you": "知名事务所把“会风化”当卖点，可借这个说法推不加固夯土和土抹面。",
+   "url": "https://www.archdaily.com/1186896/opening-tatiana-bilbao-estudio-borrowed-earth",
+   "source": "ArchDaily"
   }
  ],
  "briefs": [
   {
-   "title": "Lattara 遗址 10 月 18 日办生土建造开放日",
-   "url": "https://www.midilibre.fr/2026/10/14/la-maison-gauloise-au-coeur-de-la-journee-de-larchitecture-13600683.php"
+   "title": "法国一场夯土病害公开会到场人多",
+   "url": "https://www.ledauphine.com/economie/2026/10/15/une-reunion-publique-sur-les-pathologies-du-pise-tres-suivie"
   },
   {
-   "title": "论文：CobBauge 生土墙建筑在欧洲各气候区的过热韧性",
-   "url": "https://doi.org/10.1080/00038628.2026.2740558"
-  },
-  {
-   "title": "南特建筑事务所 PADW 并入擅长生土的 ABD",
-   "url": "https://agence-api.ouest-france.fr/immobilier/architecture-et-agencement/les-cabinets-nantais-darchitecture-padw-et-abd-se-rapprochent-2ca9e2ee-c6fd-11f1-9522-1f9ae0711c0a"
+   "title": "德国 Westerwiehe 协会建木结构草砖房，用黏土防潮",
+   "url": "https://www.die-glocke.de/kreis-guetersloh/rietberg/artikel/hausbau-mit-stroh-naturmaterialien-halten-eine-ewigkeit-1791991213"
   }
  ]
 }

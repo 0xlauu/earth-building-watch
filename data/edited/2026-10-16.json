@@ -1,0 +1,125 @@
+{
+ "date": "2026-10-16",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-16T09:40:00+08:00",
+ "lead": "墨西哥 Tatiana Bilbao 事务所在美国 Art Omi 用当地土夯筑一组土柱，让它随风雨慢慢风化，10 月 24 日开幕。法国伊泽尔一场夯土病害公开会到场人多。德国一栋草砖房用黏土防潮。",
+ "actions": [
+  "看 Borrowed Earth 开幕后的照片，记下不加固夯土的风化做法",
+  "整理一份夯土墙常见病害和修补清单，可给老房业主讲"
+ ],
+ "items": [
+  {
+   "id": "47c53f1c55db",
+   "decision": "pick",
+   "category": "project",
+   "scores": {
+    "sig": 5,
+    "nov": 7,
+    "cred": 8,
+    "reson": 8,
+    "act": 5
+   },
+   "score": 66,
+   "title_zh": "Tatiana Bilbao 在 Art Omi 建夯土柱装置",
+   "summary_zh": "墨西哥 Tatiana Bilbao ESTUDIO 受托在美国 Art Omi 雕塑与建筑公园建成新作 Borrowed Earth，10 月 24 日下午 2 点开幕。作品是一组夯土柱，用当地土。原文说夯土在当地很少用。柱子会随季节和天气慢慢侵蚀，最后回到土里。",
+   "for_you": "知名事务所把“会风化”当卖点，可借这个说法推不加固夯土和土抹面。",
+   "merged_ids": [
+    "fbd1ae0a44c1",
+    "4e32b79bb31b"
+   ]
+  },
+  {
+   "id": "fbd1ae0a44c1",
+   "decision": "merged",
+   "merged_into": "47c53f1c55db"
+  },
+  {
+   "id": "4e32b79bb31b",
+   "decision": "merged",
+   "merged_into": "47c53f1c55db"
+  },
+  {
+   "id": "d4154672721b",
+   "decision": "brief",
+   "category": "heritage",
+   "scores": {
+    "sig": 4,
+    "nov": 3,
+    "cred": 6,
+    "reson": 8,
+    "act": 4
+   },
+   "score": 50,
+   "title_zh": "法国一场夯土病害公开会到场人多",
+   "summary_zh": "Le Dauphiné Libéré 10 月 15 日报道：法国伊泽尔省 La Chapelle-de-la-Tour 办了一场讲夯土（pisé）病害的公开会，到场的人很多。原文付费，细节未见。",
+   "url_override": "https://www.ledauphine.com/economie/2026/10/15/une-reunion-publique-sur-les-pathologies-du-pise-tres-suivie"
+  },
+  {
+   "id": "fd4853e17a20",
+   "decision": "brief",
+   "category": "project",
+   "scores": {
+    "sig": 3,
+    "nov": 3,
+    "cred": 6,
+    "reson": 6,
+    "act": 4
+   },
+   "score": 44,
+   "title_zh": "德国 Westerwiehe 协会建木结构草砖房，用黏土防潮",
+   "summary_zh": "Die Glocke 10 月 15 日报道：德国 Westerwiehe 的 Ecosphere 协会在建一栋多功能楼。木头做结构，草砖保温，黏土防潮。文章也问这种房能否达标。",
+   "url_override": "https://www.die-glocke.de/kreis-guetersloh/rietberg/artikel/hausbau-mit-stroh-naturmaterialien-halten-eine-ewigkeit-1791991213"
+  },
+  {
+   "id": "97d599c299f5",
+   "decision": "drop",
+   "drop_reason": "low_score",
+   "category": "market",
+   "scores": {
+    "sig": 3,
+    "nov": 3,
+    "cred": 6,
+    "reson": 4,
+    "act": 2
+   },
+   "score": 38,
+   "note": "科隆木结构论坛报道，只一句提到对生土的兴趣上升"
+  },
+  {
+   "id": "127280eec040",
+   "decision": "drop",
+   "drop_reason": "unverified",
+   "note": "萨尔塔社会新闻，查不到正文，看不出和生土有关"
+  },
+  {
+   "id": "e9da09ad4dcf",
+   "decision": "drop",
+   "drop_reason": "low_score",
+   "category": "heritage",
+   "scores": {
+    "sig": 2,
+    "nov": 3,
+    "cred": 4,
+    "reson": 3,
+    "act": 1
+   },
+   "score": 27,
+   "note": "埃及达赫莱绿洲泥砖墓，9 月下旬公布，重点是希腊文诗"
+  },
+  {
+   "id": "68c587a7565a",
+   "decision": "drop",
+   "drop_reason": "low_score",
+   "category": "heritage",
+   "scores": {
+    "sig": 2,
+    "nov": 2,
+    "cred": 3,
+    "reson": 2,
+    "act": 1
+   },
+   "score": 21,
+   "note": "南京明皇城夯土墙，2022-2023 年发掘，X 转述"
+  }
+ ]
+}
