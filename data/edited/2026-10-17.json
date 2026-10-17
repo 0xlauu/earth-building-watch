@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-17",
+  "editor": "Grok Bot",
+  "edited_at": "2026-10-17T12:40:00+08:00",
+  "lead": "格勒诺布尔 STIPE 浇筑土研讨会征集摘要，10 月 30 日截止；Heritage 新论文用中美洲湿热区千年土遗址挑战“生土怕潮”；另有一篇法国与吉布提土样的性能对比。",
+  "actions": [
+    "10 月 30 日前决定是否向 STIPE 投稿或申报 1:1 实验项目",
+    "读 Daneels 论文，看沥青添加剂和无连续抹面的做法"
+  ],
+  "items": [
+    {
+      "id": "9a3d2dcbf20e",
+      "decision": "pick",
+      "category": "event",
+      "scores": {
+        "sig": 7,
+        "nov": 6,
+        "cred": 8,
+        "reson": 8,
+        "act": 9
+      },
+      "score": 79,
+      "title_zh": "格勒诺布尔 STIPE 浇筑土研讨会征集摘要",
+      "summary_zh": "CRAterre、ENSAG 等在法国格勒诺布尔办浇筑土（terre coulée）国际研讨会 STIPE，2027 年 6 月 1-4 日举行，含 1:1 实验日。论文和实验项目摘要截止 2026 年 10 月 30 日，目标之一是推动编写职业规范。",
+      "for_you": "浇筑土接近常规混凝土施工，适合打进传统施工企业；可投稿或去现场看 1:1 样板。",
+      "url_override": "https://www.grenoble.archi.fr/colloque-symposium-international-sur-la-technique-innovante-de-la-terre-coulee/"
+    },
+    {
+      "id": "0a62e2cc44ae",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 6,
+        "nov": 8,
+        "cred": 7,
+        "reson": 6,
+        "act": 4
+      },
+      "score": 66,
+      "title_zh": "论文：中美洲湿热地区古代大型生土建筑的做法",
+      "summary_zh": "Daneels 在 Heritage 期刊撰文，分析中美洲湿热地区存续 1000-4000 年的纯土遗址。三点与现代惯例不同：没有基础、没有连续抹面、用沥青做添加剂。文章基于墨西哥湾岸 La Joya 等遗址的发掘、成分分析和复制试验。",
+      "for_you": "“生土怕潮”是客户常见顾虑，这篇可作反例；沥青添加剂思路可对照你的防水配方。"
+    },
+    {
+      "id": "c2924923ccc6",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 6,
+        "cred": 8,
+        "reson": 7,
+        "act": 5
+      },
+      "score": 61,
+      "title_zh": "论文：法国与吉布提两地生土的材料性能对比",
+      "summary_zh": "论文比较法国 Châlons-en-Champagne 和吉布提 Balbala 两地土样，测了粒径、力学、热工、透湿、调湿和耐水。吉布提土黏粒多、强度和调湿更高，但更易侵蚀；法国土含碳酸盐多、蓄热更高。作者称墙体尺度性能仍待验证。",
+      "for_you": "说明同类测试要按土源分别做；可参考它的测试项目清单，给你的抹面土做性能卡。"
+    },
+    {
+      "id": "41055cfc1cbf",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 4,
+        "nov": 6,
+        "cred": 7,
+        "reson": 4,
+        "act": 3
+      },
+      "score": 51,
+      "title_zh": "论文：评估夯土城防工事脆弱性的方法和 App",
+      "summary_zh": "Digital Applications in Archaeology and Cultural Heritage 期刊新论文，提出一套按保存状况评估并绘制夯土城防工事脆弱性的方法和配套 App。"
+    },
+    {
+      "id": "c81251650162",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 6,
+        "cred": 7,
+        "reson": 6,
+        "act": 4
+      },
+      "score": 57,
+      "title_zh": "论文：生土增材制造现场与预制打印的难点对比",
+      "summary_zh": "Lecture Notes in Civil Engineering 会议论文集收录的论文，比较生土 3D 打印在现场和工厂预制两种方式下各自的难点。"
+    },
+    {
+      "id": "d4ed390b18a2",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 4,
+        "nov": 5,
+        "cred": 7,
+        "reson": 7,
+        "act": 4
+      },
+      "score": 52,
+      "title_zh": "论文：含添加剂压制土砖的循环性案例研究",
+      "summary_zh": "Lecture Notes in Civil Engineering 会议论文集收录的论文，以案例研究压制土砖加入添加剂后还能否循环利用。"
+    },
+    {
+      "id": "d5fac62b2d28",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 4,
+        "nov": 5,
+        "cred": 7,
+        "reson": 7,
+        "act": 4
+      },
+      "score": 52,
+      "title_zh": "论文：废料基压制土砖墙体的环境评估对比",
+      "summary_zh": "同一会议论文集收录的论文，对比用废料和工业副产品制成的几种压制土砖墙体系统的环境影响。"
+    },
+    {
+      "id": "a3494d764fea",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 3,
+        "nov": 4,
+        "cred": 7,
+        "reson": 5,
+        "act": 5
+      },
+      "score": 45,
+      "title_zh": "论文：意大利阿布鲁佐的生土建筑参与式工作坊",
+      "summary_zh": "同一会议论文集收录的论文，介绍在意大利阿布鲁佐用参与式工作坊传播和创新当地生土建筑文化。"
+    },
+    {
+      "id": "6cca2fa03b07",
+      "decision": "brief",
+      "category": "market",
+      "scores": {
+        "sig": 4,
+        "nov": 4,
+        "cred": 5,
+        "reson": 8,
+        "act": 4
+      },
+      "score": 54,
+      "title_zh": "Hochparterre：苏黎世讲座讨论夯土从手工到机器人",
+      "summary_zh": "Hochparterre 报道苏黎世 Baumuster-Centrale 的“从手工到机器人”讲座，近百人到场，讲者呼吁夯土回归。文中称夯土市场份额不到 1%。该文为 Keller 委托的付费内容。",
+      "url_override": "https://www.hochparterre.ch/magazin/brownbag-lunch/kreislauffaehige-schichten"
+    },
+    {
+      "id": "c000257ba493",
+      "decision": "drop",
+      "drop_reason": "low_score",
+      "note": "Crossref 新登记，原文 2016 年；黄麻纤维压制土砖",
+      "category": "research",
+      "scores": {
+        "sig": 3,
+        "nov": 2,
+        "cred": 6,
+        "reson": 7,
+        "act": 5
+      },
+      "score": 39
+    },
+    {
+      "id": "88ce0c529b28",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "ArchDaily 旧文，项目 2013 年，2018 年发布"
+    },
+    {
+      "id": "0e649e471883",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "Drôme 无采暖住宅，2025 年已报道（France 2 2025-04）"
+    },
+    {
+      "id": "a6b6ad9a40f9",
+      "decision": "drop",
+      "drop_reason": "unverified",
+      "note": "ladepeche 正文不可见，无法确认内容"
+    },
+    {
+      "id": "9c28b62246e6",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "乡村旅居产业新闻"
+    },
+    {
+      "id": "3de9f1298443",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "脱贫故事"
+    },
+    {
+      "id": "5b47864ab394",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "越南建设管理新闻"
+    },
+    {
+      "id": "1fc17601604d",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "越南建设管理新闻（西文版）"
+    },
+    {
+      "id": "1b331926fd62",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "社会住宅景观绿化"
+    },
+    {
+      "id": "0b39f2d2c0e7",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "考古发现，与生土建材无直接关系"
+    },
+    {
+      "id": "b3be4edadd9c",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "仰韶考古综述"
+    }
+  ]
+}

@@ -1,37 +1,69 @@
 {
- "date": "2026-10-16",
- "lead": "墨西哥 Tatiana Bilbao 事务所在美国 Art Omi 用当地土夯筑一组土柱，让它随风雨慢慢风化，10 月 24 日开幕。法国伊泽尔一场夯土病害公开会到场人多。德国一栋草砖房用黏土防潮。",
+ "date": "2026-10-17",
+ "lead": "格勒诺布尔 STIPE 浇筑土研讨会征集摘要，10 月 30 日截止；Heritage 新论文用中美洲湿热区千年土遗址挑战“生土怕潮”；另有一篇法国与吉布提土样的性能对比。",
  "actions": [
-  "看 Borrowed Earth 开幕后的照片，记下不加固夯土的风化做法",
-  "整理一份夯土墙常见病害和修补清单，可给老房业主讲"
+  "10 月 30 日前决定是否向 STIPE 投稿或申报 1:1 实验项目",
+  "读 Daneels 论文，看沥青添加剂和无连续抹面的做法"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-16.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-17.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W42.html",
  "counts": {
-  "pick": 1,
-  "brief": 2,
-  "drop": 4,
-  "merged": 2
+  "pick": 3,
+  "brief": 6,
+  "drop": 11,
+  "merged": 0
  },
  "picks": [
   {
-   "title": "Tatiana Bilbao 在 Art Omi 建夯土柱装置",
-   "category": "项目案例",
+   "title": "格勒诺布尔 STIPE 浇筑土研讨会征集摘要",
+   "category": "活动与赛事",
+   "score": 79,
+   "for_you": "浇筑土接近常规混凝土施工，适合打进传统施工企业；可投稿或去现场看 1:1 样板。",
+   "url": "https://www.grenoble.archi.fr/colloque-symposium-international-sur-la-technique-innovante-de-la-terre-coulee/",
+   "source": "ECHOSCIENCES - Grenoble"
+  },
+  {
+   "title": "论文：中美洲湿热地区古代大型生土建筑的做法",
+   "category": "研究论文",
    "score": 66,
-   "for_you": "知名事务所把“会风化”当卖点，可借这个说法推不加固夯土和土抹面。",
-   "url": "https://www.archdaily.com/1186896/opening-tatiana-bilbao-estudio-borrowed-earth",
-   "source": "ArchDaily"
+   "for_you": "“生土怕潮”是客户常见顾虑，这篇可作反例；沥青添加剂思路可对照你的防水配方。",
+   "url": "https://doi.org/10.3390/heritage9100431",
+   "source": "Heritage"
+  },
+  {
+   "title": "论文：法国与吉布提两地生土的材料性能对比",
+   "category": "研究论文",
+   "score": 61,
+   "for_you": "说明同类测试要按土源分别做；可参考它的测试项目清单，给你的抹面土做性能卡。",
+   "url": "https://doi.org/10.3390/buildings16204084",
+   "source": "Buildings"
   }
  ],
  "briefs": [
   {
-   "title": "法国一场夯土病害公开会到场人多",
-   "url": "https://www.ledauphine.com/economie/2026/10/15/une-reunion-publique-sur-les-pathologies-du-pise-tres-suivie"
+   "title": "论文：生土增材制造现场与预制打印的难点对比",
+   "url": "https://doi.org/10.1007/978-3-032-34930-9_172"
   },
   {
-   "title": "德国 Westerwiehe 协会建木结构草砖房，用黏土防潮",
-   "url": "https://www.die-glocke.de/kreis-guetersloh/rietberg/artikel/hausbau-mit-stroh-naturmaterialien-halten-eine-ewigkeit-1791991213"
+   "title": "Hochparterre：苏黎世讲座讨论夯土从手工到机器人",
+   "url": "https://www.hochparterre.ch/magazin/brownbag-lunch/kreislauffaehige-schichten"
+  },
+  {
+   "title": "论文：含添加剂压制土砖的循环性案例研究",
+   "url": "https://doi.org/10.1007/978-3-032-34930-9_129"
+  },
+  {
+   "title": "论文：废料基压制土砖墙体的环境评估对比",
+   "url": "https://doi.org/10.1007/978-3-032-34930-9_59"
+  },
+  {
+   "title": "论文：评估夯土城防工事脆弱性的方法和 App",
+   "url": "https://doi.org/10.1016/j.daach.2026.e00600"
+  },
+  {
+   "title": "论文：意大利阿布鲁佐的生土建筑参与式工作坊",
+   "url": "https://doi.org/10.1007/978-3-032-34930-9_11"
   }
  ]
 }
