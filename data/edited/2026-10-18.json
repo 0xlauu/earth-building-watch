@@ -1,0 +1,84 @@
+{
+ "date": "2026-10-18",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-18T09:20:00+08:00",
+ "lead": "今天 11 条待审全部丢弃：旧文重发、无关社会新闻和 X 噪音帖。今天不出新一期。",
+ "actions": [],
+ "items": [
+  {
+   "id": "ef2db95d3838",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Divisare 法国 Villenave-d'Ornon 社区活动厅，原文未提生土材料"
+  },
+  {
+   "id": "4263778275f0",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "Orange 重发 Erwan Hamard 2019 年 3 月的讲座视频"
+  },
+  {
+   "id": "ae52e23209c3",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Dezeen 周报，2026 Stirling 奖得主是砖砌住宅 Lion Green Road，与生土无关"
+  },
+  {
+   "id": "1ca960c2934b",
+   "decision": "drop",
+   "drop_reason": "low_score",
+   "category": "heritage",
+   "scores": {
+    "sig": 2,
+    "nov": 2,
+    "cred": 5,
+    "reson": 6,
+    "act": 3
+   },
+   "score": 35,
+   "note": "ici.fr 介绍 Brioude 附近看夯土老房的徒步线，旅游向，原文未能打开"
+  },
+  {
+   "id": "ea25631c4695",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "高考状元社会新闻，与生土无关"
+  },
+  {
+   "id": "068799aca5d7",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "X 个人观点帖，呼吁尼泊尔回到夯土，无具体信息"
+  },
+  {
+   "id": "eb3e146de8b9",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "X 斯瓦希里语闲聊"
+  },
+  {
+   "id": "09d6aa3b0b32",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "X 历史帖，阿房宫夯土台基，与生土材料无关"
+  },
+  {
+   "id": "7905d261e15d",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 骂战帖"
+  },
+  {
+   "id": "a237c6b0555b",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 回复 @elonmusk 的自我推广帖"
+  },
+  {
+   "id": "0179e422cac9",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "X 设想帖，无实际项目"
+  }
+ ]
+}

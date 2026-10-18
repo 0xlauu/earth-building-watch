@@ -177,7 +177,8 @@ def edition_body(ed, items, depth, home=False):
 
 def main():
     raw = load_json(RAW, {"items": {}})["items"]
-    eds = [e for e in load_editions() if e.get("date")]
+    # 全部丢弃的一天只记录审稿决定（让待审清零），不出新一期
+    eds = [e for e in load_editions() if e.get("date") and any(i.get("decision") in ("pick", "brief") for i in e.get("items", []))]
     eds.sort(key=lambda e: e["date"])
     if os.path.exists(DOCS):
         for n in os.listdir(DOCS):
