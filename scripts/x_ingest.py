@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""把每日机器人用 X 连接器抓到的帖子导入原始库和待审队列。
+"""【已停用：2026-10-19 起，见 sources_x.json 的 disabled】
+把每日机器人用 X 连接器抓到的帖子导入原始库和待审队列。
 
 两步用法（见 EDITOR.md 第 1b 步）：
   python3 scripts/x_ingest.py --plan
@@ -103,6 +104,10 @@ def ingest(files):
 
 
 if __name__ == "__main__":
+    _cfg = load_json(XCFG, {})
+    if _cfg.get("disabled"):
+        print(f"X 已停用（{_cfg.get('disabled_since', '')} 起，Lau 决定）。不要调用 X 连接器。本脚本不做任何事。")
+        sys.exit(0)
     if len(sys.argv) > 1 and sys.argv[1] == "--plan":
         plan()
     elif len(sys.argv) > 1:

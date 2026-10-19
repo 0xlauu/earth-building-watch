@@ -1,4 +1,7 @@
 {
+ "disabled": true,
+ "disabled_since": "2026-10-19",
+ "disabled_note": "2026-10-19 起停用（Lau 决定）。不再调用 X 连接器；scripts/x_ingest.py 会直接退出。已发布往期里的 X 条目保留。",
  "$comment": "X 信源。cron 没有 X 权限；由每日机器人用 X 连接器（user-X）抓取，再用 scripts/x_ingest.py 导入。账号都在 2026-10-07 用 get_users_by_usernames / search_users 核实过，id 是 X 的数字用户 id。不要加没核实的账号。",
  "verified_at": "2026-10-07",
  "accounts": [

@@ -295,9 +295,14 @@ def main():
     xplat = " · ".join(f'<a href="{E(a["url"])}" target="_blank" rel="noopener">@{E(a["username"])}</a>' for a in xcfg.get("platform_accounts", []))
     xq = "".join(f'<li><b>{E(q["label"])}</b>：<code>{E(q["query"][:160])}{"…" if len(q["query"]) > 160 else ""}</code></li>' for q in xcfg.get("queries", []))
     xstat = (f'上次抓取 <b>{E((xs.get("last_ok") or "—")[:16].replace("T", " "))}</b>，累计收录 <b>{xs.get("total_collected", 0)}</b> 条。') if xs else "还没抓过。"
-    xsec = f"""<section class="ebw-section"><h2>X（由每日编辑机器人抓取）</h2><p class="ebw-note">定时脚本没有 X 权限。每天 09:05 编辑机器人用 X 连接器搜过去 24 小时，最多 4 次搜索、每次 10 条，再导入待审。{xstat}</p>
-<div class="ebw-table"><table><thead><tr><th>账号</th><th>名称</th><th>说明</th></tr></thead><tbody>{xrows}</tbody></table></div>
-<p class="ebw-note">建筑平台账号（只收含生土词的帖子）：{xplat}</p><ul class="ebw-actions">{xq}</ul></section>"""
+    if xcfg.get("disabled"):
+        xsince = E(xcfg.get("disabled_since", ""))
+        xhist = f"停用前累计收录 <b>{xs.get('total_collected', 0)}</b> 条，已发布往期里的 X 条目保留。" if xs else ""
+        xsec = f"""<section class="ebw-section"><h2>X（已停用，{xsince} 起）</h2><p class="ebw-note">从 {xsince} 起不再抓取 X。{xhist}</p></section>"""
+    else:
+        xsec = f"""<section class="ebw-section"><h2>X（由每日编辑机器人抓取）</h2><p class="ebw-note">定时脚本没有 X 权限。每天 09:05 编辑机器人用 X 连接器搜过去 24 小时，最多 4 次搜索、每次 10 条，再导入待审。{xstat}</p>
+    <div class="ebw-table"><table><thead><tr><th>账号</th><th>名称</th><th>说明</th></tr></thead><tbody>{xrows}</tbody></table></div>
+    <p class="ebw-note">建筑平台账号（只收含生土词的帖子）：{xplat}</p><ul class="ebw-actions">{xq}</ul></section>"""
     mrows = ""
     for pl in mcfg.get("platforms", []):
         accs = " · ".join(f'<a href="{E(a["url"])}" target="_blank" rel="noopener">{E(a.get("handle") or a["name"])}</a>' for a in pl.get("accounts", [])) or "—"
@@ -306,11 +311,11 @@ def main():
 <div class="ebw-table"><table><thead><tr><th>平台</th><th>为什么不自动抓</th><th>值得关注（已核实）</th></tr></thead><tbody>{mrows}</tbody></table></div></section>"""
     th = "".join(f"<li><b>{l}</b>：份量 {w_[0]}、新信息 {w_[1]}、证据 {w_[2]}、和你相关 {w_[3]}、能马上用 {w_[4]}</li>" for k, l, w_ in CATEGORIES)
     last = state.get("_last_fetch", {})
-    sbody = f"""<section class="ebw-hero"><h1>信源与方法</h1><p class="ebw-lead">自动抓取 {len(srcs)} 个信源（共 {n_members} 个订阅地址），加上 X 上 {len(xcfg.get("accounts", []))} 个生土账号和 4 组搜索。语言有中、英、法、德、西、葡。每天抓两次，编辑机器人每天审一次。</p>
+    sbody = f"""<section class="ebw-hero"><h1>信源与方法</h1><p class="ebw-lead">自动抓取 {len(srcs)} 个信源（共 {n_members} 个订阅地址）{"（X 已停用）" if xcfg.get("disabled") else f'，加上 X 上 {len(xcfg.get("accounts", []))} 个生土账号和 4 组搜索'}。语言有中、英、法、德、西、葡。每天抓两次，编辑机器人每天审一次。</p>
 <div class="ebw-stats"><span>上次抓取 <b>{E((last.get('at') or '—')[:16].replace('T',' '))}</b></span><span>收录总数 <b>{len(raw)}</b></span></div></section>
 {gsec}{xsec}{msec}
 <section class="ebw-section ebw-prose"><h2>怎么选稿</h2>
-<p>脚本每天 07:00 和 19:00 抓取。X 由编辑机器人每天抓一次。第一次见到时已经发布超过 48 小时的资料只归档，不会再冒出来。</p>
+<p>脚本每天 07:00 和 19:00 抓取。{"X 自 " + E(xcfg.get("disabled_since", "")) + " 起停用。" if xcfg.get("disabled") else "X 由编辑机器人每天抓一次。"}第一次见到时已经发布超过 48 小时的资料只归档，不会再冒出来。</p>
 <p>编辑逐条看。先剔除和生土无关、旧文重推、无法核实的。再按五个维度打 0 到 10 分，按分类加权，得到 0 到 100 的总分。</p>
 <ul class="ebw-actions">{th}</ul>
 <p>精选门槛：官方一手 {PICK_THRESHOLD['T1']} 分，期刊论文 {PICK_THRESHOLD['T1_5']} 分，媒体聚合 {PICK_THRESHOLD['T2']} 分。{BRIEF_THRESHOLD} 分以上进简讯。每天精选最多 {MAX_PICKS_PER_DAY} 条。</p>
