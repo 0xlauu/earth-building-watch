@@ -1,69 +1,37 @@
 {
- "date": "2026-10-17",
- "lead": "格勒诺布尔 STIPE 浇筑土研讨会征集摘要，10 月 30 日截止；Heritage 新论文用中美洲湿热区千年土遗址挑战“生土怕潮”；另有一篇法国与吉布提土样的性能对比。",
+ "date": "2026-10-19",
+ "lead": "布鲁塞尔港口将建 9300 平方米的循环建造中心 Stadsat，生土材料商 BC 参与发起。奥地利 Andi Breuss 的木-土复合研究屋在建。法国热浪后，木、草、生土住宅被拿来做防热样板。",
  "actions": [
-  "10 月 30 日前决定是否向 STIPE 投稿或申报 1:1 实验项目",
-  "读 Daneels 论文，看沥青添加剂和无连续抹面的做法"
+  "查看 BC materials 的 Léém 生土产品线，对照你的抹面和土砖产品定位",
+  "记下 Andi Breuss 木-土复合研究屋，2027 年起可参观"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-17.html",
- "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W42.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-19.html",
+ "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W43.html",
  "counts": {
-  "pick": 3,
-  "brief": 6,
-  "drop": 11,
+  "pick": 1,
+  "brief": 2,
+  "drop": 15,
   "merged": 0
  },
  "picks": [
   {
-   "title": "格勒诺布尔 STIPE 浇筑土研讨会征集摘要",
-   "category": "活动与赛事",
-   "score": 79,
-   "for_you": "浇筑土接近常规混凝土施工，适合打进传统施工企业；可投稿或去现场看 1:1 样板。",
-   "url": "https://www.grenoble.archi.fr/colloque-symposium-international-sur-la-technique-innovante-de-la-terre-coulee/",
-   "source": "ECHOSCIENCES - Grenoble"
-  },
-  {
-   "title": "论文：中美洲湿热地区古代大型生土建筑的做法",
-   "category": "研究论文",
-   "score": 66,
-   "for_you": "“生土怕潮”是客户常见顾虑，这篇可作反例；沥青添加剂思路可对照你的防水配方。",
-   "url": "https://doi.org/10.3390/heritage9100431",
-   "source": "Heritage"
-  },
-  {
-   "title": "论文：法国与吉布提两地生土的材料性能对比",
-   "category": "研究论文",
-   "score": 61,
-   "for_you": "说明同类测试要按土源分别做；可参考它的测试项目清单，给你的抹面土做性能卡。",
-   "url": "https://doi.org/10.3390/buildings16204084",
-   "source": "Buildings"
+   "title": "布鲁塞尔港将建 Stadsat 循环建造中心",
+   "category": "行业与市场",
+   "score": 67,
+   "for_you": "BC 已把工地挖方土做成量产生土产品。这是欧洲生土进入城市循环建造的样板，可学它的合作和资金路径。",
+   "url": "https://www.rtbf.be/article/le-port-de-bruxelles-cree-un-nouveau-pole-consacre-a-la-construction-circulaire-11800092",
+   "source": "BATIBOUW"
   }
  ],
  "briefs": [
   {
-   "title": "论文：生土增材制造现场与预制打印的难点对比",
-   "url": "https://doi.org/10.1007/978-3-032-34930-9_172"
+   "title": "Der Standard：生土能否应对气候危机",
+   "url": "https://www.derstandard.at/story/3000000344067/wir-bauen-als-gaebe-es-keine-klimakrise-ist-lehm-die-loesung"
   },
   {
-   "title": "Hochparterre：苏黎世讲座讨论夯土从手工到机器人",
-   "url": "https://www.hochparterre.ch/magazin/brownbag-lunch/kreislauffaehige-schichten"
-  },
-  {
-   "title": "论文：含添加剂压制土砖的循环性案例研究",
-   "url": "https://doi.org/10.1007/978-3-032-34930-9_129"
-  },
-  {
-   "title": "论文：废料基压制土砖墙体的环境评估对比",
-   "url": "https://doi.org/10.1007/978-3-032-34930-9_59"
-  },
-  {
-   "title": "论文：评估夯土城防工事脆弱性的方法和 App",
-   "url": "https://doi.org/10.1016/j.daach.2026.e00600"
-  },
-  {
-   "title": "论文：意大利阿布鲁佐的生土建筑参与式工作坊",
-   "url": "https://doi.org/10.1007/978-3-032-34930-9_11"
+   "title": "Télérama：热浪后法国建筑师怎样防热",
+   "url": "https://www.telerama.fr/debats-reportages/canicules-comment-les-architectes-planchent-pour-rendre-les-logements-plus-vivables-l-ete-7033423.php"
   }
  ]
 }

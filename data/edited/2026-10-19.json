@@ -1,0 +1,151 @@
+{
+ "date": "2026-10-19",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-19T09:20:00+08:00",
+ "lead": "布鲁塞尔港口将建 9300 平方米的循环建造中心 Stadsat，生土材料商 BC 参与发起。奥地利 Andi Breuss 的木-土复合研究屋在建。法国热浪后，木、草、生土住宅被拿来做防热样板。",
+ "actions": [
+  "查看 BC materials 的 Léém 生土产品线，对照你的抹面和土砖产品定位",
+  "记下 Andi Breuss 木-土复合研究屋，2027 年起可参观"
+ ],
+ "items": [
+  {
+   "id": "496cb36ac9e3",
+   "decision": "pick",
+   "category": "market",
+   "scores": {
+    "sig": 7,
+    "nov": 6,
+    "cred": 7,
+    "reson": 7,
+    "act": 5
+   },
+   "score": 67,
+   "title_zh": "布鲁塞尔港将建 Stadsat 循环建造中心",
+   "summary_zh": "Democo 与 BC architects & studies & materials 发起 Stadsat，10 月 14 日发布。中心建在布鲁塞尔港旧煤场，约 9300 平方米，投资 975 万欧元，获欧盟 FEDER 资助，2028 年开放。主打再利用、生土、木材和稻草。",
+   "for_you": "BC 已把工地挖方土做成量产生土产品。这是欧洲生土进入城市循环建造的样板，可学它的合作和资金路径。",
+   "url_override": "https://www.rtbf.be/article/le-port-de-bruxelles-cree-un-nouveau-pole-consacre-a-la-construction-circulaire-11800092"
+  },
+  {
+   "id": "b29e6de7b8d9",
+   "decision": "brief",
+   "category": "project",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 7,
+    "reson": 8,
+    "act": 5
+   },
+   "score": 63,
+   "title_zh": "Der Standard：生土能否应对气候危机",
+   "summary_zh": "奥地利《标准报》长文。Netzwerk Lehm 主席 Andi Breuss 在 Retzbach 建木-土复合研究屋。工法有专利，可建三层，用土地坪代替水泥。2027 年起可参观。",
+   "url_override": "https://www.derstandard.at/story/3000000344067/wir-bauen-als-gaebe-es-keine-klimakrise-ist-lehm-die-loesung"
+  },
+  {
+   "id": "d92dc8721d48",
+   "decision": "brief",
+   "category": "market",
+   "scores": {
+    "sig": 4,
+    "nov": 4,
+    "cred": 7,
+    "reson": 5,
+    "act": 3
+   },
+   "score": 48,
+   "title_zh": "Télérama：热浪后法国建筑师怎样防热",
+   "summary_zh": "Télérama 报道法国建筑师应对 2026 年热浪。样板是波尔多北部的 Naturae 住宅：2023 年交付，五栋小楼，户户通风，木结构，填稻草和生土。",
+   "url_override": "https://www.telerama.fr/debats-reportages/canicules-comment-les-architectes-planchent-pour-rendre-les-logements-plus-vivables-l-ete-7033423.php"
+  },
+  {
+   "id": "c504f78be0b9",
+   "decision": "drop",
+   "drop_reason": "unverified",
+   "note": "Guérande 社会住宅，只确认用生物基材料，未确认用生土"
+  },
+  {
+   "id": "20d998323799",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "Paquimé 土坯古城旅游介绍，1998 年已列世界遗产，无新信息"
+  },
+  {
+   "id": "f2e2182703f9",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "仰韶文化考古综述，与生土材料无关"
+  },
+  {
+   "id": "c844207dbc53",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "天水长征红色故事，与生土无关"
+  },
+  {
+   "id": "5c7e3697bf97",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "X 乡村氛围图帖，无信息"
+  },
+  {
+   "id": "4c2d8e034dfb",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 同一账号科普帖，无正式出处"
+  },
+  {
+   "id": "0fdeaac9fb59",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 同一账号帖，省 50% 成本说法无出处"
+  },
+  {
+   "id": "7adb7f7360e2",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 同一账号强度对比视频帖，无正式出处"
+  },
+  {
+   "id": "9bede500978f",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 同一账号科普帖"
+  },
+  {
+   "id": "1b8b351ce915",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 同一账号提问帖"
+  },
+  {
+   "id": "974662371524",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 同一账号视频帖"
+  },
+  {
+   "id": "74178209fc79",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "X 一句话感想帖"
+  },
+  {
+   "id": "656af1d0d570",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 同一账号图片帖"
+  },
+  {
+   "id": "efd730485a0e",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "X 个人愿望帖"
+  },
+  {
+   "id": "ffdcf5ab258a",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "X 越州故城夯土城垣介绍，无新信息"
+  }
+ ]
+}
