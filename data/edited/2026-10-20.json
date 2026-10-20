@@ -1,0 +1,174 @@
+{
+ "date": "2026-10-20",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-20T09:25:00+08:00",
+ "lead": "千岛湖淳岸威士忌酒厂落成，用约 3000 立方米开挖土做夯土墙。西班牙第 9 届 Meeting Terra Ibérica 10 月 23-24 日在 Palencia 开，同期有 22 个生土项目展。",
+ "actions": [
+  "看淳岸酒厂夯土墙做法；夯土专项由西安生土科技承做，可对照你的报价和工艺",
+  "10 月 23 日前看 Terra Ibérica 议程，关注西班牙保障房用生土"
+ ],
+ "items": [
+  {
+   "id": "3d6a66358bc6",
+   "decision": "pick",
+   "category": "project",
+   "scores": {
+    "sig": 7,
+    "nov": 6,
+    "cred": 8,
+    "reson": 9,
+    "act": 7
+   },
+   "score": 75,
+   "title_zh": "PRA 设计的千岛湖淳岸威士忌酒厂落成，主体用夯土",
+   "summary_zh": "谷德 10 月 19 日发布。酒厂在浙江淳安千岛湖富文乡，业主是英国奥歌诗丹迪集团，建筑面积 23,433 平方米，2026 年完成。约 3000 立方米开挖土方被用来夯筑墙体。西安生土科技官网列其为夯土墙专项设计与施工方。",
+   "for_you": "国内大型商业项目用现场开挖土做夯土墙的新样板。可拿来给客户讲案例，也看同行怎么接这类单。",
+   "url_override": "https://www.gooood.cn/chunan-distillery-by-pra.htm",
+   "merged_ids": [
+    "c276efd074f3"
+   ]
+  },
+  {
+   "id": "c276efd074f3",
+   "decision": "merged",
+   "merged_into": "3d6a66358bc6"
+  },
+  {
+   "id": "d0c48d17fd5f",
+   "decision": "pick",
+   "category": "event",
+   "scores": {
+    "sig": 6,
+    "nov": 5,
+    "cred": 8,
+    "reson": 8,
+    "act": 7
+   },
+   "score": 70,
+   "title_zh": "西班牙生土会议 10 月 23-24 日在 Palencia 开",
+   "summary_zh": "第 9 届 Meeting Terra Ibérica，由莱昂建筑师协会和 Palencia 省政府主办。议题有生土保障房、公共建筑、遗产修缮和应急建造。同期有《España en Tierra》新书和 22 个项目的展览，展到 2027 年 1 月 17 日。",
+   "for_you": "西班牙在推政府保障房用生土。这类公共项目的规格和采购方式，值得你跟进学习。",
+   "url_override": "https://www.coal.es/los-retos-actuales-de-la-arquitectura-en-tierra-a-debate-en-el-9o-meeting-terra-iberica/",
+   "merged_ids": [
+    "cba1fdeafd5d"
+   ]
+  },
+  {
+   "id": "cba1fdeafd5d",
+   "decision": "merged",
+   "merged_into": "d0c48d17fd5f"
+  },
+  {
+   "id": "3ce2e3f2c09d",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 7,
+    "cred": 8,
+    "reson": 4,
+    "act": 3
+   },
+   "score": 59,
+   "title_zh": "论文：沙特 Ushaiger 土坯民居的低碳数字孪生决策",
+   "summary_zh": "Buildings 期刊。监测一栋土坯民居一年。优化通风后，35°C 以上度时减少 2.62%。辅助通风碳排 9.7-29.1 kg CO2e，局部制冷 242.6-727.7 kg。"
+  },
+  {
+   "id": "b436530e652b",
+   "decision": "brief",
+   "category": "market",
+   "scores": {
+    "sig": 3,
+    "nov": 3,
+    "cred": 5,
+    "reson": 6,
+    "act": 3
+   },
+   "score": 43,
+   "title_zh": "墨西哥 SEED Collective 在做生土住宅原型",
+   "summary_zh": "88.9 Noticias 10 月 19 日报道。SEED Collective 的 Karina Schwartzman 说，团队在做一座生土房原型。她说生土墙热舒适好，用地里的土更省钱、更快。",
+   "url_override": "https://889noticias.mx/noticias/traban-empresarios-en-casa-de-tierra-retomando-las-antiguas-construcciones-mexicanas-de-adobe/"
+  },
+  {
+   "id": "fcfc8e8ed3b0",
+   "decision": "drop",
+   "drop_reason": "duplicate",
+   "note": "Atmosphere 纪录片 10-10、10-13 已报道"
+  },
+  {
+   "id": "32d7677304dd",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "ClayTec YouTube shorts 工作坊花絮"
+  },
+  {
+   "id": "dac92f5728a0",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "土坝溃坝水力学，非生土建筑"
+  },
+  {
+   "id": "510d7640f560",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "土渠水力学"
+  },
+  {
+   "id": "3b54aa7df17a",
+   "decision": "drop",
+   "drop_reason": "low_score",
+   "note": "韩国古代土城考古论文，只有标题，与材料生意远",
+   "category": "heritage",
+   "scores": {
+    "sig": 3,
+    "nov": 4,
+    "cred": 7,
+    "reson": 3,
+    "act": 1
+   },
+   "score": 38
+  },
+  {
+   "id": "112cfd28c807",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "Michael Reynolds Earthship 人物旧话题，无新信息"
+  },
+  {
+   "id": "d9660b476fd9",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "FORMA 生态建造周 9 月 7-12 日已结束，回顾稿"
+  },
+  {
+   "id": "97ad9a23abd7",
+   "decision": "drop",
+   "drop_reason": "unverified",
+   "note": "查不到原文，标题看不出与生土有关"
+  },
+  {
+   "id": "25840ae5c3ac",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Vorarlberg 艺术协会新会员展"
+  },
+  {
+   "id": "2bbe8748cd58",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "德宏民族团结与石榴种植报道"
+  },
+  {
+   "id": "92b4ab212904",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "额济纳侨乡 70 周年报道"
+  },
+  {
+   "id": "01a7a91aa434",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Flensburg 苹果节博客"
+  }
+ ]
+}

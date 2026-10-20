@@ -1,37 +1,45 @@
 {
- "date": "2026-10-19",
- "lead": "布鲁塞尔港口将建 9300 平方米的循环建造中心 Stadsat，生土材料商 BC 参与发起。奥地利 Andi Breuss 的木-土复合研究屋在建。法国热浪后，木、草、生土住宅被拿来做防热样板。",
+ "date": "2026-10-20",
+ "lead": "千岛湖淳岸威士忌酒厂落成，用约 3000 立方米开挖土做夯土墙。西班牙第 9 届 Meeting Terra Ibérica 10 月 23-24 日在 Palencia 开，同期有 22 个生土项目展。",
  "actions": [
-  "查看 BC materials 的 Léém 生土产品线，对照你的抹面和土砖产品定位",
-  "记下 Andi Breuss 木-土复合研究屋，2027 年起可参观"
+  "看淳岸酒厂夯土墙做法；夯土专项由西安生土科技承做，可对照你的报价和工艺",
+  "10 月 23 日前看 Terra Ibérica 议程，关注西班牙保障房用生土"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-19.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-20.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W43.html",
  "counts": {
-  "pick": 1,
+  "pick": 2,
   "brief": 2,
-  "drop": 15,
-  "merged": 0
+  "drop": 12,
+  "merged": 2
  },
  "picks": [
   {
-   "title": "布鲁塞尔港将建 Stadsat 循环建造中心",
-   "category": "行业与市场",
-   "score": 67,
-   "for_you": "BC 已把工地挖方土做成量产生土产品。这是欧洲生土进入城市循环建造的样板，可学它的合作和资金路径。",
-   "url": "https://www.rtbf.be/article/le-port-de-bruxelles-cree-un-nouveau-pole-consacre-a-la-construction-circulaire-11800092",
-   "source": "BATIBOUW"
+   "title": "PRA 设计的千岛湖淳岸威士忌酒厂落成，主体用夯土",
+   "category": "项目案例",
+   "score": 75,
+   "for_you": "国内大型商业项目用现场开挖土做夯土墙的新样板。可拿来给客户讲案例，也看同行怎么接这类单。",
+   "url": "https://www.gooood.cn/chunan-distillery-by-pra.htm",
+   "source": "谷德设计网- gooood"
+  },
+  {
+   "title": "西班牙生土会议 10 月 23-24 日在 Palencia 开",
+   "category": "活动与赛事",
+   "score": 70,
+   "for_you": "西班牙在推政府保障房用生土。这类公共项目的规格和采购方式，值得你跟进学习。",
+   "url": "https://www.coal.es/los-retos-actuales-de-la-arquitectura-en-tierra-a-debate-en-el-9o-meeting-terra-iberica/",
+   "source": "Infobae"
   }
  ],
  "briefs": [
   {
-   "title": "Der Standard：生土能否应对气候危机",
-   "url": "https://www.derstandard.at/story/3000000344067/wir-bauen-als-gaebe-es-keine-klimakrise-ist-lehm-die-loesung"
+   "title": "论文：沙特 Ushaiger 土坯民居的低碳数字孪生决策",
+   "url": "https://doi.org/10.3390/buildings16204130"
   },
   {
-   "title": "Télérama：热浪后法国建筑师怎样防热",
-   "url": "https://www.telerama.fr/debats-reportages/canicules-comment-les-architectes-planchent-pour-rendre-les-logements-plus-vivables-l-ete-7033423.php"
+   "title": "墨西哥 SEED Collective 在做生土住宅原型",
+   "url": "https://889noticias.mx/noticias/traban-empresarios-en-casa-de-tierra-retomando-las-antiguas-construcciones-mexicanas-de-adobe/"
   }
  ]
 }
