@@ -9,7 +9,56 @@ sys.path.insert(0, os.path.dirname(__file__))
 from common import *  # noqa
 
 DROP_REASONS = {"irrelevant", "old", "unverified", "noise", "low_score", "duplicate"}
-LIMITS = {"title_zh": 36, "summary_pick": 140, "summary_brief": 100, "for_you": 60, "lead": 120, "action": 50}
+LIMITS = {"title_zh": 36, "summary_pick": 140, "summary_brief": 100, "for_you": 60, "lead": 120, "action": 50,
+          "body_min": 200, "body_max": 700, "key_fact_k": 12, "key_fact_v": 40, "quote": 80}
+SOURCE_READ = {"full", "abstract", "snippet"}
+# 2026-10-20 起的新期次：精选缺 body_zh 先警告（过渡两周），旧期次不检查
+BODY_FROM = "2026-10-21"
+
+
+def check_body(it, tag, dec, date, errs, warns):
+    """body_zh / key_facts / quotes / source_read。全部可选；有就必须合规。"""
+    body = it.get("body_zh")
+    sr = it.get("source_read")
+    if sr is not None and sr not in SOURCE_READ:
+        errs.append(f"{tag} source_read 只能是 {sorted(SOURCE_READ)}")
+    if body is None:
+        if dec == "pick" and date >= BODY_FROM and sr != "snippet":
+            warns.append(f"{tag} 精选建议写 body_zh（打不开原文就写 source_read: \"snippet\"）")
+    else:
+        if not isinstance(body, str):
+            errs.append(f"{tag} body_zh 必须是字符串")
+        else:
+            n = len(re.sub(r"\s", "", body))
+            if not LIMITS["body_min"] <= n <= LIMITS["body_max"]:
+                errs.append(f"{tag} body_zh {LIMITS['body_min']}-{LIMITS['body_max']} 字（现在 {n}）")
+            ps = [x for x in re.split(r"\n\s*\n", body) if x.strip()]
+            if len(ps) < 2:
+                errs.append(f"{tag} body_zh 至少 2 段，段间空一行")
+            if sr is None:
+                errs.append(f"{tag} 写了 body_zh 就必须写 source_read（full/abstract）")
+            elif sr == "snippet":
+                errs.append(f"{tag} 只看到片段（snippet）不许写 body_zh，只写 summary_zh")
+            sents = {x.strip() for x in re.split(r"[。！？]", it.get("summary_zh", "")) if len(x.strip()) >= 12}
+            dup = [x for x in sents if x in body]
+            if dup:
+                errs.append(f"{tag} body_zh 和 summary_zh 有整句重复：{dup[0][:20]}…")
+    kf = it.get("key_facts")
+    if kf is not None:
+        if not isinstance(kf, list) or len(kf) > 6 or any(not isinstance(f, dict) or not f.get("k") or not f.get("v") for f in kf):
+            errs.append(f"{tag} key_facts 是最多 6 项的 [{{k, v}}] 列表")
+        else:
+            for f in kf:
+                if len(str(f["k"])) > LIMITS["key_fact_k"] or len(str(f["v"])) > LIMITS["key_fact_v"]:
+                    errs.append(f"{tag} key_facts 每项 k ≤{LIMITS['key_fact_k']} 字，v ≤{LIMITS['key_fact_v']} 字：{str(f['k'])[:10]}")
+    qs = it.get("quotes")
+    if qs is not None:
+        if not isinstance(qs, list) or len(qs) > 2 or any(not isinstance(q, dict) or not q.get("text") for q in qs):
+            errs.append(f"{tag} quotes 最多 2 条，每条 {{text, lang}}")
+        else:
+            for q in qs:
+                if len(q["text"]) > LIMITS["quote"]:
+                    errs.append(f"{tag} 引文每句 ≤{LIMITS['quote']} 字符（现在 {len(q['text'])}）")
 
 
 def main():
@@ -90,6 +139,7 @@ def main():
             for m in it.get("merged_ids", []):
                 if m not in raw:
                     errs.append(f"{tag} merged_ids 里的 {m} 不在原始库")
+            check_body(it, tag, dec, date, errs, warns)
         if dec == "pick":
             picks += 1
     if picks > MAX_PICKS_PER_DAY:

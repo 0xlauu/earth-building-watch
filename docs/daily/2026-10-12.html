@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+<script>(function(){try{var t=localStorage.getItem('ebw-theme');if(!t)t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.dataset.theme=t;}catch(e){}})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>生土观察日报 2026-10-12</title>
 <meta name="description" content="今天精选一篇压制土砖纤维增强论文；其余多为旅游软文与社交噪音，已丢弃。">
+<meta name="color-scheme" content="dark light">
+<link rel="preload" href="../assets/fonts/geist-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/tokens.css">
 <link rel="stylesheet" href="../assets/site.css">
 <link rel="alternate" type="application/rss+xml" title="生土观察" href="../feed.xml">
@@ -12,7 +15,7 @@
 <body class="fd">
 <header class="ebw-top"><div class="ebw-top-in">
 <a class="ebw-brand" href="../index.html">生土观察 <small>Earth Building Watch</small></a>
-<nav class="ebw-nav"><a href="../index.html" class="">今日</a><a href="../daily/index.html" class="is-active">日报</a><a href="../weekly/index.html" class="">周报</a><a href="../archive.html" class="">往期</a><a href="../sources.html" class="">信源</a></nav>
+<nav class="ebw-nav"><a href="../index.html" class="">今日</a><a href="../daily/index.html" class="is-active">日报</a><a href="../weekly/index.html" class="">周报</a><a href="../archive.html" class="">往期</a><a href="../sources.html" class="">信源</a><button class="ebw-theme" type="button" aria-label="切换深色或浅色" title="切换深色或浅色">◐</button></nav>
 </div></header>
 <main class="ebw-main">
 <section class="ebw-hero">
@@ -21,16 +24,25 @@
 <p class="ebw-lead">今天精选一篇压制土砖纤维增强论文；其余多为旅游软文与社交噪音，已丢弃。</p>
 <div class="ebw-stats"><span>精选 <b>1</b></span><span>简讯 <b>0</b></span><span>今天审了 <b>10</b> 条</span>
 <span><a href="../daily/2026-10-12.html">看完整日报</a></span><span><a href="../weekly/2026-W42.html">本周周报</a></span></div>
-</section><section class="ebw-section"><h2>分类看</h2><p class="ebw-note">没收的：垃圾信息 6 条，和生土无关 2 条，无法核实 1 条。</p><div class="ebw-catblock"><h3>研究论文</h3><div class="ebw-cards"><article class="ebw-card" data-cat="research">
-<div class="ebw-meta"><span class="ebw-cat">研究论文</span><span>Crossref 论文库 · 期刊论文 · 10月11日</span><span class="ebw-score" title="加权总分 0-100">62</span></div>
+</section><div class="ebw-doc"><aside class="ebw-toc" aria-label="本期目录"><p class="ebw-toc-h">研究论文</p><ul><li><a href="#i-a60f9fa67755" class="is-pick">论文：阿尔法纤维增强压制土砖热力性能</a></li></ul></aside><div class="ebw-content"><section class="ebw-section"><h2>分类看</h2><p class="ebw-note">没收的：垃圾信息 6 条，和生土无关 2 条，无法核实 1 条。</p><div class="ebw-catblock"><h3>研究论文</h3><div class="ebw-cards"><article class="ebw-card" id="i-a60f9fa67755" data-cat="research">
+<div class="ebw-meta"><span class="ebw-cat">研究论文</span><span>Crossref 论文库 · 期刊论文 · 10月11日</span><span class="ebw-score" title="加权总分 0-100：重要 6 · 新颖 5 · 可信 8 · 相关 8 · 可行动 5">62</span><a class="ebw-anchor" href="#i-a60f9fa67755" aria-label="本条链接">#</a></div>
 <h3><a href="https://doi.org/10.1016/j.sciaf.2026.e03697" target="_blank" rel="noopener">论文：阿尔法纤维增强压制土砖热力性能</a></h3>
 <p class="ebw-sum">Scientific African 刊出 Ech-Chykry 等论文，评估生熟阿尔法纤维增强压制土砖的物理与热力机械性能，面向可持续乡村建造。作者还有 Akhdouje、Tilioua、Chrachmy、Azrour、Azdouz。原文未公开摘要数字。</p>
+
 <p class="ebw-foryou"><b>对你</b>纤维处理对比可对照你做土砖或抹面时的纤维掺量与强度取舍。</p>
 <p class="ebw-orig">原题：Evaluation of the physical and thermomechanical properties of compressed earth bricks reinforced with raw and treated alfa fibers for sustainable rural construction</p>
-</article></div></div></section><section class="ebw-section"><h2>你可以做的事</h2><ul class="ebw-actions"><li>打开 DOI 读阿尔法纤维增强 CEB 全文，对照纤维处理与强度</li></ul></section>
+</article></div></div></section><section class="ebw-section"><h2>你可以做的事</h2><ul class="ebw-actions"><li>打开 DOI 读阿尔法纤维增强 CEB 全文，对照纤维处理与强度</li></ul></section></div></div>
 </main>
 <footer class="ebw-foot"><p>生土观察只放中文摘要和原文链接，版权归原作者。编辑流程借鉴开源项目 <a href="https://github.com/KKKKhazix/AIHOT">AIHOT</a>（MIT）的方法。<a href="../sources.html">信源与方法</a> · <a href="../feed.xml">RSS</a></p></footer>
 <script>
+document.querySelectorAll('.ebw-theme').forEach(function(b){b.addEventListener('click',function(){
+  var r=document.documentElement, t=r.dataset.theme==='light'?'dark':'light'; r.dataset.theme=t; try{localStorage.setItem('ebw-theme',t);}catch(e){}
+});});
+document.querySelectorAll('.ebw-expand-all').forEach(function(b){b.addEventListener('click',function(){
+  var ds=document.querySelectorAll('details.ebw-more'), open=[].some.call(ds,function(d){return !d.open;});
+  ds.forEach(function(d){d.open=open;}); b.textContent=open?'全部收起':'全部展开';
+});});
+window.addEventListener('beforeprint',function(){document.querySelectorAll('details.ebw-more').forEach(function(d){d.open=true;});});
 document.querySelectorAll('.ebw-filters').forEach(function(bar){
   bar.addEventListener('click', function(e){
     var b = e.target.closest('button'); if(!b) return;

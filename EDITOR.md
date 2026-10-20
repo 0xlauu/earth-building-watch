@@ -138,7 +138,11 @@ python3 scripts/status.py                                        # 打印给汇�
      "scores": {"sig": 6, "nov": 6, "cred": 9, "reson": 8, "act": 8}, "score": 76,
      "title_zh": "≤36 字", "summary_zh": "精选 ≤140 字，简讯 ≤100 字",
      "for_you": "≤60 字，精选必填：对做生土材料的你意味着什么",
-     "url_override": "可选：核实过的原文网址，替换 Google 新闻跳转链接"},
+     "url_override": "可选：核实过的原文网址，替换 Google 新闻跳转链接",
+     "source_read": "full | abstract | snippet：你实际读到哪一层",
+     "body_zh": "精选建议写，简讯可选。300-600 字（校验 200-700），2-4 段，段间空一行",
+     "key_facts": [{"k": "地点", "v": "浙江淳安千岛湖"}, {"k": "≤12 字", "v": "≤40 字"}],
+     "quotes": [{"text": "原文一句话，≤80 字符", "lang": "en"}]},
     {"id": "…", "decision": "brief", "category": "market", "scores": {…}, "score": 62,
      "title_zh": "…", "summary_zh": "…", "merged_ids": ["…"]},
     {"id": "…", "decision": "merged", "merged_into": "…"},
@@ -155,6 +159,20 @@ python3 scripts/status.py                                        # 打印给汇�
 - 人名、品牌、地名保留原文拼写；第一次出现可加中文说明，如“德国生土建材商 Claytec”。
 - `for_you` 从做夯土、生土抹面、土坯材料的角度写一句：能学什么、能卖给谁、要防什么。
 - 论文标题前加“论文：”。
+
+### 完整段落 body_zh（2026-10-20 起）
+
+- **必须先打开原文再写。** 只写原文里有的事实、数字、人名。不扩写，不猜，不补背景知识。
+- 打不开原文、只看到 RSS 片段：不写 `body_zh`，`source_read` 写 `snippet`，只写 `summary_zh`。
+- 论文只读到摘要：可以写，`source_read` 写 `abstract`，正文里不写摘要以外的数据。
+- 读了全文：`source_read` 写 `full`。
+- 结构：第一段写发生了什么；第二段写怎么做的、关键数字；第三段（有就写）写局限、争议或原文没说清的地方。
+- 不翻译全文，不大段搬运。要引原话放进 `quotes`，最多 2 句，每句 ≤80 字符，照原文抄。
+- `key_facts` 3-6 项，只放原文里写明的数（面积、土方量、日期、地点、强度）。原文没有就不写这一项。
+- `body_zh` 不要和 `summary_zh` 整句重复，校验会查。
+- 页面上 `body_zh` 默认收起，点“展开全文”看；RSS 和 latest.json 有就用它。
+- 时间预算：精选每条多花 3-5 分钟。旧期次不回填。
+- 过渡期：2026-10-21 起精选缺 `body_zh` 只出警告；两周后再定是否改为必填。
 
 ## 7. 每周一
 

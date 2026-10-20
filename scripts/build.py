@@ -46,10 +46,13 @@ def page(title, body, active, depth=0, desc=""):
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+<script>(function(){{try{{var t=localStorage.getItem('ebw-theme');if(!t)t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.dataset.theme=t;}}catch(e){{}}}})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc or CFG.get('tagline',''))}">
+<meta name="color-scheme" content="dark light">
+<link rel="preload" href="{up}assets/fonts/geist-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{up}assets/tokens.css">
 <link rel="stylesheet" href="{up}assets/site.css">
 <link rel="alternate" type="application/rss+xml" title="{E(NAME)}" href="{up}feed.xml">
@@ -57,13 +60,21 @@ def page(title, body, active, depth=0, desc=""):
 <body class="fd">
 <header class="ebw-top"><div class="ebw-top-in">
 <a class="ebw-brand" href="{up}index.html">{E(NAME)} <small>{E(NAME_EN)}</small></a>
-<nav class="ebw-nav">{links}</nav>
+<nav class="ebw-nav">{links}<button class="ebw-theme" type="button" aria-label="切换深色或浅色" title="切换深色或浅色">◐</button></nav>
 </div></header>
 <main class="ebw-main">
 {body}
 </main>
 <footer class="ebw-foot"><p>{E(NAME)}只放中文摘要和原文链接，版权归原作者。编辑流程借鉴开源项目 <a href="https://github.com/KKKKhazix/AIHOT">AIHOT</a>（MIT）的方法。<a href="{up}sources.html">信源与方法</a> · <a href="{up}feed.xml">RSS</a></p></footer>
 <script>
+document.querySelectorAll('.ebw-theme').forEach(function(b){{b.addEventListener('click',function(){{
+  var r=document.documentElement, t=r.dataset.theme==='light'?'dark':'light'; r.dataset.theme=t; try{{localStorage.setItem('ebw-theme',t);}}catch(e){{}}
+}});}});
+document.querySelectorAll('.ebw-expand-all').forEach(function(b){{b.addEventListener('click',function(){{
+  var ds=document.querySelectorAll('details.ebw-more'), open=[].some.call(ds,function(d){{return !d.open;}});
+  ds.forEach(function(d){{d.open=open;}}); b.textContent=open?'全部收起':'全部展开';
+}});}});
+window.addEventListener('beforeprint',function(){{document.querySelectorAll('details.ebw-more').forEach(function(d){{d.open=true;}});}});
 document.querySelectorAll('.ebw-filters').forEach(function(bar){{
   bar.addEventListener('click', function(e){{
     var b = e.target.closest('button'); if(!b) return;
@@ -101,12 +112,42 @@ def src_line(it):
     return f'{E(who)} · {E(TIER_LABEL.get(it.get("tier"), ""))} · {E(cst_date(it.get("published_at")))}'
 
 
+READ_LABEL = {"full": "读过全文", "abstract": "只读到摘要", "snippet": "只看到片段"}
+DIM_LABEL = {"sig": "重要", "nov": "新颖", "cred": "可信", "reson": "相关", "act": "可行动"}
+
+
+def paras(t):
+    return [x.strip() for x in re.split(r"\n\s*\n", str(t or "")) if x.strip()]
+
+
+def more_block(it):
+    """完整段落、要点、引文。旧数据没有这些字段时返回空串。"""
+    body = paras(it.get("body_zh"))
+    facts = [f for f in (it.get("key_facts") or []) if isinstance(f, dict) and f.get("k") and f.get("v")]
+    quotes = [q for q in (it.get("quotes") or []) if isinstance(q, dict) and q.get("text")]
+    if not (body or facts or quotes):
+        return ""
+    h = "".join(f"<p>{E(x)}</p>" for x in body)
+    if facts:
+        h += '<table class="ebw-facts"><tbody>' + "".join(f"<tr><th>{E(f['k'])}</th><td>{E(f['v'])}</td></tr>" for f in facts) + "</tbody></table>"
+    h += "".join(f'<blockquote class="ebw-quote" lang="{E(q.get("lang", ""))}">“{E(q["text"])}”</blockquote>' for q in quotes)
+    return f'<details class="ebw-more"><summary><span class="ebw-open-t"></span></summary><div class="ebw-body">{h}</div></details>'
+
+
+def anchor(it):
+    return f"i-{it['id']}"
+
+
 def card(it):
     fy = f'<p class="ebw-foryou"><b>对你</b>{E(it["for_you"])}</p>' if it.get("for_you") else ""
-    return f"""<article class="ebw-card" data-cat="{it['category']}">
-<div class="ebw-meta"><span class="ebw-cat">{E(CAT_LABEL[it['category']])}</span><span>{src_line(it)}</span><span class="ebw-score" title="加权总分 0-100">{it.get('score','')}</span></div>
+    sc = it.get("scores") or {}
+    tip = " · ".join(f"{DIM_LABEL[k]} {sc[k]}" for k in DIM_LABEL if k in sc)
+    rd = f'<span class="ebw-read">{READ_LABEL[it["source_read"]]}</span>' if it.get("source_read") in READ_LABEL else ""
+    return f"""<article class="ebw-card" id="{anchor(it)}" data-cat="{it['category']}">
+<div class="ebw-meta"><span class="ebw-cat">{E(CAT_LABEL[it['category']])}</span><span>{src_line(it)}</span>{rd}<span class="ebw-score" title="加权总分 0-100：{E(tip)}">{it.get('score','')}</span><a class="ebw-anchor" href="#{anchor(it)}" aria-label="本条链接">#</a></div>
 <h3><a href="{E(it['url'])}" target="_blank" rel="noopener">{E(it['title_zh'])}</a></h3>
 <p class="ebw-sum">{E(it['summary_zh'])}</p>
+{more_block(it)}
 {fy}
 <p class="ebw-orig">原题：{E(it.get('orig_title'))}</p>
 </article>"""
@@ -114,8 +155,8 @@ def card(it):
 
 def brief_li(it):
     fy = f' 对你：{E(it["for_you"])}' if it.get("for_you") else ""
-    return f"""<li data-cat="{it['category']}"><a class="ebw-bt" href="{E(it['url'])}" target="_blank" rel="noopener">{E(it['title_zh'])}</a>
-<p>{E(it['summary_zh'])}{fy}</p>
+    return f"""<li id="{anchor(it)}" data-cat="{it['category']}"><a class="ebw-bt" href="{E(it['url'])}" target="_blank" rel="noopener">{E(it['title_zh'])}</a>
+<p>{E(it['summary_zh'])}{fy}</p>{more_block(it)}
 <div class="ebw-meta"><span class="ebw-cat">{E(CAT_LABEL[it['category']])}</span><span>{src_line(it)}</span><span class="ebw-score">{it.get('score','')}</span></div></li>"""
 
 
@@ -131,6 +172,26 @@ def dropped_summary(ed):
     names = {"irrelevant": "和生土无关", "old": "旧文重推", "unverified": "无法核实", "noise": "垃圾信息", "low_score": "分数不够", "duplicate": "重复"}
     parts = [f"{names.get(k, k)} {v} 条" for k, v in c.most_common()]
     return "没收的：" + "，".join(parts) + "。" if parts else ""
+
+
+def toc(items):
+    by = defaultdict(list)
+    for i in items:
+        by[i["category"]].append(i)
+    h = ""
+    for k, l, _ in CATEGORIES:
+        if by[k]:
+            h += f'<p class="ebw-toc-h">{E(l)}</p><ul>' + "".join(
+                f'<li><a href="#{anchor(i)}" class="{"is-pick" if i["decision"] == "pick" else ""}">{E(i["title_zh"])}</a></li>' for i in by[k]) + "</ul>"
+    return f'<aside class="ebw-toc" aria-label="本期目录">{h}</aside>'
+
+
+def doc(items, inner):
+    return f'<div class="ebw-doc">{toc(items)}<div class="ebw-content">{inner}</div></div>'
+
+
+def expand_btn(items):
+    return '<button class="ebw-expand-all" type="button">全部展开</button>' if any(more_block(i) for i in items) else ""
 
 
 def edition_body(ed, items, depth, home=False):
@@ -150,13 +211,13 @@ def edition_body(ed, items, depth, home=False):
     if ed.get("actions"):
         acts = '<section class="ebw-section"><h2>你可以做的事</h2><ul class="ebw-actions">' + "".join(f"<li>{E(a)}</li>" for a in ed["actions"]) + "</ul></section>"
     if home:
-        body = head + filters(picks + briefs)
+        body = filters(picks + briefs) + expand_btn(picks + briefs)
         body += f'<section class="ebw-section"><h2>精选</h2><p class="ebw-note">按加权分从高到低。点标题看原文。</p><div class="ebw-cards">{"".join(card(i) for i in picks)}</div></section>'
         if briefs:
             body += f'<section class="ebw-section"><h2>简讯</h2><p class="ebw-note">值得知道，但不用细读。</p><ul class="ebw-briefs">{"".join(brief_li(i) for i in briefs)}</ul></section>'
-        return body + acts
+        return head + doc(picks + briefs, body + acts)
     # 日报：按分类分节
-    body = head
+    body = expand_btn(picks + briefs)
     by = defaultdict(list)
     for i in picks + briefs:
         by[i["category"]].append(i)
@@ -172,7 +233,7 @@ def edition_body(ed, items, depth, home=False):
             inner += f'<ul class="ebw-briefs">{"".join(brief_li(i) for i in bs)}</ul>'
         secs.append(f'<div class="ebw-catblock"><h3>{l}</h3>{inner}</div>')
     body += f'<section class="ebw-section"><h2>分类看</h2><p class="ebw-note">{E(dropped_summary(ed))}</p>{"".join(secs)}</section>'
-    return body + acts
+    return head + doc(picks + briefs, body + acts)
 
 
 def main():
@@ -190,6 +251,7 @@ def main():
         os.makedirs(os.path.join(DOCS, sub), exist_ok=True)
     for f in ("tokens.css", "site.css"):
         shutil.copy(os.path.join(ROOT, "assets", f), os.path.join(DOCS, "assets", f))
+    shutil.copytree(os.path.join(ROOT, "assets", "fonts"), os.path.join(DOCS, "assets", "fonts"))
     open(os.path.join(DOCS, ".nojekyll"), "w").close()
 
     all_items = {e["date"]: enrich(e, raw) for e in eds}
@@ -243,7 +305,7 @@ def main():
         days = " · ".join(f'<a href="../daily/{e["date"]}.html">{e["date"][5:]}</a>' for e in es)
         body = f"""<section class="ebw-hero"><p class="ebw-kicker">{wk} · {week_range(wk)}</p><h1>{E(NAME)}周报</h1>
 <p class="ebw-lead">{E(lead)}</p><div class="ebw-stats"><span>精选 <b>{len(picks)}</b></span><span>简讯 <b>{len(briefs)}</b></span><span>本周日报：{days}</span></div></section>
-{act_html}<section class="ebw-section"><h2>按分类</h2>{"".join(secs)}</section>"""
+{doc(picks + briefs, act_html + expand_btn(picks + briefs) + '<section class="ebw-section"><h2>按分类</h2>' + "".join(secs) + "</section>")}"""
         w(f"weekly/{wk}.html", page(f"{NAME}周报 {wk}", body, "weekly", 1, lead))
         wrows.append((f"{wk}.html", f"{wk}（{week_range(wk)}）", len(picks), len(briefs), lead[:60]))
     w("weekly/index.html", page(f"周报 · {NAME}", f'<section class="ebw-hero"><h1>周报</h1><p class="ebw-lead">每周一汇总上一周的日报，并写这周可以做的事。</p></section><section class="ebw-section">{tbl(rows(wrows), "周")}</section>', "weekly", 1))
@@ -328,7 +390,7 @@ def main():
     feed_items = [i for d in sorted(all_items, reverse=True) for i in all_items[d] if i["decision"] == "pick"][:50]
     def rfc(ds):
         return datetime.fromisoformat(ds + "T08:00:00+08:00").strftime("%a, %d %b %Y %H:%M:%S +0800")
-    rss = "".join(f"<item><title>{E(i['title_zh'])}</title><link>{E(i['url'])}</link><guid isPermaLink=\"false\">{i['id']}</guid><pubDate>{rfc(i['date'])}</pubDate><category>{E(CAT_LABEL[i['category']])}</category><description>{E(i['summary_zh'] + ' 对你：' + (i.get('for_you') or ''))}</description></item>" for i in feed_items)
+    rss = "".join(f"<item><title>{E(i['title_zh'])}</title><link>{E(i['url'])}</link><guid isPermaLink=\"false\">{i['id']}</guid><pubDate>{rfc(i['date'])}</pubDate><category>{E(CAT_LABEL[i['category']])}</category><description>{E(((chr(10)*2).join(paras(i.get('body_zh'))) or i['summary_zh']) + ' 对你：' + (i.get('for_you') or ''))}</description></item>" for i in feed_items)
     w("feed.xml", f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>{E(NAME)}</title><link>{E(base)}</link><description>{E(CFG.get("tagline"))}</description><language>zh-CN</language>{rss}</channel></rss>')
     if latest:
         li = all_items[latest["date"]]
@@ -336,7 +398,7 @@ def main():
             "date": latest["date"], "lead": latest.get("lead"), "actions": latest.get("actions", []),
             "site": base, "daily_url": f"{base}daily/{latest['date']}.html", "weekly_url": f"{base}weekly/{week_of(latest['date'])}.html",
             "counts": {k: sum(1 for i in latest["items"] if i.get("decision") == k) for k in ("pick", "brief", "drop", "merged")},
-            "picks": [{"title": i["title_zh"], "category": CAT_LABEL[i["category"]], "score": i["score"], "for_you": i.get("for_you"), "url": i["url"], "source": i.get("publisher") or i.get("source_name")} for i in li if i["decision"] == "pick"],
+            "picks": [{"title": i["title_zh"], "category": CAT_LABEL[i["category"]], "score": i["score"], "for_you": i.get("for_you"), "body_zh": i.get("body_zh"), "source_read": i.get("source_read"), "url": i["url"], "source": i.get("publisher") or i.get("source_name")} for i in li if i["decision"] == "pick"],
             "briefs": [{"title": i["title_zh"], "url": i["url"]} for i in li if i["decision"] == "brief"]})
 
     # 单文件首页（CSS 内联；站内链接指向线上地址，未发布时去掉站内链接）
