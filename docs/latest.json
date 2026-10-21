@@ -1,49 +1,31 @@
 {
- "date": "2026-10-20",
- "lead": "千岛湖淳岸威士忌酒厂落成，用约 3000 立方米开挖土做夯土墙。西班牙第 9 届 Meeting Terra Ibérica 10 月 23-24 日在 Palencia 开，同期有 22 个生土项目展。",
+ "date": "2026-10-21",
+ "lead": "今天没有精选，只有 3 条简讯。Chipperfield 在德国新建的单画展厅，内墙用黏土抹面做被动调湿。另有两篇新论文：稳定土的水分与强度衰减，阿尔及利亚撒哈拉土城的保护。",
  "actions": [
-  "看淳岸酒厂夯土墙做法；夯土专项由西安生土科技承做，可对照你的报价和工艺",
-  "10 月 23 日前看 Terra Ibérica 议程，关注西班牙保障房用生土"
+  "Chipperfield 展厅内侧用黏土抹面被动调湿，可存作抹面卖点素材"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-20.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-21.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W43.html",
  "counts": {
-  "pick": 2,
-  "brief": 2,
-  "drop": 12,
-  "merged": 2
+  "pick": 0,
+  "brief": 3,
+  "drop": 0,
+  "merged": 0
  },
- "picks": [
-  {
-   "title": "PRA 设计的千岛湖淳岸威士忌酒厂落成，主体用夯土",
-   "category": "项目案例",
-   "score": 75,
-   "for_you": "国内大型商业项目用现场开挖土做夯土墙的新样板。可拿来给客户讲案例，也看同行怎么接这类单。",
-   "body_zh": null,
-   "source_read": null,
-   "url": "https://www.gooood.cn/chunan-distillery-by-pra.htm",
-   "source": "谷德设计网- gooood"
-  },
-  {
-   "title": "西班牙生土会议 10 月 23-24 日在 Palencia 开",
-   "category": "活动与赛事",
-   "score": 70,
-   "for_you": "西班牙在推政府保障房用生土。这类公共项目的规格和采购方式，值得你跟进学习。",
-   "body_zh": null,
-   "source_read": null,
-   "url": "https://www.coal.es/los-retos-actuales-de-la-arquitectura-en-tierra-a-debate-en-el-9o-meeting-terra-iberica/",
-   "source": "Infobae"
-  }
- ],
+ "picks": [],
  "briefs": [
   {
-   "title": "论文：沙特 Ushaiger 土坯民居的低碳数字孪生决策",
-   "url": "https://doi.org/10.3390/buildings16204130"
+   "title": "论文：水分迁移如何让稳定土强度衰减",
+   "url": "https://doi.org/10.1016/j.jobe.2026.117589"
   },
   {
-   "title": "墨西哥 SEED Collective 在做生土住宅原型",
-   "url": "https://889noticias.mx/noticias/traban-empresarios-en-casa-de-tierra-retomando-las-antiguas-construcciones-mexicanas-de-adobe/"
+   "title": "Chipperfield 为一幅画建展厅，内墙用黏土抹面",
+   "url": "https://www.dezeen.com/2026/10/20/anselm-kiefer-pavilion-david-chipperfield-architects-germany/"
+  },
+  {
+   "title": "论文：撒哈拉土城 Ksar Zgag 的气候设计与保护",
+   "url": "https://doi.org/10.1080/13505033.2026.2724242"
   }
  ]
 }

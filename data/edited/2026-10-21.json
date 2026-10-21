@@ -1,0 +1,60 @@
+{
+ "date": "2026-10-21",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-21T09:30:00+08:00",
+ "lead": "今天没有精选，只有 3 条简讯。Chipperfield 在德国新建的单画展厅，内墙用黏土抹面做被动调湿。另有两篇新论文：稳定土的水分与强度衰减，阿尔及利亚撒哈拉土城的保护。",
+ "actions": [
+  "Chipperfield 展厅内侧用黏土抹面被动调湿，可存作抹面卖点素材"
+ ],
+ "items": [
+  {
+   "id": "3149ad64268e",
+   "decision": "brief",
+   "category": "project",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 8,
+    "reson": 6,
+    "act": 4
+   },
+   "score": 56,
+   "title_zh": "Chipperfield 为一幅画建展厅，内墙用黏土抹面",
+   "summary_zh": "David Chipperfield Architects 在德国 Künzelsau 建成 Kiefer 展厅，140 平方米。墙体为混凝土、砖、内侧黏土抹面，不用空调也保持不冻。",
+   "url_override": "https://www.dezeen.com/2026/10/20/anselm-kiefer-pavilion-david-chipperfield-architects-germany/",
+   "source_read": "full"
+  },
+  {
+   "id": "25f71921b2db",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 5,
+    "cred": 8,
+    "reson": 8,
+    "act": 4
+   },
+   "score": 58,
+   "title_zh": "论文：水分迁移如何让稳定土强度衰减",
+   "summary_zh": "Iotti、Lanzoni、Tarantino 在 Journal of Building Engineering 发文，研究稳定生土中水分迁移与强度衰减的关系。目前只看到标题。",
+   "source_read": "snippet"
+  },
+  {
+   "id": "0a22d41cc598",
+   "decision": "brief",
+   "category": "heritage",
+   "scores": {
+    "sig": 4,
+    "nov": 5,
+    "cred": 8,
+    "reson": 4,
+    "act": 2
+   },
+   "score": 48,
+   "title_zh": "论文：撒哈拉土城 Ksar Zgag 的气候设计与保护",
+   "summary_zh": "三位作者在遗址保护期刊发文，记录阿尔及利亚撒哈拉土城 Ksar Zgag El-Hadjadj 的乡土气候设计与保护难题。目前只看到标题。",
+   "source_read": "snippet"
+  }
+ ]
+}
