@@ -1,31 +1,35 @@
 {
- "date": "2026-10-21",
- "lead": "今天没有精选，只有 3 条简讯。Chipperfield 在德国新建的单画展厅，内墙用黏土抹面做被动调湿。另有两篇新论文：稳定土的水分与强度衰减，阿尔及利亚撒哈拉土城的保护。",
+ "date": "2026-10-22",
+ "lead": "西班牙第 9 届 Meeting Terra Ibérica 10 月 23-24 日在帕伦西亚举行，主题是用生土建公共住房和应对气候危机。另有一条简讯：衢州姑蔑博物馆连廊幕墙用了夯土板。",
  "actions": [
-  "Chipperfield 展厅内侧用黏土抹面被动调湿，可存作抹面卖点素材"
+  "会后找 Terra Ibérica 资料，看帕尔马 6 套公共住房的生土做法",
+  "留意新书《España en Tierra》，其中收录夯土、土坯和生土抹面的当代项目"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-21.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-22.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W43.html",
  "counts": {
-  "pick": 0,
-  "brief": 3,
-  "drop": 0,
+  "pick": 1,
+  "brief": 1,
+  "drop": 2,
   "merged": 0
  },
- "picks": [],
+ "picks": [
+  {
+   "title": "西班牙帕伦西亚办第 9 届生土建筑会议 Terra Ibérica",
+   "category": "活动与赛事",
+   "score": 67,
+   "for_you": "欧洲正把生土推进公共住房。帕尔马 6 套公租房案例，可作你向政府和开发商推夯土的参照。",
+   "body_zh": "第 9 届 Meeting Terra Ibérica 将于 10 月 23 日和 24 日在西班牙帕伦西亚举行。会议由莱昂建筑师协会（COAL）帕伦西亚分会和帕伦西亚省议会主办，邀请西班牙和智利的专家。议题包括生土公共住房、公共建筑中的生土应用、遗产保护，以及生土建造在人道危机和气候紧急情况中的作用。\n\n23 日在省议会礼堂做报告。Àngels Castellarnau 介绍她和 Bunyesc Arquitectes 设计的帕尔马 6 套公共保障住房，重点是本地材料和减少 CO2 排放。CRAterre 成员 Enrique Sevillano 讲索马里危机安置中的土坯。还有卢克索图特摩斯三世神庙的保护、智利阿塔卡马沙漠的生土建筑、塞内加尔的生土技术。当天发布新书《España en Tierra. Arquitecturas contemporáneas》，书中收录夯土、土坯、压制土砖和生土抹面项目。\n\n24 日有免费考察，去 Cerrato 地区的 Palenzuela 和 Torquemada，需提前发邮件报名。原文没有说是否线上直播。",
+   "source_read": "full",
+   "url": "https://www.elnortedecastilla.es/palencia/arquitectos-abordaran-palencia-retos-sector-construccion-sostenible-20261019170957-nt.html",
+   "source": "El Norte de Castilla"
+  }
+ ],
  "briefs": [
   {
-   "title": "论文：水分迁移如何让稳定土强度衰减",
-   "url": "https://doi.org/10.1016/j.jobe.2026.117589"
-  },
-  {
-   "title": "Chipperfield 为一幅画建展厅，内墙用黏土抹面",
-   "url": "https://www.dezeen.com/2026/10/20/anselm-kiefer-pavilion-david-chipperfield-architects-germany/"
-  },
-  {
-   "title": "论文：撒哈拉土城 Ksar Zgag 的气候设计与保护",
-   "url": "https://doi.org/10.1080/13505033.2026.2724242"
+   "title": "筑境设计衢州姑蔑博物馆建成，连廊幕墙用夯土板",
+   "url": "http://www.xinhuanet.com/20260613/dfaa0eb0ec4344bc8339ed77b9bfc9f5/c.html"
   }
  ]
 }

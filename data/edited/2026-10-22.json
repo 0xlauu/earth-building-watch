@@ -1,0 +1,30 @@
+{
+ "date": "2026-10-22",
+ "editor": "Grok Bot",
+ "edited_at": "2026-10-22T09:25:00+08:00",
+ "lead": "西班牙第 9 届 Meeting Terra Ibérica 10 月 23-24 日在帕伦西亚举行，主题是用生土建公共住房和应对气候危机。另有一条简讯：衢州姑蔑博物馆连廊幕墙用了夯土板。",
+ "actions": [
+  "会后找 Terra Ibérica 资料，看帕尔马 6 套公共住房的生土做法",
+  "留意新书《España en Tierra》，其中收录夯土、土坯和生土抹面的当代项目"
+ ],
+ "items": [
+  {"id": "5041422e49e3", "decision": "pick", "category": "event",
+   "scores": {"sig": 6, "nov": 5, "cred": 8, "reson": 8, "act": 6}, "score": 67,
+   "title_zh": "西班牙帕伦西亚办第 9 届生土建筑会议 Terra Ibérica",
+   "summary_zh": "第 9 届 Meeting Terra Ibérica 于 10 月 23-24 日在西班牙帕伦西亚举行。议题包括生土公共住房、公共建筑用土、遗产保护和危机援建。主办方是莱昂建筑师协会帕伦西亚分会和帕伦西亚省议会。24 日有免费的 Cerrato 生土建筑考察路线。",
+   "for_you": "欧洲正把生土推进公共住房。帕尔马 6 套公租房案例，可作你向政府和开发商推夯土的参照。",
+   "url_override": "https://www.elnortedecastilla.es/palencia/arquitectos-abordaran-palencia-retos-sector-construccion-sostenible-20261019170957-nt.html",
+   "source_read": "full",
+   "body_zh": "第 9 届 Meeting Terra Ibérica 将于 10 月 23 日和 24 日在西班牙帕伦西亚举行。会议由莱昂建筑师协会（COAL）帕伦西亚分会和帕伦西亚省议会主办，邀请西班牙和智利的专家。议题包括生土公共住房、公共建筑中的生土应用、遗产保护，以及生土建造在人道危机和气候紧急情况中的作用。\n\n23 日在省议会礼堂做报告。Àngels Castellarnau 介绍她和 Bunyesc Arquitectes 设计的帕尔马 6 套公共保障住房，重点是本地材料和减少 CO2 排放。CRAterre 成员 Enrique Sevillano 讲索马里危机安置中的土坯。还有卢克索图特摩斯三世神庙的保护、智利阿塔卡马沙漠的生土建筑、塞内加尔的生土技术。当天发布新书《España en Tierra. Arquitecturas contemporáneas》，书中收录夯土、土坯、压制土砖和生土抹面项目。\n\n24 日有免费考察，去 Cerrato 地区的 Palenzuela 和 Torquemada，需提前发邮件报名。原文没有说是否线上直播。",
+   "key_facts": [{"k": "日期", "v": "2026 年 10 月 23-24 日"}, {"k": "地点", "v": "西班牙帕伦西亚省议会"}, {"k": "届次", "v": "第 9 届"}, {"k": "考察报名", "v": "gestion.pa@coal.es"}],
+   "quotes": [{"text": "rompen el mito de la precariedad", "lang": "es"}]},
+  {"id": "865623c3f933", "decision": "brief", "category": "project",
+   "scores": {"sig": 5, "nov": 5, "cred": 6, "reson": 6, "act": 4}, "score": 52,
+   "title_zh": "筑境设计衢州姑蔑博物馆建成，连廊幕墙用夯土板",
+   "summary_zh": "谷德 10 月 21 日发布筑境设计的衢州姑蔑博物馆。新华网 6 月报道：博物馆 6 月 12 日试开馆，总建筑面积约 3.2 万平方米；连廊幕墙中三分之二的夯土板是不规则双曲面板，逐块编号调试。",
+   "url_override": "http://www.xinhuanet.com/20260613/dfaa0eb0ec4344bc8339ed77b9bfc9f5/c.html",
+   "source_read": "snippet"},
+  {"id": "82b2754c35d8", "decision": "drop", "drop_reason": "noise", "note": "Earthship 轮胎夯土老话题的内容农场转载，无新信息"},
+  {"id": "faa4c54f52d6", "decision": "drop", "drop_reason": "old", "note": "ArchDaily 原文 2023 年 11 月，书 2023 年出版"}
+ ]
+}
