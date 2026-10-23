@@ -1,35 +1,85 @@
 {
- "date": "2026-10-22",
- "lead": "西班牙第 9 届 Meeting Terra Ibérica 10 月 23-24 日在帕伦西亚举行，主题是用生土建公共住房和应对气候危机。另有一条简讯：衢州姑蔑博物馆连廊幕墙用了夯土板。",
+ "date": "2026-10-23",
+ "lead": "燕山大学给出山海关长城夯土实验配比；英国 RD26 上 Keable 谈生土循环；巴黎 HEMAA 夯土儿童中心细节披露。另有法国生土新书摘录、Art Omi 夯土装置开幕，以及 Rauch 的夯土预制工作坊。",
  "actions": [
-  "会后找 Terra Ibérica 资料，看帕尔马 6 套公共住房的生土做法",
-  "留意新书《España en Tierra》，其中收录夯土、土坯和生土抹面的当代项目"
+  "对照山海关论文试配：石灰 3–4%、淀粉 1–1.5%",
+  "把 HEMAA 与 Cycle Terre 供土路径写进市政案例包"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-22.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-23.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W43.html",
  "counts": {
-  "pick": 1,
+  "pick": 6,
   "brief": 1,
-  "drop": 2,
-  "merged": 0
+  "drop": 8,
+  "merged": 2
  },
  "picks": [
   {
-   "title": "西班牙帕伦西亚办第 9 届生土建筑会议 Terra Ibérica",
-   "category": "活动与赛事",
-   "score": 67,
-   "for_you": "欧洲正把生土推进公共住房。帕尔马 6 套公租房案例，可作你向政府和开发商推夯土的参照。",
-   "body_zh": "第 9 届 Meeting Terra Ibérica 将于 10 月 23 日和 24 日在西班牙帕伦西亚举行。会议由莱昂建筑师协会（COAL）帕伦西亚分会和帕伦西亚省议会主办，邀请西班牙和智利的专家。议题包括生土公共住房、公共建筑中的生土应用、遗产保护，以及生土建造在人道危机和气候紧急情况中的作用。\n\n23 日在省议会礼堂做报告。Àngels Castellarnau 介绍她和 Bunyesc Arquitectes 设计的帕尔马 6 套公共保障住房，重点是本地材料和减少 CO2 排放。CRAterre 成员 Enrique Sevillano 讲索马里危机安置中的土坯。还有卢克索图特摩斯三世神庙的保护、智利阿塔卡马沙漠的生土建筑、塞内加尔的生土技术。当天发布新书《España en Tierra. Arquitecturas contemporáneas》，书中收录夯土、土坯、压制土砖和生土抹面项目。\n\n24 日有免费考察，去 Cerrato 地区的 Palenzuela 和 Torquemada，需提前发邮件报名。原文没有说是否线上直播。",
+   "title": "Keable 在 RD26 谈生土的循环潜力",
+   "category": "行业与市场",
+   "score": 74,
+   "for_you": "英伦规格书与挖土回用话术，可借来跟开发商谈生土闭环。",
+   "body_zh": "Architecture Today 报道 Rowland Keable（Rammed Earth Consulting 总监）在 Regenerative Design 2026（RD26）研讨会上的发言。活动由 Architecture Today 发起，10 月在伦敦 Building Centre 举行，本场与 HG Matthews 合作。\n\nKeable 从业三十多年，梳理夯土、压制土砖、草泥、轻质土、黏土砂浆与抹面等做法。他指出生土最大优势是循环性：未烧制、未掺水泥的土可打碎、再润湿、反复使用，材料成分基本不变。现场挖出的土直接加工成砌块，能减少外运和新材料采购。\n\n案例包括 Walthamstow 住宅：挖出的土制成砌块再回工地；国王十字 Tribeca 开发：开挖黏土制成大量内墙砌块。他的核心信息是：生土建造不是试验品，也不只属于传统工艺，当代项目里有可落地的机会，前提是建筑师看见脚下的材料。",
    "source_read": "full",
-   "url": "https://www.elnortedecastilla.es/palencia/arquitectos-abordaran-palencia-retos-sector-construccion-sostenible-20261019170957-nt.html",
-   "source": "El Norte de Castilla"
+   "url": "https://architecturetoday.co.uk/specifying-natural-and-sustainable-materials-rowland-keable-on-the-potential-of-earth-at-rd26/",
+   "source": "Architecture Today"
+  },
+  {
+   "title": "BE 学院：Rauch 讲夯土预制潜力",
+   "category": "活动与赛事",
+   "score": 74,
+   "for_you": "欧洲夯土预制一线课，值得盯课件与Rauch话术，对照你的预制路线。",
+   "body_zh": "Lehm Ton Erde 官网发布 BE Academy Workshop 4 信息。时间 2026 年 11 月 12–13 日，地点奥地利卢斯特瑙（Lustenau）Millennium Park 20，学费 1800 欧元，名额 18，语言德语与英语，对象不限专业背景。\n\n课程分四块。与生土直接相关的是第三块：Martin Rauch（Schlins，LehmTonErde Baukunst 创始人）讲「Wachstum im Einklang mit unserer Erde. Vorfertigung als Potenzial im Lehmbau」（与地球共生长：预制作为夯土建造的潜力）。同场还有 CampusVäre、BEA Wien/Hamburg、EMPA 的 Matthias Sulzer、Innauer Matt 与 Dietmar Eberle 等关于创意、落地、数字工具与方法论的讲座。\n\n报名与咨询邮箱 info@be-academy.eu。标题页写 13.11，日程表写 12.11–13.11，以日程表为准。",
+   "source_read": "full",
+   "url": "https://www.lehmtonerde.at/be-academy-vorfertigung-als-potenzial-im-lehmbau-i-13-11-2026/",
+   "source": "Lehm Ton Erde（Martin Rauch）"
+  },
+  {
+   "title": "巴黎南郊 HEMAA 夯土儿童活动中心",
+   "category": "项目案例",
+   "score": 73,
+   "for_you": "公建用未稳夯土加现场土闭环，可作你推市政项目的案例包。",
+   "body_zh": "Architectural Review 把巴黎事务所 HEMAA 列入 Emerging 介绍，核心作品之一是埃夫里—库尔库罗讷 Parc des Loges 儿童活动中心。Architectural Record 给出工程细节：服务 3 至 11 岁儿童，约 3.2 公顷用地需同时塞进活动中心与 50 车位停车。\n\n建筑师把车库存入地下，让建筑平铺场地。开挖土本可回用，但公园填土含石棉污染管线残留。压缩土砖厂 Cycle Terre 运走污染土，并供应巴黎新环线地铁隧道挖出的净土。地基与车库用低水泥掺矿渣混凝土。\n\n地上是四座单层夯土亭，墙厚约 50 厘米（结构需求约 43 厘米，另留侵蚀余量），外墙不刷涂料，转角加石灰层加固。西南侧夯土看台约 300 座，围合有树、水嬉和游乐设施的庭院。木屋架插进石灰窝，交叉支撑以减轻扭转对土墙的磨损。屋顶凹曲覆绿，室内木材外露，天窗与大玻璃朝向庭院。",
+   "source_read": "full",
+   "url": "https://www.architecturalrecord.com/articles/17807-south-of-paris-hemaa-builds-a-childrens-recreation-center-from-rammed-earth",
+   "source": "国际建筑媒体（全站，只收生土关键词） · The Architectural Review"
+  },
+  {
+   "title": "山海关长城夯土配比与力学性能研究",
+   "category": "研究论文",
+   "score": 71,
+   "for_you": "石灰加淀粉的夯土配比区间可直接对照你的抹面与夯土试配。",
+   "body_zh": "燕山大学赵建设、刘杰峰、曹海莹、王浩然在期刊 Buildings 发表《山海关长城夯土制备方法与力学性能研究》，2026 年 10 月 20 日上线。山海关明长城外砖内夯土，砖面剥落后夯土芯仍能保持整体形态。\n\n作者采集现场夯土，做物理性质、直剪、XRD、FTIR、热重和扫描电镜。现场土为粉质黏土，含少量钙质与淀粉类有机残留，碘染色可复现。实验室用本地贫黏土、石灰和预糊化淀粉配制 150 组配比，共 600 个试样，养护 9 天后测收缩与直剪。\n\n结论：含水率升高会加大收缩、降低黏聚力；石灰可显著压低收缩并提高峰值抗剪，但过量更脆；预糊化淀粉在 1.0–1.5% 时抗剪较好。综合收缩、抗剪与微观结构，作者给出实验条件下可行区间：初始含水率 17–21%、石灰 3–4%、预糊化淀粉 1.0–1.5%。文中强调实验掺量不能直接等同于明代糯米浆与石灰的历史用量。",
+   "source_read": "full",
+   "url": "https://www.mdpi.com/2075-5309/16/20/4166",
+   "source": "Buildings"
+  },
+  {
+   "title": "法国新书《Avec la terre》谈生土未来",
+   "category": "行业与市场",
+   "score": 68,
+   "for_you": "欧洲生土话语与抹面/土坯术语表，可作内容与对外讲解素材。",
+   "body_zh": "Terrestres 于 2026 年 10 月 22 日刊登《La terre crue, matériau du futur》，摘自 Geneviève Pruvost、Alain Marcom、Aymone Nicolas 合著新书《Avec la terre. Construire, habiter, danser》（Seuil「Écocène」丛书）导言。作者身份分别是社会学者、泥瓦匠和历史—手艺人。\n\n文本把挖土、揉泥、成团写成政治动作，批评工业化北方遗忘「生土可建」。书中梳理土坯、夯土、草泥、轻质土与生土抹面，引用法国《生土建造良好实践指南》（2020）的定义，并称法国约 15% 存量建筑含生土，部分乡村甚至超过 80%。\n\n核心论点：未烧制黏土可反复润湿塑形，几乎不成废料；而水泥、塑料、密闭窗改变了室内气候。作者呼吁普通人成为生土实践者，把材料可及性与可修性当作社会与环境正义问题。",
+   "source_read": "full",
+   "url": "https://www.terrestres.org/2026/10/22/la-terre-crue-materiau-du-futur/",
+   "source": "Terrestres · La revue des écologies radicales"
+  },
+  {
+   "title": "Art Omi 展出 Bilbao 夯土柱装置",
+   "category": "活动与赛事",
+   "score": 66,
+   "for_you": "夯土作为可消解公共艺术，可作你讲材料生命周期的视觉例证。",
+   "body_zh": "Art Omi 宣布墨西哥城事务所 Tatiana Bilbao ESTUDIO 的新委托作品 Borrowed Earth 将于 2026 年 10 月 24 日开幕。地点在纽约州根特（Ghent）雕塑与建筑园的绿色建筑草甸。开幕时间 14–17 时，15 时由厄瓜多尔裔美籍艺术家 Lita Vinueza 用定制电子乐器回应装置，免费，欢迎步行入场。\n\n作品用当地土夯成柱阵。主办方称该地区很少用夯土。柱体 intentionally 不求永存：随季节与风雨缓慢侵蚀，逐渐回到土地，让时间与人地关系可见。开幕也标志着 Art Omi 秋季建筑项目收尾。\n\nBilbao 事务所成立于 2004 年，强调社会、文化与环境影响，常用手绘、拼贴与实体模型推进协作设计。",
+   "source_read": "full",
+   "url": "https://artomi.org/event/opening-tatiana-bilbao-estudio-borrowed-earth/",
+   "source": "TAPinto"
   }
  ],
  "briefs": [
   {
-   "title": "筑境设计衢州姑蔑博物馆建成，连廊幕墙用夯土板",
-   "url": "http://www.xinhuanet.com/20260613/dfaa0eb0ec4344bc8339ed77b9bfc9f5/c.html"
+   "title": "土坯抗震住房框架研究（IJRASET）",
+   "url": "https://doi.org/10.22214/ijraset.2026.85270"
   }
  ]
 }

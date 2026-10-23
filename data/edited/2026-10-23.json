@@ -1,0 +1,354 @@
+{
+  "date": "2026-10-23",
+  "editor": "Grok Bot",
+  "edited_at": "2026-10-23T09:13:20+08:00",
+  "lead": "燕山大学给出山海关长城夯土实验配比；英国 RD26 上 Keable 谈生土循环；巴黎 HEMAA 夯土儿童中心细节披露。另有法国生土新书摘录、Art Omi 夯土装置开幕，以及 Rauch 的夯土预制工作坊。",
+  "actions": [
+    "对照山海关论文试配：石灰 3–4%、淀粉 1–1.5%",
+    "把 HEMAA 与 Cycle Terre 供土路径写进市政案例包"
+  ],
+  "items": [
+    {
+      "id": "adecdb920419",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 7,
+        "nov": 7,
+        "cred": 8,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 71,
+      "title_zh": "山海关长城夯土配比与力学性能研究",
+      "summary_zh": "燕山大学团队在 Buildings 发表论文，复原山海关明长城夯土芯。现场土样为粉质黏土，含微量淀粉类有机物。实验室用贫黏土加石灰与预糊化淀粉，筛得可行配比：含水率 17–21%、石灰 3–4%、淀粉 1.0–1.5%。",
+      "for_you": "石灰加淀粉的夯土配比区间可直接对照你的抹面与夯土试配。",
+      "url_override": "https://www.mdpi.com/2075-5309/16/20/4166",
+      "source_read": "full",
+      "body_zh": "燕山大学赵建设、刘杰峰、曹海莹、王浩然在期刊 Buildings 发表《山海关长城夯土制备方法与力学性能研究》，2026 年 10 月 20 日上线。山海关明长城外砖内夯土，砖面剥落后夯土芯仍能保持整体形态。\n\n作者采集现场夯土，做物理性质、直剪、XRD、FTIR、热重和扫描电镜。现场土为粉质黏土，含少量钙质与淀粉类有机残留，碘染色可复现。实验室用本地贫黏土、石灰和预糊化淀粉配制 150 组配比，共 600 个试样，养护 9 天后测收缩与直剪。\n\n结论：含水率升高会加大收缩、降低黏聚力；石灰可显著压低收缩并提高峰值抗剪，但过量更脆；预糊化淀粉在 1.0–1.5% 时抗剪较好。综合收缩、抗剪与微观结构，作者给出实验条件下可行区间：初始含水率 17–21%、石灰 3–4%、预糊化淀粉 1.0–1.5%。文中强调实验掺量不能直接等同于明代糯米浆与石灰的历史用量。",
+      "key_facts": [
+        {
+          "k": "期刊",
+          "v": "Buildings 16(20) 4166"
+        },
+        {
+          "k": "含水率",
+          "v": "17–21%"
+        },
+        {
+          "k": "石灰",
+          "v": "3–4%"
+        },
+        {
+          "k": "淀粉",
+          "v": "1.0–1.5%"
+        },
+        {
+          "k": "试样",
+          "v": "150 配比、600 件"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "water content of 17–21%, lime 3–4%, pregelatinized starch 1.0–1.5%",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "e3cd1ea890f0",
+      "decision": "pick",
+      "category": "market",
+      "scores": {
+        "sig": 7,
+        "nov": 5,
+        "cred": 7,
+        "reson": 9,
+        "act": 7
+      },
+      "score": 74,
+      "title_zh": "Keable 在 RD26 谈生土的循环潜力",
+      "summary_zh": "Architecture Today：Rammed Earth Consulting 的 Rowland Keable 在 RD26 介绍夯土、压制土砖、草泥、轻质土与黏土砂浆。他强调未烧制生土可反复润湿再利用，并举 Walthamstow 与国王十字挖土制砖回用。",
+      "for_you": "英伦规格书与挖土回用话术，可借来跟开发商谈生土闭环。",
+      "url_override": "https://architecturetoday.co.uk/specifying-natural-and-sustainable-materials-rowland-keable-on-the-potential-of-earth-at-rd26/",
+      "source_read": "full",
+      "body_zh": "Architecture Today 报道 Rowland Keable（Rammed Earth Consulting 总监）在 Regenerative Design 2026（RD26）研讨会上的发言。活动由 Architecture Today 发起，10 月在伦敦 Building Centre 举行，本场与 HG Matthews 合作。\n\nKeable 从业三十多年，梳理夯土、压制土砖、草泥、轻质土、黏土砂浆与抹面等做法。他指出生土最大优势是循环性：未烧制、未掺水泥的土可打碎、再润湿、反复使用，材料成分基本不变。现场挖出的土直接加工成砌块，能减少外运和新材料采购。\n\n案例包括 Walthamstow 住宅：挖出的土制成砌块再回工地；国王十字 Tribeca 开发：开挖黏土制成大量内墙砌块。他的核心信息是：生土建造不是试验品，也不只属于传统工艺，当代项目里有可落地的机会，前提是建筑师看见脚下的材料。",
+      "key_facts": [
+        {
+          "k": "场合",
+          "v": "RD26 / Building Centre"
+        },
+        {
+          "k": "人物",
+          "v": "Rowland Keable"
+        },
+        {
+          "k": "案例",
+          "v": "Walthamstow、国王十字"
+        },
+        {
+          "k": "搭档",
+          "v": "HG Matthews"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "unfired earth can be broken down, rehydrated and reused repeatedly",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "cd669716d079",
+      "decision": "pick",
+      "category": "project",
+      "scores": {
+        "sig": 7,
+        "nov": 6,
+        "cred": 8,
+        "reson": 9,
+        "act": 6
+      },
+      "score": 73,
+      "title_zh": "巴黎南郊 HEMAA 夯土儿童活动中心",
+      "summary_zh": "Architectural Record 详述 HEMAA 在埃夫里—库尔库罗讷 Parc des Loges 的儿童活动中心：承重夯土墙厚约 50 厘米，土方来自巴黎新地铁隧道，污染土由 Cycle Terre 处理。另有夯土看台约 300 座，面向邻侧田径场。",
+      "for_you": "公建用未稳夯土加现场土闭环，可作你推市政项目的案例包。",
+      "url_override": "https://www.architecturalrecord.com/articles/17807-south-of-paris-hemaa-builds-a-childrens-recreation-center-from-rammed-earth",
+      "source_read": "full",
+      "body_zh": "Architectural Review 把巴黎事务所 HEMAA 列入 Emerging 介绍，核心作品之一是埃夫里—库尔库罗讷 Parc des Loges 儿童活动中心。Architectural Record 给出工程细节：服务 3 至 11 岁儿童，约 3.2 公顷用地需同时塞进活动中心与 50 车位停车。\n\n建筑师把车库存入地下，让建筑平铺场地。开挖土本可回用，但公园填土含石棉污染管线残留。压缩土砖厂 Cycle Terre 运走污染土，并供应巴黎新环线地铁隧道挖出的净土。地基与车库用低水泥掺矿渣混凝土。\n\n地上是四座单层夯土亭，墙厚约 50 厘米（结构需求约 43 厘米，另留侵蚀余量），外墙不刷涂料，转角加石灰层加固。西南侧夯土看台约 300 座，围合有树、水嬉和游乐设施的庭院。木屋架插进石灰窝，交叉支撑以减轻扭转对土墙的磨损。屋顶凹曲覆绿，室内木材外露，天窗与大玻璃朝向庭院。",
+      "key_facts": [
+        {
+          "k": "地点",
+          "v": "Évry-Courcouronnes"
+        },
+        {
+          "k": "墙厚",
+          "v": "约 50 cm 承重夯土"
+        },
+        {
+          "k": "供土",
+          "v": "地铁隧道土 / Cycle Terre"
+        },
+        {
+          "k": "看台",
+          "v": "约 300 座"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "break with the all-concrete image of a 1970s new town",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "b1228fef520f",
+      "decision": "pick",
+      "category": "market",
+      "scores": {
+        "sig": 6,
+        "nov": 6,
+        "cred": 7,
+        "reson": 8,
+        "act": 6
+      },
+      "score": 68,
+      "title_zh": "法国新书《Avec la terre》谈生土未来",
+      "summary_zh": "生态评论刊 Terrestres 摘发 Seuil 新书《Avec la terre. Construire, habiter, danser》导言。作者为社会学者、泥瓦匠与历史—手艺人。书中主张夺回土坯、夯土、草泥与轻质土等技艺，强调生土可反复润湿再利用。",
+      "for_you": "欧洲生土话语与抹面/土坯术语表，可作内容与对外讲解素材。",
+      "url_override": "https://www.terrestres.org/2026/10/22/la-terre-crue-materiau-du-futur/",
+      "source_read": "full",
+      "merged_ids": [
+        "8fb4456edc12"
+      ],
+      "body_zh": "Terrestres 于 2026 年 10 月 22 日刊登《La terre crue, matériau du futur》，摘自 Geneviève Pruvost、Alain Marcom、Aymone Nicolas 合著新书《Avec la terre. Construire, habiter, danser》（Seuil「Écocène」丛书）导言。作者身份分别是社会学者、泥瓦匠和历史—手艺人。\n\n文本把挖土、揉泥、成团写成政治动作，批评工业化北方遗忘「生土可建」。书中梳理土坯、夯土、草泥、轻质土与生土抹面，引用法国《生土建造良好实践指南》（2020）的定义，并称法国约 15% 存量建筑含生土，部分乡村甚至超过 80%。\n\n核心论点：未烧制黏土可反复润湿塑形，几乎不成废料；而水泥、塑料、密闭窗改变了室内气候。作者呼吁普通人成为生土实践者，把材料可及性与可修性当作社会与环境正义问题。",
+      "key_facts": [
+        {
+          "k": "书名",
+          "v": "Avec la terre（Seuil）"
+        },
+        {
+          "k": "作者",
+          "v": "Pruvost / Marcom / Nicolas"
+        },
+        {
+          "k": "摘发",
+          "v": "Terrestres 2026-10-22"
+        },
+        {
+          "k": "存量",
+          "v": "法国约 15% 含生土"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Le bâti en terre crue peut être perpétuellement rénové à bas coût",
+          "lang": "fr"
+        }
+      ]
+    },
+    {
+      "id": "88c1afb0f8da",
+      "decision": "pick",
+      "category": "event",
+      "scores": {
+        "sig": 6,
+        "nov": 7,
+        "cred": 8,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 66,
+      "title_zh": "Art Omi 展出 Bilbao 夯土柱装置",
+      "summary_zh": "墨西哥 Tatiana Bilbao ESTUDIO 在纽约州根特 Art Omi 雕塑与建筑园落地新委托作品 Borrowed Earth：本地土夯成柱阵，设计随风雨缓慢侵蚀归土。10 月 24 日 14–17 时开幕，15 时有 Lita Vinueza 现场演出，免费。",
+      "for_you": "夯土作为可消解公共艺术，可作你讲材料生命周期的视觉例证。",
+      "url_override": "https://artomi.org/event/opening-tatiana-bilbao-estudio-borrowed-earth/",
+      "source_read": "full",
+      "merged_ids": [
+        "5b27757005f7"
+      ],
+      "body_zh": "Art Omi 宣布墨西哥城事务所 Tatiana Bilbao ESTUDIO 的新委托作品 Borrowed Earth 将于 2026 年 10 月 24 日开幕。地点在纽约州根特（Ghent）雕塑与建筑园的绿色建筑草甸。开幕时间 14–17 时，15 时由厄瓜多尔裔美籍艺术家 Lita Vinueza 用定制电子乐器回应装置，免费，欢迎步行入场。\n\n作品用当地土夯成柱阵。主办方称该地区很少用夯土。柱体 intentionally 不求永存：随季节与风雨缓慢侵蚀，逐渐回到土地，让时间与人地关系可见。开幕也标志着 Art Omi 秋季建筑项目收尾。\n\nBilbao 事务所成立于 2004 年，强调社会、文化与环境影响，常用手绘、拼贴与实体模型推进协作设计。",
+      "key_facts": [
+        {
+          "k": "开幕",
+          "v": "2026-10-24 14–17 时"
+        },
+        {
+          "k": "地点",
+          "v": "Art Omi, Ghent, NY"
+        },
+        {
+          "k": "材料",
+          "v": "本地夯土柱"
+        },
+        {
+          "k": "演出",
+          "v": "Lita Vinueza 15 时"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "This architecture is meant not to last, but to belong",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "c076cf9b8d6a",
+      "decision": "pick",
+      "category": "event",
+      "scores": {
+        "sig": 5,
+        "nov": 6,
+        "cred": 9,
+        "reson": 8,
+        "act": 8
+      },
+      "score": 74,
+      "title_zh": "BE 学院：Rauch 讲夯土预制潜力",
+      "summary_zh": "奥地利 Lehm Ton Erde 转发 BE Academy 第 4 场工作坊：2026 年 11 月 12–13 日在卢斯特瑙，学费 1800 欧元，限 18 人。Martin Rauch 主讲「与地球共生长：预制在夯土建造中的潜力」，课程德英双语。",
+      "for_you": "欧洲夯土预制一线课，值得盯课件与Rauch话术，对照你的预制路线。",
+      "url_override": "https://www.lehmtonerde.at/be-academy-vorfertigung-als-potenzial-im-lehmbau-i-13-11-2026/",
+      "source_read": "full",
+      "body_zh": "Lehm Ton Erde 官网发布 BE Academy Workshop 4 信息。时间 2026 年 11 月 12–13 日，地点奥地利卢斯特瑙（Lustenau）Millennium Park 20，学费 1800 欧元，名额 18，语言德语与英语，对象不限专业背景。\n\n课程分四块。与生土直接相关的是第三块：Martin Rauch（Schlins，LehmTonErde Baukunst 创始人）讲「Wachstum im Einklang mit unserer Erde. Vorfertigung als Potenzial im Lehmbau」（与地球共生长：预制作为夯土建造的潜力）。同场还有 CampusVäre、BEA Wien/Hamburg、EMPA 的 Matthias Sulzer、Innauer Matt 与 Dietmar Eberle 等关于创意、落地、数字工具与方法论的讲座。\n\n报名与咨询邮箱 info@be-academy.eu。标题页写 13.11，日程表写 12.11–13.11，以日程表为准。",
+      "key_facts": [
+        {
+          "k": "日期",
+          "v": "2026-11-12 至 13"
+        },
+        {
+          "k": "地点",
+          "v": "Lustenau, AT"
+        },
+        {
+          "k": "学费",
+          "v": "€1800 / 18 人"
+        },
+        {
+          "k": "主讲",
+          "v": "Martin Rauch"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Vorfertigung als Potenzial im Lehmbau",
+          "lang": "de"
+        }
+      ]
+    },
+    {
+      "id": "a9b4d5a4bbea",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 5,
+        "cred": 4,
+        "reson": 7,
+        "act": 5
+      },
+      "score": 50,
+      "title_zh": "土坯抗震住房框架研究（IJRASET）",
+      "summary_zh": "IJRASET 刊文称传统土坯因砌体弱、连接差、施工粗而怕震，作者提出抗震韧性土坯住房框架。公开摘要未给试验数据与配比细节，期刊口碑一般，仅作动向备忘。",
+      "source_read": "snippet"
+    },
+    {
+      "id": "d5a49cc06536",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "土坝渗流与 Geostudio 稳定，属水利岩土，非生土建筑"
+    },
+    {
+      "id": "f15bc4f0f076",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "金属加筋土挡墙回填料评价，道路岩土，非生土建材"
+    },
+    {
+      "id": "6ab18fedaf1c",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "ArchDaily「本周最佳摄影」夯土图集，原图集为 2018 年旧文重推"
+    },
+    {
+      "id": "f733cf529a2d",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "大凉山脱贫与道路故事，土坯房仅作贫困对照，非材料资讯"
+    },
+    {
+      "id": "8fb4456edc12",
+      "decision": "merged",
+      "merged_into": "b1228fef520f"
+    },
+    {
+      "id": "388979c96af4",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "加那利考古井与石灰仓，夯土地面一笔带过，非生土建造"
+    },
+    {
+      "id": "06b5c597579b",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Philignum 实木住宅，无生土内容"
+    },
+    {
+      "id": "f5ae078ef3cb",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "San Marcial 考古英文版，与西语稿同题"
+    },
+    {
+      "id": "5b27757005f7",
+      "decision": "merged",
+      "merged_into": "88c1afb0f8da"
+    },
+    {
+      "id": "aaa3f61b93df",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "San Marcial 考古又一转载，同题"
+    }
+  ]
+}
