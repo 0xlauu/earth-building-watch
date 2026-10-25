@@ -1,81 +1,35 @@
 {
- "date": "2026-10-24",
- "lead": "锁阳城论文量化生土墙深度恢复滞后；松阳小后畬与巴厘 OMA 店展示真夯土应用；帕伦西亚 Terra Ibérica 开幕；越南罗罗寨仿夯土争议升温。",
+ "date": "2026-10-25",
+ "lead": "阿曼 Ibra 的 Dome 咖啡馆用 SuperAdobe 袋装夯土成穹顶；新疆半地下生土过热风险论文上线；越南罗罗寨英文续报与昨日同题。",
  "actions": [
-  "对照锁阳城监测：抹面样板分表面与深层读数",
-  "把小后畬真夯土/仿涂料做法写进民宿案例卡",
-  "罗罗寨争议可作防潮与真伪话术素材"
+  "把 Ibra Dome Cafe 的 SuperAdobe 做法写进沙漠商业案例卡",
+  "等 Xinjiang 半地下生土论文摘要可读后再对照抹面蓄热话术"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-24.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-25.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W43.html",
  "counts": {
-  "pick": 6,
-  "brief": 0,
-  "drop": 5,
-  "merged": 1
+  "pick": 1,
+  "brief": 1,
+  "drop": 3,
+  "merged": 0
  },
  "picks": [
   {
-   "title": "松阳小后畬：木构加夯土整村更新",
+   "title": "阿曼 Ibra：Dome 咖啡馆用 SuperAdobe 建穹顶",
    "category": "项目案例",
-   "score": 73,
-   "for_you": "乡村酒店场景里真夯土与仿夯土涂料并用，可对照你的抹面产品线话术。",
-   "body_zh": "空崆建筑（主持建筑师甘泉、董大伟）在谷德设计网发布大乐之野·松阳·小后畬山居度假酒店。地点浙江丽水松阳县大东坝镇小后畬村。业主上海山海有野酒店集团。一期更新 7 栋老屋，建筑面积 1934 平方米，建成 16 间客房及公共配套，完成年份 2025 年 11 月；谷德页面标注 2026-10-23。\n\n风貌要求立面必须夯土或接近夯土材质，控制主立面开窗，保留小青瓦坡屋顶。25#、24#、17# 主楼做接待、餐饮与展览，采用木结构框架加夯土围护墙：修复柱梁、用传统夯土法修复重建失稳墙体，再用夯土涂料修补立面。22#、18#、19# 与 17# 附楼几乎坍塌，按客房需求用砖混加木构架复建，外饰仿夯土立面涂料。\n\n主要材料写明毛石、夯土、木结构、仿夯土立面涂料、小青瓦等。文中也写当地会传统黄泥瓦屋工艺的队伍已很少，上山道路限制大型车辆，设计采取「以旧补旧，亦以新补旧」。",
+   "score": 67,
+   "for_you": "沙漠商业室内可用袋装夯土穹顶；文中强调土样必测，沙丘沙未必能用。",
+   "body_zh": "Oman Observer 记者 Yeru Ebuen 2026 年 10 月 24 日发文：阿曼伊卜拉（Ibra）出现一簇圆穹造型的 Dome 咖啡馆。设计与施工方 Earth Artists 称项目把当地土壤、自然形态与场所性格合在一起，并写「从阿曼的心与土开始我们的故事」。\n\n文中区分夯土与 SuperAdobe：前者在模板间压实级配土；后者由伊朗建筑师 Nader Khalili 发展，把湿土装入袋或长管，分层铺筑夯实，层间加铁丝防滑，环圈逐渐内收成穹顶。Earth Artists 2019 年在伊朗以教学起步，现做设计、施工与咨询；其网站称已办逾 60 场工坊、培训超 1200 人，并在阿曼、土耳其、哥伦比亚、澳大利亚等完成项目。文中提到巴赫拉（Bahla）旧城泥砖墙、草筋拌土等本地传统，并提醒土质因地而异、须试验；沙漠沙本身不一定合用。厚土墙可蓄热缓温，但仍须遮阳、通风、排水与防雨。\n\nEarth Artists 把这座咖啡馆看作在阿曼更大投入的开端，后续还有项目计划。报道称其造型已在社媒引发好奇。",
    "source_read": "full",
-   "url": "https://www.gooood.cn/lost-villa-in-xiaohoushe-songyang-by-kong-architects.htm",
-   "source": "谷德设计网- gooood"
-  },
-  {
-   "title": "OMA 为 Potato Head 建夯土零售工坊",
-   "category": "项目案例",
-   "score": 70,
-   "for_you": "酒店品牌用本地黏土夯土做零售空间，可作你谈文旅/商业室内的案例。",
-   "body_zh": "Designboom 2026 年 10 月 23 日报道：Potato Head 与 OMA 在印度尼西亚巴厘岛 Seminyak 的 Desa Potato Head 内开设 Good Times General Store。这是该酒店品牌首个常设零售店，同时作为工艺中心，售卖印尼制造的物件、时装、家具，并开设动手工作坊。\n\n建筑由 OMA 与 Potato Head 建筑发展负责人 Ade Herkarisma 合作。材料包括 alang-alang 茅草立面、本地黏土夯土墙、回收木材，以及掺回收竹屑的水磨石地面。室内用打碎的土块组织空间，模糊零售与制作区边界。\n\n店内五个相连开间覆盖物件生命周期：工匠纪念品、Potato Head 服装旅行系列、Max Lamb 的 Wasted 废料家具，以及天然染色工作室与破碎 HDPE 塑料墙面的成型工坊。创始人 Ronald Akili 称零售可以不止于交易。OMA 与 Potato Head 此前已合作酒店与 Klymax 迪斯科等项目。",
-   "source_read": "full",
-   "url": "https://www.designboom.com/architecture/oma-potato-head-good-times-general-store-bali-indonesia/",
-   "source": "Designboom"
-  },
-  {
-   "title": "论文：锁阳城生土墙深度控制湿热扰动",
-   "category": "研究论文",
-   "score": 69,
-   "for_you": "遗产夯土监测要分表面—浅层—深层，别只看表面回稳就收场。",
-   "body_zh": "Fu、Yan、Zhang 等在 npj Heritage Science 发表《Depth controls transmission and delayed recovery of climatic hygrothermal disturbances in exposed earthen heritage walls》，2026 年 10 月 24 日上线。研究对象是暴露生土遗产墙。问题是：墙内振幅变小，是否也意味着更快恢复？\n\n作者把 1991–2020 气候资料与 2021–2024 气象及多深度墙体观测结合，在甘肃锁阳城整理热、冷、大日较差和湿润四类事件，共 185 次独立过程，对齐 −48 至 +168 小时。温度上，从表面到 5 cm、再到 50 cm，振幅逐步衰减、峰值推迟、扰动更持久。168 小时内回到基线的比例从 74% 降到 63%、再降到 19%；未恢复时长的限制均值从 31.6 小时升到 48.1、88.3 小时。固定参数二维传热模型能独立复现年际与事件尺度的深度规律。相对湿度响应空间差异更大。\n\n结论：内部低振幅说明墙体缓冲了短时外力，并不等于快速恢复。作者建议对暴露生土遗产做表面—浅层—深层联合监测，并延长事件后的观测窗口。",
-   "source_read": "abstract",
-   "url": "https://www.nature.com/articles/s40494-026-03061-x",
-   "source": "npj Heritage Science"
-  },
-  {
-   "title": "第9届 Terra Ibérica 在帕伦西亚开幕",
-   "category": "活动与赛事",
-   "score": 68,
-   "for_you": "伊比利亚公屋与应急生土案例，可作你跟政府/NGO 聊的对标清单。",
-   "body_zh": "Cadena SER Radio Palencia 2026 年 10 月 23 日报道：帕伦西亚当日至 24 日举办第 9 届 Meeting Terra Ibérica。开幕在省议会宫。省议长称该活动九年后已让本省成为西班牙生土建筑传播与恢复的全国参照。活动由省议会与卡斯蒂利亚—莱昂建筑师协会合作。\n\n本届重点是可持续与公共住房。节目介绍循环经济建造经验，以及索马里、塞内加尔、埃及、阿塔卡马沙漠等地用本地材料回应居住与环境挑战的项目。会上还将发布汇集西班牙各地 22 件当代生土建筑的出版物。\n\n官方网站写明组织方为莱昂建筑师协会帕伦西亚分部与帕伦西亚省议会；23 日在省议会宫演讲与圆桌，24 日参观塞拉托地区传统与当代生土建筑，含帕伦苏埃拉历史中心与托克马达酒窖区。COAL 预告同场还有《España en Tierra. Arquitecturas contemporáneas》新书与同名展览。",
-   "source_read": "full",
-   "url": "https://cadenaser.com/castillayleon/2026/10/23/palencia-reune-a-expertos-internacionales-en-arquitectura-de-tierra-en-el-9-meeting-terra-iberica-radio-palencia/",
-   "source": "Cadena SER"
-  },
-  {
-   "title": "塔斯马尼亚 Earthship 用夯土替轮胎墙",
-   "category": "项目案例",
-   "score": 68,
-   "for_you": "寒区被动房用夯土热质替轮胎墙的话术，可借来跟自建客户沟通。",
-   "body_zh": "ECOticias 于 2026 年 10 月 23 日报道：被墨尔本房价挤出的业主 Kate 与 Matt，在塔斯马尼亚南部 Cygnet 自建约 2286 平方英尺（约 212.4 平方米）的 Earthship，两室两卫，2025 年完工。建筑师为 Earthship Eco Homes 的 Martin Freney。业主在 Renew 协调的 Sustainable House Day 开放日名录中写「Our heating bills are $0」。\n\n经典 Earthship 外墙用填土轮胎。Cygnet 改为夯土：潮湿土分层入模夯实，Freney 称便于与本地工匠配合并利于通过 Huon Valley Council 审批。墙体与保温混凝土基础作热质；北向玻璃阳光间作湿缓冲与种植；污水进入种植床；新风走地埋 earth tubes。室内另有黏土砂秸秆 cob 墙与瓶砖装饰。\n\n同一约 4 英亩地块计划共五栋，地层权共享果园与污水浇灌区。文中明确 0 元供暖是业主自述，尚无电表公开数据；光伏与电池拟在测完日常用电后再装。该宅曾列入 2026 年 5 月 17 日开放参观。",
-   "source_read": "full",
-   "url": "https://www.ecoticias.com/en/two-owner-builders-priced-out-of-melbourne-built-a-2-286-square-foot-earthship-in-cygnet-tasmania-with-rammed-earth-walls-bottle-bricks-and-no-fireplace-and-they-say-their-heating-bills-are-0/52479/",
-   "source": "ECOticias.com"
-  },
-  {
-   "title": "越南罗罗寨仿夯土混凝土房引争议",
-   "category": "行业与市场",
-   "score": 68,
-   "for_you": "文旅区「假夯土」压力大，真夯土与抹面防潮方案是你可卖的差异点。",
-   "body_zh": "越南《Tuổi Trẻ》2026 年 10 月 23 日报道（Vietnam.vn 英译）：宣光省陇句乡罗罗寨（Lo Lo Chai）被称作「世界最佳旅游村」，自陇句旗杆望去多处在建，混凝土柱林立。Lung Cu 公社今年以来向 20 户发施工许可，其中仅 3 户建夯土墙加阴阳瓦屋顶，其余用混凝土并涂土黄仿夯土。\n\n村长 Sinh Gi Gai 说，图纸仿罗罗族传统夯土屋，公社规定不超过两层、须符合传统外观，材料可用混凝土、玻璃、木材等。他称真夯土房若不生火，几天就会发霉潮湿，客人住不了；土墙厚、窗小、难装电器，所以生意人多建混凝土「假装」老屋，方便空调与观景大窗。检查荞麦花节筹备时，公社人民委员会叫停 5 个在建项目。\n\n旅游业者 Phạm Thái Dương 与游客 Nguyễn Minh Thu 担心石篱、夯土墙与古瓦构成的风貌被混凝土仿制品稀释。Duong 建议建设前做专家设计审查，并设不破坏整体景观的具体标准。",
-   "source_read": "full",
-   "url": "https://www.vietnam.vn/en/lo-lo-chai-moc-len-nhieu-nha-cao-tang-loi-thi-co-loi-duong-dai-tinh-sao",
-   "source": "Vietnam.vn"
+   "url": "https://www.omanobserver.om/article/1198456/features/travel/in-ibra-an-otherworldly-dome-cafe-finds-its-roots-in-the-soil",
+   "source": "Oman Observer"
   }
  ],
- "briefs": []
+ "briefs": [
+  {
+   "title": "论文：新疆半地下生土空间年过热风险",
+   "url": "https://doi.org/10.1016/j.enbuild.2026.118433"
+  }
+ ]
 }

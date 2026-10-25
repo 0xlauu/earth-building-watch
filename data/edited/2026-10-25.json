@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-25",
+  "editor": "Grok Bot",
+  "edited_at": "2026-10-25T09:17:40+08:00",
+  "lead": "阿曼 Ibra 的 Dome 咖啡馆用 SuperAdobe 袋装夯土成穹顶；新疆半地下生土过热风险论文上线；越南罗罗寨英文续报与昨日同题。",
+  "actions": [
+    "把 Ibra Dome Cafe 的 SuperAdobe 做法写进沙漠商业案例卡",
+    "等 Xinjiang 半地下生土论文摘要可读后再对照抹面蓄热话术"
+  ],
+  "items": [
+    {
+      "id": "701d8cc77a00",
+      "decision": "pick",
+      "category": "project",
+      "scores": {
+        "sig": 6,
+        "nov": 6,
+        "cred": 7,
+        "reson": 8,
+        "act": 6
+      },
+      "score": 67,
+      "title_zh": "阿曼 Ibra：Dome 咖啡馆用 SuperAdobe 建穹顶",
+      "summary_zh": "Oman Observer 2026-10-24 报道：Earth Artists 在伊卜拉建成 Dome 咖啡馆，用湿土装袋/管分层夯实、层间铁丝加固的 SuperAdobe 成穹顶。该团 2019 年于伊朗起步，称已办 60 余场工坊、培训超 1200 人。",
+      "for_you": "沙漠商业室内可用袋装夯土穹顶；文中强调土样必测，沙丘沙未必能用。",
+      "url_override": "https://www.omanobserver.om/article/1198456/features/travel/in-ibra-an-otherworldly-dome-cafe-finds-its-roots-in-the-soil",
+      "source_read": "full",
+      "body_zh": "Oman Observer 记者 Yeru Ebuen 2026 年 10 月 24 日发文：阿曼伊卜拉（Ibra）出现一簇圆穹造型的 Dome 咖啡馆。设计与施工方 Earth Artists 称项目把当地土壤、自然形态与场所性格合在一起，并写「从阿曼的心与土开始我们的故事」。\n\n文中区分夯土与 SuperAdobe：前者在模板间压实级配土；后者由伊朗建筑师 Nader Khalili 发展，把湿土装入袋或长管，分层铺筑夯实，层间加铁丝防滑，环圈逐渐内收成穹顶。Earth Artists 2019 年在伊朗以教学起步，现做设计、施工与咨询；其网站称已办逾 60 场工坊、培训超 1200 人，并在阿曼、土耳其、哥伦比亚、澳大利亚等完成项目。文中提到巴赫拉（Bahla）旧城泥砖墙、草筋拌土等本地传统，并提醒土质因地而异、须试验；沙漠沙本身不一定合用。厚土墙可蓄热缓温，但仍须遮阳、通风、排水与防雨。\n\nEarth Artists 把这座咖啡馆看作在阿曼更大投入的开端，后续还有项目计划。报道称其造型已在社媒引发好奇。",
+      "key_facts": [
+        {
+          "k": "地点",
+          "v": "阿曼伊卜拉 Ibra"
+        },
+        {
+          "k": "工法",
+          "v": "SuperAdobe 袋装湿土+铁丝"
+        },
+        {
+          "k": "团队",
+          "v": "Earth Artists（2019 伊朗起）"
+        },
+        {
+          "k": "工坊",
+          "v": "逾 60 场、培训超 1200 人"
+        },
+        {
+          "k": "报道日",
+          "v": "2026-10-24"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "From the heart of Oman and from its soil our story began",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "5da20dbfcc26",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 5,
+        "cred": 8,
+        "reson": 6,
+        "act": 3
+      },
+      "score": 55,
+      "title_zh": "论文：新疆半地下生土空间年过热风险",
+      "summary_zh": "Li 等在 Energy and Buildings 发新疆干热区半地下生土年过热风险与设计优先级论文（2026-10，DOI 10.1016/j.enbuild.2026.118433）。摘要未读。",
+      "source_read": "snippet",
+      "url_override": "https://doi.org/10.1016/j.enbuild.2026.118433"
+    },
+    {
+      "id": "1ddd6062302a",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "Tuoi Tre 英文版，与 2026-10-24 已发精选 5fb8fb7e9a70 罗罗寨同题"
+    },
+    {
+      "id": "4bf48bbfb690",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "原文 ArchDaily 2016-04 TERRA 夯土奖 40 候选"
+    },
+    {
+      "id": "391205f80e86",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "摩洛哥法定假日一览，与生土无关"
+    }
+  ]
+}
