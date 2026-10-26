@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-26",
+  "editor": "Grok Bot",
+  "edited_at": "2026-10-26T09:13:53+08:00",
+  "lead": "巴黎 12 区 Suzanne-Liébrard 体育中心开业，墙体用生土砖；其余待审为养鱼土塘论文、图书馆万圣节与 2021 年 ArchDaily 旧文。",
+  "actions": [
+    "把巴黎市政生土砖公建写进欧洲公共项目案例卡",
+    "对照 O-S Architectes 生土蓄热话术，整理给开发商的一页纸"
+  ],
+  "items": [
+    {
+      "id": "da5557af3042",
+      "decision": "pick",
+      "category": "project",
+      "scores": {
+        "sig": 7,
+        "nov": 6,
+        "cred": 8,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 68,
+      "title_zh": "巴黎12区：木构生土砖体育中心开业",
+      "summary_zh": "巴黎市政府 2026-10-16 更新：Suzanne-Liébrard 体育中心 10 月 19 日在 12 区开业，约 2700㎡木构三层，墙体用生土砖。O-S 建筑师称生土惯性与碳足迹更优；业主 SEMAPA。",
+      "for_you": "欧洲一线城市公建已用生土砖墙；可作推市政/文旅项目的案例与蓄热话术。",
+      "url_override": "https://www.paris.fr/pages/le-nouveau-centre-sportif-du-12e-envoie-du-bois-36811",
+      "source_read": "full",
+      "body_zh": "巴黎市政府官网 2026 年 10 月 16 日更新：12 区 boulevard Carnot 17 号的 Suzanne-Liébrard 体育中心于 10 月 19 日（周一）开业。建筑约 2700 平方米、三层，木立面约 21 米高，可同时容纳约 300 人；设 14 米攀岩墙、400 平方米道场（榻榻米约 350 平方米）以及舞蹈、拳击、乒乓球等场地。\n\n文中写明墙体除木材外还用了生土（terre crue）。建筑师 Atelier O-S Architectes 的 Clothilde Bonneau 说，生土热惯性好、利于应对热浪，生土砖制作碳足迹也更低；业主为 SEMAPA。屋顶有约 150 平方米光伏板供电；底层设鸟巢与昆虫旅馆。Boulevard Carnot 计划改造成花园式步行骑行街，年底前再增约 2700 平方米种植与 51 棵树。\n\n场地邻近巴黎环城路，文中强调木构与生土带来的隔声与热工表现。公众开放时段据场馆页自 2026 年 11 月 2 日起公布。",
+      "key_facts": [
+        {
+          "k": "地点",
+          "v": "巴黎12区 17 bd Carnot"
+        },
+        {
+          "k": "开业",
+          "v": "2026-10-19"
+        },
+        {
+          "k": "面积",
+          "v": "约 2700㎡、三层"
+        },
+        {
+          "k": "材料",
+          "v": "木构 + 生土砖墙"
+        },
+        {
+          "k": "设计",
+          "v": "Atelier O-S Architectes"
+        },
+        {
+          "k": "业主",
+          "v": "SEMAPA"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "La terre crue a une très bonne inertie thermique",
+          "lang": "fr"
+        },
+        {
+          "text": "les briques en terre crue ont un meilleur bilan carbone",
+          "lang": "fr"
+        }
+      ]
+    },
+    {
+      "id": "dfbe127247b8",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "罗非鱼土塘养殖中药雄性化论文，与生土建筑无关"
+    },
+    {
+      "id": "c146084c6f59",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Montanay 图书馆 Le Pisé 万圣节晚会，仅馆名含 pisé"
+    },
+    {
+      "id": "9ea19d3133de",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "原文 ArchDaily 2021-04-20，项目 2020 年比利时蒂嫩 AST 77"
+    }
+  ]
+}

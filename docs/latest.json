@@ -1,35 +1,30 @@
 {
- "date": "2026-10-25",
- "lead": "阿曼 Ibra 的 Dome 咖啡馆用 SuperAdobe 袋装夯土成穹顶；新疆半地下生土过热风险论文上线；越南罗罗寨英文续报与昨日同题。",
+ "date": "2026-10-26",
+ "lead": "巴黎 12 区 Suzanne-Liébrard 体育中心开业，墙体用生土砖；其余待审为养鱼土塘论文、图书馆万圣节与 2021 年 ArchDaily 旧文。",
  "actions": [
-  "把 Ibra Dome Cafe 的 SuperAdobe 做法写进沙漠商业案例卡",
-  "等 Xinjiang 半地下生土论文摘要可读后再对照抹面蓄热话术"
+  "把巴黎市政生土砖公建写进欧洲公共项目案例卡",
+  "对照 O-S Architectes 生土蓄热话术，整理给开发商的一页纸"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-25.html",
- "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W43.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-26.html",
+ "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W44.html",
  "counts": {
   "pick": 1,
-  "brief": 1,
+  "brief": 0,
   "drop": 3,
   "merged": 0
  },
  "picks": [
   {
-   "title": "阿曼 Ibra：Dome 咖啡馆用 SuperAdobe 建穹顶",
+   "title": "巴黎12区：木构生土砖体育中心开业",
    "category": "项目案例",
-   "score": 67,
-   "for_you": "沙漠商业室内可用袋装夯土穹顶；文中强调土样必测，沙丘沙未必能用。",
-   "body_zh": "Oman Observer 记者 Yeru Ebuen 2026 年 10 月 24 日发文：阿曼伊卜拉（Ibra）出现一簇圆穹造型的 Dome 咖啡馆。设计与施工方 Earth Artists 称项目把当地土壤、自然形态与场所性格合在一起，并写「从阿曼的心与土开始我们的故事」。\n\n文中区分夯土与 SuperAdobe：前者在模板间压实级配土；后者由伊朗建筑师 Nader Khalili 发展，把湿土装入袋或长管，分层铺筑夯实，层间加铁丝防滑，环圈逐渐内收成穹顶。Earth Artists 2019 年在伊朗以教学起步，现做设计、施工与咨询；其网站称已办逾 60 场工坊、培训超 1200 人，并在阿曼、土耳其、哥伦比亚、澳大利亚等完成项目。文中提到巴赫拉（Bahla）旧城泥砖墙、草筋拌土等本地传统，并提醒土质因地而异、须试验；沙漠沙本身不一定合用。厚土墙可蓄热缓温，但仍须遮阳、通风、排水与防雨。\n\nEarth Artists 把这座咖啡馆看作在阿曼更大投入的开端，后续还有项目计划。报道称其造型已在社媒引发好奇。",
+   "score": 68,
+   "for_you": "欧洲一线城市公建已用生土砖墙；可作推市政/文旅项目的案例与蓄热话术。",
+   "body_zh": "巴黎市政府官网 2026 年 10 月 16 日更新：12 区 boulevard Carnot 17 号的 Suzanne-Liébrard 体育中心于 10 月 19 日（周一）开业。建筑约 2700 平方米、三层，木立面约 21 米高，可同时容纳约 300 人；设 14 米攀岩墙、400 平方米道场（榻榻米约 350 平方米）以及舞蹈、拳击、乒乓球等场地。\n\n文中写明墙体除木材外还用了生土（terre crue）。建筑师 Atelier O-S Architectes 的 Clothilde Bonneau 说，生土热惯性好、利于应对热浪，生土砖制作碳足迹也更低；业主为 SEMAPA。屋顶有约 150 平方米光伏板供电；底层设鸟巢与昆虫旅馆。Boulevard Carnot 计划改造成花园式步行骑行街，年底前再增约 2700 平方米种植与 51 棵树。\n\n场地邻近巴黎环城路，文中强调木构与生土带来的隔声与热工表现。公众开放时段据场馆页自 2026 年 11 月 2 日起公布。",
    "source_read": "full",
-   "url": "https://www.omanobserver.om/article/1198456/features/travel/in-ibra-an-otherworldly-dome-cafe-finds-its-roots-in-the-soil",
-   "source": "Oman Observer"
+   "url": "https://www.paris.fr/pages/le-nouveau-centre-sportif-du-12e-envoie-du-bois-36811",
+   "source": "Presse Agence"
   }
  ],
- "briefs": [
-  {
-   "title": "论文：新疆半地下生土空间年过热风险",
-   "url": "https://doi.org/10.1016/j.enbuild.2026.118433"
-  }
- ]
+ "briefs": []
 }
