@@ -1,30 +1,23 @@
 {
- "date": "2026-10-26",
- "lead": "巴黎 12 区 Suzanne-Liébrard 体育中心开业，墙体用生土砖；其余待审为养鱼土塘论文、图书馆万圣节与 2021 年 ArchDaily 旧文。",
+ "date": "2026-10-27",
+ "lead": "贵州荔波洪江村艺术乡建：改造老宅须保留夯土墙、用本地红土修缮，村民跟学夯土工艺。另一条摩洛哥 Aït Benhaddou 旅游稿无新信息，未收。",
  "actions": [
-  "把巴黎市政生土砖公建写进欧洲公共项目案例卡",
-  "对照 O-S Architectes 生土蓄热话术，整理给开发商的一页纸"
+  "把洪江村“保留夯土墙、红土修缮”的乡建做法记进国内乡村改造案例库"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-26.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-27.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W44.html",
  "counts": {
-  "pick": 1,
-  "brief": 0,
-  "drop": 3,
+  "pick": 0,
+  "brief": 1,
+  "drop": 1,
   "merged": 0
  },
- "picks": [
+ "picks": [],
+ "briefs": [
   {
-   "title": "巴黎12区：木构生土砖体育中心开业",
-   "category": "项目案例",
-   "score": 68,
-   "for_you": "欧洲一线城市公建已用生土砖墙；可作推市政/文旅项目的案例与蓄热话术。",
-   "body_zh": "巴黎市政府官网 2026 年 10 月 16 日更新：12 区 boulevard Carnot 17 号的 Suzanne-Liébrard 体育中心于 10 月 19 日（周一）开业。建筑约 2700 平方米、三层，木立面约 21 米高，可同时容纳约 300 人；设 14 米攀岩墙、400 平方米道场（榻榻米约 350 平方米）以及舞蹈、拳击、乒乓球等场地。\n\n文中写明墙体除木材外还用了生土（terre crue）。建筑师 Atelier O-S Architectes 的 Clothilde Bonneau 说，生土热惯性好、利于应对热浪，生土砖制作碳足迹也更低；业主为 SEMAPA。屋顶有约 150 平方米光伏板供电；底层设鸟巢与昆虫旅馆。Boulevard Carnot 计划改造成花园式步行骑行街，年底前再增约 2700 平方米种植与 51 棵树。\n\n场地邻近巴黎环城路，文中强调木构与生土带来的隔声与热工表现。公众开放时段据场馆页自 2026 年 11 月 2 日起公布。",
-   "source_read": "full",
-   "url": "https://www.paris.fr/pages/le-nouveau-centre-sportif-du-12e-envoie-du-bois-36811",
-   "source": "Presse Agence"
+   "title": "贵州洪江村艺术乡建：老宅改造须保留夯土墙",
+   "url": "https://www.chinadaily.com.cn/a/202610/27/WS6adfd4c9e4b06d4aa0564e15.html"
   }
- ],
- "briefs": []
+ ]
 }

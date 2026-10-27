@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "editor": "Grok Bot",
+  "edited_at": "2026-10-27T09:20:00+08:00",
+  "lead": "贵州荔波洪江村艺术乡建：改造老宅须保留夯土墙、用本地红土修缮，村民跟学夯土工艺。另一条摩洛哥 Aït Benhaddou 旅游稿无新信息，未收。",
+  "actions": [
+    "把洪江村“保留夯土墙、红土修缮”的乡建做法记进国内乡村改造案例库"
+  ],
+  "items": [
+    {
+      "id": "0f1240038f39",
+      "decision": "brief",
+      "category": "heritage",
+      "scores": {"sig": 5, "nov": 5, "cred": 7, "reson": 7, "act": 6},
+      "score": 59,
+      "title_zh": "贵州洪江村艺术乡建：老宅改造须保留夯土墙",
+      "summary_zh": "China Daily 10-27 报道：荔波县洪江村 2017 年起把闲置民居租给艺术家改造，要求保留木构和夯土墙、用本地石材和红土修缮。48 栋老屋已重新使用，村集体收入超 50 万元。",
+      "url_override": "https://www.chinadaily.com.cn/a/202610/27/WS6adfd4c9e4b06d4aa0564e15.html",
+      "source_read": "full"
+    },
+    {
+      "id": "ec8468f11483",
+      "decision": "drop",
+      "drop_reason": "low_score",
+      "category": "heritage",
+      "scores": {"sig": 3, "nov": 2, "cred": 5, "reson": 6, "act": 3},
+      "score": 38,
+      "note": "Getaway 2026-10-26 旅游介绍稿，讲 Aït Benhaddou 土坯与夯土，无新事件"
+    }
+  ]
+}
