@@ -1,23 +1,49 @@
 {
- "date": "2026-10-27",
- "lead": "贵州荔波洪江村艺术乡建：改造老宅须保留夯土墙、用本地红土修缮，村民跟学夯土工艺。另一条摩洛哥 Aït Benhaddou 旅游稿无新信息，未收。",
+ "date": "2026-10-28",
+ "lead": "Claytec 11 月 26 日办免费线上线下研讨会，讲生土与现代木结构结合。一篇论文用打印路径设计让生土 3D 打印连续高度提高 63%。西班牙 Terra Ibérica 会议把生土定位于公共住房和遗产修缮。",
  "actions": [
-  "把洪江村“保留夯土墙、红土修缮”的乡建做法记进国内乡村改造案例库"
+  "报名 Claytec 11 月 26 日「现代生土与木结构」线上研讨会（免费，随时可报）",
+  "找来工业建筑夯土墙圈梁构造柱抗震论文全文，看能否用于国内夯土项目说明"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-27.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-28.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W44.html",
  "counts": {
-  "pick": 0,
-  "brief": 1,
-  "drop": 1,
+  "pick": 2,
+  "brief": 2,
+  "drop": 9,
   "merged": 0
  },
- "picks": [],
+ "picks": [
+  {
+   "title": "Claytec 11 月 26 日办生土与木结构混合研讨会",
+   "category": "活动与赛事",
+   "score": 75,
+   "for_you": "线上免费听德国同行怎么把生土抹面和木结构用在学校、多层住宅里，能直接学防火和结构做法。",
+   "body_zh": "德国生土建材商 Claytec 在官网发布一场混合形式研讨会，主题是「现代生土与木结构」。时间是 2026 年 11 月 26 日 9:00 到 16:00，地点在德国 Olsberg 的 Zentrum HOLZ，同时开放线上参加。参加免费。\n\n官网介绍说，生土和木材在可持续、节约资源的建造中越来越重要，两者组合适合现代、节能、可循环的建法，对室内气候和夏季隔热也有好处。研讨会讲生土建材和现代木结构技术怎么配合，覆盖结构设计、构造、建筑物理和防火。重点是教育建筑、多层住宅和办公建筑。\n\n讲者是来自设计一线的专家，会现场演示。现场参加须在 11 月 25 日前报名，线上参加随时可报。官网没有列出具体讲者名单。",
+   "source_read": "full",
+   "url": "https://claytec.de/hybrid-seminar-moderner-lehm-und-holzbau/",
+   "source": "Claytec"
+  },
+  {
+   "title": "论文：调整打印路径让生土 3D 打印连续高度提高 63%",
+   "category": "研究论文",
+   "score": 68,
+   "for_you": "不加水泥也能让湿土更稳。做生土打印或异形墙时，可先从路径和分层顺序下手，保住可回收和低碳卖点。",
+   "body_zh": "这篇论文研究生土 3D 打印的一个老问题：刚打出的湿土要先撑住上面几层才能干硬，这限制了连续打印高度。作者提出「周期性打印路径调制」，靠打印逻辑而不是改材料来提高湿态稳定性。\n\n研究用黏土类比材料做了五个阶段的试验，在材料和机器条件不变时，改变路径参数，共测 16 种配置。结论有三个必要条件：正弦形路径、相位交替均衡、交替顺序连续。三者同时满足时，最优配置的连续打印高度比基准提高 63%。破坏方式也变了：从没有预兆的突然倒塌，变成打印中能看到变形的渐进破坏。\n\n作者说这是首个受控研究，结论还要在不同材料上验证。摘要没有给出具体打印高度和材料配比。",
+   "source_read": "abstract",
+   "url": "https://doi.org/10.1108/arch-04-2026-0336",
+   "source": "Archnet-IJAR: International Journal of Architectural Research"
+  }
+ ],
  "briefs": [
   {
-   "title": "贵州洪江村艺术乡建：老宅改造须保留夯土墙",
-   "url": "https://www.chinadaily.com.cn/a/202610/27/WS6adfd4c9e4b06d4aa0564e15.html"
+   "title": "论文：圈梁加构造柱加固夯土墙的抗震试验",
+   "url": "https://doi.org/10.3724/j.gyjzg25090503"
+  },
+  {
+   "title": "西班牙 Terra Ibérica 会议：生土用于公共住房和遗产修缮",
+   "url": "https://www.diariodeleon.es/opinion/261026/2101296/construccion-tierra-salvara-futuro.html"
   }
  ]
 }
