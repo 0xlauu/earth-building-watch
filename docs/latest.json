@@ -1,49 +1,49 @@
 {
- "date": "2026-10-28",
- "lead": "Claytec 11 月 26 日办免费线上线下研讨会，讲生土与现代木结构结合。一篇论文用打印路径设计让生土 3D 打印连续高度提高 63%。西班牙 Terra Ibérica 会议把生土定位于公共住房和遗产修缮。",
+ "date": "2026-10-29",
+ "lead": "印度果阿一栋夯土住宅花两年试配比：现场土黏粒偏高，最后用砂代替石粉保住颜色，改用金属模板。一篇论文只用两三个易测指标，就能给明长城夯土墙的阴阳面剥落风险排序。",
  "actions": [
-  "报名 Claytec 11 月 26 日「现代生土与木结构」线上研讨会（免费，随时可报）",
-  "找来工业建筑夯土墙圈梁构造柱抗震论文全文，看能否用于国内夯土项目说明"
+  "对照果阿项目流程，给下一个夯土项目先送土样做黏粒含量检测，再定配比",
+  "关注 Grounded 事务所承诺开源的夯土方法，发布后收进资料库"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-28.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-10-29.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W44.html",
  "counts": {
   "pick": 2,
   "brief": 2,
-  "drop": 9,
+  "drop": 6,
   "merged": 0
  },
  "picks": [
   {
-   "title": "Claytec 11 月 26 日办生土与木结构混合研讨会",
-   "category": "活动与赛事",
-   "score": 75,
-   "for_you": "线上免费听德国同行怎么把生土抹面和木结构用在学校、多层住宅里，能直接学防火和结构做法。",
-   "body_zh": "德国生土建材商 Claytec 在官网发布一场混合形式研讨会，主题是「现代生土与木结构」。时间是 2026 年 11 月 26 日 9:00 到 16:00，地点在德国 Olsberg 的 Zentrum HOLZ，同时开放线上参加。参加免费。\n\n官网介绍说，生土和木材在可持续、节约资源的建造中越来越重要，两者组合适合现代、节能、可循环的建法，对室内气候和夏季隔热也有好处。研讨会讲生土建材和现代木结构技术怎么配合，覆盖结构设计、构造、建筑物理和防火。重点是教育建筑、多层住宅和办公建筑。\n\n讲者是来自设计一线的专家，会现场演示。现场参加须在 11 月 25 日前报名，线上参加随时可报。官网没有列出具体讲者名单。",
+   "title": "果阿夯土住宅：两年试配比，砂代石粉保颜色",
+   "category": "项目案例",
+   "score": 70,
+   "for_you": "说明夯土配比要先测土：黏粒高时加砂调整，金属模板能让墙面更光、不留板印，这套流程可以直接用。",
+   "body_zh": "印度《建筑文摘》2026 年 10 月 28 日报道：果阿事务所 Grounded（主持建筑师 Anjali Mangalgiri）为一对从孟买搬来的夫妇建了一栋夯土住宅。业主说，很多人劝他们泥房子不耐久。事务所把项目当作两年的材料研发。\n\n团队先回 Auroville 的 Gia Mantra 村参加夯土配料和夯筑培训。回到果阿后，他们试验土、石灰、水泥、碎石和砂的混合料，要扛住当地季风。首批试验墙强度不足、容易开裂。土样送到班加罗尔实验室，发现现场土的黏粒含量比预估高。加石粉能提高强度，但墙会变成像清水混凝土的灰色，最后改用砂。模板从木板换成金属板，墙面更光滑，也不再压出胶合板的商标印。之后又做了加颜料的土料，形成色带。\n\n建筑师说，房子本身不能复制，可复制的是方法：测试当地土、开发合适配比、做构造样板。她希望把这套方法开源。原文没有给出具体配比和强度数据。",
    "source_read": "full",
-   "url": "https://claytec.de/hybrid-seminar-moderner-lehm-und-holzbau/",
-   "source": "Claytec"
+   "url": "https://www.architecturaldigest.in/story/this-rammed-earth-home-in-goa-is-oriented-around-a-serene-open-to-sky-courtyard-ad100-grounded-anjali-mangalgiri/",
+   "source": "Architectural Digest India"
   },
   {
-   "title": "论文：调整打印路径让生土 3D 打印连续高度提高 63%",
+   "title": "论文：少量指标预测明长城夯土墙阴阳面剥落",
    "category": "研究论文",
-   "score": 68,
-   "for_you": "不加水泥也能让湿土更稳。做生土打印或异形墙时，可先从路径和分层顺序下手，保住可回收和低碳卖点。",
-   "body_zh": "这篇论文研究生土 3D 打印的一个老问题：刚打出的湿土要先撑住上面几层才能干硬，这限制了连续打印高度。作者提出「周期性打印路径调制」，靠打印逻辑而不是改材料来提高湿态稳定性。\n\n研究用黏土类比材料做了五个阶段的试验，在材料和机器条件不变时，改变路径参数，共测 16 种配置。结论有三个必要条件：正弦形路径、相位交替均衡、交替顺序连续。三者同时满足时，最优配置的连续打印高度比基准提高 63%。破坏方式也变了：从没有预兆的突然倒塌，变成打印中能看到变形的渐进破坏。\n\n作者说这是首个受控研究，结论还要在不同材料上验证。摘要没有给出具体打印高度和材料配比。",
+   "score": 60,
+   "for_you": "做遗址修缮或夯土墙检测时，结皮层黏粒含量是一个低扰动、好测的筛查指标，可写进检测方案。",
+   "body_zh": "这篇论文发表在 MDPI 期刊 Coatings，第一作者 Jiajun Dai 来自兰州理工大学甘肃省土木工程防灾减灾重点实验室。研究对象是陕北 10 处明长城夯土遗址。作者指出，多指标调查剥落会增加对遗址的扰动。\n\n研究用结皮层厚度、粉化层厚度、年均降雨量和塑性指数描述风化层、土性和环境，用等权重和熵权两种 TOPSIS 方法分别给阴面、阳面打综合分并排序。再用不参与评估的变量建 6 个预测模型。阴面最好的是锦标赛留对法 KNN 模型，阳面是支持向量回归，Spearman 相关系数分别为 0.872 和 0.903，平均排名误差 1.0 和 0.8 位。阴面只需结皮层黏粒含量，阳面需黏粒含量和损伤比。\n\n作者说明结论限于这批样本。摘要没有给出各遗址的具体测值。",
    "source_read": "abstract",
-   "url": "https://doi.org/10.1108/arch-04-2026-0336",
-   "source": "Archnet-IJAR: International Journal of Architectural Research"
+   "url": "https://doi.org/10.3390/coatings16111282",
+   "source": "Coatings"
   }
  ],
  "briefs": [
   {
-   "title": "论文：圈梁加构造柱加固夯土墙的抗震试验",
-   "url": "https://doi.org/10.3724/j.gyjzg25090503"
+   "title": "This Cob House：生土地面以后都要加石灰",
+   "url": "https://www.youtube.com/watch?v=vFroO5Xb-Zo"
   },
   {
-   "title": "西班牙 Terra Ibérica 会议：生土用于公共住房和遗产修缮",
-   "url": "https://www.diariodeleon.es/opinion/261026/2101296/construccion-tierra-salvara-futuro.html"
+   "title": "北京胶东小馆餐厅改造用夯土墙和夯土漆",
+   "url": "https://www.gooood.cn/en/kong-indigo-beijing-by-odd.htm"
   }
  ]
 }
