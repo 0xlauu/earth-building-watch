@@ -2,43 +2,159 @@
   "date": "2026-10-29",
   "editor": "Grok Bot",
   "edited_at": "2026-10-29T09:20:00+08:00",
-  "lead": "印度果阿一栋夯土住宅花两年试配比：现场土黏粒偏高，最后用砂代替石粉保住颜色，改用金属模板。一篇论文只用两三个易测指标，就能给明长城夯土墙的阴阳面剥落风险排序。",
-  "actions": ["对照果阿项目流程，给下一个夯土项目先送土样做黏粒含量检测，再定配比", "关注 Grounded 事务所承诺开源的夯土方法，发布后收进资料库"],
+  "lead": "印度果阿一栋夯土住宅花两年试配比：首批墙因黏粒偏高开裂，后来用砂代替石粉保住颜色，改用金属模板。一篇论文只用两三个易测指标，就能给明长城夯土墙的阴阳面剥落风险排序。",
+  "actions": [
+    "对照果阿项目流程，给下一个夯土项目先送土样做黏粒含量检测，再定配比",
+    "关注 Grounded 事务所承诺开源的夯土方法，发布后收进资料库"
+  ],
   "items": [
-    {"id": "6d16882ec3a0", "decision": "pick", "category": "project",
-     "scores": {"sig": 5, "nov": 6, "cred": 7, "reson": 9, "act": 7}, "score": 70,
-     "title_zh": "果阿夯土住宅：两年试配比，砂代石粉保颜色",
-     "summary_zh": "印度果阿事务所 Grounded 为一对夫妇建夯土住宅。首批试验墙强度不足、易开裂。土样送班加罗尔实验室后发现黏粒含量偏高。石粉能提强度但让墙变灰，最后改用砂。",
-     "for_you": "说明夯土配比要先测土：黏粒高时加砂调整，金属模板能让墙面更光、不留板印，这套流程可以直接用。",
-     "url_override": "https://www.architecturaldigest.in/story/this-rammed-earth-home-in-goa-is-oriented-around-a-serene-open-to-sky-courtyard-ad100-grounded-anjali-mangalgiri/",
-     "source_read": "full",
-     "body_zh": "印度《建筑文摘》2026 年 10 月 28 日报道：果阿事务所 Grounded（主持建筑师 Anjali Mangalgiri）为一对从孟买搬来的夫妇建了一栋夯土住宅。业主说，很多人劝他们泥房子不耐久。事务所把项目当作两年的材料研发。\n\n团队先回 Auroville 的 Gia Mantra 村参加夯土配料和夯筑培训。回到果阿后，他们试验土、石灰、水泥、碎石和砂的混合料，要扛住当地季风。首批试验墙强度不足、容易开裂。土样送到班加罗尔实验室，发现现场土的黏粒含量比预估高。加石粉能提高强度，但墙会变成像清水混凝土的灰色，最后改用砂。模板从木板换成金属板，墙面更光滑，也不再压出胶合板的商标印。之后又做了加颜料的土料，形成色带。\n\n建筑师说，房子本身不能复制，可复制的是方法：测试当地土、开发合适配比、做构造样板。她希望把这套方法开源。原文没有给出具体配比和强度数据。",
-     "key_facts": [{"k": "地点", "v": "印度果阿"}, {"k": "设计", "v": "Grounded，Anjali Mangalgiri"}, {"k": "研发周期", "v": "两年"}, {"k": "土样检测", "v": "班加罗尔实验室，黏粒含量偏高"}],
-     "quotes": [{"text": "what is transferable is the methodology behind it", "lang": "en"}]},
-    {"id": "48b5c879ff8d", "decision": "pick", "category": "research",
-     "scores": {"sig": 5, "nov": 6, "cred": 9, "reson": 5, "act": 4}, "score": 60,
-     "title_zh": "论文：少量指标预测明长城夯土墙阴阳面剥落",
-     "summary_zh": "兰州理工大学团队调查陕北 10 处明长城遗址。用 TOPSIS 综合评估阴面、阳面剥落程度，再用少量指标建模预测。阴面 KNN 模型、阳面 SVR 模型的 Spearman 相关系数分别为 0.872 和 0.903。",
-     "for_you": "做遗址修缮或夯土墙检测时，结皮层黏粒含量是一个低扰动、好测的筛查指标，可写进检测方案。",
-     "source_read": "abstract",
-     "body_zh": "这篇论文发表在 MDPI 期刊 Coatings，第一作者 Jiajun Dai 来自兰州理工大学甘肃省土木工程防灾减灾重点实验室。研究对象是陕北 10 处明长城夯土遗址。作者指出，多指标调查剥落会增加对遗址的扰动。\n\n研究用结皮层厚度、粉化层厚度、年均降雨量和塑性指数描述风化层、土性和环境，用等权重和熵权两种 TOPSIS 方法分别给阴面、阳面打综合分并排序。再用不参与评估的变量建 6 个预测模型。阴面最好的是锦标赛留对法 KNN 模型，阳面是支持向量回归，Spearman 相关系数分别为 0.872 和 0.903，平均排名误差 1.0 和 0.8 位。阴面只需结皮层黏粒含量，阳面需黏粒含量和损伤比。\n\n作者说明结论限于这批样本。摘要没有给出各遗址的具体测值。",
-     "key_facts": [{"k": "样本", "v": "陕北 10 处明长城遗址"}, {"k": "阴面模型相关系数", "v": "0.872（KNN）"}, {"k": "阳面模型相关系数", "v": "0.903（SVR）"}, {"k": "平均排名误差", "v": "阴面 1.0，阳面 0.8"}]},
-    {"id": "07d38730cab2", "decision": "brief", "category": "technique",
-     "scores": {"sig": 4, "nov": 5, "cred": 4, "reson": 8, "act": 7}, "score": 62,
-     "title_zh": "This Cob House：生土地面以后都要加石灰",
-     "summary_zh": "美国频道 This Cob House 发视频说，做过几次生土地面后，以后配料都会加石灰。视频讲为什么加、解决什么问题，称能让地面更硬、更防水、更耐久。仅读到视频简介。",
-     "source_read": "snippet"},
-    {"id": "6c2ccee922c0", "decision": "brief", "category": "project",
-     "scores": {"sig": 3, "nov": 4, "cred": 7, "reson": 7, "act": 4}, "score": 50,
-     "title_zh": "北京胶东小馆餐厅改造用夯土墙和夯土漆",
-     "summary_zh": "odd 设计事务所改造北京颐堤港胶东小馆，面积 475 平方米，2026 年 5 月竣工。两个圆形包间围绕夯土墙布置，主要材料清单列有夯土漆。",
-     "url_override": "https://www.gooood.cn/en/kong-indigo-beijing-by-odd.htm",
-     "source_read": "full"},
-    {"id": "47e6a3ef0991", "decision": "drop", "drop_reason": "irrelevant", "note": "讲采蘑菇，和生土无关"},
-    {"id": "99817d2ad123", "decision": "drop", "drop_reason": "noise", "note": "YouTube shorts，只有课程广告"},
-    {"id": "3b1f8461ccf0", "decision": "drop", "drop_reason": "irrelevant", "note": "牛肉铺软文，生土只是背景，无实质信息"},
-    {"id": "366ce329753a", "decision": "drop", "drop_reason": "irrelevant", "note": "贝宁 Tanéka 民族文化稿，生土只是背景，无实质信息"},
-    {"id": "eab5e851ef93", "decision": "drop", "drop_reason": "irrelevant", "note": "红色教育稿，土坯房只是背景，无实质信息"},
-    {"id": "f023309a453a", "decision": "drop", "drop_reason": "irrelevant", "note": "越南哈尼族文化旅游稿，土墙房只是背景，无实质信息"}
+    {
+      "id": "6d16882ec3a0",
+      "decision": "pick",
+      "category": "project",
+      "scores": {
+        "sig": 5,
+        "nov": 6,
+        "cred": 7,
+        "reson": 9,
+        "act": 7
+      },
+      "score": 70,
+      "title_zh": "果阿夯土住宅：两年试配比，稳定夯土，砂代石粉保颜色",
+      "summary_zh": "印度果阿事务所 Grounded 为一对夫妇建夯土住宅。首批试验墙强度不足、易开裂。土样送班加罗尔实验室后发现黏粒含量偏高。石粉能提强度但让墙变灰，最后改用砂。",
+      "for_you": "配比要先测土：首批墙开裂，送检才知黏粒偏高。砂代石粉是怕墙发灰。注意这是含水泥的稳定夯土。",
+      "url_override": "https://www.architecturaldigest.in/story/this-rammed-earth-home-in-goa-is-oriented-around-a-serene-open-to-sky-courtyard-ad100-grounded-anjali-mangalgiri/",
+      "source_read": "full",
+      "body_zh": "印度《建筑文摘》2026 年 10 月 28 日报道：果阿事务所 Grounded（主持建筑师 Anjali Mangalgiri）为一对从孟买搬来的夫妇建了一栋夯土住宅。业主说，很多人劝他们泥房子不耐久。事务所把项目当作两年的材料研发。\n\n团队先回 Auroville 的 Gia Mantra 村参加夯土配料和夯筑培训。回到果阿后，他们试验土、石灰、水泥、碎石和砂的混合料，要扛住当地季风。首批试验墙强度不足、容易开裂。土样送到班加罗尔实验室，发现现场土的黏粒含量比预估高。加石粉能提高强度，但墙会变成像清水混凝土的灰色，最后改用砂。模板从木板换成金属板，墙面更光滑，也不再压出胶合板的商标印。之后又做了加颜料的土料，形成色带。\n\n建筑师说，房子本身不能复制，可复制的是方法：测试当地土、开发合适配比、做构造样板。她希望把这套方法开源。原文没有给出具体配比和强度数据。",
+      "key_facts": [
+        {
+          "k": "地点",
+          "v": "印度果阿"
+        },
+        {
+          "k": "设计",
+          "v": "Grounded，Anjali Mangalgiri"
+        },
+        {
+          "k": "研发周期",
+          "v": "两年"
+        },
+        {
+          "k": "土样检测",
+          "v": "班加罗尔实验室，黏粒含量偏高"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "what is transferable is the methodology behind it",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "48b5c879ff8d",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 6,
+        "cred": 9,
+        "reson": 5,
+        "act": 4
+      },
+      "score": 60,
+      "title_zh": "论文：少量指标预测明长城夯土墙阴阳面剥落",
+      "summary_zh": "兰州理工大学团队调查陕北 10 处明长城遗址。用 TOPSIS 综合评估阴面、阳面剥落程度，再用少量指标建模预测。阴面 KNN 模型、阳面 SVR 模型的 Spearman 相关系数分别为 0.872 和 0.903。",
+      "for_you": "做遗址修缮或夯土墙检测时，结皮层黏粒含量是一个低扰动、好测的筛查指标，可写进检测方案。",
+      "source_read": "abstract",
+      "body_zh": "这篇论文发表在 MDPI 期刊 Coatings，第一作者 Jiajun Dai 来自兰州理工大学甘肃省土木工程防灾减灾重点实验室。研究对象是陕北 10 处明长城夯土遗址。作者指出，多指标调查剥落会增加对遗址的扰动。\n\n研究用结皮层厚度、粉化层厚度、年均降雨量和塑性指数描述风化层、土性和环境，用等权重和熵权两种 TOPSIS 方法分别给阴面、阳面打综合分并排序。再用不参与评估的变量建 6 个预测模型。阴面最好的是锦标赛留对法 KNN 模型，阳面是支持向量回归，Spearman 相关系数分别为 0.872 和 0.903，平均排名误差 1.0 和 0.8 位。阴面只需结皮层黏粒含量，阳面需黏粒含量和损伤比。\n\n作者说明结论限于这批样本。摘要没有给出各遗址的具体测值。",
+      "key_facts": [
+        {
+          "k": "样本",
+          "v": "陕北 10 处明长城遗址"
+        },
+        {
+          "k": "阴面模型相关系数",
+          "v": "0.872（KNN）"
+        },
+        {
+          "k": "阳面模型相关系数",
+          "v": "0.903（SVR）"
+        },
+        {
+          "k": "平均排名误差",
+          "v": "阴面 1.0，阳面 0.8"
+        }
+      ]
+    },
+    {
+      "id": "07d38730cab2",
+      "decision": "brief",
+      "category": "technique",
+      "scores": {
+        "sig": 4,
+        "nov": 5,
+        "cred": 4,
+        "reson": 8,
+        "act": 7
+      },
+      "score": 62,
+      "title_zh": "This Cob House：生土地面以后都要加石灰",
+      "summary_zh": "美国频道 This Cob House 发视频说，做过几次生土地面后，以后配料都会加石灰。视频讲为什么加、解决什么问题，称能让地面更硬、更防水、更耐久。仅读到视频简介。",
+      "source_read": "snippet"
+    },
+    {
+      "id": "6c2ccee922c0",
+      "decision": "brief",
+      "category": "project",
+      "scores": {
+        "sig": 3,
+        "nov": 4,
+        "cred": 7,
+        "reson": 7,
+        "act": 4
+      },
+      "score": 50,
+      "title_zh": "北京胶东小馆餐厅改造用夯土墙和夯土漆",
+      "summary_zh": "odd 设计事务所改造北京颐堤港胶东小馆，面积 475 平方米，2026 年 5 月竣工。两个圆形包间围绕夯土墙布置，主要材料清单列有夯土漆。",
+      "url_override": "https://www.gooood.cn/en/kong-indigo-beijing-by-odd.htm",
+      "source_read": "full"
+    },
+    {
+      "id": "47e6a3ef0991",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "讲采蘑菇，和生土无关"
+    },
+    {
+      "id": "99817d2ad123",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "YouTube shorts，只有课程广告"
+    },
+    {
+      "id": "3b1f8461ccf0",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "牛肉铺软文，生土只是背景，无实质信息"
+    },
+    {
+      "id": "366ce329753a",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "贝宁 Tanéka 民族文化稿，生土只是背景，无实质信息"
+    },
+    {
+      "id": "eab5e851ef93",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "红色教育稿，土坯房只是背景，无实质信息"
+    },
+    {
+      "id": "f023309a453a",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "越南哈尼族文化旅游稿，土墙房只是背景，无实质信息"
+    }
   ]
 }
