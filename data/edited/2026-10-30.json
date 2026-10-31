@@ -1,200 +1,204 @@
 {
- "date": "2026-10-30",
- "editor": "Grok Bot",
- "edited_at": "2026-10-30T09:35:00+08:00",
- "lead": "今天一条精选：机器人打印无水泥生土料修补夯土墙，修补后保住约 56% 峰值荷载。另有枣椰废料土砌体、黄河下游夯土墙两篇论文，以及法国生土建筑师并入南特合作社事务所。",
- "actions": [
-  "下载机器人修补夯土墙论文全文，看无水泥修补料的配方思路，评估能否做成夯土墙修补砂浆。",
-  "关注法国 Scop PADW：它把生土、石材和生物基材料作为三大支柱，可列入欧洲合作方名单。"
- ],
- "items": [
-  {
-   "id": "fd4fb8d888eb",
-   "decision": "pick",
-   "category": "research",
-   "scores": {
-    "sig": 7,
-    "nov": 8,
-    "cred": 9,
-    "reson": 8,
-    "act": 5
-   },
-   "score": 76,
-   "title_zh": "论文：机器人打印生土料修补夯土墙局部缺损",
-   "summary_zh": "Chao、Feng 等在 Scientific Reports 发文。团队用无水泥可打印生土修补料和移动六轴机器人，在实验室重建夯土墙预设缺损区。修补试件峰值荷载 22.74 kN，为完好试件 40.51 kN 的 56.1%。",
-   "for_you": "夯土墙修补有了机器人打印路线。无水泥修补料是可以研发的产品方向，但强度只恢复一半，现在别当加固方案卖。",
-   "source_read": "abstract",
-   "body_zh": "这是一项实验室规模的概念验证。研究团队用一种不含水泥的可打印生土修补材料（PERM），配合一台移动式六轴机器人打印系统，去修补夯土墙上的局部材料缺失。\n\n他们先做了一面大尺寸夯土墙，在上部预设一块缺损区。用它检验机器人定位、路径校核、连续出料、逐层堆叠和目标区域重建。之后做了两组小墙试件：一组完好夯土墙作对照，一组用机器人修补过。两组都做单轴受压试验。修补试件峰值荷载 22.74 kN，名义峰值压应力 0.569 MPa；完好试件为 40.51 kN 和 1.013 MPa，荷载保持率 56.1%。接近峰值时，打印区局部应变约 468.9 µε，下方夯土基体只有 99.3 µε，变形集中在修补区。破坏主要出现在上部打印区，没有出现贯穿界面的大范围分离。\n\n作者明确说，这项技术目前只算概念验证，用于可控的材料补回和修补留痕，不是经过验证的结构加固方法。摘要没有给出修补料的具体配比。",
-   "key_facts": [
+  "date": "2026-10-30",
+  "editor": "Grok Bot",
+  "edited_at": "2026-10-30T09:35:00+08:00",
+  "lead": "今天一条精选：机器人打印无水泥生土料修补夯土墙，修补后保住约 56% 峰值荷载。另有枣椰废料土砌体、黄河下游夯土墙两篇论文，以及法国生土建筑师并入南特合作社事务所。",
+  "actions": [
+    "下载机器人修补夯土墙论文全文，看无水泥修补料的配方思路，评估能否做成夯土墙修补砂浆。",
+    "关注法国 Scop PADW：它把生土、石材和生物基材料作为三大支柱，可列入欧洲合作方名单。"
+  ],
+  "items": [
     {
-     "k": "期刊",
-     "v": "Scientific Reports，2026-10-28"
+      "id": "fd4fb8d888eb",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 7,
+        "nov": 8,
+        "cred": 9,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 76,
+      "title_zh": "论文：机器人打印生土料修补夯土墙局部缺损",
+      "summary_zh": "Chao、Feng 等在 Scientific Reports 发文。团队用无水泥可打印生土修补料和移动六轴机器人，在实验室重建夯土墙预设缺损区。修补试件峰值荷载 22.74 kN，为完好试件 40.51 kN 的 56.1%。",
+      "for_you": "无水泥修补料可当产品方向，但只比了1个完好+1个修补试件，强度只一半，别当加固卖。",
+      "source_read": "abstract",
+      "body_zh": "这是一项实验室规模的概念验证。研究团队用一种不含水泥的可打印生土修补材料（PERM），配合一台移动式六轴机器人打印系统，去修补夯土墙上的局部材料缺失。\n\n他们先做了一面大尺寸夯土墙，在上部预设一块缺损区。用它检验机器人定位、路径校核、连续出料、逐层堆叠和目标区域重建。之后做了两组小墙试件：一组完好夯土墙作对照，一组用机器人修补过。两组都做单轴受压试验。修补试件峰值荷载 22.74 kN，名义峰值压应力 0.569 MPa；完好试件为 40.51 kN 和 1.013 MPa，荷载保持率 56.1%。接近峰值时，打印区局部应变约 468.9 µε，下方夯土基体只有 99.3 µε，变形集中在修补区。破坏主要出现在上部打印区，没有出现贯穿界面的大范围分离。\n\n作者明确说，这项技术目前只算概念验证，用于可控的材料补回和修补留痕，不是经过验证的结构加固方法。摘要没有给出修补料的具体配比。\n\n核实补充：对比组只有 1 个完好试件和 1 个修补试件，结论是探索性的。作者明确说这不是经过验证的结构加固方法。修补料配比摘要里没写，标「未验证」。",
+      "key_facts": [
+        {
+          "k": "期刊",
+          "v": "Scientific Reports，2026-10-28"
+        },
+        {
+          "k": "修补试件峰值荷载",
+          "v": "22.74 kN（0.569 MPa）"
+        },
+        {
+          "k": "完好试件峰值荷载",
+          "v": "40.51 kN（1.013 MPa）"
+        },
+        {
+          "k": "荷载保持率",
+          "v": "56.1%"
+        },
+        {
+          "k": "对比样本",
+          "v": "1 个完好 + 1 个修补（探索性）"
+        },
+        {
+          "k": "修补料配比",
+          "v": "摘要未写（未验证）"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "a proof-of-concept approach for controlled material reinstatement",
+          "lang": "en"
+        }
+      ]
     },
     {
-     "k": "修补试件峰值荷载",
-     "v": "22.74 kN（0.569 MPa）"
+      "id": "ed232878f49f",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 5,
+        "cred": 7,
+        "reson": 7,
+        "act": 4
+      },
+      "score": 55,
+      "title_zh": "论文：掺枣椰废料的生土砌体力学与破坏",
+      "summary_zh": "Layachi 等在 Journal of Material Cycles and Waste Management 发文，用试验和数值模拟研究掺枣椰废料的生土砌体力学性能和破坏。目前只见标题。",
+      "source_read": "snippet"
     },
     {
-     "k": "完好试件峰值荷载",
-     "v": "40.51 kN（1.013 MPa）"
+      "id": "5f9c69f0029d",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 4,
+        "nov": 6,
+        "cred": 8,
+        "reson": 5,
+        "act": 2
+      },
+      "score": 53,
+      "title_zh": "论文：黄河下游夯土墙的微形态特征",
+      "summary_zh": "Journal of Archaeological Science: Reports 刊文，结合试验和民族地质考古方法，建立中国黄河下游夯土墙的微形态特征。目前只看到标题，摘要未公开。",
+      "source_read": "snippet"
     },
     {
-     "k": "荷载保持率",
-     "v": "56.1%"
+      "id": "cd37cce65db2",
+      "decision": "brief",
+      "category": "market",
+      "scores": {
+        "sig": 4,
+        "nov": 4,
+        "cred": 7,
+        "reson": 6,
+        "act": 3
+      },
+      "score": 51,
+      "title_zh": "法国 Nozay 生土建筑师并入南特 Scop PADW",
+      "summary_zh": "Loïc Daubas 和 Bruno Belenfant 在 Nozay 执业 30 年，2006 年参建就地取土制一万块土砖的学校。现加入约 30 人的南特事务所 Scop PADW，继续做生土。",
+      "url_override": "https://www.ouest-france.fr/pays-de-la-loire/nozay-44170/apres-une-experience-fabuleuse-a-nozay-le-duo-darchitectes-integre-un-cabinet-nantais-e77bac2c-cd67-11f1-af51-804fa8efc454",
+      "source_read": "full"
     },
     {
-     "k": "设备",
-     "v": "移动式六轴机器人打印系统"
+      "id": "fb4b054948bd",
+      "decision": "brief",
+      "category": "project",
+      "scores": {
+        "sig": 4,
+        "nov": 4,
+        "cred": 8,
+        "reson": 4,
+        "act": 4
+      },
+      "score": 44,
+      "title_zh": "康奈尔再生建筑实验室推草捆、菌丝和夯土",
+      "summary_zh": "康奈尔再生建筑实验室新作 BaleWorks 用草捆墙。报道回顾 2023 年 TerraFirma：9 根 8 英尺高夯土柱，每根试一种本地土料配比，监测 7 个月后推倒测破坏点。",
+      "url_override": "https://news.cornell.edu/stories/2026/10/all-natural-materials-promote-regenerative-architecture",
+      "source_read": "full"
+    },
+    {
+      "id": "99670bdbdbe4",
+      "decision": "brief",
+      "category": "heritage",
+      "scores": {
+        "sig": 4,
+        "nov": 3,
+        "cred": 6,
+        "reson": 5,
+        "act": 3
+      },
+      "score": 43,
+      "title_zh": "论文：摩洛哥 Aït Ben Haddou 生土聚落的可持续经验",
+      "summary_zh": "Benli 在遗产保护论文集中撰文，以文献和建筑评估方法分析 1987 年列入世界遗产的 Aït Ben Haddou 的土坯和夯土工法、气候适应和维护做法。定性研究，无试验数据。",
+      "source_read": "abstract"
+    },
+    {
+      "id": "58e8812a2025",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "陶土膜微生物燃料电池处理染料废水，与生土建筑无关"
+    },
+    {
+      "id": "b7b8418f8005",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "生土只是背景，无实质信息（哈尼族文化保护软文）"
+    },
+    {
+      "id": "10cdbf9414fa",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "同上一条的法文版，生土只是背景，无实质信息"
+    },
+    {
+      "id": "bced52a2f253",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "生土只是背景，无实质信息（Lô Lô Chải 旅游稿）"
+    },
+    {
+      "id": "c9fd12cb4d30",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "生土只是背景，无实质信息（Lô Lô Chải 旅游稿法文版）"
+    },
+    {
+      "id": "d1384401c52a",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "生土只是背景，无实质信息（Lô Lô Chải 旅游稿英文版）"
+    },
+    {
+      "id": "77879f5832fe",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "ArchDaily 原文 2018 年发布，项目 2013 年建成"
+    },
+    {
+      "id": "640b7efacd2d",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "图库曼广场改造，与生土建筑无关"
+    },
+    {
+      "id": "96c061c6bcbd",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "里昂空置楼改保障房，与生土无关"
+    },
+    {
+      "id": "9af04d327451",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "卡车撞房交通事故社会新闻"
     }
-   ],
-   "quotes": [
-    {
-     "text": "a proof-of-concept approach for controlled material reinstatement",
-     "lang": "en"
-    }
-   ]
-  },
-  {
-   "id": "ed232878f49f",
-   "decision": "brief",
-   "category": "research",
-   "scores": {
-    "sig": 5,
-    "nov": 5,
-    "cred": 7,
-    "reson": 7,
-    "act": 4
-   },
-   "score": 55,
-   "title_zh": "论文：掺枣椰废料的生土砌体力学与破坏",
-   "summary_zh": "Layachi 等在 Journal of Material Cycles and Waste Management 发文，用试验和数值模拟研究掺枣椰废料的生土砌体力学性能和破坏。目前只见标题。",
-   "source_read": "snippet"
-  },
-  {
-   "id": "5f9c69f0029d",
-   "decision": "brief",
-   "category": "research",
-   "scores": {
-    "sig": 4,
-    "nov": 6,
-    "cred": 8,
-    "reson": 5,
-    "act": 2
-   },
-   "score": 53,
-   "title_zh": "论文：黄河下游夯土墙的微形态特征",
-   "summary_zh": "Journal of Archaeological Science: Reports 刊文，结合试验和民族地质考古方法，建立中国黄河下游夯土墙的微形态特征。目前只看到标题，摘要未公开。",
-   "source_read": "snippet"
-  },
-  {
-   "id": "cd37cce65db2",
-   "decision": "brief",
-   "category": "market",
-   "scores": {
-    "sig": 4,
-    "nov": 4,
-    "cred": 7,
-    "reson": 6,
-    "act": 3
-   },
-   "score": 51,
-   "title_zh": "法国 Nozay 生土建筑师并入南特 Scop PADW",
-   "summary_zh": "Loïc Daubas 和 Bruno Belenfant 在 Nozay 执业 30 年，2006 年参建就地取土制一万块土砖的学校。现加入约 30 人的南特事务所 Scop PADW，继续做生土。",
-   "url_override": "https://www.ouest-france.fr/pays-de-la-loire/nozay-44170/apres-une-experience-fabuleuse-a-nozay-le-duo-darchitectes-integre-un-cabinet-nantais-e77bac2c-cd67-11f1-af51-804fa8efc454",
-   "source_read": "full"
-  },
-  {
-   "id": "fb4b054948bd",
-   "decision": "brief",
-   "category": "project",
-   "scores": {
-    "sig": 4,
-    "nov": 4,
-    "cred": 8,
-    "reson": 4,
-    "act": 4
-   },
-   "score": 44,
-   "title_zh": "康奈尔再生建筑实验室推草捆、菌丝和夯土",
-   "summary_zh": "康奈尔再生建筑实验室新作 BaleWorks 用草捆墙。报道回顾 2023 年 TerraFirma：9 根 8 英尺高夯土柱，每根试一种本地土料配比，监测 7 个月后推倒测破坏点。",
-   "url_override": "https://news.cornell.edu/stories/2026/10/all-natural-materials-promote-regenerative-architecture",
-   "source_read": "full"
-  },
-  {
-   "id": "99670bdbdbe4",
-   "decision": "brief",
-   "category": "heritage",
-   "scores": {
-    "sig": 4,
-    "nov": 3,
-    "cred": 6,
-    "reson": 5,
-    "act": 3
-   },
-   "score": 43,
-   "title_zh": "论文：摩洛哥 Aït Ben Haddou 生土聚落的可持续经验",
-   "summary_zh": "Benli 在遗产保护论文集中撰文，以文献和建筑评估方法分析 1987 年列入世界遗产的 Aït Ben Haddou 的土坯和夯土工法、气候适应和维护做法。定性研究，无试验数据。",
-   "source_read": "abstract"
-  },
-  {
-   "id": "58e8812a2025",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "陶土膜微生物燃料电池处理染料废水，与生土建筑无关"
-  },
-  {
-   "id": "b7b8418f8005",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "生土只是背景，无实质信息（哈尼族文化保护软文）"
-  },
-  {
-   "id": "10cdbf9414fa",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "同上一条的法文版，生土只是背景，无实质信息"
-  },
-  {
-   "id": "bced52a2f253",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "生土只是背景，无实质信息（Lô Lô Chải 旅游稿）"
-  },
-  {
-   "id": "c9fd12cb4d30",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "生土只是背景，无实质信息（Lô Lô Chải 旅游稿法文版）"
-  },
-  {
-   "id": "d1384401c52a",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "生土只是背景，无实质信息（Lô Lô Chải 旅游稿英文版）"
-  },
-  {
-   "id": "77879f5832fe",
-   "decision": "drop",
-   "drop_reason": "old",
-   "note": "ArchDaily 原文 2018 年发布，项目 2013 年建成"
-  },
-  {
-   "id": "640b7efacd2d",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "图库曼广场改造，与生土建筑无关"
-  },
-  {
-   "id": "96c061c6bcbd",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "里昂空置楼改保障房，与生土无关"
-  },
-  {
-   "id": "9af04d327451",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "卡车撞房交通事故社会新闻"
-  }
- ]
+  ]
 }
