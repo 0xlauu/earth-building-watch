@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-02",
+ "editor": "Grok Bot",
+ "edited_at": "2026-11-02T09:14:32+08:00",
+ "lead": "今天两条待审均丢弃：法文生态自建稿以草砖轮胎为主、生土仅顺带；中文何琼争议稿里土坯房只作童年背景。",
+ "actions": [],
+ "items": [
+  {
+   "id": "953d435a63cf",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "生土只是背景，无实质信息（主讲草砖/轮胎地基/托盘自建造价；terre crue 与 torchis 仅顺带一句）"
+  },
+  {
+   "id": "ee131392a3bf",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "生土只是背景，无实质信息（娱乐人物争议，漏雨土坯房作童年叙事，无材料工艺信息）"
+  }
+ ]
+}
