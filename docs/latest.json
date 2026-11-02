@@ -2,8 +2,8 @@
  "date": "2026-11-01",
  "lead": "今天头条：西非实践建筑师 Albert Faus 谈土坯造价与防雨做法；Results in Engineering 新论文用二阶梯度理论建模纤维增强生土砖。",
  "actions": [
-  "对照 Faus：土坯约水泥砖价 1/25，抬高墙基+金属屋面防雨。",
-  "打开 DOI 10.1016/j.rineng.2026.113692，有摘要后再细读。"
+  "引用 Faus 时标明：库杜古一次询价，非普适；防雨是抬基+金属屋面",
+  "打开 DOI 10.1016/j.rineng.2026.113692，有摘要后再细读"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
  "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-01.html",
@@ -19,7 +19,7 @@
    "title": "建筑师 Faus：土坯可比水泥砖便宜且可防雨",
    "category": "工艺与教程",
    "score": 69,
-   "for_you": "可直接引用土坯与水泥砖价差，以及「抬高墙基+金属屋面」防雨话术，用于客户沟通。",
+   "for_you": "可引用库杜古一次询价的价差，以及抬基+金属屋面防雨；勿当普适比价。",
    "body_zh": null,
    "source_read": "snippet",
    "url": "https://www.elperiodico.com/es/sociedad/20261030/albert-faus-arquitecto-viviendas-adaptadas-cambio-climatico-tecnicas-construccion-135850015",

@@ -1,104 +1,104 @@
 {
- "date": "2026-11-01",
- "editor": "Grok Bot",
- "edited_at": "2026-11-01T09:25:00+08:00",
- "lead": "今天头条：西非实践建筑师 Albert Faus 谈土坯造价与防雨做法；Results in Engineering 新论文用二阶梯度理论建模纤维增强生土砖。",
- "actions": [
-  "对照 Faus：土坯约水泥砖价 1/25，抬高墙基+金属屋面防雨。",
-  "打开 DOI 10.1016/j.rineng.2026.113692，有摘要后再细读。"
- ],
- "items": [
-  {
-   "id": "646579ca6a65",
-   "decision": "pick",
-   "category": "technique",
-   "scores": {
-    "sig": 6,
-    "nov": 5,
-    "cred": 7,
-    "reson": 9,
-    "act": 7
-   },
-   "score": 69,
-   "title_zh": "建筑师 Faus：土坯可比水泥砖便宜且可防雨",
-   "summary_zh": "《El Periódico》访谈巴塞罗那建筑师 Albert Faus。他在布基纳法索与科特迪瓦用本地土、石、木建造。库杜古土坯约 10 西非法郎/块，水泥砖约 250；墙基抬高并用石或水泥，上覆金属屋面作伞。",
-   "for_you": "可直接引用土坯与水泥砖价差，以及「抬高墙基+金属屋面」防雨话术，用于客户沟通。",
-   "url_override": "https://www.elperiodico.com/es/sociedad/20261030/albert-faus-arquitecto-viviendas-adaptadas-cambio-climatico-tecnicas-construccion-135850015",
-   "source_read": "snippet",
-   "key_facts": [
+  "date": "2026-11-01",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-01T09:25:00+08:00",
+  "lead": "今天头条：西非实践建筑师 Albert Faus 谈土坯造价与防雨做法；Results in Engineering 新论文用二阶梯度理论建模纤维增强生土砖。",
+  "actions": [
+    "引用 Faus 时标明：库杜古一次询价，非普适；防雨是抬基+金属屋面",
+    "打开 DOI 10.1016/j.rineng.2026.113692，有摘要后再细读"
+  ],
+  "items": [
     {
-     "k": "人物",
-     "v": "Albert Faus，巴塞罗那建筑师"
+      "id": "646579ca6a65",
+      "decision": "pick",
+      "category": "technique",
+      "scores": {
+        "sig": 6,
+        "nov": 5,
+        "cred": 7,
+        "reson": 9,
+        "act": 7
+      },
+      "score": 69,
+      "title_zh": "建筑师 Faus：土坯可比水泥砖便宜且可防雨",
+      "summary_zh": "《El Periódico》访谈建筑师 Albert Faus。他在布基纳法索与科特迪瓦用本地土、石、木建造。库杜古一次询价：土坯约 10 西非法郎/块，水泥砖约 250（约 1/25，非普适）。防雨靠抬高墙基（石或水泥）加金属屋面，不是土坯本身防水。",
+      "for_you": "可引用库杜古一次询价的价差，以及抬基+金属屋面防雨；勿当普适比价。",
+      "url_override": "https://www.elperiodico.com/es/sociedad/20261030/albert-faus-arquitecto-viviendas-adaptadas-cambio-climatico-tecnicas-construccion-135850015",
+      "source_read": "snippet",
+      "key_facts": [
+        {
+          "k": "人物",
+          "v": "Albert Faus，巴塞罗那建筑师"
+        },
+        {
+          "k": "地区",
+          "v": "布基纳法索、科特迪瓦"
+        },
+        {
+          "k": "土坯价",
+          "v": "约 10 西非法郎/块"
+        },
+        {
+          "k": "水泥砖价",
+          "v": "约 250 西非法郎/块"
+        },
+        {
+          "k": "防雨要点",
+          "v": "抬高墙基+金属屋面"
+        }
+      ]
     },
     {
-     "k": "地区",
-     "v": "布基纳法索、科特迪瓦"
+      "id": "4a1ac03d1ae0",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 6,
+        "nov": 7,
+        "cred": 8,
+        "reson": 8,
+        "act": 3
+      },
+      "score": 66,
+      "title_zh": "论文：二阶梯度理论建模纤维增强生土砖",
+      "summary_zh": "Results in Engineering 新论文（Nacro 等），用二阶梯度理论建模天然纤维增强生土砖力学行为。DOI 登记 2026-10-31，刊期标 2026 年 12 月。性能数据标「未验证」。",
+      "for_you": "纤维增强生土砖的力学建模新方法。摘要可读后再决定是否跟进配比与实验数据。",
+      "url_override": "https://doi.org/10.1016/j.rineng.2026.113692",
+      "source_read": "snippet",
+      "key_facts": [
+        {
+          "k": "期刊",
+          "v": "Results in Engineering"
+        },
+        {
+          "k": "方法",
+          "v": "二阶梯度理论"
+        },
+        {
+          "k": "对象",
+          "v": "天然纤维增强生土砖"
+        },
+        {
+          "k": "作者",
+          "v": "Nacro, Karamian-Surville, Levacher"
+        },
+        {
+          "k": "DOI 登记",
+          "v": "2026-10-31"
+        }
+      ]
     },
     {
-     "k": "土坯价",
-     "v": "约 10 西非法郎/块"
+      "id": "48a336a1489e",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "生土只是背景，无实质信息（巴黎旅游软文，浇筑土面板仅一句带过；建筑 2024 年已开放）"
     },
     {
-     "k": "水泥砖价",
-     "v": "约 250 西非法郎/块"
-    },
-    {
-     "k": "防雨要点",
-     "v": "抬高墙基+金属屋面"
+      "id": "64d2035ff3df",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "与 2026-10-31 精选 bdaec935a750 同一昌昌防雨新闻，El Peruano 转述无新事实"
     }
-   ]
-  },
-  {
-   "id": "4a1ac03d1ae0",
-   "decision": "pick",
-   "category": "research",
-   "scores": {
-    "sig": 6,
-    "nov": 7,
-    "cred": 8,
-    "reson": 8,
-    "act": 3
-   },
-   "score": 66,
-   "title_zh": "论文：二阶梯度理论建模纤维增强生土砖",
-   "summary_zh": "Results in Engineering 新论文（Nacro 等），用二阶梯度理论建模天然纤维增强生土砖力学行为。DOI 登记 2026-10-31，刊期标 2026 年 12 月。",
-   "for_you": "纤维增强生土砖的力学建模新方法。摘要可读后再决定是否跟进配比与实验数据。",
-   "url_override": "https://doi.org/10.1016/j.rineng.2026.113692",
-   "source_read": "snippet",
-   "key_facts": [
-    {
-     "k": "期刊",
-     "v": "Results in Engineering"
-    },
-    {
-     "k": "方法",
-     "v": "二阶梯度理论"
-    },
-    {
-     "k": "对象",
-     "v": "天然纤维增强生土砖"
-    },
-    {
-     "k": "作者",
-     "v": "Nacro, Karamian-Surville, Levacher"
-    },
-    {
-     "k": "DOI 登记",
-     "v": "2026-10-31"
-    }
-   ]
-  },
-  {
-   "id": "48a336a1489e",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "生土只是背景，无实质信息（巴黎旅游软文，浇筑土面板仅一句带过；建筑 2024 年已开放）"
-  },
-  {
-   "id": "64d2035ff3df",
-   "decision": "drop",
-   "drop_reason": "duplicate",
-   "note": "与 2026-10-31 精选 bdaec935a750 同一昌昌防雨新闻，El Peruano 转述无新事实"
-  }
- ]
+  ]
 }
