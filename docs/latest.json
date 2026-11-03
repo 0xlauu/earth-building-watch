@@ -1,40 +1,31 @@
 {
- "date": "2026-11-01",
- "lead": "今天头条：西非实践建筑师 Albert Faus 谈土坯造价与防雨做法；Results in Engineering 新论文用二阶梯度理论建模纤维增强生土砖。",
+ "date": "2026-11-03",
+ "lead": "今天无精选，三条简讯。Chao、Feng 团队新论文测 3D 打印生土修补料在高湿下的强度保持；非洲研究用 Grewia 植物汁做生物钙稳定压缩土砖；法国 Embrun 艺术中心用火烧地表土和湖底土夯一面实验墙。",
  "actions": [
-  "引用 Faus 时标明：库杜古一次询价，非普适；防雨是抬基+金属屋面",
-  "打开 DOI 10.1016/j.rineng.2026.113692，有摘要后再细读"
+  "关注法国 Embrun 实验夯土墙 11 月 6 日公开展示，看火烧土、湖底土的用法。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-01.html",
- "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W44.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-03.html",
+ "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W45.html",
  "counts": {
-  "pick": 2,
-  "brief": 0,
-  "drop": 2,
+  "pick": 0,
+  "brief": 3,
+  "drop": 4,
   "merged": 0
  },
- "picks": [
+ "picks": [],
+ "briefs": [
   {
-   "title": "建筑师 Faus：土坯可比水泥砖便宜且可防雨",
-   "category": "工艺与教程",
-   "score": 69,
-   "for_you": "可引用库杜古一次询价的价差，以及抬基+金属屋面防雨；勿当普适比价。",
-   "body_zh": null,
-   "source_read": "snippet",
-   "url": "https://www.elperiodico.com/es/sociedad/20261030/albert-faus-arquitecto-viviendas-adaptadas-cambio-climatico-tecnicas-construccion-135850015",
-   "source": "El Periódico"
+   "title": "论文：3D 打印生土修补料短期高湿下的强度保持与孔隙",
+   "url": "https://doi.org/10.1016/j.jobe.2026.117712"
   },
   {
-   "title": "论文：二阶梯度理论建模纤维增强生土砖",
-   "category": "研究论文",
-   "score": 66,
-   "for_you": "纤维增强生土砖的力学建模新方法。摘要可读后再决定是否跟进配比与实验数据。",
-   "body_zh": null,
-   "source_read": "snippet",
-   "url": "https://doi.org/10.1016/j.rineng.2026.113692",
-   "source": "Results in Engineering"
+   "title": "论文：Grewia bicolor 植物汁生物钙稳定热带土做压缩土砖",
+   "url": "https://doi.org/10.1016/j.nxmate.2026.103912"
+  },
+  {
+   "title": "法国 Embrun 艺术驻留用本地土夯实验墙",
+   "url": "https://ram05.fr/podcasts/le-mag/lucille-jallot"
   }
- ],
- "briefs": []
+ ]
 }
