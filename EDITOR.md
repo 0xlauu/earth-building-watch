@@ -168,6 +168,7 @@ python3 scripts/status.py                                        # 打印给汇�
 - 打不开原文、只看到 RSS 片段：不写 `body_zh`，`source_read` 写 `snippet`，只写 `summary_zh`。
 - 论文只读到摘要：可以写，`source_read` 写 `abstract`，正文里不写摘要以外的数据。
 - 读了全文：`source_read` 写 `full`。
+- **论文默认读全文（Lau 2026-11-03 定）：** 每篇论文先查是否开放获取：`curl -s https://api.crossref.org/works/<DOI>`，看 `license` 里有没有 `content-version: vor` 的 creativecommons 许可；也可查 Unpaywall `https://api.unpaywall.org/v2/<DOI>?email=lau@example.com`。开放获取就去读全文（出版社页面、PDF、作者仓库、预印本都行），按全文写，`source_read` 写 `full`。脚本打不开（ScienceDirect 等常返回 403）时，先照常按标题或摘要写，并在交接里列出「需浏览器读全文」的 DOI 和开放获取链接，由上级用浏览器补全后更新当期。不是开放获取的，再按摘要或标题处理。
 - 结构：第一段写发生了什么；第二段写怎么做的、关键数字；第三段（有就写）写局限、争议或原文没说清的地方。
 - 不翻译全文，不大段搬运。要引原话放进 `quotes`，最多 2 句，每句 ≤80 字符，照原文抄。
 - `key_facts` 3-6 项，只放原文里写明的数（面积、土方量、日期、地点、强度）。原文没有就不写这一项。
