@@ -1,84 +1,140 @@
 {
- "date": "2026-11-03",
- "editor": "Grok Bot",
- "edited_at": "2026-11-03T09:40:00+08:00",
- "lead": "今天无精选，三条简讯。Chao、Feng 团队新论文测 3D 打印生土修补料在高湿下的强度保持；非洲研究用 Grewia 植物汁做生物钙稳定压缩土砖；法国 Embrun 艺术中心用火烧地表土和湖底土夯一面实验墙。",
- "actions": [
-  "关注法国 Embrun 实验夯土墙 11 月 6 日公开展示，看火烧土、湖底土的用法。"
- ],
- "items": [
-  {
-   "id": "97a7b017a154",
-   "decision": "brief",
-   "category": "research",
-   "scores": {
-    "sig": 5,
-    "nov": 6,
-    "cred": 8,
-    "reson": 6,
-    "act": 3
-   },
-   "score": 58,
-   "title_zh": "论文：3D 打印生土修补料短期高湿下的强度保持与孔隙",
-   "summary_zh": "Chao、Feng、Han 在 Journal of Building Engineering 发文，研究 3D 打印生土修补料短期高湿下的强度保持和多尺度孔隙特征。目前只看到标题，摘要未公开。",
-   "source_read": "snippet"
-  },
-  {
-   "id": "5eddd18c95f9",
-   "decision": "brief",
-   "category": "research",
-   "scores": {
-    "sig": 4,
-    "nov": 6,
-    "cred": 7,
-    "reson": 7,
-    "act": 4
-   },
-   "score": 55,
-   "title_zh": "论文：Grewia bicolor 植物汁生物钙稳定热带土做压缩土砖",
-   "summary_zh": "Dezoumbé 等在 Next Materials 发文，用 Grewia bicolor 植物汁做生物钙稳定热带土，测压缩土砖的力学和耐久性。目前只看到标题，数据未验证。",
-   "source_read": "snippet"
-  },
-  {
-   "id": "c643562af048",
-   "decision": "brief",
-   "category": "event",
-   "scores": {
-    "sig": 3,
-    "nov": 5,
-    "cred": 6,
-    "reson": 6,
-    "act": 4
-   },
-   "score": 47,
-   "title_zh": "法国 Embrun 艺术驻留用本地土夯实验墙",
-   "summary_zh": "艺术家 Lucille Jallot 在 Embrun 的 Les Capucins 艺术中心驻留，用火灾林地土和湖底土夯一面实验墙，高可达 3 米。11 月 6 日 15 时公开展示。",
-   "url_override": "https://ram05.fr/podcasts/le-mag/lucille-jallot",
-   "source_read": "full"
-  },
-  {
-   "id": "68cd7ac73ccc",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "生土只是背景，无实质信息（越南广宁社区旅游稿，夯土房改民宿仅作背景）"
-  },
-  {
-   "id": "0d9401df2d3e",
-   "decision": "drop",
-   "drop_reason": "noise",
-   "note": "YouTube #shorts 课程推广"
-  },
-  {
-   "id": "b3aae1a6536d",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "成都新津文旅宣传通稿，宝墩古城仅提及，无生土实质信息"
-  },
-  {
-   "id": "8ecc7fe58790",
-   "decision": "drop",
-   "drop_reason": "irrelevant",
-   "note": "日本 Yakami 住宅为木构，非生土（Dezeen、Divisare 核实）"
-  }
- ]
+  "date": "2026-11-03",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-03T09:40:00+08:00",
+  "lead": "今天无精选，三条简讯。无水泥 3D 打印生土修补料在 95% 湿度下 6 小时强度剩 77.6%；Grewia 树皮汁做压缩土砖，抗压升、抗折降；法国 Embrun 用火烧土和湖底土夯一面实验墙。",
+  "actions": [
+    "关注法国 Embrun 实验夯土墙 11 月 6 日公开展示，看火烧土、湖底土的用法。"
+  ],
+  "items": [
+    {
+      "id": "97a7b017a154",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 6,
+        "cred": 8,
+        "reson": 6,
+        "act": 3
+      },
+      "score": 58,
+      "title_zh": "论文：3D 打印生土修补料短期高湿下的强度保持与孔隙",
+      "summary_zh": "无水泥 3D 打印生土修补料在 95% 湿度下放 3 小时，强度保持 102.6%，6 小时降到 77.6%。对照的石灰糯米夯土是 96.8% 和 87.9%。每组 3 个试件。",
+      "source_read": "full",
+      "url_override": "https://www.sciencedirect.com/science/article/pii/S2352710226025349",
+      "body_zh": "这篇论文比较两种材料：一种是无水泥的 3D 打印生土修补料，一种是石灰糯米夯土对照料。修补料按质量计，土 9.5%、胶凝料 33%、骨料 54%、外加剂和纤维 3.5%。胶凝料由煅烧牡蛎壳粉、硅灰、偏高岭土、α 半水石膏和煅烧高岭土组成，内部质量比 10:9:5:3:2。外加剂有木薯淀粉、黄原胶、海藻酸钠、膨润土和碱处理秸秆纤维。对照料是黄土 36%、石灰 27%、细砂 27%、糯米粉 10%。两种料的用水量都是 0.34 L/kg 干料。打印喷嘴 20 mm，层高 10 mm。\n\n试件在室内养护 28 天后，放进 95% 湿度、20 ± 2 °C 的环境里，分别放 0、3、6 小时，再测抗压。修补料初始强度 1.414 MPa，3 小时后 1.451 MPa，6 小时后 1.098 MPa。对照料从 1.369 MPa 降到 1.325 MPa 和 1.204 MPa。压汞测出修补料的孔隙率是 38.01%，对照料是 33.53%。修补料的裂缝多数穿过打印层，沿层间偏转的少。\n\n作者说，每组只有 3 个试件，统计上只有「放置时长」这一项显著（p = 0.0186），两种材料之间没有显著差异。高湿只放了 6 小时，也没测吸水量、干湿循环和修补料与原墙的粘结，所以这只是材料层面的证据，不代表修补系统已经验证。",
+      "key_facts": [
+        {
+          "k": "湿度条件",
+          "v": "95% RH，20 ± 2 °C，0/3/6 小时"
+        },
+        {
+          "k": "修补料强度保持",
+          "v": "3 h 102.6%，6 h 77.6%"
+        },
+        {
+          "k": "对照夯土强度保持",
+          "v": "3 h 96.8%，6 h 87.9%"
+        },
+        {
+          "k": "孔隙率（压汞）",
+          "v": "修补料 38.01%，对照 33.53%"
+        },
+        {
+          "k": "样本",
+          "v": "每组 3 个，共 18 个"
+        },
+        {
+          "k": "胶凝料",
+          "v": "牡蛎壳粉:硅灰:偏高岭土:石膏:煅烧高岭土 = 10:9:5:3:2"
+        }
+      ]
+    },
+    {
+      "id": "5eddd18c95f9",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 4,
+        "nov": 6,
+        "cred": 7,
+        "reson": 7,
+        "act": 4
+      },
+      "score": 55,
+      "title_zh": "论文：Grewia bicolor 植物汁生物钙稳定热带土做压缩土砖",
+      "summary_zh": "Grewia bicolor 树皮汁替代部分拌合水做压缩土砖，不加水泥。100 天后抗压升 6.7–15.9%，吸水降 23.2–55.1%，抗折降 11.0–29.6%。",
+      "source_read": "full",
+      "url_override": "https://www.sciencedirect.com/science/article/pii/S2949822826023294",
+      "body_zh": "研究把 100 g Grewia bicolor 树皮纤维泡在 1 L 水里 24 小时，揉出汁液。汁液固含量 11.11%，pH 约 5.19。拌土时用汁液替代 0–20% 的拌合水。研究不加水泥，也不加石灰。三种土来自肯尼亚 JKUAT 附近：红土、红壤和黏土。按 14 天无侧限抗压筛选剂量，红土用 5%，红壤用 10%，黏土用 15%。砖尺寸 290 × 140 × 120 mm，手动压砖机成型，室内自然养护 100 天。\n\n结果：红壤砖抗压从 4.233 MPa 升到 4.904 MPa，红土砖从 3.731 升到 3.980，黏土砖从 3.230 升到 3.681。抗折三种都降了，黏土砖从 0.270 降到 0.190 MPa。磨损量降 6.8–86.6%。吸水率降 23.2–55.1%，但黏土砖处理后仍有 25.62%。综合评分最好的是红壤加 10% 汁液。\n\n作者说，每种土只测了一个剂量，土和剂量的影响分不开；每组 3 块砖。研究没做干湿循环、雨淋和毛细吸水试验，也没查清生成了什么产物。汁液里的钙含量 14.29 at% 是固体区域的测值，不是汁液本身的。",
+      "key_facts": [
+        {
+          "k": "稳定剂",
+          "v": "Grewia bicolor 树皮汁，替代 5–15% 拌合水"
+        },
+        {
+          "k": "是否含水泥",
+          "v": "不含水泥或石灰"
+        },
+        {
+          "k": "抗压变化",
+          "v": "+6.7% 到 +15.9%（100 天）"
+        },
+        {
+          "k": "抗折变化",
+          "v": "−11.0% 到 −29.6%"
+        },
+        {
+          "k": "吸水率变化",
+          "v": "−23.2% 到 −55.1%；黏土砖仍 25.62%"
+        },
+        {
+          "k": "最佳组合",
+          "v": "红壤 + 10% 汁液，抗压 4.904 MPa"
+        }
+      ]
+    },
+    {
+      "id": "c643562af048",
+      "decision": "brief",
+      "category": "event",
+      "scores": {
+        "sig": 3,
+        "nov": 5,
+        "cred": 6,
+        "reson": 6,
+        "act": 4
+      },
+      "score": 47,
+      "title_zh": "法国 Embrun 艺术驻留用本地土夯实验墙",
+      "summary_zh": "艺术家 Lucille Jallot 在 Embrun 的 Les Capucins 艺术中心驻留，用火灾林地土和湖底土夯一面实验墙，高可达 3 米。11 月 6 日 15 时公开展示。",
+      "url_override": "https://ram05.fr/podcasts/le-mag/lucille-jallot",
+      "source_read": "full"
+    },
+    {
+      "id": "68cd7ac73ccc",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "生土只是背景，无实质信息（越南广宁社区旅游稿，夯土房改民宿仅作背景）"
+    },
+    {
+      "id": "0d9401df2d3e",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "YouTube #shorts 课程推广"
+    },
+    {
+      "id": "b3aae1a6536d",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "成都新津文旅宣传通稿，宝墩古城仅提及，无生土实质信息"
+    },
+    {
+      "id": "8ecc7fe58790",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "日本 Yakami 住宅为木构，非生土（Dezeen、Divisare 核实）"
+    }
+  ]
 }

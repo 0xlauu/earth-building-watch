@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "lead": "今天无精选，三条简讯。Chao、Feng 团队新论文测 3D 打印生土修补料在高湿下的强度保持；非洲研究用 Grewia 植物汁做生物钙稳定压缩土砖；法国 Embrun 艺术中心用火烧地表土和湖底土夯一面实验墙。",
+ "lead": "今天无精选，三条简讯。无水泥 3D 打印生土修补料在 95% 湿度下 6 小时强度剩 77.6%；Grewia 树皮汁做压缩土砖，抗压升、抗折降；法国 Embrun 用火烧土和湖底土夯一面实验墙。",
  "actions": [
   "关注法国 Embrun 实验夯土墙 11 月 6 日公开展示，看火烧土、湖底土的用法。"
  ],
@@ -17,11 +17,11 @@
  "briefs": [
   {
    "title": "论文：3D 打印生土修补料短期高湿下的强度保持与孔隙",
-   "url": "https://doi.org/10.1016/j.jobe.2026.117712"
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352710226025349"
   },
   {
    "title": "论文：Grewia bicolor 植物汁生物钙稳定热带土做压缩土砖",
-   "url": "https://doi.org/10.1016/j.nxmate.2026.103912"
+   "url": "https://www.sciencedirect.com/science/article/pii/S2949822826023294"
   },
   {
    "title": "法国 Embrun 艺术驻留用本地土夯实验墙",
