@@ -1,31 +1,39 @@
 {
- "date": "2026-11-03",
- "lead": "今天无精选，三条简讯。无水泥 3D 打印生土修补料在 95% 湿度下 6 小时强度剩 77.6%；Grewia 树皮汁做压缩土砖，抗压升、抗折降；法国 Embrun 用火烧土和湖底土夯一面实验墙。",
+ "date": "2026-11-04",
+ "lead": "今天一条精选，两条简讯。阿联酋沙迦设计中心用夯土，2029 年开放；Tatiana Bilbao 在纽约 Art Omi 用当地土加砂和石灰夯了一组会慢慢风化的装置；一篇论文研究河西走廊夯土遗址的抗风蚀。",
  "actions": [
-  "关注法国 Embrun 实验夯土墙 11 月 6 日公开展示，看火烧土、湖底土的用法。"
+  "盯沙迦设计中心和沙迦创意区，2029 年开放前看夯土分包和材料招标。",
+  "Art Omi 装置约两年风化，可记下当作无防护夯土耐候的公开观察样本。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-03.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-04.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W45.html",
  "counts": {
-  "pick": 0,
-  "brief": 3,
-  "drop": 4,
-  "merged": 0
+  "pick": 1,
+  "brief": 2,
+  "drop": 6,
+  "merged": 6
  },
- "picks": [],
+ "picks": [
+  {
+   "title": "阿联酋沙迦设计中心采用夯土，计划 2029 年开放",
+   "category": "项目案例",
+   "score": 65,
+   "for_you": "海湾地区的文化机构开始把夯土写进大楼方案。中东是可以留意的夯土市场和合作方向。",
+   "body_zh": "ArchDaily 2026 年 11 月 3 日报道：沙迦设计中心（SDC）公布建筑方案。它是沙迦创意区的一部分，位于沙迦大学城对面，紧邻智慧之家（House of Wisdom）。整个创意区也计划 2029 年开放，区内还有 Irthi 博物馆、沙迦时装实验室等机构。\n\n原文说，建筑结合当地材料、乡土原则和当代技术，来回应当地气候和地景；夯土是减少环境影响的手段之一。原文没有给出夯土墙的面积、配比或施工方。中心将设 7 个专业实验室：纺织、快速原型、玻璃、陶瓷、珠宝、金属和木工，另有材料图书馆和数字档案。\n\n材料研究已经开始。SDC 与 LUMA Arles 的 Atelier LUMA 和沙迦美国大学合作，研究项目叫 Theatrum Al Kimiya。研究对象是本地材料和废料，包括盐、卤水、石灰石、砂、黏土、棕榈、贝壳、建筑垃圾、陶瓷废料、羊毛和菌丝体。",
+   "source_read": "full",
+   "url": "https://www.archdaily.com/1187994/sharjah-design-centre-unveils-plans-for-rammed-earth-building-opening-in-2029",
+   "source": "ArchDaily"
+  }
+ ],
  "briefs": [
   {
-   "title": "论文：3D 打印生土修补料短期高湿下的强度保持与孔隙",
-   "url": "https://www.sciencedirect.com/science/article/pii/S2352710226025349"
+   "title": "Tatiana Bilbao 在纽约 Art Omi 夯土做会风化的装置",
+   "url": "https://www.dezeen.com/2026/11/03/tatiana-bilbao-creates-rammed-earth-installation-at-art-omi/"
   },
   {
-   "title": "论文：Grewia bicolor 植物汁生物钙稳定热带土做压缩土砖",
-   "url": "https://www.sciencedirect.com/science/article/pii/S2949822826023294"
-  },
-  {
-   "title": "法国 Embrun 艺术驻留用本地土夯实验墙",
-   "url": "https://ram05.fr/podcasts/le-mag/lucille-jallot"
+   "title": "论文：河西走廊夯土遗址的微观结构与抗风蚀",
+   "url": "https://doi.org/10.1016/j.aeolia.2026.101098"
   }
  ]
 }

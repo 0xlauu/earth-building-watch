@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-04",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-04T09:40:00+08:00",
+  "lead": "今天一条精选，两条简讯。阿联酋沙迦设计中心用夯土，2029 年开放；Tatiana Bilbao 在纽约 Art Omi 用当地土加砂和石灰夯了一组会慢慢风化的装置；一篇论文研究河西走廊夯土遗址的抗风蚀。",
+  "actions": [
+    "盯沙迦设计中心和沙迦创意区，2029 年开放前看夯土分包和材料招标。",
+    "Art Omi 装置约两年风化，可记下当作无防护夯土耐候的公开观察样本。"
+  ],
+  "items": [
+    {"id": "eb593880a45b", "decision": "pick", "category": "project",
+     "scores": {"sig": 7, "nov": 6, "cred": 8, "reson": 7, "act": 5}, "score": 65,
+     "title_zh": "阿联酋沙迦设计中心采用夯土，计划 2029 年开放",
+     "summary_zh": "沙迦设计中心是做设计、材料研究、原型和生产的新机构，属于沙迦创意区，计划 2029 年开放。设计方是 Taller de Arquitectura – Mauricio Rocha 和建筑师 Daniel Rosselló。建筑用当地材料和夯土，目的是降低环境影响。",
+     "for_you": "海湾地区的文化机构开始把夯土写进大楼方案。中东是可以留意的夯土市场和合作方向。",
+     "source_read": "full",
+     "body_zh": "ArchDaily 2026 年 11 月 3 日报道：沙迦设计中心（SDC）公布建筑方案。它是沙迦创意区的一部分，位于沙迦大学城对面，紧邻智慧之家（House of Wisdom）。整个创意区也计划 2029 年开放，区内还有 Irthi 博物馆、沙迦时装实验室等机构。\n\n原文说，建筑结合当地材料、乡土原则和当代技术，来回应当地气候和地景；夯土是减少环境影响的手段之一。原文没有给出夯土墙的面积、配比或施工方。中心将设 7 个专业实验室：纺织、快速原型、玻璃、陶瓷、珠宝、金属和木工，另有材料图书馆和数字档案。\n\n材料研究已经开始。SDC 与 LUMA Arles 的 Atelier LUMA 和沙迦美国大学合作，研究项目叫 Theatrum Al Kimiya。研究对象是本地材料和废料，包括盐、卤水、石灰石、砂、黏土、棕榈、贝壳、建筑垃圾、陶瓷废料、羊毛和菌丝体。",
+     "key_facts": [
+       {"k": "计划开放", "v": "2029 年"},
+       {"k": "地点", "v": "阿联酋沙迦创意区"},
+       {"k": "设计", "v": "Mauricio Rocha 事务所、Daniel Rosselló"},
+       {"k": "实验室", "v": "7 个：纺织、快速原型、玻璃、陶瓷、珠宝、金属、木工"},
+       {"k": "材料研究合作", "v": "Atelier LUMA、沙迦美国大学"}
+     ],
+     "quotes": [{"text": "Rammed earth construction is incorporated into the design", "lang": "en"}],
+     "merged_ids": ["327c3cff8202", "a8c4c40b531c", "1c2e80b7e9f1", "214f2fee3453", "806891863f17", "67a5902ea6be"]},
+    {"id": "327c3cff8202", "decision": "merged", "merged_into": "eb593880a45b"},
+    {"id": "a8c4c40b531c", "decision": "merged", "merged_into": "eb593880a45b"},
+    {"id": "1c2e80b7e9f1", "decision": "merged", "merged_into": "eb593880a45b"},
+    {"id": "214f2fee3453", "decision": "merged", "merged_into": "eb593880a45b"},
+    {"id": "806891863f17", "decision": "merged", "merged_into": "eb593880a45b"},
+    {"id": "67a5902ea6be", "decision": "merged", "merged_into": "eb593880a45b"},
+    {"id": "fafa2d06beb2", "decision": "brief", "category": "project",
+     "scores": {"sig": 4, "nov": 6, "cred": 8, "reson": 7, "act": 5}, "score": 59,
+     "title_zh": "Tatiana Bilbao 在纽约 Art Omi 夯土做会风化的装置",
+     "summary_zh": "装置叫 Borrowed Earth：4 根约 7.5 英尺高的十字形夯土柱，中间一个矮十字做长凳。土取自附近工地，掺砂和石灰，分层夯进木模。策展人说设计约两年内风化。",
+     "for_you": "当地土加砂、石灰现场夯筑的公开案例，也是无防护夯土户外耐候的观察样本。",
+     "source_read": "full"},
+    {"id": "3920964d60b4", "decision": "brief", "category": "research",
+     "scores": {"sig": 5, "nov": 6, "cred": 7, "reson": 5, "act": 2}, "score": 54,
+     "title_zh": "论文：河西走廊夯土遗址的微观结构与抗风蚀",
+     "summary_zh": "Aeolian Research 2026 年 12 月刊论文，作者 Zeng、Cui、Zhao 等。研究河西走廊夯土遗址的微观结构组构对抗风蚀能力的影响。非开放获取，只读到标题。",
+     "source_read": "snippet"},
+    {"id": "724987f3470f", "decision": "drop", "drop_reason": "irrelevant", "note": "Divisare：法国 Nanterre Campus du Parc 改造，木和竹、ETFE，未提生土"},
+    {"id": "c91d01ca3b93", "decision": "drop", "drop_reason": "irrelevant", "note": "Divisare：爱尔兰 Laois 砖砌住宅，非生土"},
+    {"id": "f937e9555a2a", "decision": "drop", "drop_reason": "irrelevant", "note": "Divisare：德黑兰诗人故居改造，砖结构加钢墙，非生土"},
+    {"id": "3bad55870245", "decision": "drop", "drop_reason": "irrelevant", "note": "Divisare：墨西哥马术场，混凝土屋顶和柱，非生土"},
+    {"id": "97962fbfa99f", "decision": "drop", "drop_reason": "irrelevant", "note": "Divisare：丹麦 Wegner 博物馆，木构和老农舍改造，非生土"},
+    {"id": "871a63f4cad5", "decision": "drop", "drop_reason": "old", "note": "挪威 Hjertefølger 家玻璃穹顶下的 cob 房，2013 年入住，2017 年起多家媒体报道过"}
+  ]
+}
