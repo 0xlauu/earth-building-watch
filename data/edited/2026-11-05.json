@@ -1,146 +1,174 @@
 {
- "date": "2026-11-05",
- "editor": "Grok Bot",
- "edited_at": "2026-11-05T09:40:00+08:00",
- "lead": "今天一条精选，四条简讯。奥地利布尔根兰的住房合作社 OSG 首次建木骨架加生土抹面、稻草保温的住宅；比利时 Bento 事务所提到法国企业为生土砖出资做防火试验；还有一篇夯土墙外贴麻石灰保温层的抗侧力论文。",
- "actions": [
-  "查 Origin rénovation 生土砖的防火试验报告，看能否用于你的产品送检路线。",
-  "跟进 OSG Bildein 项目，2027 年 7 月完工前了解生土抹面的供应商和做法。"
- ],
- "items": [
-  {
-   "id": "d61d46b501f4",
-   "decision": "pick",
-   "category": "project",
-   "scores": {
-    "sig": 6,
-    "nov": 6,
-    "cred": 7,
-    "reson": 9,
-    "act": 6
-   },
-   "score": 70,
-   "title_zh": "奥地利住房合作社 OSG 首建生土抹面加稻草保温住宅",
-   "summary_zh": "奥地利布尔根兰州的住房合作社 OSG 在 Bildein 建 5 栋平房。做法是木骨架墙、生土抹面、稻草保温。OSG 说这是它第一个这类项目。每栋约 134 平方米，造价约 38 万欧元，计划 2027 年 7 月完工，5 栋里还有 3 栋没卖出。",
-   "for_you": "社会住房机构开始把生土抹面写进标准户型。这类开发商是生土抹面材料的批量客户。",
-   "url_override": "https://kurier.at/chronik/burgenland/osg-bildein-raiding-bungalows-wohnungen-reihenhaeuser/403202943",
-   "source_read": "full",
-   "body_zh": "奥地利《Kurier》2026 年 11 月 4 日报道：Oberwart 住房合作社（OSG）在布尔根兰州的 Bildein 和 Raiding 两地共建 15 套住房。其中 Bildein 的 5 栋独立平房首次把木骨架结构、生土抹面和稻草保温组合在一起。\n\n每栋约 134 平方米，三个卧室，地块 660 到 860 平方米。项目属于 OSG 的「Green Way」计划。原文说，用的生土可以重复使用，能蓄热，能调节湿度。房子还配光伏、区域供热、地暖和空调。每栋造价约 38 万欧元，计划 2027 年 7 月完工，目前 5 栋里还有 3 栋空着。\n\n原文没有给出生土抹面的厚度、材料来源或施工方。同一篇报道里的 Raiding 项目是 6 套公寓加 4 栋联排，用常规做法，两个项目总投资约 280 万欧元。",
-   "key_facts": [
+  "date": "2026-11-05",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-05T09:40:00+08:00",
+  "lead": "今天一条精选，四条简讯。奥地利 OSG 首次建木骨架加生土抹面、稻草保温的住宅；比利时 Bento 提到法国企业为生土砖做防火试验；还有一篇论文：夯土墙粘麻石灰保温后抗侧力不降。",
+  "actions": [
+    "查 Origin rénovation 生土砖的防火试验报告，看能否用于你的产品送检路线。",
+    "跟进 OSG Bildein 项目，2027 年 7 月完工前了解生土抹面的供应商和做法。"
+  ],
+  "items": [
     {
-     "k": "地点",
-     "v": "奥地利布尔根兰州 Bildein"
+      "id": "d61d46b501f4",
+      "decision": "pick",
+      "category": "project",
+      "scores": {
+        "sig": 6,
+        "nov": 6,
+        "cred": 7,
+        "reson": 9,
+        "act": 6
+      },
+      "score": 70,
+      "title_zh": "奥地利住房合作社 OSG 首建生土抹面加稻草保温住宅",
+      "summary_zh": "奥地利布尔根兰州的住房合作社 OSG 在 Bildein 建 5 栋平房。做法是木骨架墙、生土抹面、稻草保温。OSG 说这是它第一个这类项目。每栋约 134 平方米，造价约 38 万欧元，计划 2027 年 7 月完工，5 栋里还有 3 栋没卖出。",
+      "for_you": "社会住房机构开始把生土抹面写进标准户型。这类开发商是生土抹面材料的批量客户。",
+      "url_override": "https://kurier.at/chronik/burgenland/osg-bildein-raiding-bungalows-wohnungen-reihenhaeuser/403202943",
+      "source_read": "full",
+      "body_zh": "奥地利《Kurier》2026 年 11 月 4 日报道：Oberwart 住房合作社（OSG）在布尔根兰州的 Bildein 和 Raiding 两地共建 15 套住房。其中 Bildein 的 5 栋独立平房首次把木骨架结构、生土抹面和稻草保温组合在一起。\n\n每栋约 134 平方米，三个卧室，地块 660 到 860 平方米。项目属于 OSG 的「Green Way」计划。原文说，用的生土可以重复使用，能蓄热，能调节湿度。房子还配光伏、区域供热、地暖和空调。每栋造价约 38 万欧元，计划 2027 年 7 月完工，目前 5 栋里还有 3 栋空着。\n\n原文没有给出生土抹面的厚度、材料来源或施工方。同一篇报道里的 Raiding 项目是 6 套公寓加 4 栋联排，用常规做法，两个项目总投资约 280 万欧元。",
+      "key_facts": [
+        {
+          "k": "地点",
+          "v": "奥地利布尔根兰州 Bildein"
+        },
+        {
+          "k": "规模",
+          "v": "5 栋独立平房，每栋约 134 平方米"
+        },
+        {
+          "k": "做法",
+          "v": "木骨架、生土抹面、稻草保温"
+        },
+        {
+          "k": "单栋造价",
+          "v": "约 38 万欧元"
+        },
+        {
+          "k": "完工",
+          "v": "计划 2027 年 7 月"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "in Bildein erstmals Holzriegelbauweise mit Lehmputz und Strohdämmung kombiniert",
+          "lang": "de"
+        }
+      ]
     },
     {
-     "k": "规模",
-     "v": "5 栋独立平房，每栋约 134 平方米"
+      "id": "d5d03138d09b",
+      "decision": "brief",
+      "category": "market",
+      "scores": {
+        "sig": 5,
+        "nov": 6,
+        "cred": 6,
+        "reson": 7,
+        "act": 5
+      },
+      "score": 59,
+      "title_zh": "比利时 Bento 事务所获年度青年建筑师，谈生土受法规限制",
+      "summary_zh": "布鲁塞尔 Bento 事务所获年度比利时青年建筑师。合伙人 Dalon 说生土受法规限制；在法国公共项目上，合作企业 Origin rénovation 和当地砖厂开发生土砖，并出资做防火试验。",
+      "url_override": "https://www.lecho.be/sabato/architecture/comment-penser-l-architecture-dans-un-monde-aux-ressources-finies-le-credo-du-bureau-bento/10696953.html",
+      "source_read": "full"
     },
     {
-     "k": "做法",
-     "v": "木骨架、生土抹面、稻草保温"
+      "id": "bb5ff1668329",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 5,
+        "cred": 8,
+        "reson": 7,
+        "act": 4
+      },
+      "score": 57,
+      "title_zh": "夯土墙外粘麻石灰保温，抗侧力不降",
+      "summary_zh": "法国团队做了3面夯土墙推覆试验。单面粘12厘米麻石灰砌块（酪素石灰胶加亚麻网，无锚件）后，峰值荷载平均高约11%，开裂推迟。只有3个样本，属初步趋势。",
+      "source_read": "full",
+      "for_you": "粘贴式麻石灰保温没削弱夯土墙，还可能减缓开裂。但样本少、未做往复加载，暂不能当设计依据。",
+      "key_facts": [
+        {
+          "k": "样本",
+          "v": "3面墙：1面对照，2面保温；120×120×25厘米"
+        },
+        {
+          "k": "保温做法",
+          "v": "12厘米麻石灰砌块，酪素石灰胶加亚麻网，无锚件"
+        },
+        {
+          "k": "峰值荷载",
+          "v": "对照38.0 kN；保温43.4/41.1 kN"
+        },
+        {
+          "k": "严重损伤",
+          "v": "对照0.7%位移角出现，保温墙1.4%"
+        },
+        {
+          "k": "35 kN裂缝宽",
+          "v": "对照1.00毫米；保温0.43/0.32毫米"
+        },
+        {
+          "k": "局限",
+          "v": "仅单调加载，无抗震耗能数据，界面粘结未单独测"
+        }
+      ],
+      "url_override": "https://www.sciencedirect.com/science/article/pii/S2590123026049960"
     },
     {
-     "k": "单栋造价",
-     "v": "约 38 万欧元"
+      "id": "7442b5da9c11",
+      "decision": "brief",
+      "category": "technique",
+      "scores": {
+        "sig": 3,
+        "nov": 3,
+        "cred": 4,
+        "reson": 5,
+        "act": 6
+      },
+      "score": 47,
+      "title_zh": "This Cob House 视频：泥团墙、草泥墙、麻石灰怎么选",
+      "summary_zh": "YouTube 频道 This Cob House 发布视频，从造价、人工、保温、气候和报批五方面比较泥团墙（cob）、草泥墙和麻石灰墙。本期只看到视频简介。",
+      "source_read": "snippet"
     },
     {
-     "k": "完工",
-     "v": "计划 2027 年 7 月"
+      "id": "cfbec0942b0e",
+      "decision": "brief",
+      "category": "heritage",
+      "scores": {
+        "sig": 4,
+        "nov": 4,
+        "cred": 7,
+        "reson": 4,
+        "act": 2
+      },
+      "score": 44,
+      "title_zh": "阿尔及利亚与沙特拟在生土建筑修复上合作",
+      "summary_zh": "阿尔及利亚文化部长 Malika Bendouda 在阿尔及尔会见沙特文化大臣。据阿方公报，她欢迎双方在传统建筑、考古遗址和生土建筑修复上建立伙伴关系，并交流遗产保护经验。",
+      "url_override": "https://news.radioalgerie.dz/fr/node/98202",
+      "source_read": "full"
+    },
+    {
+      "id": "7e7239b220eb",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "沙迦设计中心夯土楼已在 2026-11-04 期精选，这是 ArchDaily 图集页"
+    },
+    {
+      "id": "c6027021a382",
+      "decision": "drop",
+      "drop_reason": "low_score",
+      "scores": {
+        "sig": 3,
+        "nov": 4,
+        "cred": 3,
+        "reson": 6,
+        "act": 2
+      },
+      "score": 35,
+      "note": "读了全文：摘要说微生物稳定土砖强度更高、吸水更低，但正文没给强度和吸水数据，主要是菌株培养条件",
+      "category": "research"
     }
-   ],
-   "quotes": [
-    {
-     "text": "in Bildein erstmals Holzriegelbauweise mit Lehmputz und Strohdämmung kombiniert",
-     "lang": "de"
-    }
-   ]
-  },
-  {
-   "id": "d5d03138d09b",
-   "decision": "brief",
-   "category": "market",
-   "scores": {
-    "sig": 5,
-    "nov": 6,
-    "cred": 6,
-    "reson": 7,
-    "act": 5
-   },
-   "score": 59,
-   "title_zh": "比利时 Bento 事务所获年度青年建筑师，谈生土受法规限制",
-   "summary_zh": "布鲁塞尔 Bento 事务所获年度比利时青年建筑师。合伙人 Dalon 说生土受法规限制；在法国公共项目上，合作企业 Origin rénovation 和当地砖厂开发生土砖，并出资做防火试验。",
-   "url_override": "https://www.lecho.be/sabato/architecture/comment-penser-l-architecture-dans-un-monde-aux-ressources-finies-le-credo-du-bureau-bento/10696953.html",
-   "source_read": "full"
-  },
-  {
-   "id": "bb5ff1668329",
-   "decision": "brief",
-   "category": "research",
-   "scores": {
-    "sig": 5,
-    "nov": 5,
-    "cred": 8,
-    "reson": 7,
-    "act": 4
-   },
-   "score": 57,
-   "title_zh": "论文：夯土墙单面粘贴麻石灰保温层后的抗侧力与损伤试验",
-   "summary_zh": "法国团队（Khalil、Plé 等 8 人）在《Results in Engineering》发表试验，测单面粘贴麻石灰保温层的夯土墙受侧向荷载时的响应和损伤。开放获取，本期只读到标题，结果待补。",
-   "source_read": "snippet"
-  },
-  {
-   "id": "7442b5da9c11",
-   "decision": "brief",
-   "category": "technique",
-   "scores": {
-    "sig": 3,
-    "nov": 3,
-    "cred": 4,
-    "reson": 5,
-    "act": 6
-   },
-   "score": 47,
-   "title_zh": "This Cob House 视频：泥团墙、草泥墙、麻石灰怎么选",
-   "summary_zh": "YouTube 频道 This Cob House 发布视频，从造价、人工、保温、气候和报批五方面比较泥团墙（cob）、草泥墙和麻石灰墙。本期只看到视频简介。",
-   "source_read": "snippet"
-  },
-  {
-   "id": "cfbec0942b0e",
-   "decision": "brief",
-   "category": "heritage",
-   "scores": {
-    "sig": 4,
-    "nov": 4,
-    "cred": 7,
-    "reson": 4,
-    "act": 2
-   },
-   "score": 44,
-   "title_zh": "阿尔及利亚与沙特拟在生土建筑修复上合作",
-   "summary_zh": "阿尔及利亚文化部长 Malika Bendouda 在阿尔及尔会见沙特文化大臣。据阿方公报，她欢迎双方在传统建筑、考古遗址和生土建筑修复上建立伙伴关系，并交流遗产保护经验。",
-   "url_override": "https://news.radioalgerie.dz/fr/node/98202",
-   "source_read": "full"
-  },
-  {
-   "id": "7e7239b220eb",
-   "decision": "drop",
-   "drop_reason": "duplicate",
-   "note": "沙迦设计中心夯土楼已在 2026-11-04 期精选，这是 ArchDaily 图集页"
-  },
-  {
-   "id": "c6027021a382",
-   "decision": "drop",
-   "drop_reason": "low_score",
-   "scores": {
-    "sig": 3,
-    "nov": 4,
-    "cred": 3,
-    "reson": 6,
-    "act": 2
-   },
-   "score": 35,
-   "note": "读了全文：摘要说微生物稳定土砖强度更高、吸水更低，但正文没给强度和吸水数据，主要是菌株培养条件",
-   "category": "research"
-  }
- ]
+  ]
 }
