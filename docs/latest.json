@@ -1,39 +1,47 @@
 {
- "date": "2026-11-04",
- "lead": "今天一条精选，两条简讯。阿联酋沙迦设计中心用夯土，2029 年开放；Tatiana Bilbao 在纽约 Art Omi 用当地土加砂和石灰夯了一组会慢慢风化的装置；一篇论文研究河西走廊夯土遗址的抗风蚀。",
+ "date": "2026-11-05",
+ "lead": "今天一条精选，四条简讯。奥地利布尔根兰的住房合作社 OSG 首次建木骨架加生土抹面、稻草保温的住宅；比利时 Bento 事务所提到法国企业为生土砖出资做防火试验；还有一篇夯土墙外贴麻石灰保温层的抗侧力论文。",
  "actions": [
-  "盯沙迦设计中心和沙迦创意区，2029 年开放前看夯土分包和材料招标。",
-  "Art Omi 装置约两年风化，可记下当作无防护夯土耐候的公开观察样本。"
+  "查 Origin rénovation 生土砖的防火试验报告，看能否用于你的产品送检路线。",
+  "跟进 OSG Bildein 项目，2027 年 7 月完工前了解生土抹面的供应商和做法。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-04.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-05.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W45.html",
  "counts": {
   "pick": 1,
-  "brief": 2,
-  "drop": 6,
-  "merged": 6
+  "brief": 4,
+  "drop": 2,
+  "merged": 0
  },
  "picks": [
   {
-   "title": "阿联酋沙迦设计中心采用夯土，计划 2029 年开放",
+   "title": "奥地利住房合作社 OSG 首建生土抹面加稻草保温住宅",
    "category": "项目案例",
-   "score": 65,
-   "for_you": "海湾地区的文化机构开始把夯土写进大楼方案。中东是可以留意的夯土市场和合作方向。",
-   "body_zh": "ArchDaily 2026 年 11 月 3 日报道：沙迦设计中心（SDC）公布建筑方案。它是沙迦创意区的一部分，位于沙迦大学城对面，紧邻智慧之家（House of Wisdom）。整个创意区也计划 2029 年开放，区内还有 Irthi 博物馆、沙迦时装实验室等机构。\n\n原文说，建筑结合当地材料、乡土原则和当代技术，来回应当地气候和地景；夯土是减少环境影响的手段之一。原文没有给出夯土墙的面积、配比或施工方。中心将设 7 个专业实验室：纺织、快速原型、玻璃、陶瓷、珠宝、金属和木工，另有材料图书馆和数字档案。\n\n材料研究已经开始。SDC 与 LUMA Arles 的 Atelier LUMA 和沙迦美国大学合作，研究项目叫 Theatrum Al Kimiya。研究对象是本地材料和废料，包括盐、卤水、石灰石、砂、黏土、棕榈、贝壳、建筑垃圾、陶瓷废料、羊毛和菌丝体。",
+   "score": 70,
+   "for_you": "社会住房机构开始把生土抹面写进标准户型。这类开发商是生土抹面材料的批量客户。",
+   "body_zh": "奥地利《Kurier》2026 年 11 月 4 日报道：Oberwart 住房合作社（OSG）在布尔根兰州的 Bildein 和 Raiding 两地共建 15 套住房。其中 Bildein 的 5 栋独立平房首次把木骨架结构、生土抹面和稻草保温组合在一起。\n\n每栋约 134 平方米，三个卧室，地块 660 到 860 平方米。项目属于 OSG 的「Green Way」计划。原文说，用的生土可以重复使用，能蓄热，能调节湿度。房子还配光伏、区域供热、地暖和空调。每栋造价约 38 万欧元，计划 2027 年 7 月完工，目前 5 栋里还有 3 栋空着。\n\n原文没有给出生土抹面的厚度、材料来源或施工方。同一篇报道里的 Raiding 项目是 6 套公寓加 4 栋联排，用常规做法，两个项目总投资约 280 万欧元。",
    "source_read": "full",
-   "url": "https://www.archdaily.com/1187994/sharjah-design-centre-unveils-plans-for-rammed-earth-building-opening-in-2029",
-   "source": "ArchDaily"
+   "url": "https://kurier.at/chronik/burgenland/osg-bildein-raiding-bungalows-wohnungen-reihenhaeuser/403202943",
+   "source": "Kurier"
   }
  ],
  "briefs": [
   {
-   "title": "Tatiana Bilbao 在纽约 Art Omi 夯土做会风化的装置",
-   "url": "https://www.dezeen.com/2026/11/03/tatiana-bilbao-creates-rammed-earth-installation-at-art-omi/"
+   "title": "比利时 Bento 事务所获年度青年建筑师，谈生土受法规限制",
+   "url": "https://www.lecho.be/sabato/architecture/comment-penser-l-architecture-dans-un-monde-aux-ressources-finies-le-credo-du-bureau-bento/10696953.html"
   },
   {
-   "title": "论文：河西走廊夯土遗址的微观结构与抗风蚀",
-   "url": "https://doi.org/10.1016/j.aeolia.2026.101098"
+   "title": "论文：夯土墙单面粘贴麻石灰保温层后的抗侧力与损伤试验",
+   "url": "https://doi.org/10.1016/j.rineng.2026.113989"
+  },
+  {
+   "title": "This Cob House 视频：泥团墙、草泥墙、麻石灰怎么选",
+   "url": "https://www.youtube.com/watch?v=J38K1CU9JV8"
+  },
+  {
+   "title": "阿尔及利亚与沙特拟在生土建筑修复上合作",
+   "url": "https://news.radioalgerie.dz/fr/node/98202"
   }
  ]
 }
