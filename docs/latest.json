@@ -1,47 +1,76 @@
 {
- "date": "2026-11-05",
- "lead": "今天一条精选，四条简讯。奥地利 OSG 首次建木骨架加生土抹面、稻草保温的住宅；比利时 Bento 提到法国企业为生土砖做防火试验；还有一篇论文：夯土墙粘麻石灰保温后抗侧力不降。",
+ "date": "2026-11-06",
+ "lead": "今天五条精选、一条简讯。喀麦隆植物纤维加水泥压土砖抗压可到约 15 MPa；印度两篇论文分别给出互锁压土砖墙缩尺试验规则，和协作机器人砌筑可行性；法国热尔省开生土产业链会；越南罗罗柴村要划保护区保夯土民居。",
  "actions": [
-  "查 Origin rénovation 生土砖的防火试验报告，看能否用于你的产品送检路线。",
-  "跟进 OSG Bildein 项目，2027 年 7 月完工前了解生土抹面的供应商和做法。"
+  "读 Chaudhary 互锁压土砖缩尺规则，按四分之一缩尺补实验室墙体试验。",
+  "对照喀麦隆 RC 纤维 1%+水泥 8% 配比，试本地纤维替代效果。",
+  "跟进法国热尔省 TRIBU 生土产业链研究报告和 2027 行动计划。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-05.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-06.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W45.html",
  "counts": {
-  "pick": 1,
-  "brief": 4,
-  "drop": 2,
-  "merged": 0
+  "pick": 5,
+  "brief": 1,
+  "drop": 11,
+  "merged": 2
  },
  "picks": [
   {
-   "title": "奥地利住房合作社 OSG 首建生土抹面加稻草保温住宅",
-   "category": "项目案例",
-   "score": 70,
-   "for_you": "社会住房机构开始把生土抹面写进标准户型。这类开发商是生土抹面材料的批量客户。",
-   "body_zh": "奥地利《Kurier》2026 年 11 月 4 日报道：Oberwart 住房合作社（OSG）在布尔根兰州的 Bildein 和 Raiding 两地共建 15 套住房。其中 Bildein 的 5 栋独立平房首次把木骨架结构、生土抹面和稻草保温组合在一起。\n\n每栋约 134 平方米，三个卧室，地块 660 到 860 平方米。项目属于 OSG 的「Green Way」计划。原文说，用的生土可以重复使用，能蓄热，能调节湿度。房子还配光伏、区域供热、地暖和空调。每栋造价约 38 万欧元，计划 2027 年 7 月完工，目前 5 栋里还有 3 栋空着。\n\n原文没有给出生土抹面的厚度、材料来源或施工方。同一篇报道里的 Raiding 项目是 6 套公寓加 4 栋联排，用常规做法，两个项目总投资约 280 万欧元。",
+   "title": "论文：协作机器人砌筑互锁压土砖的可行性框架",
+   "category": "研究论文",
+   "score": 73,
+   "for_you": "无砂浆互锁块更适合机器人铺砌。做压土砖产品时可把尺寸公差和互锁几何按自动化砌筑来设计。",
+   "body_zh": "同刊同期另一篇开放获取论文，作者 Vishal Kumar Chaudhary、Hemant Kumar Prajapati，页码 30–38。文章认为：砌筑机器人常要高成本解决的无砂浆组装、自对中互锁、尺寸均匀和单块质量低，在印度标准已规范的互锁压土砖上本来就有。\n\n作者提出协作砌筑单元框架：供砖、力受限机械臂、双相机感知、墙体排版程序；转角、洞口、配筋和灌浆仍由砌匠完成。按规范值与已发表测量推得四条可行性结论：导入间隙 6.9 mm 可吸收规范块公差（±2 mm）与已报道单元精度（2.90 mm）；层高累积误差需按批次标定有效块尺寸；规范推得单块质量约 1.2–9.9 kg，落在协作臂常见 12–16 kg 载荷内；有效码率约 70–130 块/时，瓶颈是供砖和墙体填充比例，不是臂速。\n\n作者写明：全文是分析框架，还没有物理样机；后续成功标准包括导入间隙、抓放试验和带就位检测的试点墙。",
    "source_read": "full",
-   "url": "https://kurier.at/chronik/burgenland/osg-bildein-raiding-bungalows-wohnungen-reihenhaeuser/403202943",
-   "source": "Kurier"
+   "url": "https://doi.org/10.68648/ijte-q-2026-49-03-004",
+   "source": "Indian Journal of Technical Education"
+  },
+  {
+   "title": "论文：无砂浆互锁压土砖墙给出缩尺试验相似规则",
+   "category": "研究论文",
+   "score": 72,
+   "for_you": "没有大型反力架也能做 ICEB 墙试验。可按文中步骤用 3D 打印模具压小块，再加配重。",
+   "body_zh": "Indian Journal of Technical Education 第 49 卷第 3 期（2026 年 7–9 月号，Crossref 登记日 11 月 5 日）发表开放获取论文，作者 Vishal Kumar Chaudhary、Sneha Kumari、Sumit Suman，页码 39–48。\n\n全文指出：干砌互锁压土砖墙靠块面摩擦和互锁键受力，不能按连续体材料随便缩尺。作者用因次分析给出规则：模型与原型须匹配块面摩擦系数、键强度与摩擦抗力之比、竖向荷载与块强度之比。用同种土可自动匹配摩擦；模型自重不足用外加配重补，且在工作应力范围内摩擦近似常数，配重不破坏摩擦相似。尺寸效应用实测修正系数，经五步标定；模型块可用 3D 打印模具压制。\n\n文中四分之一缩尺算例基于已发表足尺数据：需加约 37 kg 配重，侧向试验力约为原型的十六分之一，土颗粒过 1 mm 筛，模具平整度目标 0.1 mm。文章是方法框架，尚未做新的物理验证试验。",
+   "source_read": "full",
+   "url": "https://doi.org/10.68648/ijte-q-2026-49-03-005",
+   "source": "Indian Journal of Technical Education"
+  },
+  {
+   "title": "论文：喀麦隆 RC 纤维增强压土砖抗压达 14.87 MPa",
+   "category": "研究论文",
+   "score": 69,
+   "for_you": "本地植物纤维加少量水泥，压土砖强度可明显抬高。可对照试你的纤维种类和掺量上限。",
+   "body_zh": "Journal of Materials Science and Chemical Engineering 2026 年 11 月 5 日发表开放获取论文。作者 Sombga、Bidoung、Meva’a 来自喀麦隆雅温得国立高等工程学校和本地材料促进局。他们用雅温得附近三处红土（Mbankomo、Nsimalen、Messamendongo）做压土砖，水泥掺量 4%、6%、8%，并掺入当地植物纤维 Rhecktophyllum camerunense，掺量按干土质量 0%、0.5%、1%、1.5%。\n\n结果显示：纤维会降低表观密度，但相对无纤维对照显著提高抗压和抗折；在 81 组与同红土、同水泥、同龄期对照的比较里，Dunnett 检验均 p < 0.001。最优配比是 Messamendongo 红土 + 水泥 8% + 纤维 1%，养护 28 天，抗压强度 14.87±0.12 MPa（n=5），对照为 6.09±0.18 MPa。纤维超过 1% 会出现结团堵塞，力学下降；纤维亲水，还会提高初期吸水率。\n\n原文把纤维切到约 20–30 mm，成型含水率约 15%。文章是实验室小试件结果，没有给出墙体或耐久性现场数据。",
+   "source_read": "full",
+   "url": "https://doi.org/10.4236/msce.2026.1411001",
+   "source": "Journal of Materials Science and Chemical Engineering"
+  },
+  {
+   "title": "越南罗罗柴村拟分区保护传统夯土民居",
+   "category": "遗产保护",
+   "score": 67,
+   "for_you": "旅游热点会催生仿夯土混凝土房。做真生土产品时，要把可住性和鉴别标准一起讲清楚。",
+   "body_zh": "Vietnam.vn 转发《Tuổi Trẻ》2026 年 11 月 5 日报道：罗罗柴村（Lo Lo Chai，宣光省龙住乡）在成为世界最佳旅游村后，游客增多，钢筋混凝土结构、外墙刷土色、阴阳瓦屋顶的仿夯土房沿坡地增多，与传统夯土民居挤在一起。\n\n龙住乡人民委员会说，获评时村里传统风貌房屋约 40 栋；到发稿时 153 栋房子里有 138 栋属传统风貌，其中部分是用新材料、外形仿夯土。乡主席 Trần Đức Chung 说，已把罗罗柴核心区（分区 2）1/500 详规报上级征求意见，拟分成核心保护区、周边区和发展区；并要求相关部门制定夯土民居、景观和文化空间的管理细则。报道还写：传统夯土房窗小、采光差、易潮、二楼楼梯窄、卧室常无独立卫浴，许多游客拍照后住到村外。\n\n原文没有给出夯土墙厚度、土料配比或修缮技术标准，重点是保护与旅游开发如何分地、分利益。",
+   "source_read": "full",
+   "url": "https://www.vietnam.vn/en/lang-du-lich-tot-nhat-the-gioi-lo-lo-chai-quy-hoach-cu-the-de-bao-ton-khong-kim-ham-phat-trien",
+   "source": "Vietnam.vn"
+  },
+  {
+   "title": "法国热尔省开生土产业链交流会并映纪录片",
+   "category": "活动与赛事",
+   "score": 66,
+   "for_you": "法国地方在把生土做成产业链：培训、土源、公共订单一起抓。可对照你做区域渠道和政采材料目录。",
+   "body_zh": "《La Dépêche du Midi》2026 年 11 月 4 日预告：11 月 5 日 16:00–19:30，在热尔省卫生职业培训学院 IFMS 开生土产业链交流半日，之后 20:30 在 Ciné 32 放映纪录片《ArchiteXtures de terre》。\n\n主办是 Pays d’Auch 的 PETR、Astarac 区域自然公园预建混合公团、热尔省 CAUE 和手工业行会。对象包括工匠、建筑师、业主、专业人士、民选代表和培训机构。16 时先做热尔省生土产业链现状与前景，并介绍法国其他地区做法，以及 TRIBU 事务所正在做的研究；17 时起三个工作坊，分别谈扩大培训供给、方便获取土资源、推动公共与私人订单。\n\n影片讲 Astarac、Magnoac 以及马里、摩洛哥等地生土实践；映后有导演 Jacky Tujague 和遗产建筑师 Étienne Lavigne 参加讨论。活动承接 2024 年 6 月首次协商会，此前已编过生态建造专业人员名录。",
+   "source_read": "full",
+   "url": "https://www.ladepeche.fr/2026/11/04/developper-la-filiere-terre-crue-et-lecoconstruction-dans-le-territoire-une-demi-journee-dechanges-est-organisee-ce-jeudi-5-novembre-a-lifms-dauch-et-13635873.php",
+   "source": "ladepeche.fr"
   }
  ],
  "briefs": [
   {
-   "title": "比利时 Bento 事务所获年度青年建筑师，谈生土受法规限制",
-   "url": "https://www.lecho.be/sabato/architecture/comment-penser-l-architecture-dans-un-monde-aux-ressources-finies-le-credo-du-bureau-bento/10696953.html"
-  },
-  {
-   "title": "夯土墙外粘麻石灰保温，抗侧力不降",
-   "url": "https://www.sciencedirect.com/science/article/pii/S2590123026049960"
-  },
-  {
-   "title": "This Cob House 视频：泥团墙、草泥墙、麻石灰怎么选",
-   "url": "https://www.youtube.com/watch?v=J38K1CU9JV8"
-  },
-  {
-   "title": "阿尔及利亚与沙特拟在生土建筑修复上合作",
-   "url": "https://news.radioalgerie.dz/fr/node/98202"
+   "title": "埃及布托遗址发现约 2600 年生土砖大建筑",
+   "url": "https://www.vietnam.vn/fr/phat-hien-cong-trinh-co-dai-khong-lo-bi-chon-vui-suot-2-600-nam-tai-ai-cap"
   }
  ]
 }

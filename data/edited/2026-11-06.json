@@ -1,0 +1,353 @@
+{
+  "date": "2026-11-06",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-06T09:14:55+08:00",
+  "lead": "今天五条精选、一条简讯。喀麦隆植物纤维加水泥压土砖抗压可到约 15 MPa；印度两篇论文分别给出互锁压土砖墙缩尺试验规则，和协作机器人砌筑可行性；法国热尔省开生土产业链会；越南罗罗柴村要划保护区保夯土民居。",
+  "actions": [
+    "读 Chaudhary 互锁压土砖缩尺规则，按四分之一缩尺补实验室墙体试验。",
+    "对照喀麦隆 RC 纤维 1%+水泥 8% 配比，试本地纤维替代效果。",
+    "跟进法国热尔省 TRIBU 生土产业链研究报告和 2027 行动计划。"
+  ],
+  "items": [
+    {
+      "id": "71f0562fccc9",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 6,
+        "nov": 7,
+        "cred": 8,
+        "reson": 9,
+        "act": 5
+      },
+      "score": 69,
+      "title_zh": "论文：喀麦隆 RC 纤维增强压土砖抗压达 14.87 MPa",
+      "summary_zh": "雅温得三地红土加水泥 4%–8%，掺 Rhecktophyllum camerunense 纤维 0%–1.5%。最优：Messamendongo 红土、水泥 8%、纤维 1%、养护 28 天，抗压 14.87±0.12 MPa，比无纤维对照高 144%。纤维超 1% 结团降强。",
+      "for_you": "本地植物纤维加少量水泥，压土砖强度可明显抬高。可对照试你的纤维种类和掺量上限。",
+      "url_override": "https://doi.org/10.4236/msce.2026.1411001",
+      "source_read": "full",
+      "body_zh": "Journal of Materials Science and Chemical Engineering 2026 年 11 月 5 日发表开放获取论文。作者 Sombga、Bidoung、Meva’a 来自喀麦隆雅温得国立高等工程学校和本地材料促进局。他们用雅温得附近三处红土（Mbankomo、Nsimalen、Messamendongo）做压土砖，水泥掺量 4%、6%、8%，并掺入当地植物纤维 Rhecktophyllum camerunense，掺量按干土质量 0%、0.5%、1%、1.5%。\n\n结果显示：纤维会降低表观密度，但相对无纤维对照显著提高抗压和抗折；在 81 组与同红土、同水泥、同龄期对照的比较里，Dunnett 检验均 p < 0.001。最优配比是 Messamendongo 红土 + 水泥 8% + 纤维 1%，养护 28 天，抗压强度 14.87±0.12 MPa（n=5），对照为 6.09±0.18 MPa。纤维超过 1% 会出现结团堵塞，力学下降；纤维亲水，还会提高初期吸水率。\n\n原文把纤维切到约 20–30 mm，成型含水率约 15%。文章是实验室小试件结果，没有给出墙体或耐久性现场数据。",
+      "key_facts": [
+        {
+          "k": "最优抗压",
+          "v": "14.87±0.12 MPa（28 天，n=5）"
+        },
+        {
+          "k": "最优配比",
+          "v": "Messamendongo 红土 + 水泥 8% + 纤维 1%"
+        },
+        {
+          "k": "对照强度",
+          "v": "同配比无纤维 6.09±0.18 MPa"
+        },
+        {
+          "k": "纤维上限",
+          "v": "超过 1% 结团，强度下降"
+        },
+        {
+          "k": "期刊",
+          "v": "J. Mater. Sci. Chem. Eng., CC BY 4.0"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "maximum compressive strength of 14.87 ± 0.12 MPa",
+          "lang": "en"
+        },
+        {
+          "text": "Beyond 1% fiber content, a saturation and clogging effect",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "72d2c33d5b6a",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 6,
+        "nov": 8,
+        "cred": 8,
+        "reson": 8,
+        "act": 6
+      },
+      "score": 72,
+      "title_zh": "论文：无砂浆互锁压土砖墙给出缩尺试验相似规则",
+      "summary_zh": "Chaudhary 等用因次分析，给干砌互锁压土砖（ICEB）墙提出缩尺规则。模型与原型要对齐三个比值：块面摩擦、键强与摩擦比、竖向荷载与块强比。四分之一缩尺算例只需加 37 kg 配重，侧向力约缩为十六分之一。",
+      "for_you": "没有大型反力架也能做 ICEB 墙试验。可按文中步骤用 3D 打印模具压小块，再加配重。",
+      "url_override": "https://doi.org/10.68648/ijte-q-2026-49-03-005",
+      "source_read": "full",
+      "body_zh": "Indian Journal of Technical Education 第 49 卷第 3 期（2026 年 7–9 月号，Crossref 登记日 11 月 5 日）发表开放获取论文，作者 Vishal Kumar Chaudhary、Sneha Kumari、Sumit Suman，页码 39–48。\n\n全文指出：干砌互锁压土砖墙靠块面摩擦和互锁键受力，不能按连续体材料随便缩尺。作者用因次分析给出规则：模型与原型须匹配块面摩擦系数、键强度与摩擦抗力之比、竖向荷载与块强度之比。用同种土可自动匹配摩擦；模型自重不足用外加配重补，且在工作应力范围内摩擦近似常数，配重不破坏摩擦相似。尺寸效应用实测修正系数，经五步标定；模型块可用 3D 打印模具压制。\n\n文中四分之一缩尺算例基于已发表足尺数据：需加约 37 kg 配重，侧向试验力约为原型的十六分之一，土颗粒过 1 mm 筛，模具平整度目标 0.1 mm。文章是方法框架，尚未做新的物理验证试验。",
+      "key_facts": [
+        {
+          "k": "关键比值",
+          "v": "摩擦、键强/摩擦、竖载/块强"
+        },
+        {
+          "k": "缩尺算例",
+          "v": "1/4 缩尺，加配重约 37 kg"
+        },
+        {
+          "k": "侧向力",
+          "v": "约为原型的 1/16"
+        },
+        {
+          "k": "模具要求",
+          "v": "平整度目标 0.1 mm"
+        },
+        {
+          "k": "页码",
+          "v": "IJTE 49(3): 39–48"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "A quarter-scale worked example ... requires only a 37 kg added weight",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "f337ca4e1735",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 7,
+        "nov": 8,
+        "cred": 7,
+        "reson": 8,
+        "act": 6
+      },
+      "score": 73,
+      "title_zh": "论文：协作机器人砌筑互锁压土砖的可行性框架",
+      "summary_zh": "Chaudhary 与 Prajapati 提出人机协作砌 ICEB 单元：供砖、力限机械臂、双相机感知和排砖程序；砌匠仍负责转角、洞口、配筋和灌浆。按规范公差推算导入间隙 6.9 mm，码率约 70–130 块/时。文章是分析框架，尚无样机验证。",
+      "for_you": "无砂浆互锁块更适合机器人铺砌。做压土砖产品时可把尺寸公差和互锁几何按自动化砌筑来设计。",
+      "url_override": "https://doi.org/10.68648/ijte-q-2026-49-03-004",
+      "source_read": "full",
+      "body_zh": "同刊同期另一篇开放获取论文，作者 Vishal Kumar Chaudhary、Hemant Kumar Prajapati，页码 30–38。文章认为：砌筑机器人常要高成本解决的无砂浆组装、自对中互锁、尺寸均匀和单块质量低，在印度标准已规范的互锁压土砖上本来就有。\n\n作者提出协作砌筑单元框架：供砖、力受限机械臂、双相机感知、墙体排版程序；转角、洞口、配筋和灌浆仍由砌匠完成。按规范值与已发表测量推得四条可行性结论：导入间隙 6.9 mm 可吸收规范块公差（±2 mm）与已报道单元精度（2.90 mm）；层高累积误差需按批次标定有效块尺寸；规范推得单块质量约 1.2–9.9 kg，落在协作臂常见 12–16 kg 载荷内；有效码率约 70–130 块/时，瓶颈是供砖和墙体填充比例，不是臂速。\n\n作者写明：全文是分析框架，还没有物理样机；后续成功标准包括导入间隙、抓放试验和带就位检测的试点墙。",
+      "key_facts": [
+        {
+          "k": "导入间隙",
+          "v": "6.9 mm（含公差与精度）"
+        },
+        {
+          "k": "块质量",
+          "v": "规范推算约 1.2–9.9 kg"
+        },
+        {
+          "k": "码率",
+          "v": "约 70–130 块/小时"
+        },
+        {
+          "k": "状态",
+          "v": "分析框架，待物理验证"
+        },
+        {
+          "k": "页码",
+          "v": "IJTE 49(3): 30–38"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "a lead-in clearance of 6.9 mm absorbs the codal block tolerance",
+          "lang": "en"
+        },
+        {
+          "text": "The framework is analytical and awaits physical validation",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "d51f6d76a28a",
+      "decision": "pick",
+      "category": "event",
+      "scores": {
+        "sig": 6,
+        "nov": 5,
+        "cred": 8,
+        "reson": 9,
+        "act": 5
+      },
+      "score": 66,
+      "title_zh": "法国热尔省开生土产业链交流会并映纪录片",
+      "summary_zh": "2026 年 11 月 5 日法国热尔省 Auch 的 IFMS 办生土产业链半日交流。主办含 PETR、Astarac 公园预建机构、CAUE 和手工业行会。议程有 TRIBU 在研报告与培训、土源、采购工作坊；晚间放映生土纪录片。",
+      "for_you": "法国地方在把生土做成产业链：培训、土源、公共订单一起抓。可对照你做区域渠道和政采材料目录。",
+      "url_override": "https://www.ladepeche.fr/2026/11/04/developper-la-filiere-terre-crue-et-lecoconstruction-dans-le-territoire-une-demi-journee-dechanges-est-organisee-ce-jeudi-5-novembre-a-lifms-dauch-et-13635873.php",
+      "source_read": "full",
+      "body_zh": "《La Dépêche du Midi》2026 年 11 月 4 日预告：11 月 5 日 16:00–19:30，在热尔省卫生职业培训学院 IFMS 开生土产业链交流半日，之后 20:30 在 Ciné 32 放映纪录片《ArchiteXtures de terre》。\n\n主办是 Pays d’Auch 的 PETR、Astarac 区域自然公园预建混合公团、热尔省 CAUE 和手工业行会。对象包括工匠、建筑师、业主、专业人士、民选代表和培训机构。16 时先做热尔省生土产业链现状与前景，并介绍法国其他地区做法，以及 TRIBU 事务所正在做的研究；17 时起三个工作坊，分别谈扩大培训供给、方便获取土资源、推动公共与私人订单。\n\n影片讲 Astarac、Magnoac 以及马里、摩洛哥等地生土实践；映后有导演 Jacky Tujague 和遗产建筑师 Étienne Lavigne 参加讨论。活动承接 2024 年 6 月首次协商会，此前已编过生态建造专业人员名录。",
+      "key_facts": [
+        {
+          "k": "时间",
+          "v": "2026-11-05 16:00 起，Auch"
+        },
+        {
+          "k": "主办",
+          "v": "PETR、PNR 预建、CAUE、CMA"
+        },
+        {
+          "k": "研究",
+          "v": "TRIBU 事务所在研产业链研究"
+        },
+        {
+          "k": "工作坊",
+          "v": "培训、土源、公共/私人订单"
+        },
+        {
+          "k": "晚场",
+          "v": "纪录片 ArchiteXtures de terre"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "développer l'offre de formation, faciliter l'accès à la ressource",
+          "lang": "fr"
+        }
+      ]
+    },
+    {
+      "id": "a6776f1f5b6f",
+      "decision": "pick",
+      "category": "heritage",
+      "scores": {
+        "sig": 7,
+        "nov": 6,
+        "cred": 7,
+        "reson": 8,
+        "act": 4
+      },
+      "score": 67,
+      "title_zh": "越南罗罗柴村拟分区保护传统夯土民居",
+      "summary_zh": "宣光省龙住乡罗罗柴村被评为世界最佳旅游村后，混凝土仿夯土房增多。全村约 153 户中有 138 栋“传统风貌”建筑，含真夯土与仿夯土。乡政府已报核心区 1/500 详规，拟分核心保护区、周边区和发展区，并要定夯土民居管理细则。",
+      "for_you": "旅游热点会催生仿夯土混凝土房。做真生土产品时，要把可住性和鉴别标准一起讲清楚。",
+      "url_override": "https://www.vietnam.vn/en/lang-du-lich-tot-nhat-the-gioi-lo-lo-chai-quy-hoach-cu-the-de-bao-ton-khong-kim-ham-phat-trien",
+      "source_read": "full",
+      "body_zh": "Vietnam.vn 转发《Tuổi Trẻ》2026 年 11 月 5 日报道：罗罗柴村（Lo Lo Chai，宣光省龙住乡）在成为世界最佳旅游村后，游客增多，钢筋混凝土结构、外墙刷土色、阴阳瓦屋顶的仿夯土房沿坡地增多，与传统夯土民居挤在一起。\n\n龙住乡人民委员会说，获评时村里传统风貌房屋约 40 栋；到发稿时 153 栋房子里有 138 栋属传统风貌，其中部分是用新材料、外形仿夯土。乡主席 Trần Đức Chung 说，已把罗罗柴核心区（分区 2）1/500 详规报上级征求意见，拟分成核心保护区、周边区和发展区；并要求相关部门制定夯土民居、景观和文化空间的管理细则。报道还写：传统夯土房窗小、采光差、易潮、二楼楼梯窄、卧室常无独立卫浴，许多游客拍照后住到村外。\n\n原文没有给出夯土墙厚度、土料配比或修缮技术标准，重点是保护与旅游开发如何分地、分利益。",
+      "key_facts": [
+        {
+          "k": "地点",
+          "v": "越南宣光省龙住乡罗罗柴村"
+        },
+        {
+          "k": "风貌房",
+          "v": "153 户中约 138 栋传统风貌"
+        },
+        {
+          "k": "规划",
+          "v": "核心区 1/500 详规已上报"
+        },
+        {
+          "k": "分区",
+          "v": "核心保护、周边、发展三区"
+        },
+        {
+          "k": "问题",
+          "v": "混凝土仿夯土房增多"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Concrete houses mimicking rammed earth walls are springing up",
+          "lang": "en"
+        }
+      ],
+      "merged_ids": [
+        "084aef0fd9e4",
+        "8fb02c731d8a"
+      ]
+    },
+    {
+      "id": "c349af4910df",
+      "decision": "brief",
+      "category": "heritage",
+      "scores": {
+        "sig": 5,
+        "nov": 6,
+        "cred": 6,
+        "reson": 6,
+        "act": 2
+      },
+      "score": 53,
+      "title_zh": "埃及布托遗址发现约 2600 年生土砖大建筑",
+      "summary_zh": "在尼罗河附近的布托（Tell el-Fara'in），团队用卫星雷达和电阻率探测后试掘约 100 平方米，在地下约 3–6 米发现赛斯王朝时期大面积生土砖墙遗存，或为神庙或大型墓葬。",
+      "url_override": "https://www.vietnam.vn/fr/phat-hien-cong-trinh-co-dai-khong-lo-bi-chon-vui-suot-2-600-nam-tai-ai-cap",
+      "source_read": "full"
+    },
+    {
+      "id": "084aef0fd9e4",
+      "decision": "merged",
+      "merged_into": "a6776f1f5b6f"
+    },
+    {
+      "id": "8fb02c731d8a",
+      "decision": "merged",
+      "merged_into": "a6776f1f5b6f"
+    },
+    {
+      "id": "9c0fa4a61e31",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "阿尔及利亚与沙特文化外交，与生土建筑无关"
+    },
+    {
+      "id": "a29339eef200",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Casa Coqueira 为混凝土、玻璃、木，无生土"
+    },
+    {
+      "id": "c183dbc2a031",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "SKROGET 桑拿为回收木材结构，无生土"
+    },
+    {
+      "id": "03b3b4348f20",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "HAO 博物馆用仿土砖和涂料，生土只是背景，无实质信息"
+    },
+    {
+      "id": "95c6414443f1",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "周回顾里沙迦设计中心夯土已在 2026-11-04 期精选"
+    },
+    {
+      "id": "1f6d93663ace",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "ArchDaily 中文版同一周回顾"
+    },
+    {
+      "id": "e2399510d4be",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "ArchDaily 西语版同一周回顾"
+    },
+    {
+      "id": "91c4bfbdc52d",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "ArchDaily 葡语版同一周回顾"
+    },
+    {
+      "id": "faa593be6ba6",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Campus Wattwil 为木结构项目，无生土"
+    },
+    {
+      "id": "8b308983de40",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Maison de l'Environnement 为可拆卸木构，无生土"
+    },
+    {
+      "id": "9ec6459268ba",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Valdadige 小学未见生土做法，Divisare 条目无实质信息"
+    }
+  ]
+}
