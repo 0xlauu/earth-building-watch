@@ -1,0 +1,311 @@
+{
+  "date": "2026-11-07",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-07T09:15:00+08:00",
+  "lead": "四条精选、两条简讯。美国馆 2027 威尼斯双年展策展 Earth Craft，谈夯土与土坯劳动；洛桑社区之家用开挖土夯内墙；交河与嘉峪关夯土遗产推预防性监测。",
+  "actions": [
+    "跟进 2027 威尼斯双年展美国馆 Earth Craft 材料库与工坊征集。",
+    "对照洛桑案例：开挖土夯筑承重内墙 + 石灰大麻外墙的组合做法。"
+  ],
+  "items": [
+    {
+      "id": "53f43e92d4ab",
+      "decision": "pick",
+      "category": "event",
+      "scores": {
+        "sig": 9,
+        "nov": 8,
+        "cred": 8,
+        "reson": 8,
+        "act": 8
+      },
+      "score": 82,
+      "title_zh": "美国馆 2027 威尼斯双年展策展「Earth Craft」",
+      "summary_zh": "美国国务院宣布迈阿密大学建筑学院承办 2027 威尼斯建筑双年展美国馆。Barnes 与 Pivo 策展 Earth Craft，梳理砖、夯土、土坯与砌块的材料与劳动，并设建材库和工坊。会期 2027-05-08 至 11-21。",
+      "for_you": "顶级展会把夯土和土坯放进美国国家馆叙事。可关注材料库征集和工坊，做海外曝光与样品。",
+      "source_read": "full",
+      "body_zh": "Archinect 11 月 6 日报道：美国国务院当天宣布，迈阿密大学建筑学院将代表美国参加 2027 年威尼斯建筑双年展美国馆。建筑师、该校建筑学硕士项目主任 Germane Barnes 任主策展人，建筑史学者、助理教授 Vyta Pivo 合作，推出展览「Earth Craft」。\n\n展览聚焦美国建筑背后的材料、建造传统和常被忽略的劳动，材料包括砖、夯土、土坯和混凝土砌块，并追溯它们从土地到建成环境的路径。Barnes 说，多数被赞美的建筑来自有人挖、塑、烧过的土，却很少有人问是谁做的、懂什么。Pivo 补充：要把砖匠和工匠的土壤、水和火知识，与机器人加工、计算设计放在同一栋楼里。\n\n参展设计师包括 NADAAA 的 Nader Tehrani、CÚRE & PENABAD、院长 Rodolphe el-Khoury、Leah Wulfman 和 Merritt Chase 等。展期内美国馆还将作为生土建造交流枢纽，设自然建材库和动手工坊。主题与总策展人王澍、陆文玉的「Do Architecture」相呼应。第 20 届国际建筑展于 2027 年 5 月 8 日至 11 月 21 日在威尼斯举行。",
+      "key_facts": [
+        {
+          "k": "机构",
+          "v": "迈阿密大学建筑学院承办美国馆"
+        },
+        {
+          "k": "策展",
+          "v": "Germane Barnes + Vyta Pivo"
+        },
+        {
+          "k": "材料",
+          "v": "砖、夯土、土坯、混凝土砌块"
+        },
+        {
+          "k": "活动",
+          "v": "自然建材库与动手工坊"
+        },
+        {
+          "k": "会期",
+          "v": "2027-05-08 至 2027-11-21"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Earth Craft represents the United States through its makers",
+          "lang": "en"
+        },
+        {
+          "text": "materials including brick, rammed earth, adobe",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "0aac9e30faca",
+      "decision": "pick",
+      "category": "project",
+      "scores": {
+        "sig": 8,
+        "nov": 7,
+        "cred": 9,
+        "reson": 9,
+        "act": 6
+      },
+      "score": 78,
+      "title_zh": "洛桑社区之家完工：开挖土夯筑 45 cm 内墙",
+      "summary_zh": "洛桑 Plaines-du-Loup 社区之家由 Joud Beaudoin 设计，2025 年秋交付，造价约 950 万瑞郎。承重内墙 45 cm 夯土（场地开挖土）；木构外墙填石灰大麻 30 cm，外侧再夯 17 cm。顾问含 CRAterre。",
+      "for_you": "公共项目用开挖土做承重夯土内墙，外加石灰大麻。可作城市公共建筑与社宅方案参考。",
+      "url_override": "https://www.espazium.ch/fr/actualites/maitre-yoda-aux-plaines-du-loup",
+      "source_read": "full",
+      "body_zh": "瑞士建筑媒体 Espazium 11 月 6 日刊文，介绍洛桑北部生态街区 Plaines-du-Loup 的社区之家已完工。洛桑市因前期住宅灰能过高，在社区之家平行委托中要求使用地质源与生物源材料。当地年轻事务所 Joud Beaudoin Architectes 中标，材料顾问为 Normal Office 的 Peter Braun 与 CRAterre 的 Julien Hosta。\n\n方案是「四屋合一」：剧场、140 座礼堂、办公、课后托管和四个多功能工坊，由两层通高门厅与食堂连接。内部承重墙为 45 cm 厚夯土，用场地开挖土；外墙为木骨架，内填 30 cm 预制石灰大麻，外侧再现场夯筑 17 cm 石灰大麻，不再另加保温层。土工顾问 Normal Office，夯土施工 ADV Construction（Penthaz），并有伊泽尔夯土匠 Vincent Robin 辅导。交付时间为 2025 年秋，造价约 950 万瑞士法郎。\n\n建筑师 Lorraine Beaudoin 复盘：若重做会先把工地全封闭并用移动吊车，避免夏日暴雨弄湿土料导致停工。文章写明，下一阶段街区未必整栋照搬，但可能局部采用土抹面、石灰大麻立面或土砖墙。",
+      "key_facts": [
+        {
+          "k": "地点",
+          "v": "洛桑 Plaines-du-Loup"
+        },
+        {
+          "k": "夯土墙",
+          "v": "承重内墙厚 45 cm，用开挖土"
+        },
+        {
+          "k": "外墙",
+          "v": "木骨 + 石灰大麻 30+17 cm"
+        },
+        {
+          "k": "造价",
+          "v": "约 950 万瑞士法郎"
+        },
+        {
+          "k": "交付",
+          "v": "2025 年秋"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "murs porteurs en pisé de 45 cm d'épaisseur",
+          "lang": "fr"
+        }
+      ]
+    },
+    {
+      "id": "c443c20af2f7",
+      "decision": "pick",
+      "category": "heritage",
+      "scores": {
+        "sig": 7,
+        "nov": 6,
+        "cred": 8,
+        "reson": 7,
+        "act": 4
+      },
+      "score": 67,
+      "title_zh": "交河故城用监测平台与无人机做预防性保护",
+      "summary_zh": "中新社 11 月 5 日电：交河故城约 37.6 公顷，现存最大最完整生土城市遗址。建环境监测预警平台；无人机巡查一轮约 30–40 分钟。崖体锚杆灌浆并喷涂防风化材料。五期修缮约 1.3 亿元，六期拟 2027 年。",
+      "for_you": "生土遗址监测、锚杆灌浆和防风化喷涂是遗产刚需。有相关材料或监测方案可跟进吐鲁番后续标段。",
+      "url_override": "https://www.chinanews.com.cn/sh/2026/11-05/10726917.shtml",
+      "source_read": "full",
+      "body_zh": "中新社新疆吐鲁番 11 月 5 日电。交河故城位于吐鲁番盆地北缘，总面积约 37.6 公顷，是世界上现存最大、最完整的生土建筑城市遗址。吐鲁番市文物局交河故城文物管理所所长王建东说，生土遗址比砖石更脆弱；当地干燥炎热有利于保存，但自然因素仍会造成损害。\n\n保护工作正从抢救性转向预防性。遗址已建环境监测预警平台，实时监测风力、降雨等，并监测部分单体裂隙、及时预警。遗产区范围大，人工巡查一轮近两小时；引入无人机后，飞行 30 至 40 分钟即可完成一轮，空中视角更直观。\n\n本体保护方面：崖体加固打入十余米长锚杆再灌浆；生土表面喷涂防风化材料以抗风蚀。交河故城已累计实施五期修缮加固，总投资约 1.3 亿元人民币，六期项目计划于 2027 年实施。",
+      "key_facts": [
+        {
+          "k": "面积",
+          "v": "约 37.6 公顷"
+        },
+        {
+          "k": "巡查",
+          "v": "无人机一轮 30–40 分钟"
+        },
+        {
+          "k": "加固",
+          "v": "十余米锚杆 + 灌浆"
+        },
+        {
+          "k": "投资",
+          "v": "五期约 1.3 亿元"
+        },
+        {
+          "k": "下期",
+          "v": "六期拟 2027 年实施"
+        }
+      ]
+    },
+    {
+      "id": "bde9b81851ce",
+      "decision": "pick",
+      "category": "heritage",
+      "scores": {
+        "sig": 7,
+        "nov": 6,
+        "cred": 7,
+        "reson": 7,
+        "act": 5
+      },
+      "score": 66,
+      "title_zh": "嘉峪关夯土长城建监测闭环转向预防性保护",
+      "summary_zh": "甘肃日报 11 月 6 日报道：嘉峪关长城研究院用无人机巡查夯土墙裂缝、风蚀凹槽与冲沟，并结合三维激光扫描、多光谱成像和建筑信息模型建病害监测预警系统。保护从「坏了再修」转为「风险监测—综合预报—提前预警—即时处理」闭环，监测报告每年上传国家总平台。",
+      "for_you": "夯土长城预防性监测已成标准动作。做监测设备、防风化材料或修缮砂浆可对接嘉峪关示范区。",
+      "url_override": "https://gansu.gscn.com.cn/system/2026/11/06/013579105.shtml",
+      "source_read": "full",
+      "body_zh": "新甘肃·甘肃日报 11 月 6 日报道。嘉峪关长城研究院文物保护中心主任张斌日常步行巡查关城周边长城，今年增加无人机：夯土墙体的裂缝、风蚀凹槽、坡面冲沟和周边扰动痕迹可在屏幕上核对，也能近距离拍崖壁墩台，补人工盲区。航拍影像归档并与往期比对，用于发现细微形变、植被根系侵蚀和风沙堆积变化。\n\n依托三维激光扫描、无人机航拍建模等，历史文化信息得以数字化保存；并用多光谱成像、倾斜摄影、建筑信息模型搭建病害监测预警系统。文博馆员路孝伟说，过去十几年是抢救性保护，现在要在病害出现前预判风险。\n\n核心机制是「风险监测—综合预报—提前预警—即时处理」闭环，并制定监测管理办法，每年编制监测报告上传中国文化遗产研究院全国监测总平台。文章同时介绍夜游、文旅融合等内容，与夯土本体保护并列。",
+      "key_facts": [
+        {
+          "k": "手段",
+          "v": "无人机 + 三维扫描 + 多光谱"
+        },
+        {
+          "k": "机制",
+          "v": "监测—预报—预警—处理闭环"
+        },
+        {
+          "k": "上报",
+          "v": "年报上传全国监测总平台"
+        },
+        {
+          "k": "对象",
+          "v": "嘉峪关夯土长城墙体"
+        }
+      ]
+    },
+    {
+      "id": "919b4816398a",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 5,
+        "cred": 8,
+        "reson": 7,
+        "act": 3
+      },
+      "score": 56,
+      "title_zh": "论文：波兰 Tworkowice 1950 年代夯土农舍调查",
+      "summary_zh": "2022 年论文（Crossref 新登记）。Bartoszewicz 等在波兰 Tworkowice 调查 1950 年代夯土农舍。脚本未能打开 OA PDF。",
+      "url_override": "https://doi.org/10.24427/aea-2022-vol14-no4-01",
+      "source_read": "abstract"
+    },
+    {
+      "id": "a10e3861357a",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 4,
+        "cred": 8,
+        "reson": 7,
+        "act": 3
+      },
+      "score": 53,
+      "title_zh": "论文：波兰 Sejny 地区生土乡土建筑调查",
+      "summary_zh": "2019 年论文（Crossref 新登记）。Boguska 等在波兰 Sejny 记录数十栋黏土掺秸秆农舍。脚本未能打开 OA PDF。",
+      "url_override": "https://doi.org/10.24427/aea-2019-vol11-no2-04",
+      "source_read": "abstract"
+    },
+    {
+      "id": "269409d3e7fd",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "ClayTec YouTube #shorts，莱比锡 denkmal 展台品牌花絮"
+    },
+    {
+      "id": "fd47863ed759",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Divisare 项目页 Larsen，未见生土内容"
+    },
+    {
+      "id": "0444e8db7dcb",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Divisare Studio Weave 公园办公，未见生土"
+    },
+    {
+      "id": "84589ba168d1",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Divisare BARDO Cabanon，未见生土"
+    },
+    {
+      "id": "53e140cbd4b4",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Divisare CN10 CASA RC，未见生土"
+    },
+    {
+      "id": "86a7e1221a45",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Divisare INOUT Nuovo Cam.Polo，未见生土"
+    },
+    {
+      "id": "32d6b41f2d82",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "原文 2026-05-11，SIACOT 已于 5 月召开，超过 30 天"
+    },
+    {
+      "id": "710e95698dc7",
+      "decision": "drop",
+      "drop_reason": "unverified",
+      "note": "Ouest-France 付费墙，可见段落未写生土；无法核实"
+    },
+    {
+      "id": "63de110a9a5f",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Nokha 获奖项目为钢筋混凝土+砂岩，earthen berm 仅景观覆土，生土只是背景"
+    },
+    {
+      "id": "603f4bb37237",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "Peaches 转载 The Better India 2023-02 旧文 Wawar 瓶子房"
+    },
+    {
+      "id": "6928f56af455",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Zumthor Beyeler 扩建为石灰石夯实混凝土，非生土"
+    },
+    {
+      "id": "9a8ebaec30f6",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Preta Maria 餐厅软文，夯土仅与竹石并列一句，无实质工艺信息"
+    },
+    {
+      "id": "d6cbf6c91ece",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Chiemgau 客栈改造仅一句 Lehmputz，生土只是背景"
+    },
+    {
+      "id": "70bedee7a419",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "纸浆+生土艺术装置，非建筑"
+    },
+    {
+      "id": "60a685244007",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "印度河文明 Mehrgarh 考古科普，无当代生土实质信息"
+    }
+  ]
+}
