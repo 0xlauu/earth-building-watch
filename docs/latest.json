@@ -1,69 +1,55 @@
 {
- "date": "2026-11-07",
- "lead": "四条精选、两条简讯。美国馆 2027 威尼斯双年展策展 Earth Craft，谈夯土与土坯劳动；洛桑社区之家用开挖土夯内墙；交河与嘉峪关夯土遗产推预防性监测。",
+ "date": "2026-11-08",
+ "lead": "三条精选、一条简讯。法国拉莫尔滨海镇多功能厅用当地生土筑草泥墙；德国naturbo泥板用于旧监狱内保温；草泥墙平面加载试验装置论文刊出。",
  "actions": [
-  "跟进 2027 威尼斯双年展美国馆 Earth Craft 材料库与工坊征集。",
-  "对照洛桑案例：开挖土夯筑承重内墙 + 石灰大麻外墙的组合做法。"
+  "对照拉莫尔：场地土承重草泥墙，配合轻质土和秸秆保温。",
+  "把 naturbo 泥板规格交给刘泥匠，对照抹面和旧改产品。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-07.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-08.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W45.html",
  "counts": {
-  "pick": 4,
-  "brief": 2,
-  "drop": 15,
+  "pick": 3,
+  "brief": 1,
+  "drop": 1,
   "merged": 0
  },
  "picks": [
   {
-   "title": "美国馆 2027 威尼斯双年展策展「Earth Craft」",
-   "category": "活动与赛事",
-   "score": 82,
-   "for_you": "顶级展会把夯土和土坯放进美国国家馆叙事。可关注材料库征集和工坊，做海外曝光与样品。",
-   "body_zh": "Archinect 11 月 6 日报道：美国国务院当天宣布，迈阿密大学建筑学院将代表美国参加 2027 年威尼斯建筑双年展美国馆。建筑师、该校建筑学硕士项目主任 Germane Barnes 任主策展人，建筑史学者、助理教授 Vyta Pivo 合作，推出展览「Earth Craft」。\n\n展览聚焦美国建筑背后的材料、建造传统和常被忽略的劳动，材料包括砖、夯土、土坯和混凝土砌块，并追溯它们从土地到建成环境的路径。Barnes 说，多数被赞美的建筑来自有人挖、塑、烧过的土，却很少有人问是谁做的、懂什么。Pivo 补充：要把砖匠和工匠的土壤、水和火知识，与机器人加工、计算设计放在同一栋楼里。\n\n参展设计师包括 NADAAA 的 Nader Tehrani、CÚRE & PENABAD、院长 Rodolphe el-Khoury、Leah Wulfman 和 Merritt Chase 等。展期内美国馆还将作为生土建造交流枢纽，设自然建材库和动手工坊。主题与总策展人王澍、陆文玉的「Do Architecture」相呼应。第 20 届国际建筑展于 2027 年 5 月 8 日至 11 月 21 日在威尼斯举行。",
-   "source_read": "full",
-   "url": "https://archinect.com/news/article/150573429/germane-barnes-and-vyta-pivo-to-curate-earth-craft-u-s-pavilion-at-the-2027-venice-architecture-biennale",
-   "source": "国际建筑媒体（全站，只收生土关键词） · Archinect News"
-  },
-  {
-   "title": "洛桑社区之家完工：开挖土夯筑 45 cm 内墙",
+   "title": "法国拉莫尔滨海镇多功能厅将筑当地生土草泥墙",
    "category": "项目案例",
-   "score": 78,
-   "for_you": "公共项目用开挖土做承重夯土内墙，外加石灰大麻。可作城市公共建筑与社宅方案参考。",
-   "body_zh": "瑞士建筑媒体 Espazium 11 月 6 日刊文，介绍洛桑北部生态街区 Plaines-du-Loup 的社区之家已完工。洛桑市因前期住宅灰能过高，在社区之家平行委托中要求使用地质源与生物源材料。当地年轻事务所 Joud Beaudoin Architectes 中标，材料顾问为 Normal Office 的 Peter Braun 与 CRAterre 的 Julien Hosta。\n\n方案是「四屋合一」：剧场、140 座礼堂、办公、课后托管和四个多功能工坊，由两层通高门厅与食堂连接。内部承重墙为 45 cm 厚夯土，用场地开挖土；外墙为木骨架，内填 30 cm 预制石灰大麻，外侧再现场夯筑 17 cm 石灰大麻，不再另加保温层。土工顾问 Normal Office，夯土施工 ADV Construction（Penthaz），并有伊泽尔夯土匠 Vincent Robin 辅导。交付时间为 2025 年秋，造价约 950 万瑞士法郎。\n\n建筑师 Lorraine Beaudoin 复盘：若重做会先把工地全封闭并用移动吊车，避免夏日暴雨弄湿土料导致停工。文章写明，下一阶段街区未必整栋照搬，但可能局部采用土抹面、石灰大麻立面或土砖墙。",
+   "score": 81,
+   "for_you": "市政体育建筑用场地土做承重草泥墙，并配轻质土和秸秆保温。可作公共项目做法参考。",
+   "body_zh": "法国《西部法兰西报》11月7日报道，拉莫尔滨海镇（Larmor-Plage）Ar Menez与An Arvor体育枢纽继续推进。网球馆已经开工，综合体育馆预计下一学年投入使用，多功能厅也开始动工。该厅将设双武术道场、舞蹈室、体操器械区和带吧台的门厅，以及储藏与更衣室，总面积1091平方米，位置在现有停车场和一块足球场上。工程总造价456.6439万欧元，其中市政府承担442.0439万欧元，省里补贴15.7万欧元。预定2028年春季交付。\n\n报道写明，项目突出木材，并以降碳和传统工艺为目标：木骨架与木屋架、生物基保温材料，以及生土墙。市政府官网补充：墙体采用当地生土，按传统草泥墙（bauge）做法一层层堆垒升高；木骨架与屋架保持原木表面。施工于2026年11月启动。\n\n建筑师事务所MA Architectes的项目页写明：承重生土用场地开挖土，保温为轻质土和秸秆，另有生物质锅炉供热。该页给出的使用面积为1038平方米，未税造价265.8万欧元，与市政府公布的含税总额口径不同。",
    "source_read": "full",
-   "url": "https://www.espazium.ch/fr/actualites/maitre-yoda-aux-plaines-du-loup",
-   "source": "Espazium"
+   "url": "https://www.ouest-france.fr/bretagne/larmor-plage-56260/larmor-plage-la-nouvelle-salle-devrait-etre-operationnelle-au-printemps-2028-7558ec3b-af8e-4065-9420-9bb0099f6e53",
+   "source": "Ouest-France"
   },
   {
-   "title": "交河故城用监测平台与无人机做预防性保护",
-   "category": "遗产保护",
-   "score": 67,
-   "for_you": "生土遗址监测、锚杆灌浆和防风化喷涂是遗产刚需。有相关材料或监测方案可跟进吐鲁番后续标段。",
-   "body_zh": "中新社新疆吐鲁番 11 月 5 日电。交河故城位于吐鲁番盆地北缘，总面积约 37.6 公顷，是世界上现存最大、最完整的生土建筑城市遗址。吐鲁番市文物局交河故城文物管理所所长王建东说，生土遗址比砖石更脆弱；当地干燥炎热有利于保存，但自然因素仍会造成损害。\n\n保护工作正从抢救性转向预防性。遗址已建环境监测预警平台，实时监测风力、降雨等，并监测部分单体裂隙、及时预警。遗产区范围大，人工巡查一轮近两小时；引入无人机后，飞行 30 至 40 分钟即可完成一轮，空中视角更直观。\n\n本体保护方面：崖体加固打入十余米长锚杆再灌浆；生土表面喷涂防风化材料以抗风蚀。交河故城已累计实施五期修缮加固，总投资约 1.3 亿元人民币，六期项目计划于 2027 年实施。",
+   "title": "naturbo泥板用于德国旧监狱改建的内保温墙暖",
+   "category": "产品与企业",
+   "score": 70,
+   "for_you": "泥板把内保温和墙暖做成一块，住户可先培训再自装。可对照你的抹面和旧改产品。",
+   "body_zh": "PresseBox 11月7日刊出naturbo Lehm GmbH通稿。位于比勒费尔德附近Werther的住房合作社Haus voller Freunde，把原JVA Senne监狱外设改成共居住宅。该石砌建筑建于19世纪，面积约900平方米。2024年前最多关过51名男性；2025年由GmbH购入，现住16人，按Mietshäuser-Syndikat模式运营，目标是让住房长期可负担。\n\n外墙需要做内侧节能改造，同时要更换采暖系统。住户2025年在法兰克福ISH展上看到naturbo的泥板系统：在外墙内侧粘贴保温板，板内同时埋墙暖管。成员Timo Weike说，必须做内保温、又必须换采暖，板里直接带着墙暖对他们最合适。所用板为80毫米木质软纤维，出厂带10毫米泥抹面；板材透汽，直接粘在砌体上，不必再加隔汽层。外墙采暖面积不够时，墙暖延续到内墙。能源顾问Koji Nagai计算热负荷，naturbo负责板的布置。热源是热泵。\n\n2026年6月，住户前往阿尔高Görisried的naturbo工厂参加工作坊，学习裁板、固定、嵌缝和表面泥抹面。之后在Werther的共建日自行安装，采暖接口由暖通公司完成。总经理Michael Weihele称，这正是存量改造加大量自建的组合。通稿写明，截至2026年10月改建仍在进行，部分墙面已经抹完。",
    "source_read": "full",
-   "url": "https://www.chinanews.com.cn/sh/2026/11-05/10726917.shtml",
-   "source": "旅日侨网"
+   "url": "https://eigenheim-magazin.com/vom-gefangnis-zum-haus-voller-freunde/15993/",
+   "source": "PresseBox"
   },
   {
-   "title": "嘉峪关夯土长城建监测闭环转向预防性保护",
-   "category": "遗产保护",
-   "score": 66,
-   "for_you": "夯土长城预防性监测已成标准动作。做监测设备、防风化材料或修缮砂浆可对接嘉峪关示范区。",
-   "body_zh": "新甘肃·甘肃日报 11 月 6 日报道。嘉峪关长城研究院文物保护中心主任张斌日常步行巡查关城周边长城，今年增加无人机：夯土墙体的裂缝、风蚀凹槽、坡面冲沟和周边扰动痕迹可在屏幕上核对，也能近距离拍崖壁墩台，补人工盲区。航拍影像归档并与往期比对，用于发现细微形变、植被根系侵蚀和风沙堆积变化。\n\n依托三维激光扫描、无人机航拍建模等，历史文化信息得以数字化保存；并用多光谱成像、倾斜摄影、建筑信息模型搭建病害监测预警系统。文博馆员路孝伟说，过去十几年是抢救性保护，现在要在病害出现前预判风险。\n\n核心机制是「风险监测—综合预报—提前预警—即时处理」闭环，并制定监测管理办法，每年编制监测报告上传中国文化遗产研究院全国监测总平台。文章同时介绍夜游、文旅融合等内容，与夯土本体保护并列。",
-   "source_read": "full",
-   "url": "https://gansu.gscn.com.cn/system/2026/11/06/013579105.shtml",
-   "source": "中国甘肃网"
+   "title": "论文：草泥墙构件平面内水平加载试验装置",
+   "category": "研究论文",
+   "score": 68,
+   "for_you": "草泥墙侧向水平力试验方法，对你做承重土墙的结构验证有参考价值。",
+   "body_zh": null,
+   "source_read": "snippet",
+   "url": "https://doi.org/10.1016/j.conbuildmat.2026.148748",
+   "source": "Construction and Building Materials"
   }
  ],
  "briefs": [
   {
-   "title": "旧文：波兰夯土农舍，杜松枝做拉筋",
-   "url": "https://doi.org/10.24427/aea-2022-vol14-no4-01"
-  },
-  {
-   "title": "旧文：波兰无模板草泥墙",
-   "url": "https://pbc.biaman.pl/Content/58431/download/"
+   "title": "论文：安普里亚斯希腊罗马时期的生土建造",
+   "url": "https://doi.org/10.1016/j.jasrep.2026.106173"
   }
  ]
 }
