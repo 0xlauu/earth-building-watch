@@ -1,96 +1,90 @@
 {
- "date": "2026-11-11",
- "lead": "威尼斯双年展美国馆2027年将办Earth Craft；摩洛哥展出可拆装生土Tiny Kasbah；压土砖挡墙模拟显示较强地震下直立墙开裂、后倾墙未裂。",
+ "date": "2026-11-12",
+ "lead": "意大利ITER项目用剑麻和大理石粉改生土抹面，两轮老化后收缩与强度仍符合DIN 18947。ACS论文称蝗虫蛋白稳定高岭土，抗压最高2.18兆帕。Rauch 1月办黏土酪素工坊，Claytec 12月9日免费讲生土与秸秆。",
  "actions": [
-  "把抹面论文的土砂比和DIN 18947收缩限交给刘泥匠对照。",
-  "Tiny Kasbah已申请摩洛哥专利，可跟踪其与德国土制品的合作。",
-  "可买《Avec la terre》（Seuil，24.50欧元）作工艺与行业读本。"
+  "把抹面论文的土砂比和DIN 18947结果交给刘泥匠对照。",
+  "Claytec 12月9日在维尔森免费办工坊，可报名。",
+  "Rauch黏土酪素工坊2027年1月14-15日在Nenzing，990欧元不含税。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-11.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-12.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W46.html",
  "counts": {
-  "pick": 5,
-  "brief": 6,
+  "pick": 4,
+  "brief": 7,
   "drop": 7,
-  "merged": 5
+  "merged": 3
  },
  "picks": [
   {
-   "title": "摩洛哥在莱比锡展出可拆装生土Tiny Kasbah",
+   "title": "Rauch团队办黏土酪素抹面工坊，2027年1月14-15日",
    "category": "活动与赛事",
-   "score": 74,
-   "for_you": "可拆装生土体系已申请专利，并点名要找德国土制品伙伴，值得对照产品形态。",
-   "body_zh": "摩洛哥官方通讯社MAP 11月8日电，摩洛哥馆在德国莱比锡Denkmal博览会上展出“Tiny Kasbah”的十分之一模型。该双年展专门面向历史建筑的保护、修复和更新，本届于11月5日至7日举行。\n\n项目发起人之一、国际古迹遗址理事会摩洛哥分会副秘书长Zouhair Bennani对MAP说，模型展示的是一套已向摩洛哥工业和商业产权局提交专利申请的建造体系。它可拆卸、可迁移，并接入物联网。目标是推广摩洛哥生土建造技艺，同时加入新技术。团队由建筑师和建筑学教授组成，希望与德国工业界和机构建立合作，Bennani还提到德国在生产土基产品上的专长。\n\n闭幕日还安排马拉喀什国立建筑学院两场报告：一场讲摩洛哥生土建筑的社会与历史功能，一场讲用生土砂浆修复旧建筑。2024年同一展会上，摩洛哥曾展出足尺城堡并获金奖。",
+   "score": 79,
+   "for_you": "可学地面、墙面和家具的酪素抹面，结业后列入施工名录，并享官方建议价四成折扣。",
+   "body_zh": "马丁·劳赫（Martin Rauch）的公司Lehm Ton Erde于2026年11月3日在施林斯发出通知，2027年1月14日至15日在奥地利嫩青的Walgau Hub举办两日工坊，教用黏土酪素腻子做表面。对象是从事表面装饰的工匠。地址为联邦公路205号，邮编6710。费用990欧元，另加20%增值税。名额限12人。联系人是Sina Grasmück，电话+43 5524 8327 328。\n\n课程包括地面、墙面和家具的用法，基层判断与处理（找平层、木材等），地面底涂，分隔缝、边缘缝和伸缩缝，在已处理好的地面和墙面上做完整工序，以及制作样板和特殊颜色。费用含点心、午餐和饮料，样品箱和材料样，列入黏土酪素施工名录，官方建议售价四成折扣，施工说明和结业证书。工具由主办方提供，也可自带。工坊在库房举办，通知建议穿工作服。\n\n通知印发的报名截止日是2026年1月6日，早于通知日期和课程日期，与2027年1月的课程不符。报名宜向主办方确认。住宿建议为萨泰恩斯的TILL自然汽车旅馆，以及嫩青的Rössle旅馆。",
    "source_read": "full",
-   "url": "https://maroc.ma/en/news/morocco-showcases-innovative-tiny-kasbah-project-germanys-denkmal-fair",
-   "source": "Maroc.ma"
+   "url": "https://www.lehmtonerde.at/workshop-lehmkasein-i-14-15-01-2027/",
+   "source": "Lehm Ton Erde（Martin Rauch）"
   },
   {
-   "title": "论文：压土砖重力挡墙的抗震建模方法",
+   "title": "论文：用昆虫蛋白高通量筛选生土稳定剂",
    "category": "研究论文",
-   "score": 72,
-   "for_you": "抗震区若用压土砖做重力挡墙，可对照这套算法；文中位移和开裂结果不能当设计值。",
-   "body_zh": "FILIATER和蓝色海岸大学的团队用三维有限元简化微观模型分析压土砖重力挡墙，先算静力土压力，再耦合多层非线性土中的波传播来模拟地震。砌块取自法国南部Charleval的生产批次，尺寸80×50×40厘米，水泥约8%，平均抗压强度6.0兆帕。砂浆缝厚10毫米，抗压6.5兆帕。界面参数来自6组双面和10组单面抗剪试验：纯剪强度0.1兆帕，摩擦系数0.9。按欧洲规范6估算的砌体抗压为3.23兆帕，作者注明这些系数尚未针对这类压土砖得到确认。\n\n墙高分别取1.6米（4层）和2.0米（5层）。2米墙加上7千牛/平方米的超载时，顶部位移随地基变软明显增大，A、B、C类地基分别为9.10、24.26和47.71毫米；只靠摩擦的干燥界面下，填土表面最大位移达99.5毫米。按法国规范NF P94-281计入安全系数后，带超载的2米墙解析验算不通过，但黏结界面的数值模型未出现砌块界面破坏。\n\n地震输入为一条3.8赫兹小波和4条意大利基岩记录，峰值加速度约1.92至2.17米/秒²。前4条记录中砌块界面未开裂；加速度最大的那条记录里，直立墙底部开裂并破坏。同样运动下，后倾27度的分段墙保持稳定、界面未裂。作者没有给出通用设计值，也没有研究浸水后配合比改变的影响。",
-   "source_read": "full",
-   "url": "https://www.sciencedirect.com/science/article/pii/S0267726126007189",
-   "source": "Soil Dynamics and Earthquake Engineering"
-  },
-  {
-   "title": "论文：玄武碎砂掺量改变生土抹面砂浆性能",
-   "category": "研究论文",
-   "score": 71,
-   "for_you": "可直接对照你的抹面级配：碎砂能减干缩，但会掉强度，收缩仍可能超DIN 18947。",
-   "body_zh": "IMPACT projects期刊2026年10月8日上网发表Cequinatto、Luiz和Tamura的论文，比较不同玄武碎砂掺量的生土抹面砂浆。巴西没有对应标准，作者采用德国DIN 18947。土与砂的质量比为1:0、1:1、1:2和1:3，用水量按流动度175±5毫米调整，机械和人工拌和都做了。\n\n试件是40毫米×40毫米×160毫米棱柱。先存放7天再脱模，再在25摄氏度、相对湿度38%–42%下养护7天。摘要写：砂越多，湿堆积密度越高、线性干缩越小，但抗折和抗压强度下降。1:0配比强度最高，作者归因于细颗粒更多、基体更密实。\n\n作者认为可用级配稳定来调控砂浆性能，但还要继续优化，才能达到DIN 18947的收缩限值。期刊页面打不开，本期按摘要写。",
+   "score": 77,
+   "for_you": "这是稳定剂筛选方法，还不是可买的产品；摘要称强度增益与提取蛋白质量相关。",
+   "body_zh": "科罗拉多方面的Samuel J. Armistead和Wil V. Srubar III于2026年11月12日在《ACS Sustainable Chemistry & Engineering》在线发表论文。摘要称，这是首次探索用昆虫生物质作为生土材料的生物聚合物稳定剂。为应对组分复杂和配伍量大的问题，作者提出从微观到宏观的试验流程，名为快速提取与粘结评估技术（REBAT），把多孔板和紫外分析结合起来。\n\n摘要称，REBAT发现稳定剂的速度约为传统试错的500倍，约为现有微观到宏观方法的150倍。用REBAT时，蟋蟀、蚕和蝗虫提取物稳定的高岭土强度提高到1.7至2.2倍，最高达2.18兆帕，并与提取蛋白的质量明显相关（R²=0.66）。配套的X射线衍射、红外光谱和zeta电位分析表明，稳定来自蛋白质β折叠在黏土片层之间形成范德华界面作用。在这一框架下，富含β折叠的蝗虫蛋白被作者视为稳定高岭土的优选来源。本文只读到摘要，未核验全文数据。",
    "source_read": "abstract",
-   "url": "https://doi.org/10.59279/impact.v5i3.3297",
-   "source": "IMPACT projects"
+   "url": "https://doi.org/10.1021/acssuschemeng.6c08915",
+   "source": "ACS Sustainable Chemistry &amp; Engineering"
   },
   {
-   "title": "新书综论法国夯土、土坯、柴泥与草泥墙",
-   "category": "行业与市场",
-   "score": 69,
-   "for_you": "可买来作工艺和行业读本，卡片覆盖夯土、土坯、柴泥墙和草泥墙。",
-   "body_zh": "法刊《等待纳多》11月10日刊出Nadia Tazi书评，介绍Geneviève Pruvost、Alain Marcom和Aymone Nicolas合著的《Avec la terre. Construire, habiter, danser》（《与土同在：建造、居住、起舞》）。出版社是Seuil，432页，定价24.50欧元。书评称这是迄今关于法国生土建造最完整的著述，作者分别是社会学家、泥瓦匠兼写作者，以及手工艺人、建筑史学者。\n\n书中附有说明卡片和教学卡牌，讲解夯土、土坯、柴泥墙（torchis）和草泥墙（bauge）的特性和用法。书评转述：法国约15%的建筑是生土；生土可逆、可修补；还写到18–19世纪的François Cointeraux（1740–1830）。评论也谈到行业内部争论使推动受阻，并询问为何这种低碳、可循环的材料仍处边缘。",
+   "title": "论文：剑麻纤维和大理石粉改生土抹面的老化表现",
+   "category": "研究论文",
+   "score": 75,
+   "for_you": "可直接对照你的抹面级配和DIN 18947；文中建议剑麻与水分开后同时加入，以免结团。",
+   "body_zh": "卡塔尼亚大学等地的Azzaro、Albachiara、Lo Faro、Caponetto在ReUso 2026发表ITER项目后续试验，考查掺剑麻纤维和大理石粉的生土抹面在加速老化后的物理力学性能。抹面预定作室内底抹。材料为佛罗里迪亚0至2毫米土、贝尔帕索玄武碎料azolo（0–0.5毫米40%、0.5–1.6毫米30%、1.6–3.15毫米22%、3.15–4毫米8%）、比亚卡维拉的卡拉拉大理石锯屑0至2毫米，以及10至20毫米剑麻。质量比FM10S05为土30%、azolo 59.5%、剑麻0.5%、大理石粉10%、水18%。\n\n先干拌土、碎料和石粉，再把纤维和水分开后同时加入，以免剑麻结团。成型后在模具内养护3天，脱模后再在室温养25天，合计28天。除未老化组C0外，另做一轮和两轮老化，每轮含50个分循环：先30%相对湿度、50摄氏度5小时，再85%相对湿度、20摄氏度7小时。\n\n各组线收缩都明显低于DIN 18947对该配合比的3%上限。容重在一轮老化后进入该标准的2.2级，C0和两轮组落在2.0级。90分钟毛细吸水均未饱和；一轮组吸水系数更高。表面硬度一轮后上升、两轮后回到接近未老化，边缘回弹明显偏低。抗压均超过1.50兆帕，抗折均高于0.70兆帕，达到SII级。作者认为两轮老化未造成显著性能变化，小波动可能来自土料本身不均。",
    "source_read": "full",
-   "url": "https://www.en-attendant-nadeau.fr/2026/11/10/terre-crue-pruvost-marcom-nicolas/",
-   "source": "En attendant Nadeau"
+   "url": "https://doi.org/10.36253/979-12-215-1113-0.41",
+   "source": "ReUso 2026 - New heritage and future strategies. Perspectives on conservation and promotion"
   },
   {
-   "title": "2027威尼斯双年展美国馆将办Earth Craft",
+   "title": "Claytec 12月9日在维尔森免费办生土与秸秆工坊",
    "category": "活动与赛事",
-   "score": 68,
-   "for_you": "国际展把夯土和土坯当作美国建造史的主线，适合做对外传播和时间节点。",
-   "body_zh": "ArchDaily 11月9日报道，第20届威尼斯建筑双年展美国馆将办展览“Earth Craft”，由迈阿密大学建筑学院团队委约并策划。首席策展人是Germane Barnes教授，另一位策展人是建筑史学者、助理教授Vyta Pivo。展览时间是2027年5月8日至11月21日，地点在双年展花园（Giardini）美国馆。\n\n展览要用砖、夯土、土坯和混凝土砌块，讲述把地质物质变成住所的过程，并把目光从标志性建筑转到制砖人、泥瓦匠和生土建造群体。内容覆盖美国西南土坯社区、北美原住民生土地景，以及蒙蒂塞洛、边疆军用砖厂、种植园窑和工业砖镇。公众将通过生土材料库、制作工坊和出版图录来看这些材料史。\n\nPivo把关于土壤、水和热的传承知识转成计算设计，把工艺和机器人制造看成互补。美国馆由国务院教育与文化事务局正式管理，馆舍属古根海姆基金会。双年展总策展人是王澍和陆文宇。",
+   "score": 73,
+   "for_you": "可看Claytec产品与泥抹面、黏土干作业示范，并听秸秆保温的现场经验。",
+   "body_zh": "可持续建造卓越区（ENB）与德国黏土建材商Claytec邀请参加免费工坊，时间是2026年12月9日15:30至19:00，地点在北威州维尔森，地址为Nettetaler Straße 113。项目目标是在该地区推动节约资源、可循环的建造，并把跨行业网络固定下来。报名咨询电话02164-70366-32，邮箱exzellenzregion@landfolge.de。另有专页https://www.exzellenzregion-nachhaltiges-bauen.de/workshop-bauen-mit-lehm-und-stroh/。\n\n主题是用黏土和秸秆建造。内容包括黏土建材的基本性能与用法，生土项目的实践经验和难点，以及秸秆作为生态保温材料和区域产值。15:00开始报到。15:30由土地后续利用专项目的LANDFOLGE Garzweiler和Werner Sobek AG致辞。随后Claytec的Maximilian Breidenbach带领参观工厂，并介绍产品对工匠的好处。Stuck & Akustik Weck的Christopher Waldvogel谈生土施工实践。Stefan Funkenberg示范黏土干作业和面层。ISO-Stroh West的Bernd Losberg谈秸秆建造。18:45起自由交流。\n\n活动主要面向地区工匠、施工企业和建筑设计事务所，已向北威州建筑师商会和建筑工程师商会申报为继续教育。需穿保暖防风衣服和结实鞋。",
    "source_read": "full",
-   "url": "https://www.archdaily.com/1188231/earth-craft-at-the-us-pavilion-will-trace-the-work-of-builders-at-the-2027-venice-architecture-biennale",
-   "source": "ArchDaily 生土标签（英文） · rammed earth"
+   "url": "https://claytec.de/einladung-zum-workshop/",
+   "source": "Claytec"
   }
  ],
  "briefs": [
   {
-   "title": "评论：喜马拉雅泥石厨房难获贷款和规范承认",
-   "url": "https://indianexpress.com/article/opinion/columns/the-mud-kitchen-in-kangra-breathes-with-the-seasons-10955781/"
+   "title": "法国拉兰-特里放映生土纪录片并请导演到场",
+   "url": "https://www.ladepeche.fr/2026/11/11/la-terre-crue-a-lhonneur-au-lalano-13646470.php"
   },
   {
-   "title": "论文：生物聚合物与枣椰纤维用于浇筑生土",
-   "url": "https://doi.org/10.1016/j.conbuildmat.2026.148826"
+   "title": "论文：生土作为活态遗产的技艺延续与再激活",
+   "url": "https://doi.org/10.36253/979-12-215-1113-0.12"
   },
   {
-   "title": "论文：夯土、草砖与通风屋顶的足尺实测",
-   "url": "https://www.sciencedirect.com/science/article/pii/S2214157X26010737"
+   "title": "星巴克越南邦美蜀店用当地夯土做饰面",
+   "url": "https://www.baodaklak.vn/kinh-te/202611/starbucks-vietnam-mang-dau-an-tay-nguyen-vao-khong-gian-cua-hang-tai-buon-ma-thuot-c706d5a/"
   },
   {
-   "title": "沙特通讯社记录卡西姆夯土墙顶的垛口做法",
-   "url": "https://www.spa.gov.sa/fr/N2720610"
+   "title": "HAWK论文：木骨秸秆墙加泥抹面的夏季隔热",
+   "url": "https://www.bayerische-staatszeitung.de/staatszeitung/bauen/detailansicht-bauen/artikel/stroh-als-baustoff.html"
   },
   {
-   "title": "论文：塞内加尔两种红土压土砖的抗压对比",
-   "url": "https://www.ijcrar.com/12-12-2024/Mbaye%20Wade,%20et%20al.pdf"
+   "title": "论文：含甲基纤维素生土材料的水分迁移",
+   "url": "https://doi.org/10.1016/j.clay.2026.108465"
   },
   {
-   "title": "amàco研发土与天然纤维的织物状成型做法",
-   "url": "https://amaco.org/la-terre-comme-textile-recherche-artistique-et-scientifique-autour-des-procedes-de-mise-en-oeuvre-de-la-terre-crue-et-des-fibres-naturelles/"
+   "title": "论文：巴西帕拉奥佩巴庄园的生土木构修复",
+   "url": "https://doi.org/10.36253/979-12-215-1113-0.77"
+  },
+  {
+   "title": "论文：盐渍土能否用于生土砂浆",
+   "url": "https://doi.org/10.1016/j.jobe.2026.117783"
   }
  ]
 }
