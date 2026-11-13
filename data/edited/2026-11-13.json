@@ -1,0 +1,224 @@
+{
+ "date": "2026-11-13",
+ "editor": "Grok Bot",
+ "edited_at": "2026-11-13T09:40:00+08:00",
+ "lead": "德国环境基金会DBU资助魏玛MFPA研发生土泥浆护面，专修被暴雨冲刷的老生土墙，配方将免费公开。2027年威尼斯建筑双年展美国馆定名Earth Craft，主题是制砖人和生土匠人。",
+ "actions": [
+  "关注MFPA魏玛ClayProSur项目，2029年3月结题后会出免费指南，可对照自家外墙泥浆配方。",
+  "2027年5月8日至11月21日威尼斯双年展美国馆有生土材料库和工坊，可排进考察计划。"
+ ],
+ "items": [
+  {
+   "id": "cf698432a3ef",
+   "decision": "pick",
+   "category": "heritage",
+   "scores": {
+    "sig": 7,
+    "nov": 7,
+    "cred": 8,
+    "reson": 9,
+    "act": 6
+   },
+   "score": 75,
+   "title_zh": "DBU资助魏玛MFPA研发生土泥浆护面，防老生土墙被暴雨冲坏",
+   "summary_zh": "德国联邦环境基金会DBU资助魏玛材料研究与检测所MFPA的ClayProSur项目，研发以黏土为主、加植物油或皂类的薄层泥浆，用来加固和保护已风化的老生土外墙。项目从2026年10月到2029年3月，资助额150,273.81欧元。",
+   "for_you": "外墙泥浆护面是生土抹面的直接延伸。将来公开的配方和施工指南，可用来对照自家产品，也指向老房修缮市场。",
+   "url_override": "https://www.mdr.de/wissen/umwelt-klima/lehm-sanierung-100.html",
+   "source_read": "full",
+   "body_zh": "MDR WISSEN于2026年11月12日报道，德国联邦环境基金会DBU资助魏玛材料研究与检测所MFPA开发一种生土外墙保护层。DBU称，仅德国中部就有约20万栋夯土或土块砌筑的实心生土建筑，很多需要修缮，而现有修缮做法费工又费钱。\n\n团队由Carsten Könke教授和Thomas Grützner带领。做法是在风化的生土墙面上刷一层薄泥浆，作为耐磨层，降低表面粗糙度，提高耐磨性和结构稳定性，并减少斜风雨渗入。材料只用黏土类材料，再试加植物油、皂类等生物基添加剂。团队会针对不同基层、损伤类型和损伤程度做多种配方，并在魏玛郊区一座受保护的谷仓和霍恩费尔登图林根露天博物馆的老建筑立面上做实地测试。合作方是魏玛生土施工企业Maxara。\n\n成果将是可上市的泥浆产品和一份免费指南，写明配方、涂刷方法、基层处理和涂层厚度。DBU负责人Constanze Fuhrmann说，泥浆的效果早有研究证明，但市面上几乎没有经过实践检验的标准化保护体系。报道没有给出具体配方或测试数据。",
+   "key_facts": [
+    {
+     "k": "资助方",
+     "v": "德国联邦环境基金会DBU"
+    },
+    {
+     "k": "执行方",
+     "v": "MFPA魏玛，合作方Maxara"
+    },
+    {
+     "k": "周期",
+     "v": "2026年10月至2029年3月"
+    },
+    {
+     "k": "资助额",
+     "v": "150,273.81欧元"
+    },
+    {
+     "k": "存量",
+     "v": "德国中部约20万栋实心生土建筑"
+    },
+    {
+     "k": "试点",
+     "v": "魏玛郊区谷仓、霍恩费尔登露天博物馆"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Wir verwenden neben Lehm weitestgehend biobasierte Zusatzstoffe",
+     "lang": "de"
+    }
+   ]
+  },
+  {
+   "id": "63a0b2d17095",
+   "decision": "pick",
+   "category": "event",
+   "scores": {
+    "sig": 7,
+    "nov": 6,
+    "cred": 8,
+    "reson": 6,
+    "act": 6
+   },
+   "score": 66,
+   "title_zh": "2027威尼斯双年展美国馆定名Earth Craft，聚焦生土与制砖匠人",
+   "summary_zh": "美国国务院选定迈阿密大学建筑学院策划2027年威尼斯建筑双年展美国馆，展览名为Earth Craft，主策展人Germane Barnes。展览讲制砖人、泥瓦匠等工匠的贡献，设生土材料库和制作工坊。双年展2027年5月8日至11月21日举行。",
+   "for_you": "生土将在顶级建筑展上集中亮相，是讲材料和工艺故事的好时机，也可去现场看材料库和工坊。",
+   "source_read": "full",
+   "body_zh": "ARCHITECT杂志2026年11月12日报道，美国国务院选定迈阿密大学建筑学院组织并策划2027年威尼斯建筑双年展美国馆。主策展人是该校副教授Germane Barnes。策展团队还有研究建造劳动和材料史的历史学者Vyta Pivo，以及NADAAA的Nader Tehrani等人。\n\n展览名为Earth Craft，讲制砖人、泥瓦匠等工匠的知识和手艺，以及建材、当地地理和劳动的关系。案例包括美国西南部的土坯传统、原住民生土建造，以及种植园砖窑、军用砖厂和纽约Haverstraw、圣路易斯、阿拉巴马Tuskegee等制砖中心。展览也会讨论传统建造知识和机器人制造、计算设计等新技术的结合。现场设生土材料库和制作工坊，并出版图录。\n\n第20届威尼斯国际建筑展由业余建筑工作室的王澍和陆文宇策展，2027年5月8日至11月21日在威尼斯举行，美国馆位于绿园城堡区。报道没有说明展品清单和工坊的具体安排。",
+   "key_facts": [
+    {
+     "k": "展览名",
+     "v": "Earth Craft"
+    },
+    {
+     "k": "主办",
+     "v": "迈阿密大学建筑学院，美国国务院选定"
+    },
+    {
+     "k": "主策展人",
+     "v": "Germane Barnes"
+    },
+    {
+     "k": "时间",
+     "v": "2027年5月8日至11月21日"
+    },
+    {
+     "k": "总策展",
+     "v": "王澍、陆文宇"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Earth Craft represents the United States through its makers",
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "3e47b3dd009b",
+   "decision": "brief",
+   "category": "market",
+   "scores": {
+    "sig": 4,
+    "nov": 4,
+    "cred": 6,
+    "reson": 6,
+    "act": 3
+   },
+   "score": 49,
+   "title_zh": "ARCHITECT专栏：生土是有待复兴的老技术",
+   "summary_zh": "Blaine Brownell在ARCHITECT撰文，把生土列为被搁置的好技术。他认为生土本地可得、加工少、可回收，材料表征、机器人制造和预制正扩展其可能，隐含碳考量会推动其使用。",
+   "url_override": "https://www.architectmagazine.com/design/culture/innovation-isnt-always-new/",
+   "source_read": "full"
+  },
+  {
+   "id": "ef00b44dd580",
+   "decision": "brief",
+   "category": "project",
+   "scores": {
+    "sig": 3,
+    "nov": 4,
+    "cred": 6,
+    "reson": 7,
+    "act": 4
+   },
+   "score": 49,
+   "title_zh": "黑森园艺展学徒在巴特萨尔茨豪森砌半圆夯土墙",
+   "summary_zh": "2027年上黑森州园艺展的三名园林学徒在巴特萨尔茨豪森下疗养公园建展示花园，第一次用夯土砌一道半圆形矮墙。土料夯实后高度约减半。弧形让施工更难。",
+   "url_override": "https://osthessen-news.de/n11803119/auszubildende-der-landesgartenschau-oberhessen-bauen-ihren-eigenen-garten.html",
+   "source_read": "full"
+  },
+  {
+   "id": "76d1e9fc5464",
+   "decision": "brief",
+   "category": "event",
+   "scores": {
+    "sig": 2,
+    "nov": 4,
+    "cred": 7,
+    "reson": 5,
+    "act": 4
+   },
+   "score": 44,
+   "title_zh": "哈勒艺术学院学生夯一张圆形夯土桌，11月19日开放共夯",
+   "summary_zh": "哈勒Burg Giebichenstein艺术学院工业设计一年级学生做一张夯土圆桌。11月19日12:00至18:00邀校内人员共夯，11月20日14:00起在Neuwerk 7主入口前办交流活动。",
+   "url_override": "https://www.burg-halle.de/artikel/a/default-7372b1d57635d11483afeacc79aeece3",
+   "source_read": "full"
+  },
+  {
+   "id": "9831a4227600",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 6,
+    "cred": 7,
+    "reson": 5,
+    "act": 4
+   },
+   "score": 56,
+   "title_zh": "论文：热带炎热气候下生土黏土屋面被动降温实验",
+   "summary_zh": "Rathore等四人在《Renewable Energy》2026年11月刊发文，实验分析生土黏土屋面在热带炎热气候下的被动降温效果。非开放获取，只读到标题，未见数据。",
+   "source_read": "snippet"
+  },
+  {
+   "id": "5493618ede0e",
+   "decision": "drop",
+   "drop_reason": "duplicate",
+   "note": "同一工坊已在11月12日期发过（dfe4098f2214）"
+  },
+  {
+   "id": "6bc2c80b71f0",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "Claytec参加denkmal 2026展会的回顾，无新信息"
+  },
+  {
+   "id": "a1eb1839f545",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "伊斯坦布尔剧院改造，与生土无关"
+  },
+  {
+   "id": "d9b483cc9582",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "易地搬迁新闻，生土只是背景，无实质信息"
+  },
+  {
+   "id": "81c14377b6cd",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "马尔切纳旧监狱改博物馆，夯土只是原墙材料之一，生土只是背景，无实质信息"
+  },
+  {
+   "id": "fdfcba22e9eb",
+   "decision": "drop",
+   "drop_reason": "duplicate",
+   "note": "同一项目英文标题，已随中文条丢弃"
+  },
+  {
+   "id": "85b65ad5ef5d",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "阿富汗橄榄种植，与生土无关"
+  },
+  {
+   "id": "4320207fa755",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "沙瓶房屋，非生土建造，故事起于2016年"
+  }
+ ]
+}

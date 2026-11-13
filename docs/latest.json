@@ -1,90 +1,57 @@
 {
- "date": "2026-11-12",
- "lead": "意大利ITER项目用剑麻和大理石粉改生土抹面，两轮老化后收缩与强度仍符合DIN 18947。ACS论文称蝗虫蛋白稳定高岭土，抗压最高2.18兆帕。Rauch 1月办黏土酪素工坊，Claytec 12月9日免费讲生土与秸秆。",
+ "date": "2026-11-13",
+ "lead": "德国环境基金会DBU资助魏玛MFPA研发生土泥浆护面，专修被暴雨冲刷的老生土墙，配方将免费公开。2027年威尼斯建筑双年展美国馆定名Earth Craft，主题是制砖人和生土匠人。",
  "actions": [
-  "把抹面论文的土砂比和DIN 18947结果交给刘泥匠对照。",
-  "Claytec 12月9日在维尔森免费办工坊，可报名。",
-  "Rauch黏土酪素工坊2027年1月14-15日在Nenzing，990欧元不含税。"
+  "关注MFPA魏玛ClayProSur项目，2029年3月结题后会出免费指南，可对照自家外墙泥浆配方。",
+  "2027年5月8日至11月21日威尼斯双年展美国馆有生土材料库和工坊，可排进考察计划。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-12.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-13.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W46.html",
  "counts": {
-  "pick": 4,
-  "brief": 7,
-  "drop": 7,
-  "merged": 3
+  "pick": 2,
+  "brief": 4,
+  "drop": 8,
+  "merged": 0
  },
  "picks": [
   {
-   "title": "Rauch团队办黏土酪素抹面工坊，2027年1月14-15日",
-   "category": "活动与赛事",
-   "score": 79,
-   "for_you": "可学地面、墙面和家具的酪素抹面，结业后列入施工名录，并享官方建议价四成折扣。",
-   "body_zh": "马丁·劳赫（Martin Rauch）的公司Lehm Ton Erde于2026年11月3日在施林斯发出通知，2027年1月14日至15日在奥地利嫩青的Walgau Hub举办两日工坊，教用黏土酪素腻子做表面。对象是从事表面装饰的工匠。地址为联邦公路205号，邮编6710。费用990欧元，另加20%增值税。名额限12人。联系人是Sina Grasmück，电话+43 5524 8327 328。\n\n课程包括地面、墙面和家具的用法，基层判断与处理（找平层、木材等），地面底涂，分隔缝、边缘缝和伸缩缝，在已处理好的地面和墙面上做完整工序，以及制作样板和特殊颜色。费用含点心、午餐和饮料，样品箱和材料样，列入黏土酪素施工名录，官方建议售价四成折扣，施工说明和结业证书。工具由主办方提供，也可自带。工坊在库房举办，通知建议穿工作服。\n\n通知印发的报名截止日是2026年1月6日，早于通知日期和课程日期，与2027年1月的课程不符。报名宜向主办方确认。住宿建议为萨泰恩斯的TILL自然汽车旅馆，以及嫩青的Rössle旅馆。",
-   "source_read": "full",
-   "url": "https://www.lehmtonerde.at/workshop-lehmkasein-i-14-15-01-2027/",
-   "source": "Lehm Ton Erde（Martin Rauch）"
-  },
-  {
-   "title": "论文：用昆虫蛋白高通量筛选生土稳定剂",
-   "category": "研究论文",
-   "score": 77,
-   "for_you": "这是稳定剂筛选方法，还不是可买的产品；摘要称强度增益与提取蛋白质量相关。",
-   "body_zh": "科罗拉多方面的Samuel J. Armistead和Wil V. Srubar III于2026年11月12日在《ACS Sustainable Chemistry & Engineering》在线发表论文。摘要称，这是首次探索用昆虫生物质作为生土材料的生物聚合物稳定剂。为应对组分复杂和配伍量大的问题，作者提出从微观到宏观的试验流程，名为快速提取与粘结评估技术（REBAT），把多孔板和紫外分析结合起来。\n\n摘要称，REBAT发现稳定剂的速度约为传统试错的500倍，约为现有微观到宏观方法的150倍。用REBAT时，蟋蟀、蚕和蝗虫提取物稳定的高岭土强度提高到1.7至2.2倍，最高达2.18兆帕，并与提取蛋白的质量明显相关（R²=0.66）。配套的X射线衍射、红外光谱和zeta电位分析表明，稳定来自蛋白质β折叠在黏土片层之间形成范德华界面作用。在这一框架下，富含β折叠的蝗虫蛋白被作者视为稳定高岭土的优选来源。本文只读到摘要，未核验全文数据。",
-   "source_read": "abstract",
-   "url": "https://doi.org/10.1021/acssuschemeng.6c08915",
-   "source": "ACS Sustainable Chemistry &amp; Engineering"
-  },
-  {
-   "title": "论文：剑麻纤维和大理石粉改生土抹面的老化表现",
-   "category": "研究论文",
+   "title": "DBU资助魏玛MFPA研发生土泥浆护面，防老生土墙被暴雨冲坏",
+   "category": "遗产保护",
    "score": 75,
-   "for_you": "可直接对照你的抹面级配和DIN 18947；文中建议剑麻与水分开后同时加入，以免结团。",
-   "body_zh": "卡塔尼亚大学等地的Azzaro、Albachiara、Lo Faro、Caponetto在ReUso 2026发表ITER项目后续试验，考查掺剑麻纤维和大理石粉的生土抹面在加速老化后的物理力学性能。抹面预定作室内底抹。材料为佛罗里迪亚0至2毫米土、贝尔帕索玄武碎料azolo（0–0.5毫米40%、0.5–1.6毫米30%、1.6–3.15毫米22%、3.15–4毫米8%）、比亚卡维拉的卡拉拉大理石锯屑0至2毫米，以及10至20毫米剑麻。质量比FM10S05为土30%、azolo 59.5%、剑麻0.5%、大理石粉10%、水18%。\n\n先干拌土、碎料和石粉，再把纤维和水分开后同时加入，以免剑麻结团。成型后在模具内养护3天，脱模后再在室温养25天，合计28天。除未老化组C0外，另做一轮和两轮老化，每轮含50个分循环：先30%相对湿度、50摄氏度5小时，再85%相对湿度、20摄氏度7小时。\n\n各组线收缩都明显低于DIN 18947对该配合比的3%上限。容重在一轮老化后进入该标准的2.2级，C0和两轮组落在2.0级。90分钟毛细吸水均未饱和；一轮组吸水系数更高。表面硬度一轮后上升、两轮后回到接近未老化，边缘回弹明显偏低。抗压均超过1.50兆帕，抗折均高于0.70兆帕，达到SII级。作者认为两轮老化未造成显著性能变化，小波动可能来自土料本身不均。",
+   "for_you": "外墙泥浆护面是生土抹面的直接延伸。将来公开的配方和施工指南，可用来对照自家产品，也指向老房修缮市场。",
+   "body_zh": "MDR WISSEN于2026年11月12日报道，德国联邦环境基金会DBU资助魏玛材料研究与检测所MFPA开发一种生土外墙保护层。DBU称，仅德国中部就有约20万栋夯土或土块砌筑的实心生土建筑，很多需要修缮，而现有修缮做法费工又费钱。\n\n团队由Carsten Könke教授和Thomas Grützner带领。做法是在风化的生土墙面上刷一层薄泥浆，作为耐磨层，降低表面粗糙度，提高耐磨性和结构稳定性，并减少斜风雨渗入。材料只用黏土类材料，再试加植物油、皂类等生物基添加剂。团队会针对不同基层、损伤类型和损伤程度做多种配方，并在魏玛郊区一座受保护的谷仓和霍恩费尔登图林根露天博物馆的老建筑立面上做实地测试。合作方是魏玛生土施工企业Maxara。\n\n成果将是可上市的泥浆产品和一份免费指南，写明配方、涂刷方法、基层处理和涂层厚度。DBU负责人Constanze Fuhrmann说，泥浆的效果早有研究证明，但市面上几乎没有经过实践检验的标准化保护体系。报道没有给出具体配方或测试数据。",
    "source_read": "full",
-   "url": "https://doi.org/10.36253/979-12-215-1113-0.41",
-   "source": "ReUso 2026 - New heritage and future strategies. Perspectives on conservation and promotion"
+   "url": "https://www.mdr.de/wissen/umwelt-klima/lehm-sanierung-100.html",
+   "source": "MDR.de"
   },
   {
-   "title": "Claytec 12月9日在维尔森免费办生土与秸秆工坊",
+   "title": "2027威尼斯双年展美国馆定名Earth Craft，聚焦生土与制砖匠人",
    "category": "活动与赛事",
-   "score": 73,
-   "for_you": "可看Claytec产品与泥抹面、黏土干作业示范，并听秸秆保温的现场经验。",
-   "body_zh": "可持续建造卓越区（ENB）与德国黏土建材商Claytec邀请参加免费工坊，时间是2026年12月9日15:30至19:00，地点在北威州维尔森，地址为Nettetaler Straße 113。项目目标是在该地区推动节约资源、可循环的建造，并把跨行业网络固定下来。报名咨询电话02164-70366-32，邮箱exzellenzregion@landfolge.de。另有专页https://www.exzellenzregion-nachhaltiges-bauen.de/workshop-bauen-mit-lehm-und-stroh/。\n\n主题是用黏土和秸秆建造。内容包括黏土建材的基本性能与用法，生土项目的实践经验和难点，以及秸秆作为生态保温材料和区域产值。15:00开始报到。15:30由土地后续利用专项目的LANDFOLGE Garzweiler和Werner Sobek AG致辞。随后Claytec的Maximilian Breidenbach带领参观工厂，并介绍产品对工匠的好处。Stuck & Akustik Weck的Christopher Waldvogel谈生土施工实践。Stefan Funkenberg示范黏土干作业和面层。ISO-Stroh West的Bernd Losberg谈秸秆建造。18:45起自由交流。\n\n活动主要面向地区工匠、施工企业和建筑设计事务所，已向北威州建筑师商会和建筑工程师商会申报为继续教育。需穿保暖防风衣服和结实鞋。",
+   "score": 66,
+   "for_you": "生土将在顶级建筑展上集中亮相，是讲材料和工艺故事的好时机，也可去现场看材料库和工坊。",
+   "body_zh": "ARCHITECT杂志2026年11月12日报道，美国国务院选定迈阿密大学建筑学院组织并策划2027年威尼斯建筑双年展美国馆。主策展人是该校副教授Germane Barnes。策展团队还有研究建造劳动和材料史的历史学者Vyta Pivo，以及NADAAA的Nader Tehrani等人。\n\n展览名为Earth Craft，讲制砖人、泥瓦匠等工匠的知识和手艺，以及建材、当地地理和劳动的关系。案例包括美国西南部的土坯传统、原住民生土建造，以及种植园砖窑、军用砖厂和纽约Haverstraw、圣路易斯、阿拉巴马Tuskegee等制砖中心。展览也会讨论传统建造知识和机器人制造、计算设计等新技术的结合。现场设生土材料库和制作工坊，并出版图录。\n\n第20届威尼斯国际建筑展由业余建筑工作室的王澍和陆文宇策展，2027年5月8日至11月21日在威尼斯举行，美国馆位于绿园城堡区。报道没有说明展品清单和工坊的具体安排。",
    "source_read": "full",
-   "url": "https://claytec.de/einladung-zum-workshop/",
-   "source": "Claytec"
+   "url": "https://www.architectmagazine.com/architectural-lighting/news/university-of-miami-to-lead-u-s-pavilion-at-2027-venice-architecture-biennale/",
+   "source": "国际建筑媒体（全站，只收生土关键词） · ARCHITECT Magazine"
   }
  ],
  "briefs": [
   {
-   "title": "法国拉兰-特里放映生土纪录片并请导演到场",
-   "url": "https://www.ladepeche.fr/2026/11/11/la-terre-crue-a-lhonneur-au-lalano-13646470.php"
+   "title": "论文：热带炎热气候下生土黏土屋面被动降温实验",
+   "url": "https://doi.org/10.1016/j.renene.2026.126725"
   },
   {
-   "title": "论文：生土作为活态遗产的技艺延续与再激活",
-   "url": "https://doi.org/10.36253/979-12-215-1113-0.12"
+   "title": "ARCHITECT专栏：生土是有待复兴的老技术",
+   "url": "https://www.architectmagazine.com/design/culture/innovation-isnt-always-new/"
   },
   {
-   "title": "星巴克越南邦美蜀店用当地夯土做饰面",
-   "url": "https://www.baodaklak.vn/kinh-te/202611/starbucks-vietnam-mang-dau-an-tay-nguyen-vao-khong-gian-cua-hang-tai-buon-ma-thuot-c706d5a/"
+   "title": "黑森园艺展学徒在巴特萨尔茨豪森砌半圆夯土墙",
+   "url": "https://osthessen-news.de/n11803119/auszubildende-der-landesgartenschau-oberhessen-bauen-ihren-eigenen-garten.html"
   },
   {
-   "title": "HAWK论文：木骨秸秆墙加泥抹面的夏季隔热",
-   "url": "https://www.bayerische-staatszeitung.de/staatszeitung/bauen/detailansicht-bauen/artikel/stroh-als-baustoff.html"
-  },
-  {
-   "title": "论文：含甲基纤维素生土材料的水分迁移",
-   "url": "https://www.sciencedirect.com/science/article/pii/S0169131726003479"
-  },
-  {
-   "title": "论文：巴西帕拉奥佩巴庄园的生土木构修复",
-   "url": "https://doi.org/10.36253/979-12-215-1113-0.77"
-  },
-  {
-   "title": "论文：盐渍土能否用于生土砂浆",
-   "url": "https://doi.org/10.1016/j.jobe.2026.117783"
+   "title": "哈勒艺术学院学生夯一张圆形夯土桌，11月19日开放共夯",
+   "url": "https://www.burg-halle.de/artikel/a/default-7372b1d57635d11483afeacc79aeece3"
   }
  ]
 }
