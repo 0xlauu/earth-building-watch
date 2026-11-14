@@ -1,57 +1,59 @@
 {
- "date": "2026-11-13",
- "lead": "德国环境基金会DBU资助魏玛MFPA研发生土泥浆护面，专修被暴雨冲刷的老生土墙，配方将免费公开。2027年威尼斯建筑双年展美国馆定名Earth Craft，主题是制砖人和生土匠人。",
+ "date": "2026-11-14",
+ "lead": "三篇遗址保护论文同日见刊：西北大学用归一化RGB估表面含水；田螺山桐油糯米浆修补跟踪两年半；景泰土掺LST后干湿循环裂缝面积比下降三成至七成。",
  "actions": [
-  "关注MFPA魏玛ClayProSur项目，2029年3月结题后会出免费指南，可对照自家外墙泥浆配方。",
-  "2027年5月8日至11月21日威尼斯双年展美国馆有生土材料库和工坊，可排进考察计划。"
+  "把田螺山配比T5R10S85和LST抗裂数据交给刘泥匠对照。",
+  "法国Marennes夯土小学校可作公共项目案例跟踪。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-13.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-14.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W46.html",
  "counts": {
-  "pick": 2,
-  "brief": 4,
-  "drop": 8,
+  "pick": 3,
+  "brief": 2,
+  "drop": 6,
   "merged": 0
  },
  "picks": [
   {
-   "title": "DBU资助魏玛MFPA研发生土泥浆护面，防老生土墙被暴雨冲坏",
-   "category": "遗产保护",
-   "score": 75,
-   "for_you": "外墙泥浆护面是生土抹面的直接延伸。将来公开的配方和施工指南，可用来对照自家产品，也指向老房修缮市场。",
-   "body_zh": "MDR WISSEN于2026年11月12日报道，德国联邦环境基金会DBU资助魏玛材料研究与检测所MFPA开发一种生土外墙保护层。DBU称，仅德国中部就有约20万栋夯土或土块砌筑的实心生土建筑，很多需要修缮，而现有修缮做法费工又费钱。\n\n团队由Carsten Könke教授和Thomas Grützner带领。做法是在风化的生土墙面上刷一层薄泥浆，作为耐磨层，降低表面粗糙度，提高耐磨性和结构稳定性，并减少斜风雨渗入。材料只用黏土类材料，再试加植物油、皂类等生物基添加剂。团队会针对不同基层、损伤类型和损伤程度做多种配方，并在魏玛郊区一座受保护的谷仓和霍恩费尔登图林根露天博物馆的老建筑立面上做实地测试。合作方是魏玛生土施工企业Maxara。\n\n成果将是可上市的泥浆产品和一份免费指南，写明配方、涂刷方法、基层处理和涂层厚度。DBU负责人Constanze Fuhrmann说，泥浆的效果早有研究证明，但市面上几乎没有经过实践检验的标准化保护体系。报道没有给出具体配方或测试数据。",
-   "source_read": "full",
-   "url": "https://www.mdr.de/wissen/umwelt-klima/lehm-sanierung-100.html",
-   "source": "MDR.de"
+   "title": "论文：归一化RGB和迁移学习估开放遗址表面含水",
+   "category": "研究论文",
+   "score": 65,
+   "for_you": "这是墙面含水监测方法，不是材料配方。适用边界仍待读全文核对。",
+   "body_zh": "西北大学孙满利、邓凯（并列第一）与毛伟佳、梁楚欣2026年11月13日在《npj Heritage Science》发表开放获取论文。摘要提出，露天生土遗址需要反复评估含水，接触式方法难以给出密集的空间覆盖，因此用颜色特征无损预测表面含水。\n\n实验室先用对光照不敏感的归一化RGB特征（R_norm、G_norm、B_norm）建立参考模型，再用迁移学习适应复杂现场光照。摘要称，在本试验的粉质黏土和粉土、表面粗糙度PEDI不超过0.3的条件下，迁移后的模型预测精度较高。作者认为，在所述条件下，这套流程可用于低成本、非接触地评估表面含水，服务现场调查和预防性保护。\n\n本文只读到摘要，未核验全文数据。精度指标、土样来源和适用边界需读全文后补。",
+   "source_read": "abstract",
+   "url": "https://doi.org/10.1038/s40494-026-03110-5",
+   "source": "npj Heritage Science"
   },
   {
-   "title": "2027威尼斯双年展美国馆定名Earth Craft，聚焦生土与制砖匠人",
-   "category": "活动与赛事",
-   "score": 66,
-   "for_you": "生土将在顶级建筑展上集中亮相，是讲材料和工艺故事的好时机，也可去现场看材料库和工坊。",
-   "body_zh": "ARCHITECT杂志2026年11月12日报道，美国国务院选定迈阿密大学建筑学院组织并策划2027年威尼斯建筑双年展美国馆。主策展人是该校副教授Germane Barnes。策展团队还有研究建造劳动和材料史的历史学者Vyta Pivo，以及NADAAA的Nader Tehrani等人。\n\n展览名为Earth Craft，讲制砖人、泥瓦匠等工匠的知识和手艺，以及建材、当地地理和劳动的关系。案例包括美国西南部的土坯传统、原住民生土建造，以及种植园砖窑、军用砖厂和纽约Haverstraw、圣路易斯、阿拉巴马Tuskegee等制砖中心。展览也会讨论传统建造知识和机器人制造、计算设计等新技术的结合。现场设生土材料库和制作工坊，并出版图录。\n\n第20届威尼斯国际建筑展由业余建筑工作室的王澍和陆文宇策展，2027年5月8日至11月21日在威尼斯举行，美国馆位于绿园城堡区。报道没有说明展品清单和工坊的具体安排。",
+   "title": "论文：桐油糯米浆修补田螺山遗址并观察微生物结构",
+   "category": "研究论文",
+   "score": 65,
+   "for_you": "配比5:10:85可对照潮湿环境修补试验；微生物结构的力学贡献尚未定量。",
+   "body_zh": "浙江大学费敏亮、唐晓武等2026年11月13日在《Microorganisms》发表开放获取论文，报告在浙江余姚田螺山遗址（河姆渡文化，约7000至5500 cal BP）用桐油与糯米浆复合材料修补潮湿环境生土破损，并观察微生物形成的结构。\n\n筛选9组配比后，采用质量比桐油∶糯米浆∶土=5∶10∶85。土先烘干过2毫米筛，加水至最优含水率20.48%。糯米浆由200克糯米粉加300克蒸馏水，80摄氏度加热10分钟后冷却至20摄氏度。在5处破损各修补30厘米见方，分层人工压实，不做额外防护。墙面修补区每周观察55周，并在2.5年后目视复查。\n\n生物膜被分成六个观察阶段：从色差不协调、零星菌膜，到白色密层，再消退，直至部分修复区与原土接近。含水较高的1、3、5号点在2.5年后色泽质感趋于协调；较干的2、4号点色差仍明显，4号深裂缝修复效果较差。扫描电镜见到菌丝网和类似胞外聚合物的物质，菌丝长约10至100微米。作者提出双阶段工作模型：前期靠材料物理胶结，后期微生物结构可能贡献颗粒粘结，但力学贡献尚未定量。试验缺少未处理对照，作者计划再观察3至5年，并提示部分木霉可能有机会性感染风险。",
    "source_read": "full",
-   "url": "https://www.architectmagazine.com/architectural-lighting/news/university-of-miami-to-lead-u-s-pavilion-at-2027-venice-architecture-biennale/",
-   "source": "国际建筑媒体（全站，只收生土关键词） · ARCHITECT Magazine"
+   "url": "https://doi.org/10.3390/microorganisms14112637",
+   "source": "Microorganisms"
+  },
+  {
+   "title": "论文：水溶性聚合物LST抑制遗址土干湿循环开裂",
+   "category": "研究论文",
+   "score": 64,
+   "for_you": "1%掺量下的抗压和抗裂数据可对照外加剂试验，但LST尚未商品化，不能直接外推到现场墙体。",
+   "body_zh": "兰州理工大学邵东桥、崔凯等2026年11月13日在《Materials》发表开放获取论文，用实验室研制的水溶性聚合物LST改性甘肃景泰一处生土遗址塌落土，考察10次干湿循环下的裂缝演变。LST被描述为带羧基、富羟基的线性聚合物，接枝脂肪酸盐，分子量约2万至4万，固含量15%，按干土质量1%的固含量掺入。该掺量来自前期综合筛选，本次试验未再优化抗裂掺量。\n\n试样在直径120毫米、高20毫米的培养皿中静压成型，目标干密度1.58克/立方厘米。初始含水11%、16%、21%，干燥温度25或35摄氏度，每组3个平行样。掺LST后，最终平均裂缝面积比下降31.7%至70.1%，裂缝长度密度下降35.7%至69.5%；按六个观察点估算的累计开裂暴露低40.0%至71.3%。相对抑制在含水16%时最强（25摄氏度下降60.9%，35摄氏度下降70.1%），含水21%时后期减弱。\n\n烘干立方体无侧限抗压：7天对照组2.50±0.41兆帕、掺LST组5.30±0.34兆帕；28天分别为3.15±0.20和8.03±1.11兆帕。饱和渗透系数校正到20摄氏度后，从(9.95±0.92)×10⁻⁵厘米/秒降到(3.21±0.44)×10⁻⁵厘米/秒。色差ΔE为2.56。作者指出，薄皿约束试样和二维裂缝指标不能直接外推到现场裂缝深度，也未与聚乙烯醇等其他外加剂对照。",
+   "source_read": "full",
+   "url": "https://doi.org/10.3390/ma19224827",
+   "source": "Materials"
   }
  ],
  "briefs": [
   {
-   "title": "论文：热带炎热气候下生土黏土屋面被动降温实验",
-   "url": "https://doi.org/10.1016/j.renene.2026.126725"
+   "title": "法国Marennes夯土木学校获罗纳省城市规划奖",
+   "url": "https://www.leprogres.fr/culture-loisirs/2026/11/13/a-marennes-l-ecole-en-pise-et-en-bois-recompensee"
   },
   {
-   "title": "ARCHITECT专栏：生土是有待复兴的老技术",
-   "url": "https://www.architectmagazine.com/design/culture/innovation-isnt-always-new/"
-  },
-  {
-   "title": "黑森园艺展学徒在巴特萨尔茨豪森砌半圆夯土墙",
-   "url": "https://osthessen-news.de/n11803119/auszubildende-der-landesgartenschau-oberhessen-bauen-ihren-eigenen-garten.html"
-  },
-  {
-   "title": "哈勒艺术学院学生夯一张圆形夯土桌，11月19日开放共夯",
-   "url": "https://www.burg-halle.de/artikel/a/default-7372b1d57635d11483afeacc79aeece3"
+   "title": "新西兰马尔伯勒一座19世纪生土小屋将拍卖",
+   "url": "https://www.oneroof.co.nz/news/historic-home-heads-to-auction-with-70k-reserve-but-theres-a-catch-50521"
   }
  ]
 }

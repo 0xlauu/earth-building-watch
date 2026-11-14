@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>生土观察</title><link>https://0xlauu.github.io/earth-building-watch/</link><description>全球生土建筑与材料资讯，每天一份，中文写给做生土材料的人。</description><language>zh-CN</language><item><title>DBU资助魏玛MFPA研发生土泥浆护面，防老生土墙被暴雨冲坏</title><link>https://www.mdr.de/wissen/umwelt-klima/lehm-sanierung-100.html</link><guid isPermaLink="false">cf698432a3ef</guid><pubDate>Fri, 13 Nov 2026 08:00:00 +0800</pubDate><category>遗产保护</category><description>MDR WISSEN于2026年11月12日报道，德国联邦环境基金会DBU资助魏玛材料研究与检测所MFPA开发一种生土外墙保护层。DBU称，仅德国中部就有约20万栋夯土或土块砌筑的实心生土建筑，很多需要修缮，而现有修缮做法费工又费钱。
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>生土观察</title><link>https://0xlauu.github.io/earth-building-watch/</link><description>全球生土建筑与材料资讯，每天一份，中文写给做生土材料的人。</description><language>zh-CN</language><item><title>论文：归一化RGB和迁移学习估开放遗址表面含水</title><link>https://doi.org/10.1038/s40494-026-03110-5</link><guid isPermaLink="false">ed5d54e86a3f</guid><pubDate>Sat, 14 Nov 2026 08:00:00 +0800</pubDate><category>研究论文</category><description>西北大学孙满利、邓凯（并列第一）与毛伟佳、梁楚欣2026年11月13日在《npj Heritage Science》发表开放获取论文。摘要提出，露天生土遗址需要反复评估含水，接触式方法难以给出密集的空间覆盖，因此用颜色特征无损预测表面含水。
+
+实验室先用对光照不敏感的归一化RGB特征（R_norm、G_norm、B_norm）建立参考模型，再用迁移学习适应复杂现场光照。摘要称，在本试验的粉质黏土和粉土、表面粗糙度PEDI不超过0.3的条件下，迁移后的模型预测精度较高。作者认为，在所述条件下，这套流程可用于低成本、非接触地评估表面含水，服务现场调查和预防性保护。
+
+本文只读到摘要，未核验全文数据。精度指标、土样来源和适用边界需读全文后补。 对你：这是墙面含水监测方法，不是材料配方。适用边界仍待读全文核对。</description></item><item><title>论文：桐油糯米浆修补田螺山遗址并观察微生物结构</title><link>https://doi.org/10.3390/microorganisms14112637</link><guid isPermaLink="false">05d82a427ea3</guid><pubDate>Sat, 14 Nov 2026 08:00:00 +0800</pubDate><category>研究论文</category><description>浙江大学费敏亮、唐晓武等2026年11月13日在《Microorganisms》发表开放获取论文，报告在浙江余姚田螺山遗址（河姆渡文化，约7000至5500 cal BP）用桐油与糯米浆复合材料修补潮湿环境生土破损，并观察微生物形成的结构。
+
+筛选9组配比后，采用质量比桐油∶糯米浆∶土=5∶10∶85。土先烘干过2毫米筛，加水至最优含水率20.48%。糯米浆由200克糯米粉加300克蒸馏水，80摄氏度加热10分钟后冷却至20摄氏度。在5处破损各修补30厘米见方，分层人工压实，不做额外防护。墙面修补区每周观察55周，并在2.5年后目视复查。
+
+生物膜被分成六个观察阶段：从色差不协调、零星菌膜，到白色密层，再消退，直至部分修复区与原土接近。含水较高的1、3、5号点在2.5年后色泽质感趋于协调；较干的2、4号点色差仍明显，4号深裂缝修复效果较差。扫描电镜见到菌丝网和类似胞外聚合物的物质，菌丝长约10至100微米。作者提出双阶段工作模型：前期靠材料物理胶结，后期微生物结构可能贡献颗粒粘结，但力学贡献尚未定量。试验缺少未处理对照，作者计划再观察3至5年，并提示部分木霉可能有机会性感染风险。 对你：配比5:10:85可对照潮湿环境修补试验；微生物结构的力学贡献尚未定量。</description></item><item><title>论文：水溶性聚合物LST抑制遗址土干湿循环开裂</title><link>https://doi.org/10.3390/ma19224827</link><guid isPermaLink="false">150b375a7f52</guid><pubDate>Sat, 14 Nov 2026 08:00:00 +0800</pubDate><category>研究论文</category><description>兰州理工大学邵东桥、崔凯等2026年11月13日在《Materials》发表开放获取论文，用实验室研制的水溶性聚合物LST改性甘肃景泰一处生土遗址塌落土，考察10次干湿循环下的裂缝演变。LST被描述为带羧基、富羟基的线性聚合物，接枝脂肪酸盐，分子量约2万至4万，固含量15%，按干土质量1%的固含量掺入。该掺量来自前期综合筛选，本次试验未再优化抗裂掺量。
+
+试样在直径120毫米、高20毫米的培养皿中静压成型，目标干密度1.58克/立方厘米。初始含水11%、16%、21%，干燥温度25或35摄氏度，每组3个平行样。掺LST后，最终平均裂缝面积比下降31.7%至70.1%，裂缝长度密度下降35.7%至69.5%；按六个观察点估算的累计开裂暴露低40.0%至71.3%。相对抑制在含水16%时最强（25摄氏度下降60.9%，35摄氏度下降70.1%），含水21%时后期减弱。
+
+烘干立方体无侧限抗压：7天对照组2.50±0.41兆帕、掺LST组5.30±0.34兆帕；28天分别为3.15±0.20和8.03±1.11兆帕。饱和渗透系数校正到20摄氏度后，从(9.95±0.92)×10⁻⁵厘米/秒降到(3.21±0.44)×10⁻⁵厘米/秒。色差ΔE为2.56。作者指出，薄皿约束试样和二维裂缝指标不能直接外推到现场裂缝深度，也未与聚乙烯醇等其他外加剂对照。 对你：1%掺量下的抗压和抗裂数据可对照外加剂试验，但LST尚未商品化，不能直接外推到现场墙体。</description></item><item><title>DBU资助魏玛MFPA研发生土泥浆护面，防老生土墙被暴雨冲坏</title><link>https://www.mdr.de/wissen/umwelt-klima/lehm-sanierung-100.html</link><guid isPermaLink="false">cf698432a3ef</guid><pubDate>Fri, 13 Nov 2026 08:00:00 +0800</pubDate><category>遗产保护</category><description>MDR WISSEN于2026年11月12日报道，德国联邦环境基金会DBU资助魏玛材料研究与检测所MFPA开发一种生土外墙保护层。DBU称，仅德国中部就有约20万栋夯土或土块砌筑的实心生土建筑，很多需要修缮，而现有修缮做法费工又费钱。
 
 团队由Carsten Könke教授和Thomas Grützner带领。做法是在风化的生土墙面上刷一层薄泥浆，作为耐磨层，降低表面粗糙度，提高耐磨性和结构稳定性，并减少斜风雨渗入。材料只用黏土类材料，再试加植物油、皂类等生物基添加剂。团队会针对不同基层、损伤类型和损伤程度做多种配方，并在魏玛郊区一座受保护的谷仓和霍恩费尔登图林根露天博物馆的老建筑立面上做实地测试。合作方是魏玛生土施工企业Maxara。
 
@@ -178,16 +190,4 @@ Keable 从业三十多年，梳理夯土、压制土砖、草泥、轻质土、�
 
 建筑师把车库存入地下，让建筑平铺场地。开挖土本可回用，但公园填土含石棉污染管线残留。压缩土砖厂 Cycle Terre 运走污染土，并供应巴黎新环线地铁隧道挖出的净土。地基与车库用低水泥掺矿渣混凝土。
 
-地上是四座单层夯土亭，墙厚约 50 厘米（结构需求约 43 厘米，另留侵蚀余量），外墙不刷涂料，转角加石灰层加固。西南侧夯土看台约 300 座，围合有树、水嬉和游乐设施的庭院。木屋架插进石灰窝，交叉支撑以减轻扭转对土墙的磨损。屋顶凹曲覆绿，室内木材外露，天窗与大玻璃朝向庭院。 对你：公建用未稳夯土加现场土闭环，可作你推市政项目的案例包。</description></item><item><title>山海关长城夯土配比与力学性能研究</title><link>https://www.mdpi.com/2075-5309/16/20/4166</link><guid isPermaLink="false">adecdb920419</guid><pubDate>Fri, 23 Oct 2026 08:00:00 +0800</pubDate><category>研究论文</category><description>燕山大学赵建设、刘杰峰、曹海莹、王浩然在期刊 Buildings 发表《山海关长城夯土制备方法与力学性能研究》，2026 年 10 月 20 日上线。山海关明长城外砖内夯土，砖面剥落后夯土芯仍能保持整体形态。
-
-作者采集现场夯土，做物理性质、直剪、XRD、FTIR、热重和扫描电镜。现场土为粉质黏土，含少量钙质与淀粉类有机残留，碘染色可复现。实验室用本地贫黏土、石灰和预糊化淀粉配制 150 组配比，共 600 个试样，养护 9 天后测收缩与直剪。
-
-结论：含水率升高会加大收缩、降低黏聚力；石灰可显著压低收缩并提高峰值抗剪，但过量更脆；预糊化淀粉在 1.0–1.5% 时抗剪较好。综合收缩、抗剪与微观结构，作者给出实验条件下可行区间：初始含水率 17–21%、石灰 3–4%、预糊化淀粉 1.0–1.5%。文中强调实验掺量不能直接等同于明代糯米浆与石灰的历史用量。 对你：石灰加淀粉的夯土配比区间可直接对照你的抹面与夯土试配。</description></item><item><title>法国新书《Avec la terre》谈生土未来</title><link>https://www.terrestres.org/2026/10/22/la-terre-crue-materiau-du-futur/</link><guid isPermaLink="false">b1228fef520f</guid><pubDate>Fri, 23 Oct 2026 08:00:00 +0800</pubDate><category>行业与市场</category><description>Terrestres 于 2026 年 10 月 22 日刊登《La terre crue, matériau du futur》，摘自 Geneviève Pruvost、Alain Marcom、Aymone Nicolas 合著新书《Avec la terre. Construire, habiter, danser》（Seuil「Écocène」丛书）导言。作者身份分别是社会学者、泥瓦匠和历史—手艺人。
-
-文本把挖土、揉泥、成团写成政治动作，批评工业化北方遗忘「生土可建」。书中梳理土坯、夯土、草泥、轻质土与生土抹面，引用法国《生土建造良好实践指南》（2020）的定义，并称法国约 15% 存量建筑含生土，部分乡村甚至超过 80%。
-
-核心论点：未烧制黏土可反复润湿塑形，几乎不成废料；而水泥、塑料、密闭窗改变了室内气候。作者呼吁普通人成为生土实践者，把材料可及性与可修性当作社会与环境正义问题。 对你：欧洲生土话语与抹面/土坯术语表，可作内容与对外讲解素材。</description></item><item><title>Art Omi 展出 Bilbao 夯土柱装置</title><link>https://artomi.org/event/opening-tatiana-bilbao-estudio-borrowed-earth/</link><guid isPermaLink="false">88c1afb0f8da</guid><pubDate>Fri, 23 Oct 2026 08:00:00 +0800</pubDate><category>活动与赛事</category><description>Art Omi 宣布墨西哥城事务所 Tatiana Bilbao ESTUDIO 的新委托作品 Borrowed Earth 将于 2026 年 10 月 24 日开幕。地点在纽约州根特（Ghent）雕塑与建筑园的绿色建筑草甸。开幕时间 14–17 时，15 时由厄瓜多尔裔美籍艺术家 Lita Vinueza 用定制电子乐器回应装置，免费，欢迎步行入场。
-
-作品用当地土夯成柱阵。主办方称该地区很少用夯土。柱体 intentionally 不求永存：随季节与风雨缓慢侵蚀，逐渐回到土地，让时间与人地关系可见。开幕也标志着 Art Omi 秋季建筑项目收尾。
-
-Bilbao 事务所成立于 2004 年，强调社会、文化与环境影响，常用手绘、拼贴与实体模型推进协作设计。 对你：夯土作为可消解公共艺术，可作你讲材料生命周期的视觉例证。</description></item></channel></rss>
+地上是四座单层夯土亭，墙厚约 50 厘米（结构需求约 43 厘米，另留侵蚀余量），外墙不刷涂料，转角加石灰层加固。西南侧夯土看台约 300 座，围合有树、水嬉和游乐设施的庭院。木屋架插进石灰窝，交叉支撑以减轻扭转对土墙的磨损。屋顶凹曲覆绿，室内木材外露，天窗与大玻璃朝向庭院。 对你：公建用未稳夯土加现场土闭环，可作你推市政项目的案例包。</description></item></channel></rss>

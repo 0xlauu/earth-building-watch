@@ -1,0 +1,247 @@
+{
+  "date": "2026-11-14",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-14T09:25:00+08:00",
+  "lead": "三篇遗址保护论文同日见刊：西北大学用归一化RGB估表面含水；田螺山桐油糯米浆修补跟踪两年半；景泰土掺LST后干湿循环裂缝面积比下降三成至七成。",
+  "actions": [
+    "把田螺山配比T5R10S85和LST抗裂数据交给刘泥匠对照。",
+    "法国Marennes夯土小学校可作公共项目案例跟踪。"
+  ],
+  "items": [
+    {
+      "id": "ed5d54e86a3f",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 6,
+        "nov": 7,
+        "cred": 8,
+        "reson": 5,
+        "act": 5
+      },
+      "score": 65,
+      "title_zh": "论文：归一化RGB和迁移学习估开放遗址表面含水",
+      "summary_zh": "西北大学孙满利、邓凯等11月13日在《npj Heritage Science》发文，用对光照不敏感的归一化RGB特征建模，再以迁移学习适应现场光照，预测露天生土遗址表面含水。摘要称，在本试验粉质黏土和粉土、PEDI不超过0.3时，精度较高。",
+      "for_you": "这是墙面含水监测方法，不是材料配方。适用边界仍待读全文核对。",
+      "url_override": "https://doi.org/10.1038/s40494-026-03110-5",
+      "source_read": "abstract",
+      "body_zh": "西北大学孙满利、邓凯（并列第一）与毛伟佳、梁楚欣2026年11月13日在《npj Heritage Science》发表开放获取论文。摘要提出，露天生土遗址需要反复评估含水，接触式方法难以给出密集的空间覆盖，因此用颜色特征无损预测表面含水。\n\n实验室先用对光照不敏感的归一化RGB特征（R_norm、G_norm、B_norm）建立参考模型，再用迁移学习适应复杂现场光照。摘要称，在本试验的粉质黏土和粉土、表面粗糙度PEDI不超过0.3的条件下，迁移后的模型预测精度较高。作者认为，在所述条件下，这套流程可用于低成本、非接触地评估表面含水，服务现场调查和预防性保护。\n\n本文只读到摘要，未核验全文数据。精度指标、土样来源和适用边界需读全文后补。",
+      "key_facts": [
+        {
+          "k": "期刊",
+          "v": "npj Heritage Science，2026-11-13"
+        },
+        {
+          "k": "单位",
+          "v": "西北大学文化遗产学院"
+        },
+        {
+          "k": "方法",
+          "v": "归一化RGB加迁移学习"
+        },
+        {
+          "k": "土类",
+          "v": "本试验的粉质黏土和粉土"
+        },
+        {
+          "k": "条件",
+          "v": "表面粗糙度PEDI不超过0.3"
+        },
+        {
+          "k": "资助",
+          "v": "国家重点研发计划2020YFC1522205"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "A laboratory reference model was first developed using normalized RGB features",
+          "lang": "en"
+        },
+        {
+          "text": "predicts surface moisture content from chromatic features.",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "05d82a427ea3",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 6,
+        "nov": 7,
+        "cred": 8,
+        "reson": 6,
+        "act": 4
+      },
+      "score": 65,
+      "title_zh": "论文：桐油糯米浆修补田螺山遗址并观察微生物结构",
+      "summary_zh": "浙江大学费敏亮、唐晓武等在田螺山潮湿生土遗址用质量比5:10:85的桐油、糯米浆与土修补5处各30厘米见方破损。含水较高的修复区在2.5年后与原土色泽质感趋于接近。",
+      "for_you": "配比5:10:85可对照潮湿环境修补试验；微生物结构的力学贡献尚未定量。",
+      "url_override": "https://doi.org/10.3390/microorganisms14112637",
+      "source_read": "full",
+      "body_zh": "浙江大学费敏亮、唐晓武等2026年11月13日在《Microorganisms》发表开放获取论文，报告在浙江余姚田螺山遗址（河姆渡文化，约7000至5500 cal BP）用桐油与糯米浆复合材料修补潮湿环境生土破损，并观察微生物形成的结构。\n\n筛选9组配比后，采用质量比桐油∶糯米浆∶土=5∶10∶85。土先烘干过2毫米筛，加水至最优含水率20.48%。糯米浆由200克糯米粉加300克蒸馏水，80摄氏度加热10分钟后冷却至20摄氏度。在5处破损各修补30厘米见方，分层人工压实，不做额外防护。墙面修补区每周观察55周，并在2.5年后目视复查。\n\n生物膜被分成六个观察阶段：从色差不协调、零星菌膜，到白色密层，再消退，直至部分修复区与原土接近。含水较高的1、3、5号点在2.5年后色泽质感趋于协调；较干的2、4号点色差仍明显，4号深裂缝修复效果较差。扫描电镜见到菌丝网和类似胞外聚合物的物质，菌丝长约10至100微米。作者提出双阶段工作模型：前期靠材料物理胶结，后期微生物结构可能贡献颗粒粘结，但力学贡献尚未定量。试验缺少未处理对照，作者计划再观察3至5年，并提示部分木霉可能有机会性感染风险。",
+      "key_facts": [
+        {
+          "k": "遗址",
+          "v": "浙江余姚田螺山，河姆渡文化"
+        },
+        {
+          "k": "配比",
+          "v": "桐油∶糯米浆∶土=5∶10∶85"
+        },
+        {
+          "k": "修补块",
+          "v": "5处各30厘米×30厘米"
+        },
+        {
+          "k": "监测",
+          "v": "55周每周观察，2.5年复查"
+        },
+        {
+          "k": "糯米浆",
+          "v": "200克粉+300克水，80°C加热10分钟"
+        },
+        {
+          "k": "资助",
+          "v": "浙江省文物局2023006，基金52478369"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "The mechanical contribution of these structures remains to be quantified.",
+          "lang": "en"
+        },
+        {
+          "text": "The field trial lacked parallel untreated-soil controls",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "150b375a7f52",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 6,
+        "nov": 6,
+        "cred": 8,
+        "reson": 7,
+        "act": 5
+      },
+      "score": 64,
+      "title_zh": "论文：水溶性聚合物LST抑制遗址土干湿循环开裂",
+      "summary_zh": "兰州理工大学邵东桥、崔凯等用实验室聚合物LST按干土质量1%改性景泰遗址塌落土。10次干湿循环后，最终平均裂缝面积比下降31.7%至70.1%；28天抗压由3.15兆帕升至8.03兆帕。",
+      "for_you": "1%掺量下的抗压和抗裂数据可对照外加剂试验，但LST尚未商品化，不能直接外推到现场墙体。",
+      "url_override": "https://doi.org/10.3390/ma19224827",
+      "source_read": "full",
+      "body_zh": "兰州理工大学邵东桥、崔凯等2026年11月13日在《Materials》发表开放获取论文，用实验室研制的水溶性聚合物LST改性甘肃景泰一处生土遗址塌落土，考察10次干湿循环下的裂缝演变。LST被描述为带羧基、富羟基的线性聚合物，接枝脂肪酸盐，分子量约2万至4万，固含量15%，按干土质量1%的固含量掺入。该掺量来自前期综合筛选，本次试验未再优化抗裂掺量。\n\n试样在直径120毫米、高20毫米的培养皿中静压成型，目标干密度1.58克/立方厘米。初始含水11%、16%、21%，干燥温度25或35摄氏度，每组3个平行样。掺LST后，最终平均裂缝面积比下降31.7%至70.1%，裂缝长度密度下降35.7%至69.5%；按六个观察点估算的累计开裂暴露低40.0%至71.3%。相对抑制在含水16%时最强（25摄氏度下降60.9%，35摄氏度下降70.1%），含水21%时后期减弱。\n\n烘干立方体无侧限抗压：7天对照组2.50±0.41兆帕、掺LST组5.30±0.34兆帕；28天分别为3.15±0.20和8.03±1.11兆帕。饱和渗透系数校正到20摄氏度后，从(9.95±0.92)×10⁻⁵厘米/秒降到(3.21±0.44)×10⁻⁵厘米/秒。色差ΔE为2.56。作者指出，薄皿约束试样和二维裂缝指标不能直接外推到现场裂缝深度，也未与聚乙烯醇等其他外加剂对照。",
+      "key_facts": [
+        {
+          "k": "土样",
+          "v": "甘肃景泰遗址塌落土，粉粒为主"
+        },
+        {
+          "k": "掺量",
+          "v": "LST固含量为干土质量的1%"
+        },
+        {
+          "k": "循环",
+          "v": "10次；含水11%、16%、21%；25或35°C"
+        },
+        {
+          "k": "裂缝面积比",
+          "v": "最终均值下降31.7%–70.1%"
+        },
+        {
+          "k": "7天抗压",
+          "v": "2.50兆帕升至5.30兆帕"
+        },
+        {
+          "k": "28天抗压",
+          "v": "3.15兆帕升至8.03兆帕"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "LST reduced the mean final crack area ratio by 31.7–70.1%",
+          "lang": "en"
+        },
+        {
+          "text": "These results do not establish an optimum water content for field application.",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "72a7164ddaa2",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Divisare项目为马德里B-Side公寓改造，材料与生土无关"
+    },
+    {
+      "id": "ff4f359916d1",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "拉德博伊尔路德教堂社区中心为砖砌建筑，2015–2018年建成；文中earth-covered link指覆土连廊，不是生土建筑"
+    },
+    {
+      "id": "d83fa65f6be6",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "康沃尔Dutch Barn改造以木结构和白石砌体为主，与生土无关"
+    },
+    {
+      "id": "6070b30127f5",
+      "decision": "brief",
+      "category": "project",
+      "scores": {
+        "sig": 6,
+        "nov": 5,
+        "cred": 6,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 62,
+      "title_zh": "法国Marennes夯土木学校获罗纳省城市规划奖",
+      "summary_zh": "罗纳省Marennes的Source小学以夯土和木结构建造，2025年11月启用，在罗纳省市长奖中获城市规划奖。新楼服务小学6个班、145名学生；74名幼儿仍留在1980年代旧楼。",
+      "url_override": "https://www.leprogres.fr/culture-loisirs/2026/11/13/a-marennes-l-ecole-en-pise-et-en-bois-recompensee",
+      "source_read": "snippet"
+    },
+    {
+      "id": "75387b29d709",
+      "decision": "brief",
+      "category": "heritage",
+      "scores": {
+        "sig": 5,
+        "nov": 4,
+        "cred": 7,
+        "reson": 6,
+        "act": 6
+      },
+      "score": 55,
+      "title_zh": "新西兰马尔伯勒一座19世纪生土小屋将拍卖",
+      "summary_zh": "Bartletts Creek Cottage是马尔伯勒仅存的私有cob小屋之一，报道又称其为1860年代中期两开间夯土房。11月27日拍卖，底价7万纽元。遗产契约限制仅能露营，无管线，修缮须审批。",
+      "url_override": "https://www.oneroof.co.nz/news/historic-home-heads-to-auction-with-70k-reserve-but-theres-a-catch-50521",
+      "source_read": "full"
+    },
+    {
+      "id": "680e39a31c27",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "Huguet夯土砖产品发布见Interempresas 2026-04-30与House & Garden 2026-05-07，原文早于30天"
+    },
+    {
+      "id": "fccdf9e08dd4",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "同一Embrun驻地与本地土夯实验墙已在2026-11-03简讯c643562af048报道"
+    },
+    {
+      "id": "8897b15c04ba",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "获奖项目为2011年Friendship Centre，主体是当地砖和覆土屋顶，生土堤坝只作防洪，生土不是这条新闻的实质信息"
+    }
+  ]
+}
