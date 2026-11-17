@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>生土观察</title><link>https://0xlauu.github.io/earth-building-watch/</link><description>全球生土建筑与材料资讯，每天一份，中文写给做生土材料的人。</description><language>zh-CN</language><item><title>论文：加速碳化对化学稳定夯土固碳和强度的影响</title><link>https://doi.org/10.1061/jmcee7.mteng-23526</link><guid isPermaLink="false">b18858fab1ed</guid><pubDate>Sun, 15 Nov 2026 08:00:00 +0800</pubDate><category>研究论文</category><description>该文2025年9月2日收稿，2026年4月30日接受，11月14日在线发表，将编入2027年3月第39卷第3期。作者来自英属哥伦比亚大学Okanagan校区和曼彻斯特大学。研究关注加速碳化对稳定夯土的强度演化、二氧化碳矿物封存，以及传统与较新稳定剂的化学和微观结构变化。
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>生土观察</title><link>https://0xlauu.github.io/earth-building-watch/</link><description>全球生土建筑与材料资讯，每天一份，中文写给做生土材料的人。</description><language>zh-CN</language><item><title>论文：用碎砖完全替代天然土的夯筑材料</title><link>https://doi.org/10.1016/j.cscm.2026.e06722</link><guid isPermaLink="false">c90925913844</guid><pubDate>Tue, 17 Nov 2026 08:00:00 +0800</pubDate><category>研究论文</category><description>Han、Jing、Cheng、Chen的论文将编入该刊第25卷，文章编号e06722。Crossref记录许可为CC BY 4.0，自2026年11月11日起生效。研究对象是碎砖夯筑材料（CBRM）：用再生砖骨料完全代替天然土，并测试压实、吸水、抗压强度、按强度折算的碳排放，以及无侧限抗压强度预测。
+
+摘要称，压实和强度强烈依赖颗粒级配。级配优化使最大干密度从1.62提高到1.73 g/cm³，无侧限抗压强度从11.54提高到19.80 MPa，即提高71.6%。在15%水泥掺量下，最大干密度与强度正相关。水泥从25%增到30%时，平均强度只变1.1%，小于平行试样的离散，作者据此认为大约20%以上再加水泥，强度收益已基本用尽。CBRM的单位强度碳排为2.71 kg CO₂e/(m²·MPa)，约低于水泥稳定夯土基准65%。
+
+作者用23组配合比、69个试件，比较OLS、Ridge、XGBoost、随机森林、支持向量回归和LightGBM六种模型。嵌套交叉验证中，支持向量回归最好：配合比层面RMSE为3.416 MPa、R²为0.711；按级配组验证时为2.506 MPa和0.623。脚本未能打开ScienceDirect全文，以上均来自开放获取论文的摘要；示范工程等细节需补读全文后再核。 对你：级配比单纯加水泥更关键：摘要称水泥超过约20%后强度几乎不再提高，单位强度碳排比常规稳定夯土低约65%。</description></item><item><title>论文：再生水泥稳定土坯砖高温后的性能</title><link>https://doi.org/10.1617/s11527-026-03366-0</link><guid isPermaLink="false">ed638c26b8fd</guid><pubDate>Tue, 17 Nov 2026 08:00:00 +0800</pubDate><category>研究论文</category><description>该文2026年11月16日在线发表，将编入《Materials and Structures》2026年12月第59卷第10期。作者来自里斯本大学高等理工学院CERIS研究中心。文章不是开放获取，以下只根据摘要。研究考察再生水泥稳定土坯砖在最高1000℃下的微观结构、力学、物理和耐久性指标，并与普通硅酸盐水泥稳定砖、未稳定砖在相同条件下比较。
+
+摘要称，超过400℃后，稳定土坯砖逐渐劣化：孔隙率、毛细吸水和总吸水率上升，体积密度和力学性能下降。所有配方在1000℃后都失去结构整体性。与普通水泥稳定砖相比，再生水泥稳定砖孔隙更粗、吸水更高、干抗压强度更低，但残余干强度相当，耐水性相近。再生水泥试样在800℃时饱和强度恢复明显。400℃以上，弹性模量随温度的变化与抗压强度不同。作者还提出一个由抗压强度和体积密度估算弹性模量的经验关系，适用范围到600℃。
+
+摘要结论是：再生水泥的残余性能与普通水泥相当，同时环境代价明显更低，有潜力作为更可持续、也具有抗火韧性的生土稳定剂。配比、升温制度和具体强度数值摘要未给出。 对你：再生水泥可作土坯稳定剂，但400℃以上性能会下降；800℃饱和强度恢复这一点可交给刘泥匠看。</description></item><item><title>论文：加速碳化对化学稳定夯土固碳和强度的影响</title><link>https://doi.org/10.1061/jmcee7.mteng-23526</link><guid isPermaLink="false">b18858fab1ed</guid><pubDate>Sun, 15 Nov 2026 08:00:00 +0800</pubDate><category>研究论文</category><description>该文2025年9月2日收稿，2026年4月30日接受，11月14日在线发表，将编入2027年3月第39卷第3期。作者来自英属哥伦比亚大学Okanagan校区和曼彻斯特大学。研究关注加速碳化对稳定夯土的强度演化、二氧化碳矿物封存，以及传统与较新稳定剂的化学和微观结构变化。
 
 先比较水泥、石灰、粉煤灰地聚物和粒化高炉矿渣地聚物对夯土力学强度的影响，再用热重分析测定加速碳化后的固碳量和矿物相热稳定性。还测试了碳化对早期强度的影响，以评估碳化养护能否加快强度发展。水泥、矿渣地聚物、石灰和粉煤灰稳定试样的平均固碳量分别为0.60、0.13、0.09和0.04 mmol/g，矿物相热稳定性较高。
 
@@ -182,12 +190,4 @@ Earth Artists 把这座咖啡馆看作在阿曼更大投入的开端，后续还
 
 经典 Earthship 外墙用填土轮胎。Cygnet 改为夯土：潮湿土分层入模夯实，Freney 称便于与本地工匠配合并利于通过 Huon Valley Council 审批。墙体与保温混凝土基础作热质；北向玻璃阳光间作湿缓冲与种植；污水进入种植床；新风走地埋 earth tubes。室内另有黏土砂秸秆 cob 墙与瓶砖装饰。
 
-同一约 4 英亩地块计划共五栋，地层权共享果园与污水浇灌区。文中明确 0 元供暖是业主自述，尚无电表公开数据；光伏与电池拟在测完日常用电后再装。该宅曾列入 2026 年 5 月 17 日开放参观。 对你：寒区被动房用夯土热质替轮胎墙的话术，可借来跟自建客户沟通。</description></item><item><title>越南罗罗寨仿夯土混凝土房引争议</title><link>https://www.vietnam.vn/en/lo-lo-chai-moc-len-nhieu-nha-cao-tang-loi-thi-co-loi-duong-dai-tinh-sao</link><guid isPermaLink="false">5fb8fb7e9a70</guid><pubDate>Sat, 24 Oct 2026 08:00:00 +0800</pubDate><category>行业与市场</category><description>越南《Tuổi Trẻ》2026 年 10 月 23 日报道（Vietnam.vn 英译）：宣光省陇句乡罗罗寨（Lo Lo Chai）被称作「世界最佳旅游村」，自陇句旗杆望去多处在建，混凝土柱林立。Lung Cu 公社今年以来向 20 户发施工许可，其中仅 3 户建夯土墙加阴阳瓦屋顶，其余用混凝土并涂土黄仿夯土。
-
-村长 Sinh Gi Gai 说，图纸仿罗罗族传统夯土屋，公社规定不超过两层、须符合传统外观，材料可用混凝土、玻璃、木材等。他称真夯土房若不生火，几天就会发霉潮湿，客人住不了；土墙厚、窗小、难装电器，所以生意人多建混凝土「假装」老屋，方便空调与观景大窗。检查荞麦花节筹备时，公社人民委员会叫停 5 个在建项目。
-
-旅游业者 Phạm Thái Dương 与游客 Nguyễn Minh Thu 担心石篱、夯土墙与古瓦构成的风貌被混凝土仿制品稀释。Duong 建议建设前做专家设计审查，并设不破坏整体景观的具体标准。 对你：文旅区「假夯土」压力大，真夯土与抹面防潮方案是你可卖的差异点。</description></item><item><title>Keable 在 RD26 谈生土的循环潜力</title><link>https://architecturetoday.co.uk/specifying-natural-and-sustainable-materials-rowland-keable-on-the-potential-of-earth-at-rd26/</link><guid isPermaLink="false">e3cd1ea890f0</guid><pubDate>Fri, 23 Oct 2026 08:00:00 +0800</pubDate><category>行业与市场</category><description>Architecture Today 报道 Rowland Keable（Rammed Earth Consulting 总监）在 Regenerative Design 2026（RD26）研讨会上的发言。活动由 Architecture Today 发起，10 月在伦敦 Building Centre 举行，本场与 HG Matthews 合作。
-
-Keable 从业三十多年，梳理夯土、压制土砖、草泥、轻质土、黏土砂浆与抹面等做法。他指出生土最大优势是循环性：未烧制、未掺水泥的土可打碎、再润湿、反复使用，材料成分基本不变。现场挖出的土直接加工成砌块，能减少外运和新材料采购。
-
-案例包括 Walthamstow 住宅：挖出的土制成砌块再回工地；国王十字 Tribeca 开发：开挖黏土制成大量内墙砌块。他的核心信息是：生土建造不是试验品，也不只属于传统工艺，当代项目里有可落地的机会，前提是建筑师看见脚下的材料。 对你：英伦规格书与挖土回用话术，可借来跟开发商谈生土闭环。</description></item></channel></rss>
+同一约 4 英亩地块计划共五栋，地层权共享果园与污水浇灌区。文中明确 0 元供暖是业主自述，尚无电表公开数据；光伏与电池拟在测完日常用电后再装。该宅曾列入 2026 年 5 月 17 日开放参观。 对你：寒区被动房用夯土热质替轮胎墙的话术，可借来跟自建客户沟通。</description></item></channel></rss>

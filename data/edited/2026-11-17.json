@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-17",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-17T09:17:20+08:00",
+  "lead": "Han等用碎砖完全替代天然土做夯筑材料，级配优化后抗压强度达19.80 MPa，单位强度碳排比水泥稳定夯土低约65%；里斯本大学Cruz等报告再生水泥土坯砖在1000℃失去整体性，800℃饱和强度明显恢复。",
+  "actions": [
+    "把碎砖夯筑材料的级配与碳排摘要数据交给刘泥匠；全文需补读。",
+    "把再生水泥土坯砖高温后的摘要结论交给刘泥匠对照。"
+  ],
+  "items": [
+    {
+      "id": "c90925913844",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 8,
+        "nov": 8,
+        "cred": 8,
+        "reson": 9,
+        "act": 7
+      },
+      "score": 80,
+      "title_zh": "论文：用碎砖完全替代天然土的夯筑材料",
+      "summary_zh": "Han等用再生砖骨料完全替代天然土做夯筑材料。级配优化后干密度1.62升至1.73 g/cm³，无侧限抗压强度11.54升至19.80 MPa，提高71.6%。单位强度碳排2.71 kg CO₂e/(m²·MPa)，低于水泥稳定夯土基准65%。水泥超过约20%后强度增益基本耗尽。",
+      "for_you": "级配比单纯加水泥更关键：摘要称水泥超过约20%后强度几乎不再提高，单位强度碳排比常规稳定夯土低约65%。",
+      "url_override": "https://doi.org/10.1016/j.cscm.2026.e06722",
+      "source_read": "abstract",
+      "body_zh": "Han、Jing、Cheng、Chen的论文将编入该刊第25卷，文章编号e06722。Crossref记录许可为CC BY 4.0，自2026年11月11日起生效。研究对象是碎砖夯筑材料（CBRM）：用再生砖骨料完全代替天然土，并测试压实、吸水、抗压强度、按强度折算的碳排放，以及无侧限抗压强度预测。\n\n摘要称，压实和强度强烈依赖颗粒级配。级配优化使最大干密度从1.62提高到1.73 g/cm³，无侧限抗压强度从11.54提高到19.80 MPa，即提高71.6%。在15%水泥掺量下，最大干密度与强度正相关。水泥从25%增到30%时，平均强度只变1.1%，小于平行试样的离散，作者据此认为大约20%以上再加水泥，强度收益已基本用尽。CBRM的单位强度碳排为2.71 kg CO₂e/(m²·MPa)，约低于水泥稳定夯土基准65%。\n\n作者用23组配合比、69个试件，比较OLS、Ridge、XGBoost、随机森林、支持向量回归和LightGBM六种模型。嵌套交叉验证中，支持向量回归最好：配合比层面RMSE为3.416 MPa、R²为0.711；按级配组验证时为2.506 MPa和0.623。脚本未能打开ScienceDirect全文，以上均来自开放获取论文的摘要；示范工程等细节需补读全文后再核。",
+      "key_facts": [
+        {
+          "k": "材料",
+          "v": "再生砖骨料完全替代天然土（CBRM）"
+        },
+        {
+          "k": "强度",
+          "v": "级配优化后UCS 11.54→19.80 MPa（+71.6%）"
+        },
+        {
+          "k": "干密度",
+          "v": "最大干密度由1.62升至1.73 g/cm³"
+        },
+        {
+          "k": "碳排",
+          "v": "CIUS 2.71 kg CO₂e/(m²·MPa)，约低于SRE 65%"
+        },
+        {
+          "k": "水泥掺量",
+          "v": "超过约20%后强度增益基本耗尽"
+        },
+        {
+          "k": "样本",
+          "v": "23组配合比、69个试件；全文待补读"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "The CIUS of CBRM was 2.71 kg CO₂e/(m²·MPa), about 65% lower",
+          "lang": "en"
+        },
+        {
+          "text": "the strength benefit of additional binder is largely exhausted beyond about 20%.",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "ed638c26b8fd",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 7,
+        "nov": 7,
+        "cred": 9,
+        "reson": 9,
+        "act": 5
+      },
+      "score": 74,
+      "title_zh": "论文：再生水泥稳定土坯砖高温后的性能",
+      "summary_zh": "里斯本高等理工学院Cruz、Bogas、Sousa 11月16日发文，比较再生水泥与普通水泥稳定土坯砖，加热至1000℃。超过400℃后孔隙和吸水增加、力学性能下降；1000℃全部失去整体性。再生水泥试样干强度较低，但残余干强度和耐水性相当，800℃饱和强度明显恢复。",
+      "for_you": "再生水泥可作土坯稳定剂，但400℃以上性能会下降；800℃饱和强度恢复这一点可交给刘泥匠看。",
+      "url_override": "https://doi.org/10.1617/s11527-026-03366-0",
+      "source_read": "abstract",
+      "body_zh": "该文2026年11月16日在线发表，将编入《Materials and Structures》2026年12月第59卷第10期。作者来自里斯本大学高等理工学院CERIS研究中心。文章不是开放获取，以下只根据摘要。研究考察再生水泥稳定土坯砖在最高1000℃下的微观结构、力学、物理和耐久性指标，并与普通硅酸盐水泥稳定砖、未稳定砖在相同条件下比较。\n\n摘要称，超过400℃后，稳定土坯砖逐渐劣化：孔隙率、毛细吸水和总吸水率上升，体积密度和力学性能下降。所有配方在1000℃后都失去结构整体性。与普通水泥稳定砖相比，再生水泥稳定砖孔隙更粗、吸水更高、干抗压强度更低，但残余干强度相当，耐水性相近。再生水泥试样在800℃时饱和强度恢复明显。400℃以上，弹性模量随温度的变化与抗压强度不同。作者还提出一个由抗压强度和体积密度估算弹性模量的经验关系，适用范围到600℃。\n\n摘要结论是：再生水泥的残余性能与普通水泥相当，同时环境代价明显更低，有潜力作为更可持续、也具有抗火韧性的生土稳定剂。配比、升温制度和具体强度数值摘要未给出。",
+      "key_facts": [
+        {
+          "k": "期刊",
+          "v": "Materials and Structures，11月16日在线"
+        },
+        {
+          "k": "对比",
+          "v": "再生水泥、普通水泥稳定砖，及未稳定砖"
+        },
+        {
+          "k": "劣化起点",
+          "v": "超过400℃后孔隙和吸水上升，力学性能下降"
+        },
+        {
+          "k": "1000℃",
+          "v": "所有配方失去结构整体性"
+        },
+        {
+          "k": "800℃",
+          "v": "再生水泥试样饱和强度明显恢复"
+        },
+        {
+          "k": "限制",
+          "v": "仅据摘要；配比与升温制度未给出"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "All formulations lost structural integrity after exposure to 1000 °C.",
+          "lang": "en"
+        },
+        {
+          "text": "RC-stabilized CEB achieved great saturated strength recovery at 800 °C.",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "3c7818bd478e",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 4,
+        "cred": 7,
+        "reson": 9,
+        "act": 6
+      },
+      "score": 56,
+      "title_zh": "论文：现场沉降法测夯土级配，8%水泥达5.2 MPa",
+      "summary_zh": "Coelho等11月16日发文：现场沉降法与筛分法的砂、细料差在10%以内。按巴西NBR 17014，只加砂或加5%石灰不达标；8%水泥特征强度5.2 MPa。试件因压机故障在成型9个月后才测。",
+      "url_override": "https://doi.org/10.47236/2594-7036.2026.v10.2122",
+      "source_read": "full"
+    },
+    {
+      "id": "54898b6e9488",
+      "decision": "brief",
+      "category": "project",
+      "scores": {
+        "sig": 6,
+        "nov": 4,
+        "cred": 8,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 62,
+      "title_zh": "Tuckey无稳定夯土宅获Dezeen 2026可持续建筑奖",
+      "summary_zh": "11月16日，Tuckey在英国威尔特郡的夯土宅获Dezeen Awards 2026可持续建筑奖和该类别公众投票。墙体用场地黏土和拆除废料骨料夯筑，不加稳定剂。评委会称这种尺度在英国仍少见。",
+      "url_override": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-architecture-project-of-the-year-revealed/",
+      "source_read": "full"
+    },
+    {
+      "id": "5ad3e7087a32",
+      "decision": "brief",
+      "category": "project",
+      "scores": {
+        "sig": 3,
+        "nov": 3,
+        "cred": 7,
+        "reson": 6,
+        "act": 4
+      },
+      "score": 45,
+      "title_zh": "黑森州园丁学徒为2027州园博会夯出半圆土墙",
+      "summary_zh": "《Vorsprung Wetterau》11月16日报道，学徒Eckel、Steffen、Peppel在巴特萨尔茨豪森为2027州园博会首次夯出半圆土墙，拆模后站稳。土夯到原高度一半，计划今年内做完。",
+      "url_override": "https://wetterau.news/wirtschaft/132-ausbildung/35201-neuland-mit-stampflehm.html",
+      "source_read": "full"
+    },
+    {
+      "id": "9df295a115cf",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "生土只是背景，无实质信息（加西网转载《梦想改造家》第七季节目，大别山土坯房改造为综艺内容，无材料或工艺实质信息）"
+    },
+    {
+      "id": "e2eabc435782",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "生土只是背景，无实质信息（沙特通讯社及转载谈的是纳季兰传统木窗做法，用本地柽柳、酸枣木做窗框，无生土材料实质信息）"
+    }
+  ]
+}
