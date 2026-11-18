@@ -1,53 +1,45 @@
 {
- "date": "2026-11-17",
- "lead": "Han等用碎砖完全替代天然土做夯筑材料，级配优化后抗压强度达19.80 MPa，单位强度碳排比水泥稳定夯土低约65%；里斯本大学Cruz等报告再生水泥土坯砖在1000℃失去整体性，800℃饱和强度明显恢复。",
+ "date": "2026-11-18",
+ "lead": "都灵理工大学用生命周期评价比较六种生土抹面：熟石灰配比碳排最高，石膏稳定居中且作者认为综合最好；法国Bauge System正用移动机组在现场把开挖土做成草泥砌块，计划2027年放大。",
  "actions": [
-  "把碎砖夯筑材料的级配与碳排摘要数据交给刘泥匠；全文需补读。",
-  "把再生水泥土坯砖高温后的摘要结论交给刘泥匠对照。"
+  "把都灵理工抹面LCA交给刘泥匠：石膏稳定比熟石灰碳排低，玉米芯会抬高隐含碳。",
+  "把Bauge System现场砌块机组动向交给刘泥匠核实，并关注2027年放量。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-17.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-18.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W47.html",
  "counts": {
   "pick": 2,
-  "brief": 3,
-  "drop": 2,
+  "brief": 1,
+  "drop": 3,
   "merged": 0
  },
  "picks": [
   {
-   "title": "论文：用碎砖完全替代天然土的夯筑材料",
-   "category": "研究论文",
-   "score": 80,
-   "for_you": "级配比单纯加水泥更关键：摘要称水泥超过约20%后强度几乎不再提高，单位强度碳排比常规稳定夯土低约65%。",
-   "body_zh": "Han、Jing、Cheng、Chen的论文将编入该刊第25卷，文章编号e06722。Crossref记录许可为CC BY 4.0，自2026年11月11日起生效。研究对象是碎砖夯筑材料（CBRM）：用再生砖骨料完全代替天然土，并测试压实、吸水、抗压强度、按强度折算的碳排放，以及无侧限抗压强度预测。\n\n摘要称，压实和强度强烈依赖颗粒级配。级配优化使最大干密度从1.62提高到1.73 g/cm³，无侧限抗压强度从11.54提高到19.80 MPa，即提高71.6%。在15%水泥掺量下，最大干密度与强度正相关。水泥从25%增到30%时，平均强度只变1.1%，小于平行试样的离散，作者据此认为大约20%以上再加水泥，强度收益已基本用尽。CBRM的单位强度碳排为2.71 kg CO₂e/(m²·MPa)，约低于水泥稳定夯土基准65%。\n\n作者用23组配合比、69个试件，比较OLS、Ridge、XGBoost、随机森林、支持向量回归和LightGBM六种模型。嵌套交叉验证中，支持向量回归最好：配合比层面RMSE为3.416 MPa、R²为0.711；按级配组验证时为2.506 MPa和0.623。脚本未能打开ScienceDirect全文，以上均来自开放获取论文的摘要；示范工程等细节需补读全文后再核。",
-   "source_read": "abstract",
-   "url": "https://doi.org/10.1016/j.cscm.2026.e06722",
-   "source": "Bioengineer.org"
+   "title": "法国Bauge System试用现场生产草泥砌块的移动机组",
+   "category": "产品与企业",
+   "score": 72,
+   "for_you": "这是现场用弃土做生土砌块的设备商动向，可关注其2027年放量，并交给刘泥匠看工艺路线。",
+   "body_zh": null,
+   "source_read": "snippet",
+   "url": "https://agence-api.ouest-france.fr/immobilier/materiaux-pour-le-batiment/bauge-system-cherche-a-automatiser-la-production-de-blocs-de-terre-crue-sur-les-chantiers-7925050a-e1aa-11f1-b029-43a761592972",
+   "source": "Ouest-France"
   },
   {
-   "title": "论文：再生水泥稳定土坯砖高温后的性能",
+   "title": "论文：都灵理工用LCA比较六种生土抹面碳排",
    "category": "研究论文",
-   "score": 74,
-   "for_you": "再生水泥可作土坯稳定剂，但400℃以上性能会下降；800℃饱和强度恢复这一点可交给刘泥匠看。",
-   "body_zh": "该文2026年11月16日在线发表，将编入《Materials and Structures》2026年12月第59卷第10期。作者来自里斯本大学高等理工学院CERIS研究中心。文章不是开放获取，以下只根据摘要。研究考察再生水泥稳定土坯砖在最高1000℃下的微观结构、力学、物理和耐久性指标，并与普通硅酸盐水泥稳定砖、未稳定砖在相同条件下比较。\n\n摘要称，超过400℃后，稳定土坯砖逐渐劣化：孔隙率、毛细吸水和总吸水率上升，体积密度和力学性能下降。所有配方在1000℃后都失去结构整体性。与普通水泥稳定砖相比，再生水泥稳定砖孔隙更粗、吸水更高、干抗压强度更低，但残余干强度相当，耐水性相近。再生水泥试样在800℃时饱和强度恢复明显。400℃以上，弹性模量随温度的变化与抗压强度不同。作者还提出一个由抗压强度和体积密度估算弹性模量的经验关系，适用范围到600℃。\n\n摘要结论是：再生水泥的残余性能与普通水泥相当，同时环境代价明显更低，有潜力作为更可持续、也具有抗火韧性的生土稳定剂。配比、升温制度和具体强度数值摘要未给出。",
-   "source_read": "abstract",
-   "url": "https://doi.org/10.1617/s11527-026-03366-0",
-   "source": "Materials and Structures"
+   "score": 71,
+   "for_you": "做生土抹面可参考：石膏稳定比熟石灰碳排更低；掺玉米芯会抬高隐含碳，需用阶段节能对冲。",
+   "body_zh": "都灵理工大学建筑与设计系创新技术系统实验室（LaSTIn）的Thiebat、Mattone、Carbonaro，与费拉拉大学的Pollet，在Architectural Experiences第2卷发表论文，介绍EVER EARTH项目中的生土抹面环境评价。他们先配制14种粘土基抹面，再选出6种做从摇篮到大门（模块A1–A3）的生命周期评价，方法依据ISO 14040/44和EN 15804:2021，用SimaPro 9.2建模，指标为IPCC 2013的100年全球变暖潜势，功能单位是1千克包装原材料和1千克包装抹面。研究未计入二氧化碳吸收，也未计入拌合用水。\n\n六种配比分别为：粘土加砂的对照样TS1-B；再分别加入熟石灰、石膏或玉米芯，以及熟石灰加玉米芯、石膏加玉米芯。玉米芯粒径1–2毫米，硅砂0.1–0.3毫米，试样在实验室室温养护约30天。作者把玉米芯按玉米种植的副产品做质量分配，而不是按废弃物计为零负担，因此掺玉米芯会提高总碳排。\n\n结果显示，含熟石灰的抹面全球变暖潜势最高，纯粘土配比最低；石膏稳定的配比居中。作者认为，在降低碳排与可能提高力学强度之间，石膏稳定综合最好。文中未给出各配比的具体碳排数字，这些数值只在图中。抗水冲蚀、力学和热工测试将另文发表，后续还计划把系统边界扩到施工、使用和寿命终止阶段。",
+   "source_read": "full",
+   "url": "https://doi.org/10.54508/archex.2.28",
+   "source": "Architectural Experiences"
   }
  ],
  "briefs": [
   {
-   "title": "Tuckey无稳定夯土宅获Dezeen 2026可持续建筑奖",
-   "url": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-architecture-project-of-the-year-revealed/"
-  },
-  {
-   "title": "论文：现场沉降法测夯土级配，8%水泥达5.2 MPa",
-   "url": "https://doi.org/10.47236/2594-7036.2026.v10.2122"
-  },
-  {
-   "title": "黑森州园丁学徒为2027州园博会夯出半圆土墙",
-   "url": "https://wetterau.news/wirtschaft/132-ausbildung/35201-neuland-mit-stampflehm.html"
+   "title": "论文：高岭土、水泥与石灰稳定压实土砖的性能评估",
+   "url": "https://doi.org/10.1016/j.nxmate.2026.104002"
   }
  ]
 }
