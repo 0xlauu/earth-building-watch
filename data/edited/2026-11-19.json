@@ -1,0 +1,356 @@
+{
+ "date": "2026-11-19",
+ "editor": "Grok Bot",
+ "edited_at": "2026-11-19T09:19:48+08:00",
+ "lead": "法国第十届全国生土建造大会今天至21日在圣奥梅尔举行，并设首届BÂTI'TERRE展会。诺曼底Enerterre已完成135场参与式修缮，2025年开了土料生产单元。圣保罗大学测了掺马尾藻压土砖的湿干刷磨耐久。",
+ "actions": [
+  "把圣奥梅尔大会（至21日）和20日18时免费公开展交给刘文台出稿。",
+  "把Enerterre本地土料生产和参与式抹面修缮交给刘泥匠核实。"
+ ],
+ "items": [
+  {
+   "id": "680fc1244749",
+   "decision": "pick",
+   "category": "event",
+   "scores": {
+    "sig": 8,
+    "nov": 7,
+    "cred": 8,
+    "reson": 10,
+    "act": 9
+   },
+   "score": 86,
+   "title_zh": "法国圣奥梅尔举办第十届全国生土建造大会及展会",
+   "summary_zh": "法国生土协会AsTerre主办的第十届全国生土建造大会于11月19日至21日在圣奥梅尔举行，这是该会首次走进上法兰西大区。同期举办首届全国生土及生物/地质源材料展会BÂTI'TERRE，对公众免费开放。20日18时有免费公共讲座「土材料」。",
+   "for_you": "行业年会正在进行，可看展商和欧洲同行讨论，20日晚上还有免费公开课。",
+   "url_override": "https://www.asterre.org/l-association-asterre/assises-nationales/10e-assises-nationales-de-la-terre-crue",
+   "source_read": "full",
+   "body_zh": "大会由法国生土协会AsTerre主办，合作方包括可持续建筑机构CD2E，地点在圣奥梅尔的Le Moulin à café剧院（Place du Maréchal Foch）。主题是「超越边界」。三天里面向专业人员、研究者和学生，同时对公众开放展会。\n\n四场圆桌分别讨论：生物和地质源材料产业链协作，以及新近成立的生态材料联盟；德国、比利时、奥地利、英国、瑞士等邻国经验和20年跨境合作；社会住房中的生土实践，包括1980年代以来的Domaine de la Terre等项目；以及乡土生土遗产的识别、保护和适应性再利用。第一场圆桌有荷兰土材商Tierrafino创始人Carl Giskes发言。20日18时至19时30分有免费公共讲座「土材料」，讲生土在建筑减碳、适应气候和地区发展中的作用。同期还有上法兰西生土集体的展览，以及跨境学生挑战赛。\n\n北滨海省报纸《Nord Littoral》11月18日发了预告，但正文需付费，会议细节来自AsTerre、CD2E和Envirobat Occitanie的公开页面。参观线路的具体安排，这几页没有写清。",
+   "key_facts": [
+    {
+     "k": "时间",
+     "v": "2026年11月19日至21日"
+    },
+    {
+     "k": "地点",
+     "v": "圣奥梅尔 Le Moulin à café 剧院"
+    },
+    {
+     "k": "主办",
+     "v": "法国生土协会 AsTerre"
+    },
+    {
+     "k": "展会",
+     "v": "首届 BÂTI'TERRE，对公众免费开放"
+    },
+    {
+     "k": "公开课",
+     "v": "20日18时至19时30分，免费"
+    }
+   ]
+  },
+  {
+   "id": "68533f8e00ff",
+   "decision": "pick",
+   "category": "product",
+   "scores": {
+    "sig": 7,
+    "nov": 6,
+    "cred": 7,
+    "reson": 9,
+    "act": 7
+   },
+   "score": 74,
+   "title_zh": "诺曼底Enerterre卖本地土料并做135场参与式修缮",
+   "summary_zh": "《西部法兰西报》11月18日报道，曼什省协会Enerterre用本地生土和植物纤维，为收入不高的业主做参与式热工修缮，成立以来已完成135场。2025年它还用当地土源开了生产单元，把筛磨后的土卖给个人和专业商。",
+   "for_you": "这是生土抹面和土料销售的运作样本，可交给刘泥匠看其生产和修缮路子。",
+   "url_override": "https://www.ouest-france.fr/societe/logement/avec-enerterre-bien-isoler-son-logement-est-un-acte-solidaire-et-bio-64bf5694-c3fd-11f1-b3a8-1120a69ac78a",
+   "source_read": "full",
+   "merged_ids": [
+    "4d485ef55806"
+   ],
+   "body_zh": "报道属于地方报联合专题「寻找明天」第11期。通讯员Camille Fontenelle说，机制最早由Cotentin和Bessin沼泽区域自然公园发起，用来修缮当地草泥墙（bauge）房屋；曼什省和雷恩盆地是法国生土建筑最集中的地区之一。原计划四年，2017年结束时，六名受益人成立协会继续做。文章写协会现有七名员工、四个全职当量。\n\n协会组织「共同自修复缮」工地：工匠带队，受益人和志愿者一起干活，每场大约十人。社会技术陪同员Flore Enouf会提前上门，看住房状况和家庭需求；这一阶段由协会自有资金承担，并协助申请Ma Prime Rénov、地方补助和项目征集。两名工匠Adrien和Jérémy负责现场分工。协会只做二次砌筑：主要处理旧房墙体，让墙体更透气、排出积湿，并用植物纤维和生土做保温，也做土砂抹面或石灰砂抹面。纤维用亚麻和大麻，材料都强调本地、低碳、便宜。\n\n2025年，协会用一处本地土源开了生产单元：土在曼什省的风和阳光下干燥，去掉石块后磨成不同粒径，再卖给个人或专业商。该单元得到诺曼底社会与团结经济地区发展机构主导的Katapult孵化支持。成立以来共做135场参与式修缮，大约每年十多场；仅2025年就培训了25名学员，并新陪同50户。官网是enerterre.fr。",
+   "key_facts": [
+    {
+     "k": "地点",
+     "v": "法国曼什省"
+    },
+    {
+     "k": "工地累计",
+     "v": "135场参与式自修复缮"
+    },
+    {
+     "k": "2025年",
+     "v": "培训25人，新陪同50户"
+    },
+    {
+     "k": "产品",
+     "v": "2025年开设本地土料生产单元并对外销售"
+    },
+    {
+     "k": "工艺",
+     "v": "植物纤维加生土保温，以及土砂或石灰砂抹面"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "On ne fait que de la maçonnerie de second œuvre",
+     "lang": "fr"
+    },
+    {
+     "text": "Elle est séchée au vent et au soleil de la Manche",
+     "lang": "fr"
+    }
+   ]
+  },
+  {
+   "id": "4d485ef55806",
+   "decision": "merged",
+   "merged_into": "68533f8e00ff"
+  },
+  {
+   "id": "5ae7aea5fe9d",
+   "decision": "pick",
+   "category": "technique",
+   "scores": {
+    "sig": 6,
+    "nov": 5,
+    "cred": 6,
+    "reson": 9,
+    "act": 8
+   },
+   "score": 72,
+   "title_zh": "洛特-加龙省Trentels培训中心用现场土做砌筑教学",
+   "summary_zh": "《西南报》11月18日报道，洛特-加龙省Trentels的生态建造资源与培训中心Cerf，正在培训专业工人：课程包括用场地开挖土做砌筑，以及木工和保温。学员在课堂上学会的做法，会立刻用到现场，目前已有一座28平方米的轻型生态住房原型。",
+   "for_you": "这是用现场土做砌筑培训的样本，也可看他们如何向当地议员推公共采购。",
+   "url_override": "https://www.sudouest.fr/environnement/en-quete-demain/a-trentels-en-lot-et-garonne-on-apprend-a-construire-avec-ce-que-l-on-a-sous-les-pieds-ou-a-portee-de-main-31565325.php",
+   "source_read": "full",
+   "body_zh": "Cerf位于Trentels的Lustrac小村，2025年11月落成，建筑面积560平方米。报道说它用了生土等地质源材料，以及木材、秸秆、木纤维和喷吹纤维素等生物源或再生材料，屋顶有光伏板。中心是集体Tera（「一起走向自主收入」）从2014年起推动的乡村转型街区的展示设施。整套合作生态被标为地方经济合作极（PTCE），报道称规模为900万欧元，由企业家Frédéric Bosqué发起，试点占地4公顷，服务半径约30公里。\n\n中心主任Sandrine Maximilien有土木工程和城市规划背景，现为里昂国家应用科学院休假中的教师研究员，此前教混凝土，也曾参与里昂Amàco的工作。她对生土砖的防潮说法是：要有「帽子」（屋檐出挑）和「靴子」（石材或轮胎做的防水基础）。建筑师是当地的Bernard Boulangeot，建造靠本地工匠和首批学员，部分培训工地由Compagnons bâtisseurs指导。\n\nCerf主要培训生态建造专业工人（Opec），三个能力块是木工、用场地开挖土做的砌筑，以及保温。它也向所有人开放主题工作坊，并向议员做公共采购方面的介绍，还计划生产用于生态建造的产品。28平方米的轻型、可逆、自主生态住房原型已能从中心露台看到，后续还要建更多住宅。文章同属「寻找明天」专题。",
+   "key_facts": [
+    {
+     "k": "地点",
+     "v": "法国洛特-加龙省 Trentels 的 Lustrac"
+    },
+    {
+     "k": "中心面积",
+     "v": "560平方米，2025年11月落成"
+    },
+    {
+     "k": "原型",
+     "v": "28平方米轻型生态住房"
+    },
+    {
+     "k": "培训",
+     "v": "木工、现场开挖土砌筑、保温"
+    },
+    {
+     "k": "主任",
+     "v": "Sandrine Maximilien"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "il leur faut un chapeau – un débord de toiture – et des bottes",
+     "lang": "fr"
+    }
+   ]
+  },
+  {
+   "id": "e4b75012a7a8",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 6,
+    "nov": 6,
+    "cred": 8,
+    "reson": 8,
+    "act": 5
+   },
+   "score": 65,
+   "title_zh": "论文：掺马尾藻的水泥稳定压土砖湿干耐久试验",
+   "summary_zh": "圣保罗大学Vimieiro等在Buildings发表开放获取论文，按巴西标准NBR 13554做六次湿干循环钢丝刷试验，评估掺马尾藻的水泥稳定压土砖耐久性。5%水泥时最多只能掺2.5%体积的马尾藻；10%水泥时掺到10%体积仍能把平均质量损失控制在14%限值内。",
+   "for_you": "压土砖掺海藻要跟着水泥用量走，低水泥高掺量会在刷磨循环中解体，且重金属溶出还没测完。",
+   "url_override": "https://doi.org/10.3390/buildings16224612",
+   "source_read": "full",
+   "body_zh": "通讯作者Jhade Vimieiro来自圣保罗大学皮拉苏农加校区，合作者还有Giulia Nascimento、Carolina Andrade、索非亚·贝萨（米纳斯吉拉斯联邦大学）和João Adriano Rossignolo。他们用巴西热带地区两种土配成混合土，石英为主、高岭石为主要黏土矿物；水泥是巴西CPII-F 32硅酸盐水泥。马尾藻2025年3月采集于巴西亚马孙沿海，约含10% S. fluitans、15% S. natans I和75% S. natans VIII，淡水洗净后晒干，磨到0.6–1.0毫米。共15组配比：水泥质量掺量5%、7%、10%，马尾藻体积掺量0%到10%。试样为直径5厘米、高10厘米的圆柱体，分三层压到100毫米高，目标干密度1979千克/立方米，密封袋中室温养护28天。\n\n耐久试验按NBR 13554，做六次湿干循环后钢丝刷刷磨，并以NBR 13553规定的平均质量损失不超过14%为通过线。因实验室条件，试样小于标准尺寸。结果是：5%水泥且马尾藻体积掺量为5%、7.5%、10%的刷磨试样分别在第5、第4和第3循环解体，无法计算质量损失；5%水泥最多只能在2.5%体积掺量下通过。7%水泥时，C7S5平均损失13.41%，仍低于14%，但C7S7.5和C7S10分别为23.40%和31.24%，超标。10%水泥各组全部通过，无马尾藻时平均损失0.97%，掺10%体积时升至10.38%。\n\n作者写明，马尾藻用量和水泥稳定量相互约束，用在承重或非承重墙之前还要补力学、热湿和结构试验，并配合出檐和表面防护。马尾藻原料里已检出重金属，砖体中的含量和溶出仍在研究，本文没有给出这些数据。",
+   "key_facts": [
+    {
+     "k": "机构",
+     "v": "巴西圣保罗大学皮拉苏农加校区"
+    },
+    {
+     "k": "试验标准",
+     "v": "NBR 13554 六次湿干循环钢丝刷试验"
+    },
+    {
+     "k": "通过线",
+     "v": "平均质量损失不超过14%（NBR 13553）"
+    },
+    {
+     "k": "5%水泥",
+     "v": "最多掺2.5%体积马尾藻可通过"
+    },
+    {
+     "k": "10%水泥",
+     "v": "掺至10%体积，损失0.97%至10.38%"
+    },
+    {
+     "k": "局限",
+     "v": "未测力学；重金属溶出仍在研究"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "more biomass requires more stabilisation to achieve comparable durability",
+     "lang": "en"
+    },
+    {
+     "text": "all formulations containing 10% cement met the criterion",
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "bfbfbeabd965",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 6,
+    "nov": 7,
+    "cred": 8,
+    "reson": 6,
+    "act": 3
+   },
+   "score": 64,
+   "title_zh": "论文：浙大用电泳和苔藓分阶段调控遗址水分",
+   "summary_zh": "浙江大学向青青、唐晓武等在Sustainability发表开放获取论文，提出先用石墨纤维电泳排水、再铺苔藓保湿的分阶段策略，用于潮湿环境中的土遗址。实验室里，平均含水率约45%是切换点；在所试范围内，1.0伏/厘米是排水、贯入阻力和均匀性之间的折中。",
+   "for_you": "对潮湿土遗址的水分调控有方法参考，但只在重塑土实验室完成，还不能直接搬到现场。",
+   "url_override": "https://doi.org/10.3390/su182211740",
+   "source_read": "full",
+   "body_zh": "通讯作者是浙江大学唐晓武，作者还有向青青、唐佳杰（日本立命馆大学）、孙国平（浙江省文物考古研究所）、费民良、蔡鹏辉和陈汉文。经费来自浙江省文物局（2023006）和国家自然科学基金（52478369）。土样取自浙江余姚三七市镇井头山遗址发掘区，是高压缩性灰黑色黏土，天然含水率40.6%。试验把土烘干、粉碎、过2毫米筛后，再配成含水率60%的重塑土，分三层装入试验箱，湿土质量3600克。苔藓用大羽藓，每组6.1克，盖满200平方厘米表面。室内温度25摄氏度，相对湿度60%±5%。\n\n共七组对比：空白、只铺苔藓、只做1.0伏/厘米电泳，以及电泳同时或之后再铺苔藓，并比较0.5、1.0、1.5伏/厘米。操作上，先把平均含水率从60%降到45%看排水，再看45%降到35%的保湿；电泳在累计失水337.5克、也就是平均含水率到45%时停止。结论是：高含水阶段电泳能加快内部水分迁移和排出，苔藓则抑制表面蒸发；先电泳再铺苔藓，可以兼顾初期快排和后期保湿。作者把约45%的平均含水率当作本次试验中的有效切换点，并认为1.0伏/厘米是所试梯度里排水效果、贯入阻力和空间均匀性的折中，而不是已经优化的最佳值。电极用石墨纤维，意在减少金属溶出，但仍可能发生电化学反应。\n\n局限写得很明确：这是控制条件下的重塑土试验，没有再现现场不均匀性、降雨入渗和长期干湿循环；收缩开裂只做了目视，没有定量；处理后的酸碱度、可溶盐、电极损耗和苔藓存活都未系统监测，也没有独立重复试验。45%和35%只是本次对比用的操作阈值，不是普遍的文物保护标准。现场效果、能耗和可逆性都还要再验证。",
+   "key_facts": [
+    {
+     "k": "机构",
+     "v": "浙江大学，合作含浙江省文物考古研究所"
+    },
+    {
+     "k": "土样",
+     "v": "余姚井头山遗址发掘区重塑土"
+    },
+    {
+     "k": "切换点",
+     "v": "本次试验中平均含水率约45%"
+    },
+    {
+     "k": "电场",
+     "v": "所试范围内折中值为1.0伏/厘米"
+    },
+    {
+     "k": "方法",
+     "v": "石墨纤维电泳后铺大羽藓保湿"
+    },
+    {
+     "k": "局限",
+     "v": "实验室重塑土，尚未做现场验证"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "an average water content of approximately 45% was identified",
+     "lang": "en"
+    },
+    {
+     "text": "These benefits should be regarded as preliminary",
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "92b415a14c79",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 5,
+    "cred": 8,
+    "reson": 10,
+    "act": 2
+   },
+   "score": 58,
+   "title_zh": "论文：纤维增强土基体加固土坯砌体的轴压性能",
+   "summary_zh": "Xie、Wu、Han、Cui和Wang在《建筑与建筑材料》第551卷发表论文，研究纤维增强土基体加固土坯砌体的轴压性能，并比较组砌方式和加固布置。非开放获取，摘要和全文都打不开，数据标「未验证」。",
+   "url_override": "https://doi.org/10.1016/j.conbuildmat.2026.148925",
+   "source_read": "snippet"
+  },
+  {
+   "id": "6f6a51289024",
+   "decision": "brief",
+   "category": "project",
+   "scores": {
+    "sig": 6,
+    "nov": 5,
+    "cred": 7,
+    "reson": 7,
+    "act": 3
+   },
+   "score": 56,
+   "title_zh": "印度瓦德纳加尔考古体验馆以夯土展陈获红点奖",
+   "summary_zh": "古吉拉特邦瓦德纳加尔Anant Anadi考古体验馆获2026年红点奖展览设计最高奖。红点官方称，展陈用七层夯土代表不同历史时期，并陈列六千多件跨约2500年的文物。颁奖典礼11月6日在柏林举行。",
+   "url_override": "https://www.news9live.com/state/gujarat/vadnagar-museum-red-dot-best-of-the-best-award-2026-gujarat-3025073",
+   "source_read": "full"
+  },
+  {
+   "id": "bb1907976d5b",
+   "decision": "brief",
+   "category": "product",
+   "scores": {
+    "sig": 5,
+    "nov": 4,
+    "cred": 7,
+    "reson": 6,
+    "act": 6
+   },
+   "score": 56,
+   "title_zh": "维也纳vivihouse示范楼招标出售，含秸秆和泥抹面",
+   "summary_zh": "维也纳工业大学和vivihouse协会招标出售多瑙费尔德示范楼，不含土地，投标截止12月7日。官网写它是木框架模块建筑，有约36厘米秸秆捆保温和泥抹面，买方须自行拆运另建。",
+   "url_override": "https://www.vivihouse.cc/bieterverfahren/",
+   "source_read": "full"
+  },
+  {
+   "id": "1bf739a6239a",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Divisare 11月17日发布圣托里尼Pyrgos的EOS精品酒店，介绍依坡错落的体量和私密水池，未写生土建造。"
+  },
+  {
+   "id": "255d41d76c8e",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Divisare 介绍奥斯陆ACT!的Blåfink桑拿配套房，全文为木结构和木纤维保温，2025年建成，与生土无关。"
+  },
+  {
+   "id": "b324383d0589",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "庆州OAR当代美术馆为钢结构和钢筋混凝土，外饰阳极氧化板；文中earthen mounds指新罗王陵土丘，生土只是背景。项目年份2025年，ArchDaily 2026-11-18再发。"
+  },
+  {
+   "id": "218166b57cce",
+   "decision": "drop",
+   "drop_reason": "duplicate",
+   "note": "同一场Lalanne-Trie纪录片首映的映后回顾，11月12日已发简讯预告（id 265fd66e3441）。"
+  },
+  {
+   "id": "8536e502fcc3",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "斯塔万格Ersland & Skeie住宅为木结构庭院住宅，与生土无关。ArchDaily 2026-09-24已发，Divisare 11月再发。"
+  },
+  {
+   "id": "0adfd244b2bd",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "生土只是背景，无实质信息。Marie Claire介绍马拉喀什附近Kasbah d'If奢华酒店，2000年代初开工后改成37间套房，墙体为生土、秸秆和石灰，但通篇是旅游软文。"
+  }
+ ]
+}
