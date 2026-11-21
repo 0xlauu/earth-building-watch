@@ -1,0 +1,145 @@
+{
+ "date": "2026-11-21",
+ "editor": "Grok Bot",
+ "edited_at": "2026-11-21T09:22:49+08:00",
+ "lead": "《AD中东》报道塔什干近郊一栋当代夯土住宅：约70%材料为本地黏土，加水泥和细碎石，隔墙为手抹泥。马里一篇土坯掺植物纤维的综述完成交叉检索登记；粉煤灰替代水泥的土坯砌体论文见刊，但未见摘要。",
+ "actions": [
+  "把塔什干住宅约70%本地黏土、加水泥和细碎石，以及承重裸夯土墙须预埋线路的做法交给刘泥匠核实。",
+  "马里综述里麦秸约5%体积掺量和灯芯草纤维降导热的数字可参考，但都是转引，要对原实验。"
+ ],
+ "items": [
+  {
+   "id": "067697fb84ec",
+   "decision": "pick",
+   "category": "project",
+   "scores": {
+    "sig": 6,
+    "nov": 7,
+    "cred": 7,
+    "reson": 9,
+    "act": 6
+   },
+   "score": 72,
+   "title_zh": "塔什干近郊建成当代夯土住宅，约七成用本地土",
+   "summary_zh": "《AD中东》11月20日报道，KHVVSN创始人Evgeniy Khvan在塔什干近郊设计一栋夯土住宅：三座单层体量由连廊和庭院相连。约70%的材料是本地富黏土，另加水泥和细碎石；墙体既承重又作最终饰面，线路和插座须预先定位。室内还有现浇混凝土地面、木饰面门和手抹泥隔墙。",
+   "for_you": "这栋房子给出本地黏土约七成、加水泥和细碎石的夯土做法，隔墙还用了手抹泥，线路须在夯筑前预埋。",
+   "url_override": "https://www.admiddleeast.com/story/this-tashkent-home-reimagines-uzbekistans-rammed-earth-architecture",
+   "source_read": "full",
+   "body_zh": "这栋房子位于塔什干郊区的mahalla（传统街区）里。建筑师说，夯土是乌兹别克斯坦传统上最普遍的住宅做法，这里用当代的极简体量重新做：厚土墙应对当地剧烈温差，夏天降温、冬天保温，并参照附近希瓦古城的黏土住宅。业主是生物技术和基因组学领域的科学家，深度参与设计；Khvan说，重点不是照搬传统样式，而是找到一种植根于本地文化和材料的当代语言。\n\n三座体量功能分开：主楼有主卧套间、更衣室、书房和开放起居，餐厅通向露台；另外还有独立的泳池亭和客房。墙体是承重结构，也是裸露的最终表面，所以线路走向和插座位置必须提前确定。室内把夯土墙、现浇混凝土地面、木饰面门和手抹泥隔墙组合在一起。园里有抗旱草、薰衣草和迷迭香，还有一眼自流井。\n\n报道是室内设计特写，没有给出墙厚、水泥掺量、夯筑层厚或强度数据。水泥和细碎石的具体比例也未写明。",
+   "key_facts": [
+    {
+     "k": "地点",
+     "v": "乌兹别克斯坦塔什干近郊"
+    },
+    {
+     "k": "事务所",
+     "v": "KHVVSN，创始人 Evgeniy Khvan"
+    },
+    {
+     "k": "材料构成",
+     "v": "约70%为本地富黏土，另加水泥和细碎石"
+    },
+    {
+     "k": "布局",
+     "v": "三座单层体量，由连廊和庭院相连"
+    },
+    {
+     "k": "隔墙",
+     "v": "手抹泥"
+    },
+    {
+     "k": "报道日期",
+     "v": "2026年11月20日"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The timber grain softens the relationship between earth and concrete.",
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "b94a52cdc359",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 6,
+    "nov": 5,
+    "cred": 6,
+    "reson": 8,
+    "act": 5
+   },
+   "score": 58,
+   "title_zh": "论文：综述称土坯掺3%–5%植物纤维可兼顾强度与保温",
+   "summary_zh": "Hamdao Boubaker（马里）2026年6月综述（11月20日登记）：纤维体积掺量约3%–5%时土坯强度较好，过量则下降。转引麦秸5%干抗压2.4 MPa，灯芯草纤维导热系数最多降34.7%。",
+   "url_override": "https://doi.org/10.57056/sjesc.v2i1.21",
+   "source_read": "full"
+  },
+  {
+   "id": "6361862f1a4a",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 5,
+    "cred": 8,
+    "reson": 9,
+    "act": 3
+   },
+   "score": 58,
+   "title_zh": "论文：粉煤灰部分替代水泥的稳固土坯砌体性能",
+   "summary_zh": "Zhang Liangyi、Zhou Tiegang讨论粉煤灰部分替代水泥的稳固土坯砌体耐久、力学和抗震性能。刊于2026年12月CBM第551卷，11月20日登记。非开放获取，未见摘要。",
+   "url_override": "https://doi.org/10.1016/j.conbuildmat.2026.148985",
+   "source_read": "snippet"
+  },
+  {
+   "id": "a4154f912642",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Divisare 发布罗马奥林匹克村 GAMV HOUSE 公寓改造，恢复 Libera 十字形住宅平面，未见生土材料。"
+  },
+  {
+   "id": "5eb11884489a",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Divisare 发布 SpY 在马德里西贝莱斯广场的黑色三角形艺术装置 PANOPTICON，与生土无关。"
+  },
+  {
+   "id": "c29e7893fff4",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "迹·建筑事务所（TAO）西藏芒康达美拥酒庄风土艺术中心为红色清水混凝土结构，与生土无关。"
+  },
+  {
+   "id": "061c3ddd21e5",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "Trend Hunter 转述福田寺纪念设施，虽有夯土（hanchiku）通道墙，但同项目 Divisare 条目 2026-09-30 已入库，超过30天。"
+  },
+  {
+   "id": "5d08115b26e1",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Idealista 文旅盘点阿伊特本哈杜、昌昌、希巴姆、圣佩德罗德阿塔卡马和陶斯五个知名生土古城，无新的实质信息。"
+  },
+  {
+   "id": "15ed1e47a3d8",
+   "decision": "drop",
+   "drop_reason": "unverified",
+   "note": "Google 新闻标题为《Chinas Lehmbautradition lebt auf》，无法解析跳转，网上也搜不到该文，无法核实日期和内容。"
+  },
+  {
+   "id": "013f6ab7bdd9",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "埃及考古发现数百具棺木和金舌头，与生土建筑无关。"
+  },
+  {
+   "id": "75f0aed4b879",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "大英百科关于商朝社会的问答条目，不是生土新闻。"
+  }
+ ]
+}
