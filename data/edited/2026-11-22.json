@@ -1,0 +1,148 @@
+{
+ "date": "2026-11-22",
+ "editor": "Grok Bot",
+ "edited_at": "2026-11-22T09:17:59+08:00",
+ "lead": "兰州大学与敦煌研究院发开放获取论文：干旱区生土遗址表层常形成“结皮-疏松-本体”结构，输运差异主要由孔隙而非矿物成分决定。另有生石灰土坯掺回收农膜纤维、电场下夯土浆液运移两篇论文见刊，均未见摘要。",
+ "actions": [
+  "土墙若出现表层结皮、内层疏松，可对照文中疏松层蓄水、结皮挡水透汽的机制，数据需读全文后再用。"
+ ],
+ "items": [
+  {
+   "id": "c10fab925147",
+   "decision": "pick",
+   "category": "research",
+   "scores": {
+    "sig": 6,
+    "nov": 6,
+    "cred": 9,
+    "reson": 6,
+    "act": 3
+   },
+   "score": 63,
+   "title_zh": "论文：干旱区生土遗址“结皮-疏松-本体”的水热机制",
+   "summary_zh": "兰州大学与敦煌研究院11月21日在 npj Heritage Science 发开放获取论文。干旱区生土遗址表层风化常形成“结皮-疏松-本体”：疏松层利于液态水入渗并持水，本体层促进毛细重分布，结皮限制液态水进入但透汽；差异主要由孔隙而非矿物成分决定。",
+   "for_you": "土墙若出现表层结皮、内层疏松，文中指疏松层会蓄水，结皮挡液态水但仍透汽，病害可能出在层间水分重分布。",
+   "url_override": "https://doi.org/10.1038/s40494-026-03134-x",
+   "source_read": "abstract",
+   "body_zh": "这篇论文由兰州大学与敦煌研究院合作，2026年11月21日在 npj Heritage Science 开放获取发表，通讯作者是兰州大学的 Wentao Shi 和 Ping Liu，国家自然科学基金 42267023 资助。研究针对干旱区生土遗址表层风化形成的“结皮-疏松-本体”三层结构，做了水分吸附-脱附、热物性测量和显微结构分析。\n\n结果显示，三层的水分行为不同：疏松层促进液态水入渗并持水，本体层负责毛细重分布，结皮层限制液态水进入，但仍允许水汽交换。作者认为，控制这些差异的主要是孔隙结构，而不是矿物成分。\n\n在温度梯度、吸力变化和干湿循环下，水分重分布可能使水在疏松层积聚，并在表面形成结皮。摘要未写明取样遗址、孔隙尺寸和具体热物性数据。",
+   "key_facts": [
+    {
+     "k": "期刊",
+     "v": "npj Heritage Science（开放获取）"
+    },
+    {
+     "k": "发表日期",
+     "v": "2026年11月21日"
+    },
+    {
+     "k": "通讯作者",
+     "v": "Wentao Shi、Ping Liu（兰州大学）"
+    },
+    {
+     "k": "合作单位",
+     "v": "敦煌研究院监测中心"
+    },
+    {
+     "k": "资助",
+     "v": "国家自然科学基金 42267023"
+    },
+    {
+     "k": "方法",
+     "v": "水分吸附-脱附、热物性、显微分析"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "the Loose layer promotes liquid water infiltration and moisture retention",
+     "lang": "en"
+    },
+    {
+     "text": "the Crust layer restricts liquid water penetration but allows vapor exchange",
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "fa983cfe63e6",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 5,
+    "cred": 8,
+    "reson": 9,
+    "act": 3
+   },
+   "score": 58,
+   "title_zh": "论文：生石灰稳定土坯掺回收农用LDPE纤维的耐久优化",
+   "summary_zh": "Hammache等用响应面法优化生石灰稳定土坯掺回收农用LDPE纤维的耐久。刊于2026年12月CBM，11月21日登记。非开放获取，未见摘要。",
+   "url_override": "https://doi.org/10.1016/j.conbuildmat.2026.148955",
+   "source_read": "snippet"
+  },
+  {
+   "id": "5463cbb4ff9a",
+   "decision": "brief",
+   "category": "research",
+   "scores": {
+    "sig": 5,
+    "nov": 5,
+    "cred": 8,
+    "reson": 9,
+    "act": 3
+   },
+   "score": 58,
+   "title_zh": "论文：模拟电场下非饱和夯土中的导电浆液运移",
+   "summary_zh": "Wang等模拟电场下非饱和夯土中的导电浆液运移。刊于2026年11月Transportation Geotechnics，11月21日登记。非开放获取，未见摘要。",
+   "url_override": "https://doi.org/10.1016/j.trgeo.2026.102556",
+   "source_read": "snippet"
+  },
+  {
+   "id": "41e2483e81e0",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "TechJuice 称 PTML（Ufone）接手伊斯兰堡 345 总部；页面写“5 months ago”，配图路径含 2026/07，法院批准合并为 2026-06-30，原文约 2026 年 7 月。Google 新闻重标为 11 月 20 日。虽称该 2017 年园区为南亚大型夯土建筑之一，但已超过 30 天。"
+  },
+  {
+   "id": "afcc0970d10b",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "瑞士 Kobelt AG 在 Marbach 的展厅/样品中心是瑞士首座全 3D 打印混凝土建筑（约 2024 年竣工），EgoKiefer 只提供木铝窗，与生土无关。"
+  },
+  {
+   "id": "dc3adad565c5",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Swiss-Architects 条目为 Wigoltingen 村中心竞赛方案，检索事务所与竞赛资料，未见夯土或生土材料。"
+  },
+  {
+   "id": "e60ab52fbf75",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Wohlen 的 Gaswerkstrasse 12 套公寓，外立面为着色纤维水泥板、清水混凝土和玻璃砖，墙体是矿棉外保温砌砖，未见生土。"
+  },
+  {
+   "id": "f69924456bcf",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Scienmag 11月21日介绍一篇分析阿迦汗奖工业遗产适应性再利用评审标准的论文，所述案例材料为砖、石、木、石灰砂浆和混凝土，未见生土。"
+  },
+  {
+   "id": "f7b65da61da8",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "湖北英山邹倩获“湖北省技术能手”，报道主体是养老护理，与生土无关。"
+  },
+  {
+   "id": "a6d78ed9a23d",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "上海教师对口帮扶西藏班戈县中学的教育报道，与生土无关。"
+  },
+  {
+   "id": "f808b99c8525",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "生土只是背景，无实质信息（2026-11-10 榆林公布黄土梁秦代行宫遗址，钻探见夯土台基，但无尺寸、分层或工艺数据，主体是考古发现）。"
+  }
+ ]
+}
