@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-23",
+ "editor": "Grok Bot",
+ "edited_at": "2026-11-23T09:09:49+08:00",
+ "lead": "今天6条待审全部丢弃：泥蟹养殖与哭灵、避暑古镇稿无关；Dolpo乡土建筑论文2026年9月2日已发表；YouTube影片回顾2025年Yasmeen Lari竹泥亭；瑞士社区办公室装修未见生土。",
+ "actions": [],
+ "items": [
+  {
+   "id": "e1451167a4b0",
+   "decision": "drop",
+   "drop_reason": "noise",
+   "note": "Caravane Earth 2026-11-22 发布影片，讲巴基斯坦建筑师 Yasmeen Lari 在卡塔尔 Heenat Salma Farm 的六座竹泥亭。照片展 Built by Many Hands 于 2025-04-18 开幕，亭子原为 Manzar 展委托，已落成逾一年。属同一项目回顾片，无新的材料或工艺信息。"
+  },
+  {
+   "id": "de90f9cb63ef",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "JOURNAL OF THE ASIATIC SOCIETY OF BANGLADESH SCIENCE 论文，讲在土塘和网箱中育肥青蟹（Scylla olivacea）并套养罗非鱼，与生土建筑无关。"
+  },
+  {
+   "id": "a88a66337904",
+   "decision": "drop",
+   "drop_reason": "old",
+   "note": "Google 新闻 11月21日推送 Bioengineer.org / Scienmag 稿。原文为 Weise 与 Joshi 在 Built Heritage 的开放获取论文 Vernacular buildings of Dolpo, Nepal: adaptation to the high Himalayas，2026年9月2日发表，已超过30天。DOI: 10.1186/s43238-026-00297-1。"
+  },
+  {
+   "id": "f65790d1e2cf",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "搜狐稿写河南职业哭灵，与生土建筑无关。"
+  },
+  {
+   "id": "1842f37b5171",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "手机新浪网避暑古镇旅游推荐（同类文旅清单多次出现），标题与导语未见生土材料的实质信息。"
+  },
+  {
+   "id": "8a9e6ebbbba8",
+   "decision": "drop",
+   "drop_reason": "irrelevant",
+   "note": "Swiss-Architects / STUDIO NICOTRA 的 Zwhatt Siedlungsbüro，是瑞士 Regensdorf 约100平方米社区办公室室内设计，核心是彩色脚手架展架和定制桌，材料为钢材，未见夯土或生土。"
+  }
+ ]
+}
