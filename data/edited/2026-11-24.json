@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-24",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-24T09:16:00+08:00",
+  "lead": "法国老砖厂Rairies Montrieux将首售不烧结生土砖，称生产能耗较烧结砖低八至九成。里昂Terrio凭预制夯土块入围创新奖，并称已在与Bouygues、Eiffage谈合同。另有贝宁论文：气焊废石灰使红土压土砖抗压提高约九倍。",
+  "actions": [
+    "把Rairies不烧结砖和Terrio预制夯土块交给刘泥匠，对照规格、用途和可保险路径。",
+    "论文15%废石灰抗压数据可参考，但耐水性未测，且四种土对纤维反应差别大，勿直接套用。"
+  ],
+  "items": [
+    {
+      "id": "809b868c7df5",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "ClayTec YouTube #shorts，讲墙面采暖管埋在泥抹面下。按编辑手册，YouTube #shorts与品牌花絮作noise丢弃。"
+    },
+    {
+      "id": "a0a07fa84839",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 6,
+        "nov": 7,
+        "cred": 6,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 64,
+      "title_zh": "论文：贝宁红土压土砖用气焊废石灰与棕仁饼纤维稳定",
+      "summary_zh": "贝宁Houehanou等11月23日在开放获取期刊Engineering发文。用四种红土做压土砖，对比素土、15%气焊废石灰、15%石灰加1%棕仁饼纤维、以及8%水泥。28天抗压：素土平均0.17兆帕，15%废石灰1.60兆帕，约9.2倍；耐水性未直接测试。",
+      "for_you": "废石灰15%、纤维1%的数据可作压土砖稳化参考，但耐水性未测，且四种土对纤维反应差别很大。",
+      "url_override": "https://doi.org/10.4236/eng.2026.1811029",
+      "source_read": "full",
+      "body_zh": "贝宁UNSTIM的Houehanou、Kassaidja、Agbellele、Tchao和Adjovi，11月23日在Engineering第18卷第11期发表开放获取论文（CC BY 4.0，页码517–542）。研究把气焊作坊乙炔发生器内壁刮下的废石灰，和棕仁榨油后的饼渣纤维一起用于压土砖，作者写这是二者的首次组合应用。\n\n四种土均属USCS的CL类，取自佐格博多梅、达萨祖梅、格拉祖埃和恩达利。废石灰来自阿波美-卡拉维手工作坊；同一团队先前XRD测得氢氧钙石85.4±1.8%，有效氧化钙约35%–60%，低于工业石灰85%–98%，故以15%废石灰接近工业石灰8%的氧化钙用量。纤维长度0.5–5毫米。全尺寸砖用CINVA Ram杠杆压机成型，规格40×20×10厘米，分两层静压。抗压在28天测定，16组各3件，共48个。\n\n素土平均抗压0.17兆帕，15%废石灰为1.60兆帕（约9.2倍），石灰加纤维1.31兆帕，8%水泥2.09兆帕。除佐格博多梅的石灰加纤维配方为0.81兆帕外，其余稳定配方都超过承重砌体常用的1兆帕门槛。加1%纤维后抗压普遍下降，佐格博多梅降幅达45.5%，达萨祖梅仅3.0%。抗折则相反：石灰加纤维四种土平均0.367兆帕，比单用石灰的0.320兆帕高14.7%；在达萨祖梅，石灰加纤维为0.444兆帕，与8%水泥的0.440兆帕在统计上无显著差别。\n\n作者写明：耐水性没有直接测试，文中保留系数只是文献中的参考值；稳定土未另做最优含水率；纤维阻裂机制也未做微观验证；经济性待确认。作者认为，承重砌体更适合单用废石灰，抗折要求更高的非承重构件可考虑加纤维，须按土种分别试验。",
+      "key_facts": [
+        {
+          "k": "期刊",
+          "v": "Engineering（开放获取，CC BY 4.0）"
+        },
+        {
+          "k": "发表日期",
+          "v": "2026年11月23日"
+        },
+        {
+          "k": "抗压28天",
+          "v": "素土0.17兆帕，15%废石灰1.60兆帕"
+        },
+        {
+          "k": "配方",
+          "v": "15%废石灰；另试加1%棕仁饼纤维"
+        },
+        {
+          "k": "抗压试件",
+          "v": "48个（16组×3）"
+        },
+        {
+          "k": "局限",
+          "v": "耐水性未直接测试"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Residual lime stabilization increases compressive strength by a factor of 9.2",
+          "lang": "en"
+        },
+        {
+          "text": "Water resistance was not tested directly.",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "9080ccee9248",
+      "decision": "pick",
+      "category": "product",
+      "scores": {
+        "sig": 7,
+        "nov": 6,
+        "cred": 7,
+        "reson": 8,
+        "act": 6
+      },
+      "score": 70,
+      "title_zh": "法国Rairies Montrieux首推不烧结生土砖",
+      "summary_zh": "《西部法兰西报》11月22日报道，曼恩-卢瓦尔省砖厂Rairies Montrieux将首次在一百多年历史上出售不烧结生土砖。质量工艺负责人Benoit Joussaume 11月5日展示了两块只干燥、不入窑的砖。该报称，相较1100°C烧结砖，生产能耗可降80%–90%。",
+      "for_you": "老牌烧结砖厂开始做生土砖。其产品目录写明用于木或金属骨架填充，规格有125×110×70和260×110×70毫米。",
+      "url_override": "https://www.ouest-france.fr/economie/construction-btp/avec-la-brique-crue-lentreprise-rairies-montrieux-propose-un-nouveau-produit-bas-carbone-venu-tout-droit-du-passe-27686cdc-d932-11f1-b736-5b9907ef0b5a",
+      "source_read": "snippet"
+    },
+    {
+      "id": "eee2d1c35258",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Vietnam.vn转郑州商代牛肋骨刻辞，讲早商文字，与生土建筑无关。"
+    },
+    {
+      "id": "37f86cf9cee3",
+      "decision": "pick",
+      "category": "product",
+      "scores": {
+        "sig": 7,
+        "nov": 6,
+        "cred": 7,
+        "reson": 8,
+        "act": 6
+      },
+      "score": 70,
+      "title_zh": "里昂Terrio凭预制夯土块入围Bref Eco创新奖",
+      "summary_zh": "《Bref Eco》11月23日报道，里昂Terrio凭预制夯土块入围创新奖“建造”类，名单12月初公布。Freudenreich称块材用开挖弃土、不烧结，碳排9千克二氧化碳当量/平方米；2025年营收80万欧元，正与Bouygues、Eiffage谈合同，四年目标800万欧元。",
+      "for_you": "这是把夯土做成可保险、可按普通工期安装的预制块，并已进入大型承包商采购视野，可对照自己的材料路径。",
+      "url_override": "https://www.brefeco.com/actualite/innovation/finaliste-des-trophees-bref-eco-de-linnovation-15-terrio-apporte-le-pise-dans",
+      "source_read": "full",
+      "body_zh": "《Bref Eco》11月23日刊出Alban Razia的报道：里昂公司Terrio入围2026年Bref Eco创新奖“建造”类别，该报正在介绍20名决赛者，正式获奖名单将于12月初公布。董事长Vincent-Pierre Freudenreich说，现有产品很难进入常规工地做法，也难以获得保险认可，所以生土在常见项目里几乎看不到。\n\n他提出“三重突破”：用开挖弃土作原料；块材不经化学转化、也不烧结，企业自称碳排为9千克二氧化碳当量/平方米；在场外预制，以保证质量稳定、加快现场安装，并使工程可投保。他对比说，现场浇筑夯土更慢，还受天气摆布。这些块材可用于外墙、隔墙和分户墙，可承重、非承重或作填充，并可用于住宅、办公、学校和公共设施，包括接待公众的建筑和抗震设防区。\n\n首批工地于2023年开工。Freudenreich称，2025年营收达到80万欧元，目前正在与Bouygues、Eiffage等大型承包商谈大型合同，也被一些有影响力的建筑师指定使用；按他的说法，四年内营收目标为800万欧元。上述营收、合同和碳排数字均来自企业自身陈述，报道未附独立核验。",
+      "key_facts": [
+        {
+          "k": "奖项",
+          "v": "Bref Eco创新奖“建造”类决赛"
+        },
+        {
+          "k": "获奖公布",
+          "v": "2026年12月初"
+        },
+        {
+          "k": "碳排（自称）",
+          "v": "9千克CO2eq/平方米"
+        },
+        {
+          "k": "2025年营收",
+          "v": "80万欧元（企业自称）"
+        },
+        {
+          "k": "四年目标",
+          "v": "800万欧元（企业自称）"
+        },
+        {
+          "k": "首批工地",
+          "v": "2023年"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Notre solution apporte une triple rupture",
+          "lang": "fr"
+        }
+      ]
+    },
+    {
+      "id": "8a10e02d560f",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Divisare推送SOUP Architects与摄影师Peter Molloy的The Long Barn and Grain Store。SOUP官网写的是竖向木挂板、立缝金属屋面和高性能玻璃，未见夯土、土坯或生土抹面。"
+    },
+    {
+      "id": "fc75b14ecbdf",
+      "decision": "brief",
+      "category": "heritage",
+      "scores": {
+        "sig": 4,
+        "nov": 4,
+        "cred": 6,
+        "reson": 5,
+        "act": 4
+      },
+      "score": 46,
+      "title_zh": "秘鲁昌昌古城举办列入世界遗产40周年活动",
+      "summary_zh": "秘鲁文化部将于11月23日至27日举办昌昌列入联合国教科文组织世界遗产40周年活动。23日在遗址博物馆有学术会议，讨论生土建筑保护，下午还有应对厄尔尼诺的保护座谈。",
+      "url_override": "https://diariocorreo.pe/edicion/la-libertad/chan-chan-celebra-40-anos-como-patrimonio-mundial-trujillo-la-libertad-peru-noticia/",
+      "source_read": "full"
+    }
+  ]
+}

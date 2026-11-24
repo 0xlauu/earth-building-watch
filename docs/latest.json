@@ -1,38 +1,55 @@
 {
- "date": "2026-11-22",
- "lead": "兰州大学与敦煌研究院发开放获取论文：干旱区生土遗址表层常形成“结皮-疏松-本体”结构，输运差异主要由孔隙而非矿物成分决定。另有生石灰土坯掺回收农膜纤维、电场下夯土浆液运移两篇论文见刊，均未见摘要。",
+ "date": "2026-11-24",
+ "lead": "法国老砖厂Rairies Montrieux将首售不烧结生土砖，称生产能耗较烧结砖低八至九成。里昂Terrio凭预制夯土块入围创新奖，并称已在与Bouygues、Eiffage谈合同。另有贝宁论文：气焊废石灰使红土压土砖抗压提高约九倍。",
  "actions": [
-  "土墙若出现表层结皮、内层疏松，可对照文中疏松层蓄水、结皮挡水透汽的机制，数据需读全文后再用。"
+  "把Rairies不烧结砖和Terrio预制夯土块交给刘泥匠，对照规格、用途和可保险路径。",
+  "论文15%废石灰抗压数据可参考，但耐水性未测，且四种土对纤维反应差别大，勿直接套用。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-22.html",
- "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W47.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-24.html",
+ "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W48.html",
  "counts": {
-  "pick": 1,
-  "brief": 2,
-  "drop": 8,
+  "pick": 3,
+  "brief": 1,
+  "drop": 3,
   "merged": 0
  },
  "picks": [
   {
-   "title": "论文：干旱区生土遗址“结皮-疏松-本体”的水热机制",
+   "title": "法国Rairies Montrieux首推不烧结生土砖",
+   "category": "产品与企业",
+   "score": 70,
+   "for_you": "老牌烧结砖厂开始做生土砖。其产品目录写明用于木或金属骨架填充，规格有125×110×70和260×110×70毫米。",
+   "body_zh": null,
+   "source_read": "snippet",
+   "url": "https://www.ouest-france.fr/economie/construction-btp/avec-la-brique-crue-lentreprise-rairies-montrieux-propose-un-nouveau-produit-bas-carbone-venu-tout-droit-du-passe-27686cdc-d932-11f1-b736-5b9907ef0b5a",
+   "source": "Ouest-France"
+  },
+  {
+   "title": "里昂Terrio凭预制夯土块入围Bref Eco创新奖",
+   "category": "产品与企业",
+   "score": 70,
+   "for_you": "这是把夯土做成可保险、可按普通工期安装的预制块，并已进入大型承包商采购视野，可对照自己的材料路径。",
+   "body_zh": "《Bref Eco》11月23日刊出Alban Razia的报道：里昂公司Terrio入围2026年Bref Eco创新奖“建造”类别，该报正在介绍20名决赛者，正式获奖名单将于12月初公布。董事长Vincent-Pierre Freudenreich说，现有产品很难进入常规工地做法，也难以获得保险认可，所以生土在常见项目里几乎看不到。\n\n他提出“三重突破”：用开挖弃土作原料；块材不经化学转化、也不烧结，企业自称碳排为9千克二氧化碳当量/平方米；在场外预制，以保证质量稳定、加快现场安装，并使工程可投保。他对比说，现场浇筑夯土更慢，还受天气摆布。这些块材可用于外墙、隔墙和分户墙，可承重、非承重或作填充，并可用于住宅、办公、学校和公共设施，包括接待公众的建筑和抗震设防区。\n\n首批工地于2023年开工。Freudenreich称，2025年营收达到80万欧元，目前正在与Bouygues、Eiffage等大型承包商谈大型合同，也被一些有影响力的建筑师指定使用；按他的说法，四年内营收目标为800万欧元。上述营收、合同和碳排数字均来自企业自身陈述，报道未附独立核验。",
+   "source_read": "full",
+   "url": "https://www.brefeco.com/actualite/innovation/finaliste-des-trophees-bref-eco-de-linnovation-15-terrio-apporte-le-pise-dans",
+   "source": "Bref Eco"
+  },
+  {
+   "title": "论文：贝宁红土压土砖用气焊废石灰与棕仁饼纤维稳定",
    "category": "研究论文",
-   "score": 63,
-   "for_you": "土墙若出现表层结皮、内层疏松，文中指疏松层会蓄水，结皮挡液态水但仍透汽，病害可能出在层间水分重分布。",
-   "body_zh": "这篇论文由兰州大学与敦煌研究院合作，2026年11月21日在 npj Heritage Science 开放获取发表，通讯作者是兰州大学的 Wentao Shi 和 Ping Liu，国家自然科学基金 42267023 资助。研究针对干旱区生土遗址表层风化形成的“结皮-疏松-本体”三层结构，做了水分吸附-脱附、热物性测量和显微结构分析。\n\n结果显示，三层的水分行为不同：疏松层促进液态水入渗并持水，本体层负责毛细重分布，结皮层限制液态水进入，但仍允许水汽交换。作者认为，控制这些差异的主要是孔隙结构，而不是矿物成分。\n\n在温度梯度、吸力变化和干湿循环下，水分重分布可能使水在疏松层积聚，并在表面形成结皮。摘要未写明取样遗址、孔隙尺寸和具体热物性数据。",
-   "source_read": "abstract",
-   "url": "https://doi.org/10.1038/s40494-026-03134-x",
-   "source": "npj Heritage Science"
+   "score": 64,
+   "for_you": "废石灰15%、纤维1%的数据可作压土砖稳化参考，但耐水性未测，且四种土对纤维反应差别很大。",
+   "body_zh": "贝宁UNSTIM的Houehanou、Kassaidja、Agbellele、Tchao和Adjovi，11月23日在Engineering第18卷第11期发表开放获取论文（CC BY 4.0，页码517–542）。研究把气焊作坊乙炔发生器内壁刮下的废石灰，和棕仁榨油后的饼渣纤维一起用于压土砖，作者写这是二者的首次组合应用。\n\n四种土均属USCS的CL类，取自佐格博多梅、达萨祖梅、格拉祖埃和恩达利。废石灰来自阿波美-卡拉维手工作坊；同一团队先前XRD测得氢氧钙石85.4±1.8%，有效氧化钙约35%–60%，低于工业石灰85%–98%，故以15%废石灰接近工业石灰8%的氧化钙用量。纤维长度0.5–5毫米。全尺寸砖用CINVA Ram杠杆压机成型，规格40×20×10厘米，分两层静压。抗压在28天测定，16组各3件，共48个。\n\n素土平均抗压0.17兆帕，15%废石灰为1.60兆帕（约9.2倍），石灰加纤维1.31兆帕，8%水泥2.09兆帕。除佐格博多梅的石灰加纤维配方为0.81兆帕外，其余稳定配方都超过承重砌体常用的1兆帕门槛。加1%纤维后抗压普遍下降，佐格博多梅降幅达45.5%，达萨祖梅仅3.0%。抗折则相反：石灰加纤维四种土平均0.367兆帕，比单用石灰的0.320兆帕高14.7%；在达萨祖梅，石灰加纤维为0.444兆帕，与8%水泥的0.440兆帕在统计上无显著差别。\n\n作者写明：耐水性没有直接测试，文中保留系数只是文献中的参考值；稳定土未另做最优含水率；纤维阻裂机制也未做微观验证；经济性待确认。作者认为，承重砌体更适合单用废石灰，抗折要求更高的非承重构件可考虑加纤维，须按土种分别试验。",
+   "source_read": "full",
+   "url": "https://doi.org/10.4236/eng.2026.1811029",
+   "source": "Engineering"
   }
  ],
  "briefs": [
   {
-   "title": "论文：生石灰稳定土坯掺回收农用LDPE纤维的耐久优化",
-   "url": "https://doi.org/10.1016/j.conbuildmat.2026.148955"
-  },
-  {
-   "title": "论文：模拟电场下非饱和夯土中的导电浆液运移",
-   "url": "https://doi.org/10.1016/j.trgeo.2026.102556"
+   "title": "秘鲁昌昌古城举办列入世界遗产40周年活动",
+   "url": "https://diariocorreo.pe/edicion/la-libertad/chan-chan-celebra-40-anos-como-patrimonio-mundial-trujillo-la-libertad-peru-noticia/"
   }
  ]
 }
