@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-25",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-25T09:14:08+08:00",
+  "lead": "摩洛哥论文指出，当代夯土面临抗震规范限高R+1、保险缺失，以及造价为混凝土砌块的1.5至2倍。巴伐利亚一座全生土墙建筑将在12月5日世界土壤日作为研究对象。另有综述谈中国抗震规范对全夯土建筑的限制。",
+  "actions": [
+    "把摩洛哥论文的保险真空、限高和预制板路径交给刘泥匠对照。",
+    "12月5日德国全生土墙建筑讲座，素材可交刘文台。"
+  ],
+  "items": [
+    {
+      "id": "1b6b1294358e",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 7,
+        "nov": 6,
+        "cred": 6,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 64,
+      "title_zh": "论文：摩洛哥夯土受抗震规范限高与保险真空制约",
+      "summary_zh": "奥德吉里11月24日在开放获取期刊发文。综合德拉、齐兹河谷分析与24人访谈，并汇总文献。指出RPCT 2011在中高地震区把生土建筑限为R+1、总高不超过7米，行业缺十年保险，优化夯土造价为混凝土砌块的1.5至2倍。抗压等数据来自文献汇总，非作者新试验。",
+      "for_you": "保险缺失、限高和造价偏高是行业共性问题；文中抗压数据引自文献，勿当新试验套用。",
+      "url_override": "https://doi.org/10.34257/gjree279115",
+      "source_read": "full",
+      "body_zh": "穆莱·阿卜杜拉·奥德吉里（Moulay Abdallah Odghiri，LARSLACH实验室）11月24日在Global Journal of Researches in Engineering发表开放获取论文（CC BY 4.0）。5日投稿，16日接收。方法是三角互证：德拉河与齐兹河流域的形态类型分析、对24名居民和工匠的半结构访谈，以及对摩洛哥近年文献中热工和力学性能的汇总，并对照RPCT 2011和热工规范RTCM。\n\n文献汇总的抗压区间为：传统夯土0.8至1.2兆帕；掺4%水硬石灰NHL 3.5为1.8至2.3兆帕；掺0.5%棕榈纤维和3%水泥为2.1至2.6兆帕。40厘米墙的热滞后，优化夯土为10至12小时，混凝土为4至6小时。作者写，水硬胶凝材料虽能提高强度，但拆除后无法再就地化泥回用。与普通混凝土1500至2000千瓦时/立方米相比，优化生土配方隐含能耗为180至220千瓦时/立方米，约省85%至90%，但造价仍因人工和支模偏高。\n\n作者建议走分散式工业化：预制土坯或机械预压夯土大板，并更新公共采购和十年保险规则。他同时写明，工匠口传技艺面临后继无人。文中机械和热工数字主要来自文献汇总，不是作者新做的试验。",
+      "key_facts": [
+        {
+          "k": "期刊",
+          "v": "GJRE，开放获取，CC BY 4.0"
+        },
+        {
+          "k": "发表日期",
+          "v": "2026年11月24日"
+        },
+        {
+          "k": "规范",
+          "v": "RPCT 2011第5.2条，中高地震区限R+1、总高≤7米"
+        },
+        {
+          "k": "造价",
+          "v": "优化夯土为混凝土砌块的1.5至2倍"
+        },
+        {
+          "k": "抗压文献值",
+          "v": "传统0.8–1.2兆帕；4%水硬石灰1.8–2.3兆帕"
+        },
+        {
+          "k": "访谈",
+          "v": "24名居民和工匠"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "making optimized rammed earth 1.5 to 2 times more expensive than concrete",
+          "lang": "en"
+        },
+        {
+          "text": "imposes a strict altimetric height restriction of R+1 (maximum 7 meters)",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "92e92ac40fc3",
+      "decision": "pick",
+      "category": "event",
+      "scores": {
+        "sig": 5,
+        "nov": 5,
+        "cred": 7,
+        "reson": 7,
+        "act": 8
+      },
+      "score": 67,
+      "title_zh": "巴伐利亚全生土墙建筑12月5日世界土壤日开放讲座",
+      "summary_zh": "OberpfalzECHO 11月21日报道，Windischeschenbach有一座全生土墙建筑Erdbodenhaus，2025年建成、2026年春启用。12月5日14:00至16:30，建筑师Brückner和包豪斯大学Huthöfer讲座并参观。",
+      "for_you": "这是一座已启用的全生土墙建筑，12月5日有承重和实用性讲座，可对照自己的墙体做法。",
+      "url_override": "https://oberpfalzecho.de/buntes/erdbodenhaus-in-windischeschenbach-wird-selbst-zum-anschauungsobjekt",
+      "source_read": "full",
+      "body_zh": "报道写，这座建筑位于上普法尔茨Windischeschenbach的大陆深钻GEO中心（GEO-Zentrum an der KTB）。墙体全部用生土建造，既是展馆，本身也是材料样本。2025年建成，2026年春启用，里面是巴伐利亚州环境局的土壤剖面收藏库和配套展览。\n\n世界土壤日活动由环境站举办。14:00由科学主管Frank Holzförster致开幕辞。14:10，设计该建筑的Peter Brückner（Brückner & Brückner Architekten）讲题为「出自土地，为了土地」。14:50，魏玛包豪斯大学科研人员、生土技术工Stefanie Huthöfer讲「生土建造——建筑转型的承重基石？」，讨论生土墙为何能承重、是否实用。15:30讨论，16:00由Holzförster带领参观，16:30结束。",
+      "key_facts": [
+        {
+          "k": "地点",
+          "v": "德国Windischeschenbach的GEO中心"
+        },
+        {
+          "k": "建成",
+          "v": "2025年建成，2026年春启用"
+        },
+        {
+          "k": "活动时间",
+          "v": "2026年12月5日14:00–16:30"
+        },
+        {
+          "k": "墙体",
+          "v": "全部为生土"
+        },
+        {
+          "k": "主讲",
+          "v": "Brückner；Huthöfer（包豪斯大学）"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Die Wände bestehen komplett aus Lehm",
+          "lang": "de"
+        },
+        {
+          "text": "Lehmbau – Tragender Baustein für die Bauwende?",
+          "lang": "de"
+        }
+      ]
+    },
+    {
+      "id": "2b1fe73e3178",
+      "decision": "brief",
+      "category": "product",
+      "scores": {
+        "sig": 5,
+        "nov": 4,
+        "cred": 7,
+        "reson": 8,
+        "act": 8
+      },
+      "score": 64,
+      "title_zh": "诺曼底Enerterre年产约50立方米并将参加28日展览",
+      "summary_zh": "actu.fr 11月24日再访Enerterre。协调人Bouyer称年产约50立方米，以袋装出售砖、植物混凝土和抹面。协会11月28日将参加圣洛第四届能源改造展。本月19日已报道其修缮和土料生产。",
+      "url_override": "https://actu.fr/planete/habitat/face-au-rechauffement-climatique-ils-defendent-ce-savoir-faire-ancien-pour-renover-des-maisons_65084470.html",
+      "source_read": "full"
+    },
+    {
+      "id": "207c80d5a780",
+      "decision": "brief",
+      "category": "market",
+      "scores": {
+        "sig": 6,
+        "nov": 5,
+        "cred": 7,
+        "reson": 6,
+        "act": 4
+      },
+      "score": 59,
+      "title_zh": "综述：中国夯土复兴受抗震规范制约，土楼再利用偏慢",
+      "summary_zh": "Eduard Kögel 11月20日德文、24日英文刊出综述。徐甜甜团队正为福建7座土楼找新用途，资金不足。文称许多地区抗震规范要求混合结构，全生土建筑难获批；乡村小型建筑和修缮已有地方技术指引。",
+      "url_override": "https://world-architects.com/en/architecture-news/insight/china-rammed-earth-resurgence",
+      "source_read": "full"
+    },
+    {
+      "id": "ca60295797ff",
+      "decision": "brief",
+      "category": "research",
+      "scores": {
+        "sig": 5,
+        "nov": 5,
+        "cred": 7,
+        "reson": 8,
+        "act": 3
+      },
+      "score": 55,
+      "title_zh": "论文：用核磁共振和崩解试验看夯土冻融中的孔隙变化",
+      "summary_zh": "《Journal of Building Engineering》11月24日登记王科宇、陈文武等论文，用核磁共振和崩解试验研究夯土在冻融循环下的孔隙结构演变与崩解。未能读到摘要或全文，具体数据不详。",
+      "url_override": "https://doi.org/10.1016/j.jobe.2026.117856",
+      "source_read": "snippet"
+    },
+    {
+      "id": "ca96de3053c7",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "卡塔尔Heenat Salma Farm 11月20日Dana Al Fardan音乐会视频，生土只是场地背景，无实质信息。"
+    },
+    {
+      "id": "b7290f77543b",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "加拿大东部黏土砖砌体土工合成材料加固试验，属烧结砖遗产砌体，与生土无关。"
+    },
+    {
+      "id": "5b1582911516",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Télérama介绍巴黎建筑城Perraudin展览（10月16日至1月3日），可见正文以里昂石材住宅为主，生土仅在塞内加尔Djilor Djidiack项目图片说明中带过，无实质信息。"
+    },
+    {
+      "id": "28a44f941ae6",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Scientific Reports论文讲纳米纤维素凝胶粘结砂，生土只作抗压对照（0.42–3.73兆帕），研究对象不是生土材料。"
+    }
+  ]
+}

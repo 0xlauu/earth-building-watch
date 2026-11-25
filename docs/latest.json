@@ -1,55 +1,53 @@
 {
- "date": "2026-11-24",
- "lead": "法国老砖厂Rairies Montrieux将首售不烧结生土砖，称生产能耗较烧结砖低八至九成。里昂Terrio凭预制夯土块入围创新奖，并称已在与Bouygues、Eiffage谈合同。另有贝宁论文：气焊废石灰使红土压土砖抗压提高约九倍。",
+ "date": "2026-11-25",
+ "lead": "摩洛哥论文指出，当代夯土面临抗震规范限高R+1、保险缺失，以及造价为混凝土砌块的1.5至2倍。巴伐利亚一座全生土墙建筑将在12月5日世界土壤日作为研究对象。另有综述谈中国抗震规范对全夯土建筑的限制。",
  "actions": [
-  "把Rairies不烧结砖和Terrio预制夯土块交给刘泥匠，对照规格、用途和可保险路径。",
-  "论文15%废石灰抗压数据可参考，但耐水性未测，且四种土对纤维反应差别大，勿直接套用。"
+  "把摩洛哥论文的保险真空、限高和预制板路径交给刘泥匠对照。",
+  "12月5日德国全生土墙建筑讲座，素材可交刘文台。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-24.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-25.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W48.html",
  "counts": {
-  "pick": 3,
-  "brief": 1,
-  "drop": 3,
+  "pick": 2,
+  "brief": 3,
+  "drop": 4,
   "merged": 0
  },
  "picks": [
   {
-   "title": "法国Rairies Montrieux首推不烧结生土砖",
-   "category": "产品与企业",
-   "score": 70,
-   "for_you": "老牌烧结砖厂开始做生土砖。其产品目录写明用于木或金属骨架填充，规格有125×110×70和260×110×70毫米。",
-   "body_zh": null,
-   "source_read": "snippet",
-   "url": "https://www.ouest-france.fr/economie/construction-btp/avec-la-brique-crue-lentreprise-rairies-montrieux-propose-un-nouveau-produit-bas-carbone-venu-tout-droit-du-passe-27686cdc-d932-11f1-b736-5b9907ef0b5a",
-   "source": "Ouest-France"
-  },
-  {
-   "title": "里昂Terrio凭预制夯土块入围Bref Eco创新奖",
-   "category": "产品与企业",
-   "score": 70,
-   "for_you": "这是把夯土做成可保险、可按普通工期安装的预制块，并已进入大型承包商采购视野，可对照自己的材料路径。",
-   "body_zh": "《Bref Eco》11月23日刊出Alban Razia的报道：里昂公司Terrio入围2026年Bref Eco创新奖“建造”类别，该报正在介绍20名决赛者，正式获奖名单将于12月初公布。董事长Vincent-Pierre Freudenreich说，现有产品很难进入常规工地做法，也难以获得保险认可，所以生土在常见项目里几乎看不到。\n\n他提出“三重突破”：用开挖弃土作原料；块材不经化学转化、也不烧结，企业自称碳排为9千克二氧化碳当量/平方米；在场外预制，以保证质量稳定、加快现场安装，并使工程可投保。他对比说，现场浇筑夯土更慢，还受天气摆布。这些块材可用于外墙、隔墙和分户墙，可承重、非承重或作填充，并可用于住宅、办公、学校和公共设施，包括接待公众的建筑和抗震设防区。\n\n首批工地于2023年开工。Freudenreich称，2025年营收达到80万欧元，目前正在与Bouygues、Eiffage等大型承包商谈大型合同，也被一些有影响力的建筑师指定使用；按他的说法，四年内营收目标为800万欧元。上述营收、合同和碳排数字均来自企业自身陈述，报道未附独立核验。",
+   "title": "巴伐利亚全生土墙建筑12月5日世界土壤日开放讲座",
+   "category": "活动与赛事",
+   "score": 67,
+   "for_you": "这是一座已启用的全生土墙建筑，12月5日有承重和实用性讲座，可对照自己的墙体做法。",
+   "body_zh": "报道写，这座建筑位于上普法尔茨Windischeschenbach的大陆深钻GEO中心（GEO-Zentrum an der KTB）。墙体全部用生土建造，既是展馆，本身也是材料样本。2025年建成，2026年春启用，里面是巴伐利亚州环境局的土壤剖面收藏库和配套展览。\n\n世界土壤日活动由环境站举办。14:00由科学主管Frank Holzförster致开幕辞。14:10，设计该建筑的Peter Brückner（Brückner & Brückner Architekten）讲题为「出自土地，为了土地」。14:50，魏玛包豪斯大学科研人员、生土技术工Stefanie Huthöfer讲「生土建造——建筑转型的承重基石？」，讨论生土墙为何能承重、是否实用。15:30讨论，16:00由Holzförster带领参观，16:30结束。",
    "source_read": "full",
-   "url": "https://www.brefeco.com/actualite/innovation/finaliste-des-trophees-bref-eco-de-linnovation-15-terrio-apporte-le-pise-dans",
-   "source": "Bref Eco"
+   "url": "https://oberpfalzecho.de/buntes/erdbodenhaus-in-windischeschenbach-wird-selbst-zum-anschauungsobjekt",
+   "source": "Foro3D"
   },
   {
-   "title": "论文：贝宁红土压土砖用气焊废石灰与棕仁饼纤维稳定",
+   "title": "论文：摩洛哥夯土受抗震规范限高与保险真空制约",
    "category": "研究论文",
    "score": 64,
-   "for_you": "废石灰15%、纤维1%的数据可作压土砖稳化参考，但耐水性未测，且四种土对纤维反应差别很大。",
-   "body_zh": "贝宁UNSTIM的Houehanou、Kassaidja、Agbellele、Tchao和Adjovi，11月23日在Engineering第18卷第11期发表开放获取论文（CC BY 4.0，页码517–542）。研究把气焊作坊乙炔发生器内壁刮下的废石灰，和棕仁榨油后的饼渣纤维一起用于压土砖，作者写这是二者的首次组合应用。\n\n四种土均属USCS的CL类，取自佐格博多梅、达萨祖梅、格拉祖埃和恩达利。废石灰来自阿波美-卡拉维手工作坊；同一团队先前XRD测得氢氧钙石85.4±1.8%，有效氧化钙约35%–60%，低于工业石灰85%–98%，故以15%废石灰接近工业石灰8%的氧化钙用量。纤维长度0.5–5毫米。全尺寸砖用CINVA Ram杠杆压机成型，规格40×20×10厘米，分两层静压。抗压在28天测定，16组各3件，共48个。\n\n素土平均抗压0.17兆帕，15%废石灰为1.60兆帕（约9.2倍），石灰加纤维1.31兆帕，8%水泥2.09兆帕。除佐格博多梅的石灰加纤维配方为0.81兆帕外，其余稳定配方都超过承重砌体常用的1兆帕门槛。加1%纤维后抗压普遍下降，佐格博多梅降幅达45.5%，达萨祖梅仅3.0%。抗折则相反：石灰加纤维四种土平均0.367兆帕，比单用石灰的0.320兆帕高14.7%；在达萨祖梅，石灰加纤维为0.444兆帕，与8%水泥的0.440兆帕在统计上无显著差别。\n\n作者写明：耐水性没有直接测试，文中保留系数只是文献中的参考值；稳定土未另做最优含水率；纤维阻裂机制也未做微观验证；经济性待确认。作者认为，承重砌体更适合单用废石灰，抗折要求更高的非承重构件可考虑加纤维，须按土种分别试验。",
+   "for_you": "保险缺失、限高和造价偏高是行业共性问题；文中抗压数据引自文献，勿当新试验套用。",
+   "body_zh": "穆莱·阿卜杜拉·奥德吉里（Moulay Abdallah Odghiri，LARSLACH实验室）11月24日在Global Journal of Researches in Engineering发表开放获取论文（CC BY 4.0）。5日投稿，16日接收。方法是三角互证：德拉河与齐兹河流域的形态类型分析、对24名居民和工匠的半结构访谈，以及对摩洛哥近年文献中热工和力学性能的汇总，并对照RPCT 2011和热工规范RTCM。\n\n文献汇总的抗压区间为：传统夯土0.8至1.2兆帕；掺4%水硬石灰NHL 3.5为1.8至2.3兆帕；掺0.5%棕榈纤维和3%水泥为2.1至2.6兆帕。40厘米墙的热滞后，优化夯土为10至12小时，混凝土为4至6小时。作者写，水硬胶凝材料虽能提高强度，但拆除后无法再就地化泥回用。与普通混凝土1500至2000千瓦时/立方米相比，优化生土配方隐含能耗为180至220千瓦时/立方米，约省85%至90%，但造价仍因人工和支模偏高。\n\n作者建议走分散式工业化：预制土坯或机械预压夯土大板，并更新公共采购和十年保险规则。他同时写明，工匠口传技艺面临后继无人。文中机械和热工数字主要来自文献汇总，不是作者新做的试验。",
    "source_read": "full",
-   "url": "https://doi.org/10.4236/eng.2026.1811029",
-   "source": "Engineering"
+   "url": "https://doi.org/10.34257/gjree279115",
+   "source": "Global Journal of Researches in Engineering"
   }
  ],
  "briefs": [
   {
-   "title": "秘鲁昌昌古城举办列入世界遗产40周年活动",
-   "url": "https://diariocorreo.pe/edicion/la-libertad/chan-chan-celebra-40-anos-como-patrimonio-mundial-trujillo-la-libertad-peru-noticia/"
+   "title": "诺曼底Enerterre年产约50立方米并将参加28日展览",
+   "url": "https://actu.fr/planete/habitat/face-au-rechauffement-climatique-ils-defendent-ce-savoir-faire-ancien-pour-renover-des-maisons_65084470.html"
+  },
+  {
+   "title": "综述：中国夯土复兴受抗震规范制约，土楼再利用偏慢",
+   "url": "https://world-architects.com/en/architecture-news/insight/china-rammed-earth-resurgence"
+  },
+  {
+   "title": "论文：用核磁共振和崩解试验看夯土冻融中的孔隙变化",
+   "url": "https://doi.org/10.1016/j.jobe.2026.117856"
   }
  ]
 }
