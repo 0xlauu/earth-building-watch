@@ -1,53 +1,40 @@
 {
- "date": "2026-11-25",
- "lead": "摩洛哥论文指出，当代夯土面临抗震规范限高R+1、保险缺失，以及造价为混凝土砌块的1.5至2倍。巴伐利亚一座全生土墙建筑将在12月5日世界土壤日作为研究对象。另有综述谈中国抗震规范对全夯土建筑的限制。",
+ "date": "2026-11-26",
+ "lead": "摩洛哥会议综述指出，橄榄渣压土砖导热随掺量下降，但抗压结果分歧，报告常缺粒径和稳定剂等参数，尚不宜给出设计值。Clayworks刊出苏格兰小屋黏土抹面案例。",
  "actions": [
-  "把摩洛哥论文的保险真空、限高和预制板路径交给刘泥匠对照。",
-  "12月5日德国全生土墙建筑讲座，素材可交刘文台。"
+  "把橄榄渣压土砖综述的抗压分歧交给刘泥匠对照。",
+  "Cairngorm小屋WHI-07抹面做法，可交刘文台作素材。"
  ],
  "site": "https://0xlauu.github.io/earth-building-watch/",
- "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-25.html",
+ "daily_url": "https://0xlauu.github.io/earth-building-watch/daily/2026-11-26.html",
  "weekly_url": "https://0xlauu.github.io/earth-building-watch/weekly/2026-W48.html",
  "counts": {
   "pick": 2,
-  "brief": 3,
-  "drop": 4,
+  "brief": 0,
+  "drop": 11,
   "merged": 0
  },
  "picks": [
   {
-   "title": "巴伐利亚全生土墙建筑12月5日世界土壤日开放讲座",
-   "category": "活动与赛事",
-   "score": 67,
-   "for_you": "这是一座已启用的全生土墙建筑，12月5日有承重和实用性讲座，可对照自己的墙体做法。",
-   "body_zh": "报道写，这座建筑位于上普法尔茨Windischeschenbach的大陆深钻GEO中心（GEO-Zentrum an der KTB）。墙体全部用生土建造，既是展馆，本身也是材料样本。2025年建成，2026年春启用，里面是巴伐利亚州环境局的土壤剖面收藏库和配套展览。\n\n世界土壤日活动由环境站举办。14:00由科学主管Frank Holzförster致开幕辞。14:10，设计该建筑的Peter Brückner（Brückner & Brückner Architekten）讲题为「出自土地，为了土地」。14:50，魏玛包豪斯大学科研人员、生土技术工Stefanie Huthöfer讲「生土建造——建筑转型的承重基石？」，讨论生土墙为何能承重、是否实用。15:30讨论，16:00由Holzförster带领参观，16:30结束。",
+   "title": "Clayworks刊出苏格兰Cairngorm小屋黏土抹面案例",
+   "category": "产品与企业",
+   "score": 69,
+   "for_you": "可对照WHI-07在粘土砌块墙面上的手工抹面和圆角做法，作抹面工艺参考。",
+   "body_zh": "Clayworks在官网刊出客座札记，作者是爱丁堡建筑与设计事务所Architecture Office创始人Alexander Mackison。项目位于苏格兰凯恩戈姆国家公园，是一栋维多利亚时期住宅的谨慎翻修与扩建。材料包括就近庄园回收的花岗岩、Clayworks黏土抹面，以及Silvan Studio制作的苏格兰梣木木作。施工方为AJC Scotland，照片由Richard Gaston拍摄。\n\n文中写，新扩建的厚墙受到原小屋厚墙和深窗洞的启发。墙体是花岗岩饰面的粘土砌块做法。室内有意只用抹面和梣木木作，让材料本身的质感更清楚。墙面使用Clayworks Smooth WHI-07，施工方是Apex Plastering。作者写，这种抹面不会完全均匀，会留下抹子和磨板顺着不平整基层走的痕迹；日光移动时，表面的细微起伏会慢慢显出来。圆角也是手做的，保留制作过程中的轻微不规则。\n\nMackison认为，图纸无法完全预知材料和工艺的细微变化，需要与工匠一起判断。他写，希望这座小屋留住高地传统住宅的温度和厚实感。",
    "source_read": "full",
-   "url": "https://oberpfalzecho.de/buntes/erdbodenhaus-in-windischeschenbach-wird-selbst-zum-anschauungsobjekt",
-   "source": "Foro3D"
+   "url": "https://clay-works.com/alexander-mackison-on-cairngorm-cottage/",
+   "source": "Clayworks"
   },
   {
-   "title": "论文：摩洛哥夯土受抗震规范限高与保险真空制约",
+   "title": "论文：橄榄渣压土砖抗压结果分歧，尚不宜给设计值",
    "category": "研究论文",
-   "score": 64,
-   "for_you": "保险缺失、限高和造价偏高是行业共性问题；文中抗压数据引自文献，勿当新试验套用。",
-   "body_zh": "穆莱·阿卜杜拉·奥德吉里（Moulay Abdallah Odghiri，LARSLACH实验室）11月24日在Global Journal of Researches in Engineering发表开放获取论文（CC BY 4.0）。5日投稿，16日接收。方法是三角互证：德拉河与齐兹河流域的形态类型分析、对24名居民和工匠的半结构访谈，以及对摩洛哥近年文献中热工和力学性能的汇总，并对照RPCT 2011和热工规范RTCM。\n\n文献汇总的抗压区间为：传统夯土0.8至1.2兆帕；掺4%水硬石灰NHL 3.5为1.8至2.3兆帕；掺0.5%棕榈纤维和3%水泥为2.1至2.6兆帕。40厘米墙的热滞后，优化夯土为10至12小时，混凝土为4至6小时。作者写，水硬胶凝材料虽能提高强度，但拆除后无法再就地化泥回用。与普通混凝土1500至2000千瓦时/立方米相比，优化生土配方隐含能耗为180至220千瓦时/立方米，约省85%至90%，但造价仍因人工和支模偏高。\n\n作者建议走分散式工业化：预制土坯或机械预压夯土大板，并更新公共采购和十年保险规则。他同时写明，工匠口传技艺面临后继无人。文中机械和热工数字主要来自文献汇总，不是作者新做的试验。",
-   "source_read": "full",
-   "url": "https://doi.org/10.34257/gjree279115",
-   "source": "Global Journal of Researches in Engineering"
+   "score": 63,
+   "for_you": "掺橄榄渣会降导热，但抗压并不随掺量单调上升；文中数据来自文献，勿直接当设计值。",
+   "body_zh": "Sabri Mohammed、El Omari Abdelhay、El Afi Mohamed（苏丹穆莱·斯利曼大学LPSEA实验室）与Jaidal Tarik、El-Abasi Mourad等，11月25日在EPJ Web of Conferences第396卷发表会议论文（ICAM3E 2026，共7页）。Crossref记录许可为CC BY 4.0。文章是文献评述，不是作者新试验。对象是压土砖中添加橄榄渣，以及相近橄榄残渣在生土材料中的力学、热工和水分结果，并与石膏复合材料、烧结砖等其他基体中的证据区分开。\n\n所查的生土研究里，导热系数都随橄榄残渣掺量增加而下降，若干研究中密度也下降。抗压强度则结果分歧：有生土复合材料在0至40重量%橄榄渣下，抗压提高81.7%；压土砖研究则报告在中间掺量达到峰值后下降，说明强度并不与残渣掺量成正比。石膏复合材料和烧结砖中则有强度下降的间接证据。作者写，百分比基准、粒径、压实、养护和稳定方式常常没有写明，直接比较受限。橄榄渣压土砖的抗折、水分和耐久数据仍然有限。文称需要统一报告框架和多性能测试，才能提出设计值。",
+   "source_read": "abstract",
+   "url": "https://doi.org/10.1051/epjconf/202639601002",
+   "source": "EPJ Web of Conferences"
   }
  ],
- "briefs": [
-  {
-   "title": "诺曼底Enerterre年产约50立方米并将参加28日展览",
-   "url": "https://actu.fr/planete/habitat/face-au-rechauffement-climatique-ils-defendent-ce-savoir-faire-ancien-pour-renover-des-maisons_65084470.html"
-  },
-  {
-   "title": "综述：中国夯土复兴受抗震规范制约，土楼再利用偏慢",
-   "url": "https://world-architects.com/en/architecture-news/insight/china-rammed-earth-resurgence"
-  },
-  {
-   "title": "论文：用核磁共振和崩解试验看夯土冻融中的孔隙变化",
-   "url": "https://doi.org/10.1016/j.jobe.2026.117856"
-  }
- ]
+ "briefs": []
 }
