@@ -1,0 +1,338 @@
+{
+  "date": "2026-11-27",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-27T09:22:17+08:00",
+  "lead": "Tuckey无稳定夯土宅获英国Manser Medal年度住宅奖。法国热尔省合作社将在2027年1月开全国首家生土再利用店。巴黎大学用回归模型预测隧道弃土压土砖抗压。",
+  "actions": [
+    "把Tuckey无稳定夯土配比和防蚀灰缝交给刘泥匠对照。",
+    "EcoHabitat回收土坯和散土销售模式，抄给刘泥匠并交刘文台作素材。",
+    "咸安出土夯土夹板的尺寸和固定木布置，也可交给刘泥匠。"
+  ],
+  "items": [
+    {
+      "id": "6ed6647bc819",
+      "decision": "pick",
+      "category": "project",
+      "scores": {
+        "sig": 8,
+        "nov": 5,
+        "cred": 9,
+        "reson": 9,
+        "act": 5
+      },
+      "score": 72,
+      "title_zh": "Tuckey无稳定夯土宅获英国年度住宅Manser奖",
+      "summary_zh": "11月26日，《建筑师杂志》把Manser Medal年度住宅奖授予Tuckey Design Studio在威尔特郡的新建夯土宅。墙体用场地黏土和拆除骨料，不加稳定剂。室内有着色夯土地面和Clayworks抹面。",
+      "for_you": "英国顶级住宅奖颁给无稳定剂夯土，灰缝防蚀和Clayworks抹面都可对照。",
+      "url_override": "https://www.architectsjournal.co.uk/news/embargoed-aj-architecture-awards-2026-winners-announced",
+      "source_read": "full",
+      "body_zh": "11月26日晚，第九届AJ建筑奖在伦敦Royal Lancaster公布结果。《建筑师杂志》将Manser Medal（年度住宅奖）授予Tuckey Design Studio在威尔特郡的新建住宅Rammed Earth House，理由是该宅以无稳定剂夯土建成。奖项覆盖21个类别，123个项目入围，建成时间须在2025年1月1日至2026年7月31日之间。\n\n事务所官网写，房子位于Cranborne Chase国家景观区内的旧砖厂，墙体用场地富黏土，并加入拆除附属建筑所得的再生骨料，不加水泥，属英国为数不多的无稳定剂夯土案例之一。2026年2月《建筑师杂志》专题写，拆除骨料与黏土粘结不足，又加入当地中等粒径石灰石骨料。墙体本身不加水泥；混凝土用在基础、悬挑楼板，以及压在夯土墙上的圈梁。规则间隔的石灰砂浆防蚀条减缓墙面水流，由奥地利夯土机构Lehm Ton Erde的Martin Rauch参与提出。专题还写，墙体总厚700毫米，其中夯土400毫米、保温300毫米，主屋建筑面积810平方米。施工方Stonewood Builders现场约有10名拌料夯筑工和6至8名支模工，工期约18个月。\n\n官网还写，起居室有着色夯土地面和Clayworks抹面。专题给出主屋隐含碳494千克二氧化碳当量/平方米，气密性3.11立方米/小时·平方米（50帕）。住宅为全电力，用地源热泵，光伏约承担15%负荷。本刊11月17日曾报道，同一栋房子获得Dezeen Awards 2026可持续建筑奖。",
+      "key_facts": [
+        {
+          "k": "奖项",
+          "v": "Manser Medal，AJ年度住宅奖"
+        },
+        {
+          "k": "公布日期",
+          "v": "2026年11月26日，伦敦"
+        },
+        {
+          "k": "地点",
+          "v": "威尔特郡Cranborne Chase"
+        },
+        {
+          "k": "墙体",
+          "v": "无稳定剂夯土，场地土加拆除骨料"
+        },
+        {
+          "k": "墙厚",
+          "v": "总厚700毫米，其中夯土400毫米"
+        },
+        {
+          "k": "合作",
+          "v": "Lehm Ton Erde，施工Stonewood"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "constructed from unstabilised rammed earth.",
+          "lang": "en"
+        },
+        {
+          "text": "build the walls with unstabilised rammed earth",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "afcc4b254859",
+      "decision": "pick",
+      "category": "product",
+      "scores": {
+        "sig": 7,
+        "nov": 7,
+        "cred": 8,
+        "reson": 9,
+        "act": 8
+      },
+      "score": 79,
+      "title_zh": "法国热尔省将开全国首家生土再利用店铺",
+      "summary_zh": "ToulÉco 11月26日报道，热尔省Lombez的合作社EcoHabitat将在2027年1月开设材料再利用店，重点回收生土砖，称是法国首家。土坯可按原状或打成散土再销售。项目总经费34万欧元，正为收尾再筹7万欧元。",
+      "for_you": "这是生土砖和散土回收再售的运作样本，开业时间和经费结构都可对照。",
+      "url_override": "https://www.touleco.fr/Dans-le-Gers-EcoHabitat-croit-a-l-economie-de-la-terre-crue-de,54335",
+      "source_read": "full",
+      "body_zh": "法国西南部热尔省Lombez的合作社EcoHabitat，正筹备建筑材料再利用商店「La Place des matériaux」，重点回收生土砖。ToulÉco 11月26日报道，这将被办成法国首家专做生土再利用的平台，计划2027年1月开业，服务个人、工匠和公共机构。店址在Lombez的La Pouche产业区。所在金属厂房购自洛特-加龙省Casteljaloux，已拆解，由Auch的Metamo整修，将在未来几周内重新组装。\n\n项目总经费34万欧元，大部分已经到位：2023年奥克西塔尼大区参与式预算「气候」类别15万欧元，欧洲Leader基金5万欧元，另有银行贷款。10月初启动众筹，目标是到1月再筹7万欧元，用于加固厂房、购买货架和叉车等设备。合作社由Savès Climat生态转型集体的成员在2024年10月成立，接手此前因房地产危机破产的场地和厂房。现有合作者包括约10名个人、该协会本身，以及生土工匠Élodie Coelho。\n\n共同创始人Julien Milanesi是图卢兹大学经济学讲师，义务参与。他介绍，合作社2024年底获建筑材料生产者责任延伸机构Ecominéro的3.5万欧元，用于可行性研究和试验工地：从修缮现场回收土坯，按原状或打成散土再投入流通。结论是，这种传统材料的再利用可以做成有盈利的业务。未来四到五年，合作社希望成为生态建造和修缮的资源点，协助业主找资金、对接工匠，并最终用回收材料自己做修缮工地。报道配图说明，拆除土坯砖的工地已经开始。",
+      "key_facts": [
+        {
+          "k": "地点",
+          "v": "法国热尔省Lombez"
+        },
+        {
+          "k": "开业",
+          "v": "计划2027年1月"
+        },
+        {
+          "k": "总经费",
+          "v": "34万欧元，大部分已到位"
+        },
+        {
+          "k": "众筹",
+          "v": "目标到1月再筹7万欧元"
+        },
+        {
+          "k": "研究经费",
+          "v": "Ecominéro资助3.5万欧元"
+        },
+        {
+          "k": "产品",
+          "v": "回收土坯原状或打成散土再售"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Nous sommes les seuls en France à le proposer.",
+          "lang": "fr"
+        },
+        {
+          "text": "il existe une activité rentable autour du réemploi de ce matériau traditionnel",
+          "lang": "fr"
+        }
+      ]
+    },
+    {
+      "id": "042f6ad8a21c",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 7,
+        "nov": 7,
+        "cred": 8,
+        "reson": 8,
+        "act": 6
+      },
+      "score": 72,
+      "title_zh": "论文：隧道弃土压土砖抗压可用回归模型预测",
+      "summary_zh": "CY Cergy Paris大学Riffi与Ghorbel在CONCET 2026发表开放获取论文。她们用329条数据建多元回归，预测压土砖干燥抗压，测试集R²为0.817。模型用于大巴黎快线隧道弃土，压实压力、水泥掺量和最佳含水率影响最大。",
+      "for_you": "配比筛选可先看压实压力、稳定剂和含水率；高于约6兆帕时该线性模型偏差会增大。",
+      "url_override": "https://doi.org/10.1088/1755-1315/1684/1/012053",
+      "source_read": "full",
+      "body_zh": "Somaya Riffi与Elhem Ghorbel（CY Cergy Paris大学，Neuville-sur-Oise校区）在CONCET 2026会议上发表开放获取论文，许可为CC BY 4.0。研究把实验室表征与机器学习结合起来，推动把大巴黎快线产生的隧道弃土做成压土砖（文中称EBCBs）。文称2022年法国建筑活动产生逾1.5亿吨弃土，大巴黎快线已产生逾2340万吨。资助方为法兰西岛大区和TRACTEBEL ENGIE的RECYBEX-3B项目。\n\n作者用文献汇总的329条数据、16个自变量，建立多元线性回归，预测干燥抗压强度。测试集R²为0.817，平均绝对误差0.994兆帕，均方根误差1.222兆帕。SHAP解释显示，影响最大的是压实压力，其次是水泥掺量、最佳含水率和液限；粉粒、最大干密度和砂也有贡献，黏粒和多数纤维变量重要性较低。抗压高于约6兆帕时偏差增大，作者认为线性模型难以完全刻画高强度配比。\n\n外部验证用大巴黎快线弃土另做5组配比，未进入训练。弃土级配为砾石15%、砂39%、粉粒32%、黏粒14%，液限23±1.80%，塑性指数13，最佳含水率9.3%，掺4重量%的CEM I 52.5 N水泥。试样为40×40×160毫米棱柱，24小时脱模，在23摄氏度、相对湿度50%下养护28天。实测干燥抗压为：基准1.74兆帕，0.5%大麻2.07，1%大麻2.03，0.5%芒草2.27，1%芒草2.16。作者称预测与实测接近，但也写明外部样本偏少，限制了推广。文中建议把预测值对照法国压土砖标准XP P 13-901的要求，再按SHAP结果调整压实压力、含水率或稳定剂。",
+      "key_facts": [
+        {
+          "k": "会议",
+          "v": "CONCET 2026，开放获取"
+        },
+        {
+          "k": "测试集",
+          "v": "R²=0.817，MAE=0.994兆帕"
+        },
+        {
+          "k": "主导变量",
+          "v": "压实压力、水泥掺量、最佳含水率"
+        },
+        {
+          "k": "弃土级配",
+          "v": "砾石15%，砂39%，粉粒32%，黏粒14%"
+        },
+        {
+          "k": "稳定剂",
+          "v": "外部验证用4重量% CEM I 52.5 N"
+        },
+        {
+          "k": "外部抗压",
+          "v": "五组实测1.74至2.27兆帕"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "compaction pressure, stabilizer dosage, and optimum water content",
+          "lang": "en"
+        },
+        {
+          "text": "Larger deviations were observed for Rc values above approximately 6 MPa",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "abb3942fb233",
+      "decision": "pick",
+      "category": "heritage",
+      "scores": {
+        "sig": 7,
+        "nov": 8,
+        "cred": 9,
+        "reson": 7,
+        "act": 4
+      },
+      "score": 73,
+      "title_zh": "韩国咸安遗址首次出土古代夯土木夹板",
+      "summary_zh": "韩国国家遗产厅国立伽耶文化遗产研究所11月26日在咸安伽倻里遗址现场公开调查成果。该遗址推定为阿罗伽耶王城。夯土城墙中首次发现古代土城调查里的木夹板实物，并见两列固定木、补筑和条形基础。",
+      "for_you": "夯土夹板和固定木的布置与尺寸，可对照现有支模做法。",
+      "url_override": "https://www.khs.go.kr/newsBbz/selectNewsBbzView.do?newsItemId=155706511&mn=NS_01_02_01",
+      "source_read": "full",
+      "body_zh": "国立伽耶文化遗产研究所（所长권택장）11月26日下午2点，在庆尚南道咸安郡伽倻邑的史迹「咸安伽倻里遗址」发掘现场，向公众介绍最新调查成果。国家遗产厅11月23日发稿称，该遗址自2018年起陆续发现夯土城墙、排水和集水设施，此次公开的是2023年以来西北谷地段的发掘。研究所把夯土城墙定义为：用木板做模板，把土分层填入并夯实。\n\n官方称，沿城墙走向两列布置的固定木和夹板、墙体上的补筑痕迹，以及上部条形基础，有助于理解筑造技术和后来的改动。夹板被认定为古代土城调查中首次确认的木材实物。据《首尔经济》记者26日在现场报道，今年4月发现夹板残件约10件、固定木3根；残件长约80厘米、宽9厘米、厚约2厘米，固定木仅余炭化痕迹，树种尚未确定。报道称城墙全长约2.4公里，原先高约10米，现存约5至6米。夹板保存在谷地排水段缺氧湿泥中。同文还写，风纳土城、扶苏山城等夯土城未见残留夹板实物。\n\n官方同时公布，城内生活面曾被分层抬高，并见柱洞、土坑和陶器废弃痕迹。集水池有石砌护岸，内部堆积厚约2米，保存有植物遗体等有机物。《首尔经济》还提到桃核、炭化小麦和鳕鱼骨等。研究所称，将继续调查王城的营造和变迁过程。各期筑造、维修的具体年代仍需后续研究。",
+      "key_facts": [
+        {
+          "k": "地点",
+          "v": "庆尚南道咸安郡伽倻邑"
+        },
+        {
+          "k": "时代",
+          "v": "报道称约5世纪末至6世纪初"
+        },
+        {
+          "k": "夹板残件",
+          "v": "长约80厘米、宽9厘米、厚约2厘米"
+        },
+        {
+          "k": "出土数量",
+          "v": "夹板约10件、固定木3根"
+        },
+        {
+          "k": "城墙规模",
+          "v": "全长约2.4公里，现存高约5至6米"
+        },
+        {
+          "k": "公开日期",
+          "v": "2026年11月26日现场公开"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "고대 토성 조사에서 목재 실물이 처음으로 확인된 사례",
+          "lang": "ko"
+        },
+        {
+          "text": "고대 국가들의 토성 판축 기법을 복원할 중요한 계기가 될 것",
+          "lang": "ko"
+        }
+      ]
+    },
+    {
+      "id": "7478102e9daa",
+      "decision": "brief",
+      "category": "product",
+      "scores": {
+        "sig": 6,
+        "nov": 5,
+        "cred": 6,
+        "reson": 8,
+        "act": 5
+      },
+      "score": 63,
+      "title_zh": "ProtecD矿物处理在喀麦隆使馆和几内亚通过试验",
+      "summary_zh": "Agridigitale 11月26日报道，ProtecD渗入压土砖孔隙，降低吸水并保持透汽。今年2月瑞士方面确认用于雅温得使馆全部稳定土表面。10月在几内亚测30个试样，毛细吸水最多降89.4%。",
+      "url_override": "https://www.agridigitale.net/article/une-innovation-pour-renforcer-les-batiments-africains",
+      "source_read": "full"
+    },
+    {
+      "id": "0bf123e7cc87",
+      "decision": "brief",
+      "category": "standard",
+      "scores": {
+        "sig": 6,
+        "nov": 5,
+        "cred": 7,
+        "reson": 6,
+        "act": 4
+      },
+      "score": 59,
+      "title_zh": "甘肃通渭计划五年内基本清零居住土坯房",
+      "summary_zh": "央广网11月26日报道，通渭县在「十五五」发布会上提出，未来五年实现农村土坯房全面消除。2027年计划改造土坯房5500户、农房抗震改造1000户，并确保五年内居住土坯房基本清零。",
+      "url_override": "https://gs.cnr.cn/gsxw/kx/20261126/t20261126_527884463.shtml",
+      "source_read": "full"
+    },
+    {
+      "id": "954c6ec15003",
+      "decision": "brief",
+      "category": "heritage",
+      "scores": {
+        "sig": 5,
+        "nov": 3,
+        "cred": 8,
+        "reson": 5,
+        "act": 2
+      },
+      "score": 49,
+      "title_zh": "秘鲁昌昌古城举办入选世界遗产40周年活动",
+      "summary_zh": "秘鲁文化部11月23日至27日纪念昌昌列入联合国教科文组织世界遗产名录40周年。23日在遗址博物馆，昌昌考古项目专家讨论生土建筑保护，以及应对厄尔尼诺、公众参与和可持续旅游。另有泥塑工作坊和清理行动。",
+      "url_override": "https://www.gob.pe/institucion/cultura/noticias/1479148-chan-chan-celebrara-40-anos-como-patrimonio-mundial-con-actividades-academicas-y-culturales",
+      "source_read": "full"
+    },
+    {
+      "id": "80ae75d51419",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Divisare项目为柏林Minna-Cauer学校，混凝土与木混凝土组合楼板、木饰面，未见生土做法。"
+    },
+    {
+      "id": "e55a8882204a",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "多哈Gerhard Richter六角亭，外墙为印刷图案板，未见夯土、土坯或生土抹面。"
+    },
+    {
+      "id": "145ff694a1ac",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "南蒂罗尔Welschnofen度假屋为混凝土与木结构替换建筑，粗抹灰与斑岩踏步，未见生土做法。"
+    },
+    {
+      "id": "86d73878ad2d",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "同一圣洛能源改造展（11月28日）Enerterre参展，已在2026-11-25简讯（2b1fe73e3178）发布。本稿为地方报预告，无新信息。"
+    },
+    {
+      "id": "69e4f4c14539",
+      "decision": "drop",
+      "drop_reason": "noise",
+      "note": "2026-11-26厂商通稿，重述已有数据表：UP2+OP1双层抹面在湿度从50%升至80%时，1小时吸水17克/平方米、12小时67克/平方米，达WS III。官网已有同类表述，无新品或新检测。"
+    },
+    {
+      "id": "5ee4b29a0522",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "World-Architects访谈Paul Goldberger新书《The Imperfect City》，谈城市规划与偶然性，正文未见生土内容。"
+    },
+    {
+      "id": "362c5cd39f56",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Divisare项目为Biselli Katchborian的Rudolf Steiner大学，钢木结构和金属饰面，未见生土做法。"
+    },
+    {
+      "id": "af4b6f93084c",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "越南网转述夜郎（Dạ Lang）丧葬习俗，往死者头上罩铜锅，与生土建筑无关。"
+    },
+    {
+      "id": "92d0a0719131",
+      "decision": "drop",
+      "drop_reason": "unverified",
+      "note": "有方《沙漠中的封闭宇宙：希瓦》打不开原文，无法核实是否有生土工艺实质信息。"
+    }
+  ]
+}
