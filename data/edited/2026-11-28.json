@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-28",
+  "editor": "Grok Bot",
+  "edited_at": "2026-11-28T09:16:00+08:00",
+  "lead": "墨西哥墨西卡利四种盐渍土做压土砖，单一种土都不达标，须掺配并慎用石灰水泥。Tuckey无稳定夯土宅再获英国木材奖金奖。法国盖朗德生土展今天开幕，办到明年9月。",
+  "actions": [
+    "把墨西卡利土样掺配和硫酸盐风险交给刘泥匠对照。",
+    "盖朗德展用基坑土做土坯隔墙和抹面，可交刘文台作素材。"
+  ],
+  "items": [
+    {
+      "id": "6fad2c5b7669",
+      "decision": "pick",
+      "category": "research",
+      "scores": {
+        "sig": 7,
+        "nov": 7,
+        "cred": 7,
+        "reson": 8,
+        "act": 6
+      },
+      "score": 70,
+      "title_zh": "论文：墨西卡利盐渍土压土砖需掺配并慎用石灰水泥",
+      "summary_zh": "墨西卡利谷地与科罗拉多河三角洲四种土经检测，无一同时满足CRATerre/UNE 41410级配和塑性要求，建议S1与S2或S1与S4掺配。S2、S4水浸提取液电导率33.90和12.26 dS/m，可溶硫酸盐1969和1374 mg/L。加石灰水泥前须先测干土硫酸盐并做XRD。",
+      "for_you": "盐渍灌溉区做压土砖，先掺配级配，再测干土硫酸盐；不要一上来就加石灰水泥。",
+      "url_override": "https://doi.org/10.30564/jbms.v8i4.117258",
+      "source_read": "full",
+      "body_zh": "作者在下加州自治大学土工实验室，对墨西卡利谷地四个取样点做了含水率、比重、级配、阿太堡限度、标准击实、亚甲蓝、线性收缩和pH等九项试验，并补做了水浸提取液的盐分和钠性化验。这是CRATerre四阶段流程的第一阶段，只做表征，尚未压砖或测抗压。\n\nS1、S3偏砂、塑性低、收缩小（线性收缩3%和0%），可作颗粒骨架；S2、S4细粒多，收缩8%–10%。四种土塑性指数都达不到12%–22%的门槛，砂粒含量也多数低于25%–80%的区间。S2交换性钠21.4%，在四者中盐分和钠都最高。\n\n文中提醒：水浸提取液不能直接换算成UNE 41410规定的干土质量2%可溶盐上限，目前还不能判定超标。钙矾石只是可能机理之一，要用XRD和按ASTM C1580做干土硫酸盐测定后才能确认。下一阶段才做掺配优化，并考虑碱激发或镁基等替代稳定剂。",
+      "key_facts": [
+        {
+          "k": "地点",
+          "v": "墨西哥墨西卡利谷地、科罗拉多河三角洲"
+        },
+        {
+          "k": "试验地点",
+          "v": "下加州自治大学土工实验室"
+        },
+        {
+          "k": "级配结论",
+          "v": "无一满足CRATerre/UNE 41410"
+        },
+        {
+          "k": "S2盐分",
+          "v": "电导率33.90 dS/m，硫酸盐1969 mg/L"
+        },
+        {
+          "k": "S4盐分",
+          "v": "电导率12.26 dS/m，硫酸盐1374 mg/L"
+        },
+        {
+          "k": "线性收缩",
+          "v": "S1 3%，S3 0%，S2 10%，S4 8%"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "S1 is non-plastic, while S2, S3, and S4 all have PIs significantly below 12.",
+          "lang": "en"
+        },
+        {
+          "text": "The four soils differ by up to one order of magnitude in salinity.",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "25f9ad699934",
+      "decision": "brief",
+      "category": "project",
+      "scores": {
+        "sig": 6,
+        "nov": 4,
+        "cred": 7,
+        "reson": 8,
+        "act": 4
+      },
+      "score": 59,
+      "title_zh": "Tuckey夯土宅再获英国木材奖最高金奖",
+      "summary_zh": "Tuckey在威尔特郡的无稳定剂夯土宅，再获2026年英国木材奖金奖和住宅类奖。墙体用场地黏土、拆除骨料和当地石灰石砾石。回收绿心木柱廊只用楔和销，不用胶、水泥或螺丝。",
+      "url_override": "https://www.woodawards.com/portfolio/rammed-earth-house/",
+      "source_read": "full"
+    },
+    {
+      "id": "7dbd74069cc4",
+      "decision": "brief",
+      "category": "event",
+      "scores": {
+        "sig": 5,
+        "nov": 5,
+        "cred": 8,
+        "reson": 7,
+        "act": 4
+      },
+      "score": 57,
+      "title_zh": "法国盖朗德生土展今日开幕，办到2027年9月",
+      "summary_zh": "盖朗德博物馆11月28日至2027年9月19日展出《用土建造，谁能想到？》，与生土匠人和Scop de l'Aronde合办。介绍垛泥、篱笆抹泥，及Maison-Neuve用基坑土做土坯隔墙和抹面。",
+      "url_override": "https://www.ville-guerande.fr/evenements/exposition-temporaire-construire-en-terre-qui-leut-cru/",
+      "source_read": "full"
+    },
+    {
+      "id": "482f3b116bd6",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "与2026-11-27精选（6ed6647bc819）为同一条Tuckey宅获Manser奖新闻，Lehm Ton Erde为施工方转载。"
+    },
+    {
+      "id": "b9442163bedb",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "论文用磁法正演模拟探测浅层土坯建筑遗存，属考古地球物理，与生土建造和材料无关。"
+    },
+    {
+      "id": "d8866494d33d",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "论文研究土坝粗粒土压实，属水利堤坝，不是生土建筑。原文署2026年9月10日，11月27日才在Crossref登记。"
+    },
+    {
+      "id": "cdb1aba1ea99",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Divisare项目Maison devant la dune为木结构住宅，不是生土。"
+    },
+    {
+      "id": "e597d4028efd",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Horizon Cube（海角黑盒）为云南大理22平方米钢结构亭，未见生土做法。"
+    },
+    {
+      "id": "6c6114c5b977",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "云南保山田田庄园咖啡晒场为伞状棚架，未见夯土、土坯或生土抹面。"
+    },
+    {
+      "id": "be25709eb964",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "Earth-Hugging Duke Plaza为海南万宁钢结构与聚碳酸酯、火山岩广场，2024年7月完工，名称指贴地，不是夯土。"
+    },
+    {
+      "id": "8ad9bdf4a598",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "与2026-11-27已丢弃条目为同一则越南夜郎丧葬铜锅习俗，与生土无关。"
+    },
+    {
+      "id": "a2cb7798cbe4",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "红网浏阳白沙古镇旅游稿，夯土墙只是风景背景，无实质信息。"
+    },
+    {
+      "id": "28530bc96d81",
+      "decision": "drop",
+      "drop_reason": "unverified",
+      "note": "未能核实DETAIL原文日期与正文。Google新闻常把旧文换新日期，无法确认是新稿。"
+    },
+    {
+      "id": "c2d88e5f1e90",
+      "decision": "drop",
+      "drop_reason": "unverified",
+      "note": "条目标题为null，无法打开或核实原文。"
+    },
+    {
+      "id": "2d3d9793a9b8",
+      "decision": "drop",
+      "drop_reason": "duplicate",
+      "note": "与2026-11-24精选（9080ccee9248）为同一款Rairies Montrieux不烧结生土砖发布，本稿为厂商软文，无新事实。"
+    },
+    {
+      "id": "db5b5e654ca6",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "网易视频讲夯土墙冬暖夏凉、老手艺快消失，无新的工艺、产品或项目信息。"
+    },
+    {
+      "id": "3bbfa86227cc",
+      "decision": "drop",
+      "drop_reason": "old",
+      "note": "澳大利亚Mudgee夯土民宿Sapling at Rosby，Contemporist至少在2026年5月25日已刊出，e-architect为旧项目再发。"
+    },
+    {
+      "id": "acf5ba833020",
+      "decision": "drop",
+      "drop_reason": "irrelevant",
+      "note": "威尔士Lammas生态村离网宅拍卖报道，未见夯土、土坯或生土抹面的实质工艺信息。"
+    }
+  ]
+}
